@@ -12,7 +12,7 @@
     "customModelName": "Normal",
     "rotationMode": 1,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -37,7 +37,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 1.05,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -70,14 +70,14 @@
       "value": "CUSTOM:TARDISItem"
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "BLOCKED",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "IGNORE",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
@@ -119,6 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "TARDISRightClickedOnEntity"
+    },
     "onTickUpdate": {
       "name": "TARDISExteriorUpdateTick"
     },
