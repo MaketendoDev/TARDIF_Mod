@@ -20,28 +20,6 @@ public class TARDISExteriorUpdateTickProcedure {
 							Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty(_property);
 							return _prop instanceof IntegerProperty _ip && _prop.getPossibleValues().contains(_newValue) ? _bs.setValue(_ip, _newValue) : _bs;
 						}
-					}.with(TardifModModBlocks.TARDIS_EXTERIOR.get().defaultBlockState(), "blockstate", 4)), 3);
-				});
-			} else {
-				if ((TardifModModVariables.MapVariables.get(world).Exterior).equals("Default Capsule")) {
-					TardifModMod.queueServerWork(1, () -> {
-						world.setBlock(BlockPos.containing(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1, TardifModModVariables.MapVariables.get(world).Z_TARDIS), (new Object() {
-							public BlockState with(BlockState _bs, String _property, int _newValue) {
-								Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty(_property);
-								return _prop instanceof IntegerProperty _ip && _prop.getPossibleValues().contains(_newValue) ? _bs.setValue(_ip, _newValue) : _bs;
-							}
-						}.with(TardifModModBlocks.TARDIS_EXTERIOR.get().defaultBlockState(), "blockstate", 2)), 3);
-					});
-				}
-			}
-		} else {
-			if ((TardifModModVariables.MapVariables.get(world).Exterior).equals("Phonebox")) {
-				TardifModMod.queueServerWork(1, () -> {
-					world.setBlock(BlockPos.containing(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1, TardifModModVariables.MapVariables.get(world).Z_TARDIS), (new Object() {
-						public BlockState with(BlockState _bs, String _property, int _newValue) {
-							Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty(_property);
-							return _prop instanceof IntegerProperty _ip && _prop.getPossibleValues().contains(_newValue) ? _bs.setValue(_ip, _newValue) : _bs;
-						}
 					}.with(TardifModModBlocks.TARDIS_EXTERIOR.get().defaultBlockState(), "blockstate", 3)), 3);
 				});
 			} else {
@@ -53,6 +31,28 @@ public class TARDISExteriorUpdateTickProcedure {
 								return _prop instanceof IntegerProperty _ip && _prop.getPossibleValues().contains(_newValue) ? _bs.setValue(_ip, _newValue) : _bs;
 							}
 						}.with(TardifModModBlocks.TARDIS_EXTERIOR.get().defaultBlockState(), "blockstate", 1)), 3);
+					});
+				}
+			}
+		} else {
+			if ((TardifModModVariables.MapVariables.get(world).Exterior).equals("Phonebox")) {
+				TardifModMod.queueServerWork(1, () -> {
+					world.setBlock(BlockPos.containing(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1, TardifModModVariables.MapVariables.get(world).Z_TARDIS), (new Object() {
+						public BlockState with(BlockState _bs, String _property, int _newValue) {
+							Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty(_property);
+							return _prop instanceof IntegerProperty _ip && _prop.getPossibleValues().contains(_newValue) ? _bs.setValue(_ip, _newValue) : _bs;
+						}
+					}.with(TardifModModBlocks.TARDIS_EXTERIOR.get().defaultBlockState(), "blockstate", 4)), 3);
+				});
+			} else {
+				if ((TardifModModVariables.MapVariables.get(world).Exterior).equals("Default Capsule")) {
+					TardifModMod.queueServerWork(1, () -> {
+						world.setBlock(BlockPos.containing(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1, TardifModModVariables.MapVariables.get(world).Z_TARDIS), (new Object() {
+							public BlockState with(BlockState _bs, String _property, int _newValue) {
+								Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty(_property);
+								return _prop instanceof IntegerProperty _ip && _prop.getPossibleValues().contains(_newValue) ? _bs.setValue(_ip, _newValue) : _bs;
+							}
+						}.with(TardifModModBlocks.TARDIS_EXTERIOR.get().defaultBlockState(), "blockstate", 2)), 3);
 					});
 				}
 			}
