@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tardif_mod:drained_zyton_7_block"
+    }
+  ],
+  "result": {
+    "item": "tardif_mod:drained_zyton_7",
+    "count": 9
+  }
+}

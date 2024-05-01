@@ -1,0 +1,29 @@
+{
+  "_fv": 60,
+  "_type": "structure",
+  "definition": {
+    "structure": "mondasians_cybership",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "spacing": 48,
+    "separation": 25,
+    "restrictionBiomes": [
+      {
+        "value": "#is_overworld"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

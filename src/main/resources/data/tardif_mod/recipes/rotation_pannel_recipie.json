@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone"
+    },
+    "b": {
+      "item": "tardif_mod:circuit_board"
+    },
+    "c": {
+      "item": "minecraft:lever"
+    },
+    "d": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:rotation_panel",
+    "count": 1
+  }
+}

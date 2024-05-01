@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "dimention_selector_texture",
+        "missing": "dimention_selector_texture"
+      },
+      "name": "default"
+    }
+  }
+}

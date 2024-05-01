@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "tardif_mod:blocks/classic_lime_wool",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tardif_mod:classic_lime_wool"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "tardif_mod:blocks/zyton_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tardif_mod:zyton_7",
+          "functions": [
+            {
+              "count": 3,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

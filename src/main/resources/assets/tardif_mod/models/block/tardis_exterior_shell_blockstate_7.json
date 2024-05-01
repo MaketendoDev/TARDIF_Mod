@@ -1,0 +1,10 @@
+{
+  "parent": "tardif_mod:custom/police_box_exterior_open",
+  "textures": {
+    "all": "tardif_mod:block/police_box_exterior_texture",
+    "particle": "tardif_mod:block/transparrent",
+    "0": "tardif_mod:block/police_box_exterior_texture",
+    "missing": "tardif_mod:block/police_box_exterior_texture"
+  },
+  "render_type": "cutout_mipped"
+}

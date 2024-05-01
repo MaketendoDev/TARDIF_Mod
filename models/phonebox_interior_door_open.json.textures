@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "policebox_interior_door_open",
+        "missing": "policebox_interior_door_open"
+      },
+      "name": "default"
+    }
+  }
+}

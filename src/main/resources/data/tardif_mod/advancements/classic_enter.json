@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "tardif_mod:classicgrass"
+    },
+    "title": {
+      "translate": "advancements.classic_enter.title"
+    },
+    "description": {
+      "translate": "advancements.classic_enter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "classic_enter_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "tardif_mod:classic_overworld"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "tardif_mod:obtain_tardis"
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "time_pannel",
+        "missing": "time_pannel"
+      },
+      "name": "default"
+    }
+  }
+}

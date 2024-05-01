@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tardif_mod:item/wallpaper_roundel_door_item_tall"
+  },
+  "render_type": "translucent"
+}

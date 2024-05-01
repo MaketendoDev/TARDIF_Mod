@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "tardif_mod:block/white_wallpaper",
+    "top": "tardif_mod:block/white_wallpaper",
+    "side": "tardif_mod:block/white_wallpaper"
+  },
+  "render_type": "solid"
+}

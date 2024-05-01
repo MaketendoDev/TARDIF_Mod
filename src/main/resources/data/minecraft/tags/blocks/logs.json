@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tardif_mod:skaro_logs",
+    "tardif_mod:classic_log"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WhiteWallpaper"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WhiteWallpaper"
+      },
+      {
+        "value": "CUSTOM:WhiteWallpaper"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WhiteWallpaper"
+      },
+      {
+        "value": "CUSTOM:WhiteWallpaper"
+      },
+      {
+        "value": "CUSTOM:WhiteWallpaper"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WhiteWallpaperStairs"
+    },
+    "name": "white_wallpaper_stairs_recipie",
+    "namespace": "mod"
+  }
+}

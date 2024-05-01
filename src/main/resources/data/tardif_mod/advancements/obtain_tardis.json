@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "tardif_mod:tardis_item"
+    },
+    "title": {
+      "translate": "advancements.obtain_tardis.title"
+    },
+    "description": {
+      "translate": "advancements.obtain_tardis.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_tardis_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tardif_mod:tardis_item"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "tardif_mod:deleted_mod_element"
+}

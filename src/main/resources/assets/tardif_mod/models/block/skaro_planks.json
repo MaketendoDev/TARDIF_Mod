@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/blood_acacia_planks",
+    "up": "tardif_mod:block/blood_acacia_planks",
+    "north": "tardif_mod:block/blood_acacia_planks",
+    "east": "tardif_mod:block/blood_acacia_planks",
+    "south": "tardif_mod:block/blood_acacia_planks",
+    "west": "tardif_mod:block/blood_acacia_planks",
+    "particle": "tardif_mod:block/blood_acacia_planks"
+  },
+  "render_type": "solid"
+}

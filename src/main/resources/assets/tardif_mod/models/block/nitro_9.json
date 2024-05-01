@@ -1,0 +1,9 @@
+{
+  "parent": "tardif_mod:custom/nitro9",
+  "textures": {
+    "all": "tardif_mod:block/nitro9_texture",
+    "particle": "tardif_mod:block/particle_gray",
+    "0": "tardif_mod:block/nitro9_texture"
+  },
+  "render_type": "solid"
+}

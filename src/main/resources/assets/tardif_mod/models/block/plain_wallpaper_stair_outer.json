@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "tardif_mod:block/plain_wallpaper",
+    "top": "tardif_mod:block/plain_wallpaper",
+    "side": "tardif_mod:block/plain_wallpaper"
+  },
+  "render_type": "solid"
+}

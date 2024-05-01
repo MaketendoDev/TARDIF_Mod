@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "tardif_mod:classic_plains",
+  "features": "tardif_mod:classic_feature",
+  "step": "surface_structures"
+}

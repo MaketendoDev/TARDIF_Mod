@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1.5,
+  "cookingtime": 250,
+  "ingredient": {
+    "item": "tardif_mod:raw_dalekium"
+  },
+  "result": "tardif_mod:dalekium_ingot"
+}

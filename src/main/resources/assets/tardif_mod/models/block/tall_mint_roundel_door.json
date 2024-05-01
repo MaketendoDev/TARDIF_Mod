@@ -1,0 +1,10 @@
+{
+  "parent": "tardif_mod:custom/tall_roundel_door_mint",
+  "textures": {
+    "all": "tardif_mod:block/mint_roundel",
+    "particle": "tardif_mod:block/mint_roundel",
+    "0": "tardif_mod:block/mint_roundel",
+    "missing": "tardif_mod:block/mint_roundel"
+  },
+  "render_type": "solid"
+}

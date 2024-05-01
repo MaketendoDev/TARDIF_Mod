@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/melartblock",
+    "up": "tardif_mod:block/melartblock",
+    "north": "tardif_mod:block/melartblock",
+    "east": "tardif_mod:block/melartblock",
+    "south": "tardif_mod:block/melartblock",
+    "west": "tardif_mod:block/melartblock",
+    "particle": "tardif_mod:block/melartblock"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "tardif_mod:custom/tall_roundel_door_wallpaper",
+  "textures": {
+    "all": "tardif_mod:block/wallpaper_roundel",
+    "particle": "tardif_mod:block/wallpaper_roundel",
+    "0": "tardif_mod:block/wallpaper_roundel",
+    "missing": "tardif_mod:block/wallpaper_roundel"
+  },
+  "render_type": "solid"
+}

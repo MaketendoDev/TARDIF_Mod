@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mint_roundel",
+        "missing": "mint_roundel"
+      },
+      "name": "default"
+    }
+  }
+}

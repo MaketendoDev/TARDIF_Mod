@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "tardif_mod:tenth_cyberman",
+    "weight": 8,
+    "minCount": 4,
+    "maxCount": 11
+  }
+}

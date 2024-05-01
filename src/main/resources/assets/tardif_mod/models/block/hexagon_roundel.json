@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/hexagon_roundel",
+    "up": "tardif_mod:block/hexagon_roundel",
+    "north": "tardif_mod:block/hexagon_roundel",
+    "east": "tardif_mod:block/hexagon_roundel_half",
+    "south": "tardif_mod:block/hexagon_roundel",
+    "west": "tardif_mod:block/hexagon_roundel_half",
+    "particle": "tardif_mod:block/hexagon_roundel"
+  },
+  "render_type": "solid"
+}

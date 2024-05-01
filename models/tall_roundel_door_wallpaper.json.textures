@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wallpaper_roundel",
+        "missing": "wallpaper_roundel"
+      },
+      "name": "default"
+    }
+  }
+}

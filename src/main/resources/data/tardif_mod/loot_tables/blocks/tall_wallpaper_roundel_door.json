@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "tardif_mod:blocks/tall_wallpaper_roundel_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tardif_mod:tall_wallpaper_roundel_door"
+        }
+      ]
+    }
+  ]
+}

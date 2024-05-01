@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    "bcd",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:brewing_stand"
+    },
+    "c": {
+      "item": "minecraft:redstone_wire"
+    },
+    "d": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "e": {
+      "item": "minecraft:iron_block"
+    },
+    "f": {
+      "item": "tardif_mod:circuit_board"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:food_cube_machine",
+    "count": 1
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "cloister_bell": {
+    "subtitle": "subtitles.cloister_bell",
+    "sounds": [
+      {
+        "name": "tardif_mod:cloister_bell",
+        "stream": false
+      }
+    ]
+  },
+  "creaking_tardis": {
+    "subtitle": "subtitles.creaking_tardis",
+    "sounds": [
+      {
+        "name": "tardif_mod:creakingtardis",
+        "stream": false
+      }
+    ]
+  },
+  "inflight": {
+    "subtitle": "subtitles.inflight",
+    "sounds": [
+      {
+        "name": "tardif_mod:inflight",
+        "stream": false
+      }
+    ]
+  },
+  "landing": {
+    "subtitle": "subtitles.landing",
+    "sounds": [
+      {
+        "name": "tardif_mod:landing",
+        "stream": false
+      }
+    ]
+  },
+  "time_throttle": {
+    "subtitle": "subtitles.time_throttle",
+    "sounds": [
+      {
+        "name": "tardif_mod:space_time_throttle",
+        "stream": false
+      }
+    ]
+  },
+  "take_off": {
+    "subtitle": "subtitles.take_off",
+    "sounds": [
+      {
+        "name": "tardif_mod:take_off",
+        "stream": false
+      }
+    ]
+  },
+  "tardis_beep": {
+    "subtitle": "subtitles.tardis_beep",
+    "sounds": [
+      {
+        "name": "tardif_mod:tardis_beep",
+        "stream": false
+      }
+    ]
+  },
+  "tardis_landing_beep": {
+    "subtitle": "subtitles.tardis_landing_beep",
+    "sounds": [
+      {
+        "name": "tardif_mod:tardis_landing_beep",
+        "stream": false
+      }
+    ]
+  },
+  "tardis_power_on": {
+    "subtitle": "subtitles.tardis_power_on",
+    "sounds": [
+      {
+        "name": "tardif_mod:tardis_power_on_sfx",
+        "stream": false
+      }
+    ]
+  },
+  "tardis_shutdown": {
+    "subtitle": "subtitles.tardis_shutdown",
+    "sounds": [
+      {
+        "name": "tardif_mod:tardis_shutdown",
+        "stream": false
+      }
+    ]
+  },
+  "tardis_stabilisers": {
+    "subtitle": "subtitles.tardis_stabilisers",
+    "sounds": [
+      {
+        "name": "tardif_mod:tardis_stabilisers",
+        "stream": false
+      }
+    ]
+  },
+  "interior_creak": {
+    "subtitle": "subtitles.interior_creak",
+    "sounds": [
+      {
+        "name": "tardif_mod:tardisinteriorcreak",
+        "stream": false
+      }
+    ]
+  },
+  "tardis_copper_hum": {
+    "subtitle": "subtitles.tardis_copper_hum",
+    "sounds": [
+      {
+        "name": "tardif_mod:tardis_hum_copper",
+        "stream": false
+      }
+    ]
+  },
+  "vm_teleport": {
+    "subtitle": "subtitles.vm_teleport",
+    "sounds": [
+      {
+        "name": "tardif_mod:vm_teleport",
+        "stream": false
+      }
+    ]
+  },
+  "door_lock": {
+    "subtitle": "subtitles.door_lock",
+    "sounds": [
+      {
+        "name": "tardif_mod:door_lock",
+        "stream": false
+      }
+    ]
+  },
+  "door_unlock": {
+    "subtitle": "subtitles.door_unlock",
+    "sounds": [
+      {
+        "name": "tardif_mod:door_unlock",
+        "stream": false
+      }
+    ]
+  },
+  "sonic_screwdriver": {
+    "subtitle": "subtitles.sonic_screwdriver",
+    "sounds": [
+      {
+        "name": "tardif_mod:sonic_quiet",
+        "stream": false
+      }
+    ]
+  },
+  "skaro_ambience": {
+    "sounds": [
+      {
+        "name": "tardif_mod:mixkit-scary-forest-at-night-2486",
+        "stream": false
+      }
+    ]
+  }
+}

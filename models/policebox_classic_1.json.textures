@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "policebox_classic_1_texture",
+        "missing": "policebox_classic_1_texture"
+      },
+      "name": "default"
+    }
+  }
+}

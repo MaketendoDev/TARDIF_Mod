@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "tardif_mod:plastic"
+    },
+    {
+      "item": "tardif_mod:plastic"
+    },
+    {
+      "item": "tardif_mod:plastic"
+    },
+    {
+      "item": "tardif_mod:plastic"
+    }
+  ],
+  "result": {
+    "item": "tardif_mod:wallpaper_roundel",
+    "count": 3
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 60,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "What is this? BETA?",
+    "achievementDescription": "Travel into the classic version of Minecraft",
+    "achievementIcon": {
+      "value": "CUSTOM:Classicgrass"
+    },
+    "background": "screen_gui.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 5,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:ObtainTardis"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"dimension_entered\" x=\"45\" y=\"54\"><field name=\"dimension\">CUSTOM:ClassicOverworld</field></block></next></block></xml>"
+  }
+}

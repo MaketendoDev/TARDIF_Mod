@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tardif_mod:skaro_logs"
+    }
+  ],
+  "result": {
+    "item": "tardif_mod:skaro_planks",
+    "count": 4
+  }
+}

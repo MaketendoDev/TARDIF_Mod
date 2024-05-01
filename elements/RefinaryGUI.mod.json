@@ -1,0 +1,142 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 256,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:DalekiumIngot"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 151,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_refinary_placholder",
+          "text": {
+            "fixedValue": "Dalekanium Refinary"
+          },
+          "color": {
+            "value": -13477555,
+            "falpha": 0.0
+          },
+          "x": 90,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_refine",
+          "text": "Refine",
+          "isUndecorated": false,
+          "width": 56,
+          "height": 20,
+          "x": 184,
+          "y": 69
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.NETHERITE_INGOT"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 151,
+          "y": 88
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "maingui.png",
+          "use1Xscale": false,
+          "x": 58,
+          "y": 8
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "invslot.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itemslot.png",
+          "use1Xscale": false,
+          "x": 256,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itemslot.png",
+          "use1Xscale": false,
+          "x": 151,
+          "y": 88
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "itemslot.png",
+          "use1Xscale": false,
+          "x": 151,
+          "y": 63
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

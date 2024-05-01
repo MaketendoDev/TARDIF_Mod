@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MelartIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MelartIngot"
+      },
+      {
+        "value": "CUSTOM:MelartIngot"
+      },
+      {
+        "value": "CUSTOM:MelartIngot"
+      },
+      {
+        "value": "CUSTOM:MelartIngot"
+      },
+      {
+        "value": "CUSTOM:MelartIngot"
+      },
+      {
+        "value": "CUSTOM:MelartIngot"
+      },
+      {
+        "value": "CUSTOM:MelartIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MelartArmor.body"
+    },
+    "name": "melart_armor_chestplate_recipe",
+    "namespace": "mod"
+  }
+}

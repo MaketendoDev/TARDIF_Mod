@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "tardif_mod:skaro_grass",
+    "tardif_mod:skaro_dirt",
+    "tardif_mod:skaro_stone",
+    "tardif_mod:skaro_sand",
+    "tardif_mod:classic_netherack",
+    "tardif_mod:classicgrass",
+    "tardif_mod:classic_stone",
+    "tardif_mod:classic_dirt",
+    "minecraft:air"
+  ]
+}

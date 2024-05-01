@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/dstone",
+    "up": "tardif_mod:block/dstone",
+    "north": "tardif_mod:block/dstone",
+    "east": "tardif_mod:block/dstone",
+    "south": "tardif_mod:block/dstone",
+    "west": "tardif_mod:block/dstone",
+    "particle": "tardif_mod:block/dstone"
+  },
+  "render_type": "solid"
+}

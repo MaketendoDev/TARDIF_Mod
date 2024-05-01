@@ -1,0 +1,7 @@
+{
+  "parent": "tardif_mod:custom/psychic_paper",
+  "textures": {
+    "0": "tardif_mod:block/psychic_paper",
+    "particle": "tardif_mod:item/psychic_paper"
+  }
+}

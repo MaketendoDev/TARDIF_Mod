@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:green_dye"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "tardif_mod:solder"
+    },
+    "e": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:circuit_board",
+    "count": 1
+  }
+}

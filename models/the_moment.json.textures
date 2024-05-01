@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "themoment_texture",
+        "missing": "themoment_texture"
+      },
+      "name": "default"
+    }
+  }
+}

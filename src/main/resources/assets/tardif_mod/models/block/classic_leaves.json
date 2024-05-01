@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/classic_leaves",
+    "up": "tardif_mod:block/classic_leaves",
+    "north": "tardif_mod:block/classic_leaves",
+    "east": "tardif_mod:block/classic_leaves",
+    "south": "tardif_mod:block/classic_leaves",
+    "west": "tardif_mod:block/classic_leaves",
+    "particle": "tardif_mod:block/classic_leaves"
+  },
+  "render_type": "solid"
+}

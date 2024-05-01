@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ttcapsule_open_texture"
+      },
+      "name": "default"
+    }
+  }
+}

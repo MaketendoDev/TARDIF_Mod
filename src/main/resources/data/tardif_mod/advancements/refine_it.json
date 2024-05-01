@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "tardif_mod:dalekium_block"
+    },
+    "title": {
+      "translate": "advancements.refine_it.title"
+    },
+    "description": {
+      "translate": "advancements.refine_it.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "refine_it_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tardif_mod:dalekium_refinery"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "tardif_mod:obtain_dalekium"
+}

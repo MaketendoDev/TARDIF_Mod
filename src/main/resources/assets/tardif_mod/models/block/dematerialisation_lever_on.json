@@ -1,0 +1,9 @@
+{
+  "parent": "tardif_mod:custom/dematleveron",
+  "textures": {
+    "all": "tardif_mod:block/dematlever",
+    "particle": "tardif_mod:block/dematlever",
+    "1": "tardif_mod:block/dematlever"
+  },
+  "render_type": "solid"
+}

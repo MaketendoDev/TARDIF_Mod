@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tardif_mod:raw_dalekium"
+    },
+    {
+      "item": "tardif_mod:raw_dalekium"
+    },
+    {
+      "item": "tardif_mod:raw_dalekium"
+    },
+    {
+      "item": "tardif_mod:raw_dalekium"
+    },
+    {
+      "item": "tardif_mod:raw_dalekium"
+    },
+    {
+      "item": "tardif_mod:raw_dalekium"
+    },
+    {
+      "item": "tardif_mod:raw_dalekium"
+    },
+    {
+      "item": "tardif_mod:raw_dalekium"
+    },
+    {
+      "item": "tardif_mod:raw_dalekium"
+    }
+  ],
+  "result": {
+    "item": "tardif_mod:raw_dalekium_block",
+    "count": 1
+  }
+}

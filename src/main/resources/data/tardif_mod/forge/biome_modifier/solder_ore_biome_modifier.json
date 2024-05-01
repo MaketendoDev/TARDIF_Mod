@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "tardif_mod:solder_ore",
+  "step": "underground_ores"
+}

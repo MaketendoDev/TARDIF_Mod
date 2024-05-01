@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,blockstate=0": {
+      "model": "tardif_mod:block/tardis_interior_door"
+    },
+    "facing=east,blockstate=0": {
+      "model": "tardif_mod:block/tardis_interior_door",
+      "y": 90
+    },
+    "facing=south,blockstate=0": {
+      "model": "tardif_mod:block/tardis_interior_door",
+      "y": 180
+    },
+    "facing=west,blockstate=0": {
+      "model": "tardif_mod:block/tardis_interior_door",
+      "y": 270
+    },
+    "facing=north,blockstate=1": {
+      "model": "tardif_mod:block/tardis_interior_door_display_blockstate_0"
+    },
+    "facing=east,blockstate=1": {
+      "model": "tardif_mod:block/tardis_interior_door_display_blockstate_0",
+      "y": 90
+    },
+    "facing=south,blockstate=1": {
+      "model": "tardif_mod:block/tardis_interior_door_display_blockstate_0",
+      "y": 180
+    },
+    "facing=west,blockstate=1": {
+      "model": "tardif_mod:block/tardis_interior_door_display_blockstate_0",
+      "y": 270
+    },
+    "facing=north,blockstate=2": {
+      "model": "tardif_mod:block/tardis_interior_door_display_blockstate_1"
+    },
+    "facing=east,blockstate=2": {
+      "model": "tardif_mod:block/tardis_interior_door_display_blockstate_1",
+      "y": 90
+    },
+    "facing=south,blockstate=2": {
+      "model": "tardif_mod:block/tardis_interior_door_display_blockstate_1",
+      "y": 180
+    },
+    "facing=west,blockstate=2": {
+      "model": "tardif_mod:block/tardis_interior_door_display_blockstate_1",
+      "y": 270
+    }
+  }
+}

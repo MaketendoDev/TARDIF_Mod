@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tardif_mod:block/food_cube_machine"
+    },
+    "facing=east": {
+      "model": "tardif_mod:block/food_cube_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tardif_mod:block/food_cube_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tardif_mod:block/food_cube_machine",
+      "y": 270
+    }
+  }
+}

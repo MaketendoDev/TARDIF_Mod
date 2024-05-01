@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "cec"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_concrete"
+    },
+    "b": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "c": {
+      "item": "minecraft:glass_pane"
+    },
+    "d": {
+      "item": "minecraft:redstone_torch"
+    },
+    "e": {
+      "tag": "minecraft:slabs"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:phonebox_item",
+    "count": 1
+  }
+}

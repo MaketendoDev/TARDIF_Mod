@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tardif_mod:plain_wallpaper"
+    },
+    {
+      "item": "tardif_mod:plain_wallpaper"
+    },
+    {
+      "item": "tardif_mod:plain_wallpaper"
+    }
+  ],
+  "result": {
+    "item": "tardif_mod:plain_wallpaper_slab",
+    "count": 6
+  }
+}

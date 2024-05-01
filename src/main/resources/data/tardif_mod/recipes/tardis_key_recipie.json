@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "ab ",
+    "aa "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "tardif_mod:zyton_7"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:tardis_key",
+    "count": 1
+  }
+}

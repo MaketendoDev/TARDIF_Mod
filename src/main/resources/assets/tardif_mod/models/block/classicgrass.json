@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/classic_dirt",
+    "up": "tardif_mod:block/classic_grass_top",
+    "north": "tardif_mod:block/classic_grass_side",
+    "east": "tardif_mod:block/classic_grass_side",
+    "south": "tardif_mod:block/classic_grass_side",
+    "west": "tardif_mod:block/classic_grass_side",
+    "particle": "tardif_mod:block/classic_dirt"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,194 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coordinate_selector",
+          "text": {
+            "fixedValue": "Coordinate Selector"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 44
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "X",
+          "name": "X_Coord",
+          "width": 120,
+          "height": 20,
+          "x": 142,
+          "y": 61
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Y",
+          "name": "Y_Coord",
+          "width": 120,
+          "height": 20,
+          "x": 142,
+          "y": 80
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Z",
+          "name": "Z_Coord",
+          "width": 120,
+          "height": 20,
+          "x": 142,
+          "y": 99
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x",
+          "text": {
+            "fixedValue": "X:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_y",
+          "text": {
+            "fixedValue": "Y:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_z",
+          "text": {
+            "fixedValue": "Z:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 104
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_save",
+          "text": "Save",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SaveCoords"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 206,
+          "y": 174
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_randomize",
+          "text": "Randomize",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Randomiser"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 131,
+          "y": 174
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "Calculate_Y",
+          "text": "Calculate Y?",
+          "x": 134,
+          "y": 122
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "coordinates_pannel_gui.png",
+          "use1Xscale": false,
+          "x": 127,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_rotate",
+          "text": "Rotate",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "RotateButton"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 132,
+          "y": 146
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rotatedisplay",
+          "text": {
+            "fixedValue": "RotateDisplay",
+            "name": "RotateDisplay"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 192,
+          "y": 151
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

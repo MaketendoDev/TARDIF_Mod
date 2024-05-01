@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tardif_mod:roundel_door",
+    "tardif_mod:mint_roundel_door",
+    "tardif_mod:wallpaper_roundel_door"
+  ]
+}

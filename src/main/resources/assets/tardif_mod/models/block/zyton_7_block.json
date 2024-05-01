@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/zyton_7_block",
+    "up": "tardif_mod:block/zyton_7_block",
+    "north": "tardif_mod:block/zyton_7_block",
+    "east": "tardif_mod:block/zyton_7_block",
+    "south": "tardif_mod:block/zyton_7_block",
+    "west": "tardif_mod:block/zyton_7_block",
+    "particle": "tardif_mod:block/zyton_7_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "tardis_door_texture"
+      },
+      "name": "default"
+    }
+  }
+}

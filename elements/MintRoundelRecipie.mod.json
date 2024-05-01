@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#2"
+      },
+      {
+        "value": "Items.DYE#2"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Plastic"
+      },
+      {
+        "value": "CUSTOM:Plastic"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Plastic"
+      },
+      {
+        "value": "CUSTOM:Plastic"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MintRoundel"
+    },
+    "name": "mint_roundel_recipie",
+    "namespace": "mod"
+  }
+}

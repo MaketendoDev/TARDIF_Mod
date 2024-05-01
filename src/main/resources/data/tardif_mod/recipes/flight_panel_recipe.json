@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:recovery_compass"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "tardif_mod:zyton_7"
+    },
+    "d": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "e": {
+      "item": "minecraft:stone_slab"
+    },
+    "f": {
+      "item": "tardif_mod:circuit_board"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:flight_pannel",
+    "count": 1
+  }
+}

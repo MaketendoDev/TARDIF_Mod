@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "tardif_mod:skaro_grass"
+    },
+    "title": {
+      "translate": "advancements.the_hell_planet.title"
+    },
+    "description": {
+      "translate": "advancements.the_hell_planet.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_hell_planet_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "tardif_mod:skaro"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "tardif_mod:obtain_tardis"
+}

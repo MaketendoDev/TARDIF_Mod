@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:clock"
+    },
+    "b": {
+      "item": "minecraft:redstone_wire"
+    },
+    "c": {
+      "item": "tardif_mod:circuit_board"
+    },
+    "d": {
+      "item": "tardif_mod:zyton_7"
+    },
+    "e": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:timepannel",
+    "count": 1
+  }
+}

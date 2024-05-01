@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "nitro9_texture"
+      },
+      "name": "default"
+    }
+  }
+}

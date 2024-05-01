@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.RECOVERY_COMPASS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Zyton7"
+      },
+      {
+        "value": "Blocks.REDSTONE_LAMP"
+      },
+      {
+        "value": "Blocks.NORMAL_STONE_SLAB"
+      },
+      {
+        "value": "CUSTOM:CircuitBoard"
+      },
+      {
+        "value": "Blocks.NORMAL_STONE_SLAB"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FlightPannel"
+    },
+    "name": "flight_panel_recipe",
+    "namespace": "mod"
+  }
+}

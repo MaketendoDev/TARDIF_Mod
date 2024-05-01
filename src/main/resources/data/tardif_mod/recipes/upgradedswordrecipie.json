@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cda",
+    "ec "
+  ],
+  "key": {
+    "a": {
+      "item": "tardif_mod:raw_dalekium"
+    },
+    "b": {
+      "item": "tardif_mod:dalekium_ingot"
+    },
+    "c": {
+      "item": "tardif_mod:melart_shard"
+    },
+    "d": {
+      "item": "tardif_mod:melart_ingot"
+    },
+    "e": {
+      "item": "tardif_mod:melart_sword"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:upgraded_melart_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tardif_mod:circuit_board"
+    },
+    {
+      "item": "tardif_mod:message_orb"
+    },
+    {
+      "item": "minecraft:redstone_wire"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "result": {
+    "item": "tardif_mod:message_orb_teleporter",
+    "count": 1
+  }
+}

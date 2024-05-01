@@ -1,0 +1,46 @@
+{
+  "has_precipitation": false,
+  "temperature": -1,
+  "downfall": 0,
+  "effects": {
+    "particle": {
+      "options": {
+        "type": "end_rod"
+      },
+      "probability": 0.02
+    },
+    "foliage_color": -13421773,
+    "grass_color": -6710887,
+    "sky_color": -13421773,
+    "fog_color": -13421773,
+    "water_color": -13421773,
+    "water_fog_color": -13421773
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "tardif_mod:space_biome_tree"
+    ],
+    []
+  ]
+}

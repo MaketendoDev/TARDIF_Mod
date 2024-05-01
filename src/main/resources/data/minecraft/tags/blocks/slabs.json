@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tardif_mod:mint_wallpaper_slab",
+    "tardif_mod:white_wallpaper_slab",
+    "tardif_mod:plain_wallpaper_slab"
+  ]
+}

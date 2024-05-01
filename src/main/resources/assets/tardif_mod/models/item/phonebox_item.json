@@ -1,0 +1,8 @@
+{
+  "parent": "tardif_mod:custom/phonebox_decor",
+  "textures": {
+    "2": "tardif_mod:block/phonebox_exterior_texture",
+    "missing": "tardif_mod:block/phonebox_exterior_texture",
+    "particle": "tardif_mod:item/phonebox_exterior_texture"
+  }
+}

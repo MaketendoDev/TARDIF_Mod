@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/sand",
+    "up": "tardif_mod:block/sand",
+    "north": "tardif_mod:block/sand",
+    "east": "tardif_mod:block/sand",
+    "south": "tardif_mod:block/sand",
+    "west": "tardif_mod:block/sand",
+    "particle": "tardif_mod:block/sand"
+  },
+  "render_type": "solid"
+}

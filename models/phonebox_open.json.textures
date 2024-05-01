@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "phonebox_open_texture",
+        "missing": "phonebox_open_texture"
+      },
+      "name": "default"
+    }
+  }
+}

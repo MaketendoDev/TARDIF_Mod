@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/netherrack",
+    "up": "tardif_mod:block/netherrack",
+    "north": "tardif_mod:block/netherrack",
+    "east": "tardif_mod:block/netherrack",
+    "south": "tardif_mod:block/netherrack",
+    "west": "tardif_mod:block/netherrack",
+    "particle": "tardif_mod:block/netherrack"
+  },
+  "render_type": "solid"
+}

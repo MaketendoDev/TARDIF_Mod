@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lime_dye"
+    },
+    "b": {
+      "item": "tardif_mod:plain_wallpaper"
+    },
+    "c": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:mint_wallpaper",
+    "count": 1
+  }
+}

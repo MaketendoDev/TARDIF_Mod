@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "tardif_mod:zyton_7"
+    },
+    "title": {
+      "translate": "advancements.the_source.title"
+    },
+    "description": {
+      "translate": "advancements.the_source.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_source_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tardif_mod:zyton_7"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "tardif_mod:advanced"
+}

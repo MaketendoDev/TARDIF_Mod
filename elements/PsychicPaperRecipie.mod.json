@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.DYE#0"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "Items.DYE#0"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.LEATHER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PsychicPaper"
+    },
+    "name": "psychic_paper_recipie",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tardif_mod:block/dimensional_pannel"
+    },
+    "facing=east": {
+      "model": "tardif_mod:block/dimensional_pannel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tardif_mod:block/dimensional_pannel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tardif_mod:block/dimensional_pannel",
+      "y": 270
+    }
+  }
+}

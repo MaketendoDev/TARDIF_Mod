@@ -1,0 +1,7 @@
+{
+  "parent": "tardif_mod:custom/laser",
+  "textures": {
+    "0": "tardif_mod:block/laser_texture",
+    "particle": "tardif_mod:item/laser_texture"
+  }
+}

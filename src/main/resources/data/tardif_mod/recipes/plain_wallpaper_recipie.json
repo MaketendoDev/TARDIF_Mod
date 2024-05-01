@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "minecraft:blue_dye"
+    },
+    "c": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:plain_wallpaper",
+    "count": 1
+  }
+}

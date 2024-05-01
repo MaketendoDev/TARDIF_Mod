@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tardif_mod:block/tardis_maintenance_engine"
+    },
+    "facing=east": {
+      "model": "tardif_mod:block/tardis_maintenance_engine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tardif_mod:block/tardis_maintenance_engine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tardif_mod:block/tardis_maintenance_engine",
+      "y": 270
+    }
+  }
+}

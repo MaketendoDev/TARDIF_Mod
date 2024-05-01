@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rotation_panel_textures"
+      },
+      "name": "default"
+    }
+  }
+}

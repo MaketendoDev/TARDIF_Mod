@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "tardif_mod:roundel"
+    },
+    "title": {
+      "translate": "advancements.what_is_this_place.title"
+    },
+    "description": {
+      "translate": "advancements.what_is_this_place.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "what_is_this_place_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "tardif_mod:tardis_dim"
+      }
+    }
+  },
+  "parent": "tardif_mod:obtain_tardis"
+}

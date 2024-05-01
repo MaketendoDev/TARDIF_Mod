@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "tardif_mod:block/mint_wallpaper",
+    "top": "tardif_mod:block/mint_wallpaper",
+    "side": "tardif_mod:block/mint_wallpaper"
+  },
+  "render_type": "solid"
+}

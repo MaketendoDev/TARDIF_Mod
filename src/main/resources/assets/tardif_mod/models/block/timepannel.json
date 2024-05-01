@@ -1,0 +1,10 @@
+{
+  "parent": "tardif_mod:custom/time_pannel",
+  "textures": {
+    "all": "tardif_mod:block/time_pannel",
+    "particle": "tardif_mod:block/time_pannel",
+    "0": "tardif_mod:block/time_pannel",
+    "missing": "tardif_mod:block/time_pannel"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "tardif_mod:classic_netherack"
+    },
+    "title": {
+      "translate": "advancements.hell_oldest_arrival.title"
+    },
+    "description": {
+      "translate": "advancements.hell_oldest_arrival.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hell_oldest_arrival_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "tardif_mod:classic_nether"
+      }
+    }
+  },
+  "parent": "tardif_mod:classic_enter"
+}

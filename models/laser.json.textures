@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "laser_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_top_left",
+  "textures": {
+    "bottom": "tardif_mod:block/mint_roundel",
+    "top": "tardif_mod:block/mint_roundel"
+  },
+  "render_type": "solid"
+}

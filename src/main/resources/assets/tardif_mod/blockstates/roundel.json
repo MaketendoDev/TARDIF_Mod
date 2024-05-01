@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tardif_mod:block/roundel"
+    },
+    "facing=east": {
+      "model": "tardif_mod:block/roundel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tardif_mod:block/roundel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tardif_mod:block/roundel",
+      "y": 270
+    }
+  }
+}

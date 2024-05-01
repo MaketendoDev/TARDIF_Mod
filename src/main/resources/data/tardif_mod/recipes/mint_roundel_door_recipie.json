@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "tardif_mod:mint_roundel"
+  },
+  "base": {
+    "item": "minecraft:oak_door"
+  },
+  "addition": {
+    "item": "tardif_mod:plastic"
+  },
+  "result": {
+    "item": "tardif_mod:mint_roundel_door"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cde",
+    "fge"
+  ],
+  "key": {
+    "a": {
+      "item": "tardif_mod:zyton_7"
+    },
+    "b": {
+      "item": "minecraft:green_stained_glass"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:stone_button"
+    },
+    "e": {
+      "item": "minecraft:copper_ingot"
+    },
+    "f": {
+      "item": "minecraft:leather"
+    },
+    "g": {
+      "item": "tardif_mod:circuit_board"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:copper_screwdriver",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "ab",
+    "c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:sweet_berry_bush"
+    },
+    "c": {
+      "item": "tardif_mod:empty_bag"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:jellybabies",
+    "count": 1
+  }
+}

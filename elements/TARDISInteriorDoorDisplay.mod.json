@@ -1,0 +1,145 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "TARDISInteriorDoor",
+    "blockstateList": [
+      {
+        "texture": "phonebox_exterior_texture",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "phonebox_interior_door:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 19.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 21.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 17.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": -0.5,
+            "my": -16.0,
+            "mz": -0.5,
+            "Mx": 16.5,
+            "My": -15.0,
+            "Mz": 1.5,
+            "subtract": false
+          },
+          {
+            "mx": -0.5,
+            "my": 17.0,
+            "mz": -0.5,
+            "Mx": 16.5,
+            "My": 19.0,
+            "Mz": 1.5,
+            "subtract": false
+          },
+          {
+            "mx": 14.5,
+            "my": -15.0,
+            "mz": -0.5,
+            "Mx": 16.5,
+            "My": 17.0,
+            "Mz": 1.5,
+            "subtract": false
+          },
+          {
+            "mx": -0.5,
+            "my": -15.0,
+            "mz": -0.5,
+            "Mx": 1.5,
+            "My": 17.0,
+            "Mz": 1.5,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "policebox_interior_door_open",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "phonebox_interior_door_open:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 19.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 21.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 17.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": -0.5,
+            "my": -16.0,
+            "mz": -0.5,
+            "Mx": 16.5,
+            "My": -15.0,
+            "Mz": 1.5,
+            "subtract": false
+          },
+          {
+            "mx": -0.5,
+            "my": 17.0,
+            "mz": -0.5,
+            "Mx": 16.5,
+            "My": 19.0,
+            "Mz": 1.5,
+            "subtract": false
+          },
+          {
+            "mx": 14.5,
+            "my": -15.0,
+            "mz": -0.5,
+            "Mx": 16.5,
+            "My": 17.0,
+            "Mz": 1.5,
+            "subtract": false
+          },
+          {
+            "mx": -0.5,
+            "my": -15.0,
+            "mz": -0.5,
+            "Mx": 1.5,
+            "My": 17.0,
+            "Mz": 1.5,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

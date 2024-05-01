@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "tardif_mod:circuit_board"
+    },
+    "title": {
+      "translate": "advancements.advanced.title"
+    },
+    "description": {
+      "translate": "advancements.advanced.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advanced_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tardif_mod:circuit_board"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "tardif_mod:its_made_out_of_evreything"
+}

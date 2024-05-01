@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/monitor_top_bottom",
+    "up": "tardif_mod:block/monitor_top_bottom",
+    "north": "tardif_mod:block/monitor_front",
+    "east": "tardif_mod:block/monitor_left_right",
+    "south": "tardif_mod:block/monitor_back",
+    "west": "tardif_mod:block/monitor_left_right",
+    "particle": "tardif_mod:block/monitor_top_bottom"
+  },
+  "render_type": "solid"
+}

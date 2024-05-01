@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "tardif_mod:abandonedship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 26,
+    "separation": 10,
+    "salt": 2079966149
+  }
+}

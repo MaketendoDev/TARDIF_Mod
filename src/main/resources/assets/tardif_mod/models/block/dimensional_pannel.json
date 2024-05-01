@@ -1,0 +1,10 @@
+{
+  "parent": "tardif_mod:custom/dimension_selector",
+  "textures": {
+    "all": "tardif_mod:block/dimention_selector_texture",
+    "particle": "tardif_mod:block/dimention_selector_texture",
+    "1": "tardif_mod:block/dimention_selector_texture",
+    "missing": "tardif_mod:block/dimention_selector_texture"
+  },
+  "render_type": "translucent"
+}

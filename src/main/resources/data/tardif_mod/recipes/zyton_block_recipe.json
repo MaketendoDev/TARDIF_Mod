@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "tardif_mod:zyton_7"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:zyton_7_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "tardif_mod:blocks/wallpaper_roundel_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tardif_mod:wallpaper_roundel_door",
+          "conditions": [
+            {
+              "block": "tardif_mod:wallpaper_roundel_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tardif_mod:block/phonebox_decoration"
+    },
+    "facing=east": {
+      "model": "tardif_mod:block/phonebox_decoration",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tardif_mod:block/phonebox_decoration",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tardif_mod:block/phonebox_decoration",
+      "y": 270
+    }
+  }
+}

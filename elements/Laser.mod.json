@@ -1,0 +1,19 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:LaserItem"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": true,
+    "power": 3.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Modellaser",
+    "customModelTexture": "laser_texture.png"
+  }
+}

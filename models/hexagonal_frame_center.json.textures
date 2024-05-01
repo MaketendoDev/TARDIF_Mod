@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "hexagonal_frame_texture",
+        "missing": "hexagonal_frame_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tardif_mod:block/white_wallpaper_slab"
+    },
+    "type=top": {
+      "model": "tardif_mod:block/white_wallpaper_slab_top"
+    },
+    "type=double": {
+      "model": "tardif_mod:block/white_wallpaper_slab_full"
+    }
+  }
+}

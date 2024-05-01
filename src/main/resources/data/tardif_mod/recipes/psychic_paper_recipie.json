@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "item": "minecraft:paper"
+    },
+    "c": {
+      "item": "minecraft:ink_sac"
+    },
+    "d": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:psychic_paper",
+    "count": 1
+  }
+}

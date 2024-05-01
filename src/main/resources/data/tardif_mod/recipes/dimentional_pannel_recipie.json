@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dec",
+    "fff"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone_torch"
+    },
+    "b": {
+      "item": "minecraft:ender_pearl"
+    },
+    "c": {
+      "item": "tardif_mod:zyton_7"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    },
+    "e": {
+      "item": "tardif_mod:circuit_board"
+    },
+    "f": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:dimensional_pannel",
+    "count": 1
+  }
+}

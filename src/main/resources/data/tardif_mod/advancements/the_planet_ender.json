@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "tardif_mod:the_moment"
+    },
+    "title": {
+      "translate": "advancements.the_planet_ender.title"
+    },
+    "description": {
+      "translate": "advancements.the_planet_ender.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_planet_ender_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tardif_mod:the_moment"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "tardif_mod:obtain_tardis"
+}

@@ -1,0 +1,38 @@
+{
+  "_fv": 60,
+  "_type": "structure",
+  "definition": {
+    "structure": "abandoned_ship_1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "spacing": 26,
+    "separation": 10,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ClassicPlains"
+      },
+      {
+        "value": "CUSTOM:SkaroPlains"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "beaches"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

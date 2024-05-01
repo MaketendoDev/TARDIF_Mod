@@ -1,0 +1,25 @@
+{
+  "_fv": 60,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Hell's Oldest Arrival",
+    "achievementDescription": "Traveled into the Classic Nether",
+    "achievementIcon": {
+      "value": "CUSTOM:ClassicNetherack"
+    },
+    "background": "screen_gui.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:ClassicEnter"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"dimension_entered\" x=\"38\" y=\"50\"><field name=\"dimension\">CUSTOM:ClassicNether</field></block></next></block></xml>"
+  }
+}

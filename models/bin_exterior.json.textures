@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bin_exterior_texture",
+        "missing": "bin_exterior_texture"
+      },
+      "name": "default"
+    }
+  }
+}
