@@ -14,7 +14,7 @@
         "particleTexture": "",
         "renderType": 2,
         "customModelName": "ttcapsule:default",
-        "luminance": 2,
+        "luminance": 1,
         "boundingBoxes": [
           {
             "mx": -1.0,
@@ -73,7 +73,7 @@
         "particleTexture": "",
         "renderType": 2,
         "customModelName": "ttcapsule_open:default",
-        "luminance": 2,
+        "luminance": 1,
         "boundingBoxes": [
           {
             "mx": -1.0,

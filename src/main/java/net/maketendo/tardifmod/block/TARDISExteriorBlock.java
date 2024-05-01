@@ -44,9 +44,9 @@ public class TARDISExteriorBlock extends Block implements EntityBlock {
 		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(-1, 3600000).lightLevel(s -> (new Object() {
 			public int getLightLevel() {
 				if (s.getValue(BLOCKSTATE) == 1)
-					return 2;
+					return 1;
 				if (s.getValue(BLOCKSTATE) == 2)
-					return 2;
+					return 1;
 				if (s.getValue(BLOCKSTATE) == 3)
 					return 1;
 				if (s.getValue(BLOCKSTATE) == 4)
