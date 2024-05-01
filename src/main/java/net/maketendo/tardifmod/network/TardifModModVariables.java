@@ -114,15 +114,15 @@ public class TardifModModVariables {
 		public double Y_TARDIS = 0;
 		public double Z_TARDIS = 0;
 		public String Facing = "\"\"";
-		public boolean SonicInserted = false;
-		public boolean invortex = false;
+		public boolean SonicInsertedInTardis = false;
+		public boolean TardisInVortex = false;
 		public double FacingRotator = 0;
-		public boolean TARDISCrashed = false;
+		public boolean TardisCrashed = false;
 		public boolean handbreakon = false;
 		public boolean SonicInsertedInConsole = false;
 		public double ChamelionRotation = 0;
-		public double TARDISPower = 0;
-		public double TARDISHealth = 0;
+		public double TardisPower = 0;
+		public double TardisHealth = 0;
 		public double TardisMood = 0;
 
 		public static MapVariables load(CompoundTag tag) {
@@ -159,15 +159,15 @@ public class TardifModModVariables {
 			Y_TARDIS = nbt.getDouble("Y_TARDIS");
 			Z_TARDIS = nbt.getDouble("Z_TARDIS");
 			Facing = nbt.getString("Facing");
-			SonicInserted = nbt.getBoolean("SonicInserted");
-			invortex = nbt.getBoolean("invortex");
+			SonicInsertedInTardis = nbt.getBoolean("SonicInsertedInTardis");
+			TardisInVortex = nbt.getBoolean("TardisInVortex");
 			FacingRotator = nbt.getDouble("FacingRotator");
-			TARDISCrashed = nbt.getBoolean("TARDISCrashed");
+			TardisCrashed = nbt.getBoolean("TardisCrashed");
 			handbreakon = nbt.getBoolean("handbreakon");
 			SonicInsertedInConsole = nbt.getBoolean("SonicInsertedInConsole");
 			ChamelionRotation = nbt.getDouble("ChamelionRotation");
-			TARDISPower = nbt.getDouble("TARDISPower");
-			TARDISHealth = nbt.getDouble("TARDISHealth");
+			TardisPower = nbt.getDouble("TardisPower");
+			TardisHealth = nbt.getDouble("TardisHealth");
 			TardisMood = nbt.getDouble("TardisMood");
 		}
 
@@ -200,15 +200,15 @@ public class TardifModModVariables {
 			nbt.putDouble("Y_TARDIS", Y_TARDIS);
 			nbt.putDouble("Z_TARDIS", Z_TARDIS);
 			nbt.putString("Facing", Facing);
-			nbt.putBoolean("SonicInserted", SonicInserted);
-			nbt.putBoolean("invortex", invortex);
+			nbt.putBoolean("SonicInsertedInTardis", SonicInsertedInTardis);
+			nbt.putBoolean("TardisInVortex", TardisInVortex);
 			nbt.putDouble("FacingRotator", FacingRotator);
-			nbt.putBoolean("TARDISCrashed", TARDISCrashed);
+			nbt.putBoolean("TardisCrashed", TardisCrashed);
 			nbt.putBoolean("handbreakon", handbreakon);
 			nbt.putBoolean("SonicInsertedInConsole", SonicInsertedInConsole);
 			nbt.putDouble("ChamelionRotation", ChamelionRotation);
-			nbt.putDouble("TARDISPower", TARDISPower);
-			nbt.putDouble("TARDISHealth", TARDISHealth);
+			nbt.putDouble("TardisPower", TardisPower);
+			nbt.putDouble("TardisHealth", TardisHealth);
 			nbt.putDouble("TardisMood", TardisMood);
 			return nbt;
 		}

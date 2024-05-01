@@ -162,7 +162,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> HEXAGON_ROUNDEL = block(TardifModModBlocks.HEXAGON_ROUNDEL);
 	public static final RegistryObject<Item> MINT_WALLPAPER = block(TardifModModBlocks.MINT_WALLPAPER);
 	public static final RegistryObject<Item> WHITE_WALLPAPER = block(TardifModModBlocks.WHITE_WALLPAPER);
-	public static final RegistryObject<Item> EXTERIOR_DOOR_SPAWN_EGG = REGISTRY.register("exterior_door_spawn_egg", () -> new ForgeSpawnEggItem(TardifModModEntities.EXTERIOR_DOOR, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> PLAIN_WALLPAPER_SLAB = block(TardifModModBlocks.PLAIN_WALLPAPER_SLAB);
 	public static final RegistryObject<Item> PLAIN_WALLPAPER_STAIR = block(TardifModModBlocks.PLAIN_WALLPAPER_STAIR);
 	public static final RegistryObject<Item> WHITE_WALLPAPER_SLAB = block(TardifModModBlocks.WHITE_WALLPAPER_SLAB);

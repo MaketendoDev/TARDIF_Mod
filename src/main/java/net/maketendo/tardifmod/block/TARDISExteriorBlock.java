@@ -27,6 +27,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.MenuProvider;
@@ -40,6 +41,7 @@ import net.minecraft.core.BlockPos;
 
 import net.maketendo.tardifmod.procedures.TARDISRightClickedOnEntityProcedure;
 import net.maketendo.tardifmod.procedures.TARDISExteriorUpdateTickProcedure;
+import net.maketendo.tardifmod.procedures.TARDISExteriorOnBlockHitByProjectileProcedure;
 import net.maketendo.tardifmod.init.TardifModModItems;
 import net.maketendo.tardifmod.block.entity.TARDISExteriorBlockEntity;
 
@@ -91,18 +93,18 @@ public class TARDISExteriorBlock extends Block implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		if (state.getValue(BLOCKSTATE) == 1) {
 			return switch (state.getValue(FACING)) {
-				default -> Shapes.or(box(11, -12, -1, 17, 20, 15), box(1, -12, -1, 11, 20, 5), box(1, 20, -1, 17, 28, 15), box(1, -16, -1, 17, -12, 15), box(2, -12, 5, 11, 20, 14));
-				case NORTH -> Shapes.or(box(-1, -12, 1, 5, 20, 17), box(5, -12, 11, 15, 20, 17), box(-1, 20, 1, 15, 28, 17), box(-1, -16, 1, 15, -12, 17), box(5, -12, 2, 14, 20, 11));
-				case EAST -> Shapes.or(box(-1, -12, -1, 15, 20, 5), box(-1, -12, 5, 5, 20, 15), box(-1, 20, -1, 15, 28, 15), box(-1, -16, -1, 15, -12, 15), box(5, -12, 5, 14, 20, 14));
-				case WEST -> Shapes.or(box(1, -12, 11, 17, 20, 17), box(11, -12, 1, 17, 20, 11), box(1, 20, 1, 17, 28, 17), box(1, -16, 1, 17, -12, 17), box(2, -12, 2, 11, 20, 11));
+				default -> box(0, -20, 0, 16, 28, 16);
+				case NORTH -> box(0, -20, 0, 16, 28, 16);
+				case EAST -> box(0, -20, 0, 16, 28, 16);
+				case WEST -> box(0, -20, 0, 16, 28, 16);
 			};
 		}
 		if (state.getValue(BLOCKSTATE) == 2) {
 			return switch (state.getValue(FACING)) {
-				default -> Shapes.or(box(11, -12, -1, 17, 20, 15), box(1, -12, -1, 11, 20, 5), box(1, 20, -1, 17, 28, 15), box(1, -16, -1, 17, -12, 15), box(2, -12, 5, 11, 20, 14));
-				case NORTH -> Shapes.or(box(-1, -12, 1, 5, 20, 17), box(5, -12, 11, 15, 20, 17), box(-1, 20, 1, 15, 28, 17), box(-1, -16, 1, 15, -12, 17), box(5, -12, 2, 14, 20, 11));
-				case EAST -> Shapes.or(box(-1, -12, -1, 15, 20, 5), box(-1, -12, 5, 5, 20, 15), box(-1, 20, -1, 15, 28, 15), box(-1, -16, -1, 15, -12, 15), box(5, -12, 5, 14, 20, 14));
-				case WEST -> Shapes.or(box(1, -12, 11, 17, 20, 17), box(11, -12, 1, 17, 20, 11), box(1, 20, 1, 17, 28, 17), box(1, -16, 1, 17, -12, 17), box(2, -12, 2, 11, 20, 11));
+				default -> box(0, -20, 0, 16, 28, 16);
+				case NORTH -> box(0, -20, 0, 16, 28, 16);
+				case EAST -> box(0, -20, 0, 16, 28, 16);
+				case WEST -> box(0, -20, 0, 16, 28, 16);
 			};
 		}
 		if (state.getValue(BLOCKSTATE) == 3) {
@@ -339,8 +341,13 @@ public class TARDISExteriorBlock extends Block implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		TARDISExteriorUpdateTickProcedure.execute(world);
+		TARDISExteriorUpdateTickProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 1);
+	}
+
+	@Override
+	public void onProjectileHit(Level world, BlockState blockstate, BlockHitResult hit, Projectile entity) {
+		TARDISExteriorOnBlockHitByProjectileProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ(), entity);
 	}
 
 	@Override

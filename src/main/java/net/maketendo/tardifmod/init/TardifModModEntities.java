@@ -19,7 +19,6 @@ import net.minecraft.world.entity.Entity;
 import net.maketendo.tardifmod.entity.TenthCybermanEntityProjectile;
 import net.maketendo.tardifmod.entity.TenthCybermanEntity;
 import net.maketendo.tardifmod.entity.LaserEntity;
-import net.maketendo.tardifmod.entity.ExteriorDoorEntity;
 import net.maketendo.tardifmod.TardifModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -32,8 +31,6 @@ public class TardifModModEntities {
 					.setCustomClientFactory(TenthCybermanEntityProjectile::new).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<LaserEntity>> LASER = register("laser",
 			EntityType.Builder.<LaserEntity>of(LaserEntity::new, MobCategory.MISC).setCustomClientFactory(LaserEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<ExteriorDoorEntity>> EXTERIOR_DOOR = register("exterior_door", EntityType.Builder.<ExteriorDoorEntity>of(ExteriorDoorEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ExteriorDoorEntity::new).fireImmune().sized(1.1f, 1.3f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -43,13 +40,11 @@ public class TardifModModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			TenthCybermanEntity.init();
-			ExteriorDoorEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(TENTH_CYBERMAN.get(), TenthCybermanEntity.createAttributes().build());
-		event.put(EXTERIOR_DOOR.get(), ExteriorDoorEntity.createAttributes().build());
 	}
 }

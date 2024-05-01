@@ -1,7 +1,5 @@
 package net.maketendo.tardifmod.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
@@ -40,10 +38,6 @@ public class TARDISItemRightclickedOnBlockProcedure {
 				if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
 					world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 			}
-			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(
-						new CommandSourceStack(CommandSource.NULL, new Vec3((x + 0.5), (y + 1), (z + 0.5)), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"summon tardif_mod:exterior_door ~ ~ ~ {Invulnerable:1b,NoAI:1b,NoGravity:1b,Silent:1b}");
 			TardifModMod.LOGGER.info("TARDIS built");
 			{
 				Entity _ent = entity;

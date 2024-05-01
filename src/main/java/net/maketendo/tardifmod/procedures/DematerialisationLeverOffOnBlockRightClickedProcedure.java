@@ -120,7 +120,7 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tardif_mod:landing")), SoundSource.AMBIENT, 1, 1, false);
 					}
 				}
-				TardifModModVariables.MapVariables.get(world).Dematerialised = false;
+				TardifModModVariables.MapVariables.get(world).TardisInVortex = false;
 				TardifModModVariables.MapVariables.get(world).syncData(world);
 				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("\u00A7aTARDIS is rematerialising..."), true);
@@ -130,7 +130,7 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 					TardifModMod.queueServerWork(380, () -> {
 						if (entity instanceof Player _player && !_player.level().isClientSide())
 							_player.displayClientMessage(Component.literal("\u00A7aTARDIS is now landed!"), true);
-						TardifModModVariables.MapVariables.get(world).invortex = false;
+						TardifModModVariables.MapVariables.get(world).Dematerialised = false;
 						TardifModModVariables.MapVariables.get(world).syncData(world);
 					});
 				});
@@ -189,7 +189,7 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 				TardifModMod.queueServerWork(300, () -> {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal("\u00A7aTARDIS is now in the Vortex!"), true);
-					TardifModModVariables.MapVariables.get(world).invortex = true;
+					TardifModModVariables.MapVariables.get(world).TardisInVortex = true;
 					TardifModModVariables.MapVariables.get(world).syncData(world);
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
