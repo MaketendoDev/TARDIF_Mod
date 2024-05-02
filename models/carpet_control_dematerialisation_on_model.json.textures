@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "demat_lever_classic_on_texture"
+      },
+      "name": "default"
+    }
+  }
+}

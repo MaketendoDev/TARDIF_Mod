@@ -1699,42 +1699,6 @@
       "path": "~/Gameplay/Foods/Fish fingers and custard"
     },
     {
-      "name": "DematerialisationLeverOff",
-      "type": "block",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dematerialisation_lever_off",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/dematerialisation_lever_off.json",
-          "src/main/java/net/maketendo/tardifmod/block/DematerialisationLeverOffBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/dematerialisation_lever_off.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/dematerialisation_lever_off.json",
-          "src/main/resources/assets/tardif_mod/models/item/dematerialisation_lever_off.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Demat Lever"
-    },
-    {
-      "name": "DematerialisationLeverOn",
-      "type": "block",
-      "sortid": 172,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dematerialisation_lever_on",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/block/DematerialisationLeverOnBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/dematerialisation_lever_on.json",
-          "src/main/resources/assets/tardif_mod/models/block/dematerialisation_lever_on.json",
-          "src/main/resources/assets/tardif_mod/models/item/dematerialisation_lever_on.json",
-          "src/main/resources/assets/tardif_mod/blockstates/dematerialisation_lever_on.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Demat Lever"
-    },
-    {
       "name": "DematerialisationLeverOffOnBlockRightClicked",
       "type": "procedure",
       "sortid": 173,
@@ -1768,21 +1732,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Demat Lever"
-    },
-    {
-      "name": "DematLeverRecipie",
-      "type": "recipe",
-      "sortid": 174,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "demat_lever_recipie",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/recipes/demat_lever_recipie.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Demat Lever"
+      "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
     },
     {
       "name": "CopperScrewdriverRecipe",
@@ -4363,7 +4313,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Demat Lever"
+      "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
     },
     {
       "name": "TARDISExteriorShell",
@@ -4847,7 +4797,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Exterior"
+      "path": "~/TARDIS/TARDIS Exterior/TARDIS Exterior Procedures"
     },
     {
       "name": "TARDISExteriorOnBlockHitByProjectile",
@@ -4883,7 +4833,39 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Exterior"
+      "path": "~/TARDIS/TARDIS Exterior/TARDIS Exterior Procedures"
+    },
+    {
+      "name": "DematerialisationCarpetControl",
+      "type": "block",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dematerialisation_carpet_control",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/item/dematerialisation_carpet_control.json",
+          "src/main/java/net/maketendo/tardifmod/block/DematerialisationCarpetControlBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/dematerialisation_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/models/block/dematerialisation_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/blockstates/dematerialisation_carpet_control.json"
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
+    },
+    {
+      "name": "DematerialisationCarpetControlBlockstate",
+      "type": "blockstates",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dematerialisation_carpet_control_blockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/block/dematerialisation_carpet_control_blockstate_blockstate_0.json"
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
     }
   ],
   "variable_elements": [
@@ -5511,6 +5493,7 @@
       "subtitles.sonic_screwdriver": "Sonic Screwdriver",
       "subtitles.tardis_power_on": "TARDIS Activated",
       "block.tardif_mod.classic_blue_wool": "Classic Blue Wool",
+      "block.tardif_mod.dematerialisation_carpet_control": "Dematerialisational Lever Carpet Control",
       "block.tardif_mod.classic_white_wool": "Classic White Wool",
       "block.tardif_mod.melart_block": "Block of Melart",
       "block.tardif_mod.classic_green_wool": "Classic Green Wool",
@@ -5529,7 +5512,6 @@
       "block.tardif_mod.classic_red_wool": "Classic Red Wool",
       "gui.tardif_mod.monitor_gui.label_y_input": "y_input",
       "block.tardif_mod.mint_wallpaper_stairs": "Plain Wallpaper Stairs",
-      "block.tardif_mod.dematerialisation_lever_off": "Dematerialisation Lever",
       "item.tardif_mod.phonebox_item": "Telephone Box Decoration",
       "item_group.tardif_mod.tardis_items": "TARDIS",
       "gui.tardif_mod.exterior_monitor_gui.label_interior": "Interior:",
@@ -5615,7 +5597,6 @@
       "advancements.its_made_out_of_evreything.title": "Looks... tasty...",
       "item.tardif_mod.melart_pickaxe": "Melart Pickaxe",
       "block.tardif_mod.classic_log": "Classic Log",
-      "block.tardif_mod.dematerialisation_lever_on": "Dematerialisation Lever",
       "advancements.the_planet_ender.title": "Final Option...",
       "item.tardif_mod.empty_bag": "Empty bag",
       "item.tardif_mod.psychic_paper": "Psychic Paper",
@@ -5668,7 +5649,7 @@
                 "children": []
               },
               {
-                "name": "Exterior Door",
+                "name": "TARDIS Exterior Procedures",
                 "children": []
               }
             ]
@@ -5714,10 +5695,6 @@
                     "children": []
                   },
                   {
-                    "name": "Demat Lever",
-                    "children": []
-                  },
-                  {
                     "name": "Time Pannel",
                     "children": []
                   },
@@ -5733,6 +5710,15 @@
                         "children": []
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "name": "Console",
+                "children": [
+                  {
+                    "name": "Dematerialisation Pannel",
+                    "children": []
                   }
                 ]
               }

@@ -1,10 +1,14 @@
 
 package net.maketendo.tardifmod.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -30,18 +34,29 @@ import net.maketendo.tardifmod.procedures.DematerialisationLeverOffOnBlockRightC
 
 import java.util.List;
 
-public class DematerialisationLeverOnBlock extends Block {
+public class DematerialisationCarpetControlBlock extends Block {
+	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 1);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public DematerialisationLeverOnBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+	public DematerialisationCarpetControlBlock() {
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 10f).lightLevel(s -> (new Object() {
+			public int getLightLevel() {
+				if (s.getValue(BLOCKSTATE) == 1)
+					return 0;
+				return 0;
+			}
+		}.getLightLevel())).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("Level: 1"));
+		list.add(Component.literal("\u00A78Themes:"));
+		list.add(Component.literal("\u00A7a> Classic "));
+		list.add(Component.literal("\u00A78 Kitchen"));
+		list.add(Component.literal("\u00A78 Rusty"));
+		list.add(Component.literal("\u00A78 Orb"));
 	}
 
 	@Override
@@ -61,17 +76,25 @@ public class DematerialisationLeverOnBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		if (state.getValue(BLOCKSTATE) == 1) {
+			return switch (state.getValue(FACING)) {
+				default -> box(0, 0, 0, 16, 1, 16);
+				case NORTH -> box(0, 0, 0, 16, 1, 16);
+				case EAST -> box(0, 0, 0, 16, 1, 16);
+				case WEST -> box(0, 0, 0, 16, 1, 16);
+			};
+		}
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 11, 16);
-			case NORTH -> box(0, 0, 0, 16, 11, 16);
-			case EAST -> box(0, 0, 0, 16, 11, 16);
-			case WEST -> box(0, 0, 0, 16, 11, 16);
+			default -> box(0, 0, 0, 16, 1, 16);
+			case NORTH -> box(0, 0, 0, 16, 1, 16);
+			case EAST -> box(0, 0, 0, 16, 1, 16);
+			case WEST -> box(0, 0, 0, 16, 1, 16);
 		};
 	}
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(FACING);
+		builder.add(FACING, BLOCKSTATE);
 	}
 
 	@Override
@@ -85,16 +108,6 @@ public class DematerialisationLeverOnBlock extends Block {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
-	}
-
-	@Override
-	public boolean isSignalSource(BlockState state) {
-		return true;
-	}
-
-	@Override
-	public int getSignal(BlockState blockstate, BlockGetter blockAccess, BlockPos pos, Direction direction) {
-		return 15;
 	}
 
 	@Override

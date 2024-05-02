@@ -2,14 +2,14 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "dematlever",
+    "texture": "demat_lever_classic_off_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "dematleveroff:default",
+    "customModelName": "carpet_control_dematerialisation_off_model:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -28,15 +28,19 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 11.0,
+        "My": 1.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Dematerialisation Lever",
+    "name": "Dematerialisational Lever Carpet Control",
     "specialInformation": {
       "fixedValue": [
-        "Level: 1"
+        "§8Themes:",
+        "§a> Classic ",
+        "§8 Kitchen",
+        "§8 Rusty",
+        "§8 Orb"
       ]
     },
     "hardness": 1.0,
@@ -58,7 +62,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -83,7 +87,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""

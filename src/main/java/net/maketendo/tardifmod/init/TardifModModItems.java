@@ -86,8 +86,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> JELLYBABIES = REGISTRY.register("jellybabies", () -> new JellybabiesItem());
 	public static final RegistryObject<Item> EMPTY_BAG = REGISTRY.register("empty_bag", () -> new EmptyBagItem());
 	public static final RegistryObject<Item> FISH_FINGERAND_CUSTARD = REGISTRY.register("fish_fingerand_custard", () -> new FishFingerandCustardItem());
-	public static final RegistryObject<Item> DEMATERIALISATION_LEVER_OFF = block(TardifModModBlocks.DEMATERIALISATION_LEVER_OFF);
-	public static final RegistryObject<Item> DEMATERIALISATION_LEVER_ON = block(TardifModModBlocks.DEMATERIALISATION_LEVER_ON);
 	public static final RegistryObject<Item> CLASSIC_WHITE_WOOL = block(TardifModModBlocks.CLASSIC_WHITE_WOOL);
 	public static final RegistryObject<Item> CLASSIC_LIGHT_GRAY_WOOL = block(TardifModModBlocks.CLASSIC_LIGHT_GRAY_WOOL);
 	public static final RegistryObject<Item> FOOD_CUBE_MACHINE = block(TardifModModBlocks.FOOD_CUBE_MACHINE);
@@ -174,6 +172,7 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> HEXAGONAL_FRAME_CENTERED = block(TardifModModBlocks.HEXAGONAL_FRAME_CENTERED);
 	public static final RegistryObject<Item> HEXAGONAL_FRAME_OFFSET = block(TardifModModBlocks.HEXAGONAL_FRAME_OFFSET);
 	public static final RegistryObject<Item> TARDIS_INTERIOR_DOOR = block(TardifModModBlocks.TARDIS_INTERIOR_DOOR);
+	public static final RegistryObject<Item> DEMATERIALISATION_CARPET_CONTROL = block(TardifModModBlocks.DEMATERIALISATION_CARPET_CONTROL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -4,9 +4,8 @@ import org.checkerframework.checker.units.qual.s;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
-import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
@@ -14,14 +13,10 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import net.maketendo.tardifmod.network.TardifModModVariables;
-import net.maketendo.tardifmod.init.TardifModModBlocks;
 import net.maketendo.tardifmod.TardifModMod;
-
-import java.util.Map;
 
 public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -85,33 +80,11 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 					}
 				}
 				{
-					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockState _bs = TardifModModBlocks.DEMATERIALISATION_LEVER_OFF.get().defaultBlockState();
-					BlockState _bso = world.getBlockState(_bp);
-					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-						if (_property != null && _bs.getValue(_property) != null)
-							try {
-								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-							} catch (Exception e) {
-							}
-					}
-					BlockEntity _be = world.getBlockEntity(_bp);
-					CompoundTag _bnbt = null;
-					if (_be != null) {
-						_bnbt = _be.saveWithFullMetadata();
-						_be.setRemoved();
-					}
-					world.setBlock(_bp, _bs, 3);
-					if (_bnbt != null) {
-						_be = world.getBlockEntity(_bp);
-						if (_be != null) {
-							try {
-								_be.load(_bnbt);
-							} catch (Exception ignored) {
-							}
-						}
-					}
+					int _value = 0;
+					BlockPos _pos = BlockPos.containing(x, y, z);
+					BlockState _bs = world.getBlockState(_pos);
+					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 				}
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
@@ -144,33 +117,11 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 				}
 			}
 			{
-				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockState _bs = TardifModModBlocks.DEMATERIALISATION_LEVER_ON.get().defaultBlockState();
-				BlockState _bso = world.getBlockState(_bp);
-				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-					if (_property != null && _bs.getValue(_property) != null)
-						try {
-							_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-						} catch (Exception e) {
-						}
-				}
-				BlockEntity _be = world.getBlockEntity(_bp);
-				CompoundTag _bnbt = null;
-				if (_be != null) {
-					_bnbt = _be.saveWithFullMetadata();
-					_be.setRemoved();
-				}
-				world.setBlock(_bp, _bs, 3);
-				if (_bnbt != null) {
-					_be = world.getBlockEntity(_bp);
-					if (_be != null) {
-						try {
-							_be.load(_bnbt);
-						} catch (Exception ignored) {
-						}
-					}
-				}
+				int _value = 1;
+				BlockPos _pos = BlockPos.containing(x, y, z);
+				BlockState _bs = world.getBlockState(_pos);
+				if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+					world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 			}
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
@@ -185,7 +136,7 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 				_player.displayClientMessage(Component.literal("\u00A7aTARDIS is dematerialising..."), true);
 			TardifModMod.queueServerWork(100, () -> {
 				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("The &9TARDIS &fis entering the &l&l&dVORTEX&f..."), true);
+					_player.displayClientMessage(Component.literal("\u00A7aThe TARDIS is entering the Vortex..."), true);
 				TardifModMod.queueServerWork(300, () -> {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal("\u00A7aTARDIS is now in the Vortex!"), true);

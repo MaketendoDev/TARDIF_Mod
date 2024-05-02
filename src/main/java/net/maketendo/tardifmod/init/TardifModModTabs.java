@@ -37,7 +37,6 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModBlocks.COORDINATE_PANNEL.get().asItem());
 				tabData.accept(TardifModModBlocks.DIMENSIONAL_PANNEL.get().asItem());
 				tabData.accept(TardifModModBlocks.TIMEPANNEL.get().asItem());
-				tabData.accept(TardifModModBlocks.DEMATERIALISATION_LEVER_OFF.get().asItem());
 				tabData.accept(TardifModModBlocks.ARCHITECT_PANEL.get().asItem());
 				tabData.accept(TardifModModBlocks.FOOD_CUBE_MACHINE.get().asItem());
 				tabData.accept(TardifModModBlocks.TARDIS_MAINTENANCE_ENGINE.get().asItem());
@@ -46,6 +45,7 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModItems.ARS_UPGRADE_TEMPLATE.get());
 				tabData.accept(TardifModModItems.COMMUNICATION_UPGRADE_TEMPLATE.get());
 				tabData.accept(TardifModModBlocks.TARDIS_INTERIOR_DOOR.get().asItem());
+				tabData.accept(TardifModModBlocks.DEMATERIALISATION_CARPET_CONTROL.get().asItem());
 			})
 
 					.build());

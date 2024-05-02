@@ -59,8 +59,7 @@ import net.maketendo.tardifmod.block.FoodCubeMachineBlock;
 import net.maketendo.tardifmod.block.FlightPannelBlock;
 import net.maketendo.tardifmod.block.DrainedZyton7BlockBlock;
 import net.maketendo.tardifmod.block.DimensionalPannelBlock;
-import net.maketendo.tardifmod.block.DematerialisationLeverOnBlock;
-import net.maketendo.tardifmod.block.DematerialisationLeverOffBlock;
+import net.maketendo.tardifmod.block.DematerialisationCarpetControlBlock;
 import net.maketendo.tardifmod.block.DalekiumRefineryBlock;
 import net.maketendo.tardifmod.block.DalekiumOreBlock;
 import net.maketendo.tardifmod.block.DalekiumBlockBlock;
@@ -114,8 +113,6 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> DRAINED_ZYTON_7_BLOCK = REGISTRY.register("drained_zyton_7_block", () -> new DrainedZyton7BlockBlock());
 	public static final RegistryObject<Block> TIMEPANNEL = REGISTRY.register("timepannel", () -> new TimepannelBlock());
 	public static final RegistryObject<Block> ZYTON_ORE = REGISTRY.register("zyton_ore", () -> new ZytonOreBlock());
-	public static final RegistryObject<Block> DEMATERIALISATION_LEVER_OFF = REGISTRY.register("dematerialisation_lever_off", () -> new DematerialisationLeverOffBlock());
-	public static final RegistryObject<Block> DEMATERIALISATION_LEVER_ON = REGISTRY.register("dematerialisation_lever_on", () -> new DematerialisationLeverOnBlock());
 	public static final RegistryObject<Block> CLASSIC_WHITE_WOOL = REGISTRY.register("classic_white_wool", () -> new ClassicWhiteWoolBlock());
 	public static final RegistryObject<Block> CLASSIC_LIGHT_GRAY_WOOL = REGISTRY.register("classic_light_gray_wool", () -> new ClassicLightGrayWoolBlock());
 	public static final RegistryObject<Block> FOOD_CUBE_MACHINE = REGISTRY.register("food_cube_machine", () -> new FoodCubeMachineBlock());
@@ -172,6 +169,7 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> HEXAGONAL_FRAME_CENTERED = REGISTRY.register("hexagonal_frame_centered", () -> new HexagonalFrameCenteredBlock());
 	public static final RegistryObject<Block> HEXAGONAL_FRAME_OFFSET = REGISTRY.register("hexagonal_frame_offset", () -> new HexagonalFrameOffsetBlock());
 	public static final RegistryObject<Block> TARDIS_INTERIOR_DOOR = REGISTRY.register("tardis_interior_door", () -> new TARDISInteriorDoorBlock());
+	public static final RegistryObject<Block> DEMATERIALISATION_CARPET_CONTROL = REGISTRY.register("dematerialisation_carpet_control", () -> new DematerialisationCarpetControlBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "tardif_mod:blocks/dematerialisation_lever_off",
+  "random_sequence": "tardif_mod:blocks/dematerialisation_carpet_control",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tardif_mod:dematerialisation_lever_off"
+          "name": "tardif_mod:dematerialisation_carpet_control"
         }
       ]
     }
