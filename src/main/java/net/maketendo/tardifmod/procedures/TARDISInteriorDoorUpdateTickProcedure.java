@@ -79,6 +79,8 @@ public class TARDISInteriorDoorUpdateTickProcedure {
 					}
 				}
 			}
+			TardifModModVariables.MapVariables.get(world).DoorOpen = false;
+			TardifModModVariables.MapVariables.get(world).syncData(world);
 			TardifModMod.queueServerWork(1, () -> {
 				if ((TardifModModVariables.MapVariables.get(world).Facing).equals("north")) {
 					{
@@ -171,14 +173,7 @@ public class TARDISInteriorDoorUpdateTickProcedure {
 				}
 				{
 					int _value = 1;
-					BlockPos _pos = BlockPos.containing(x, y + 1, z);
-					BlockState _bs = world.getBlockState(_pos);
-					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-				}
-				{
-					int _value = 1;
-					BlockPos _pos = BlockPos.containing(x, y + 1, z);
+					BlockPos _pos = BlockPos.containing(x, y, z);
 					BlockState _bs = world.getBlockState(_pos);
 					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
 						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
@@ -213,6 +208,8 @@ public class TARDISInteriorDoorUpdateTickProcedure {
 								_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "forceload add ~4 ~4 ~-4 ~-4");
 					}
 				}
+				TardifModModVariables.MapVariables.get(world).DoorOpen = false;
+				TardifModModVariables.MapVariables.get(world).syncData(world);
 			});
 			TardifModMod.queueServerWork(10, () -> {
 				if (world instanceof Level _level) {

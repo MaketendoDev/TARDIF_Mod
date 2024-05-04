@@ -1,9 +1,13 @@
 {
-  "parent": "tardif_mod:custom/carpet_control_dematerialisation_off_model",
+  "parent": "block/cube",
   "textures": {
-    "all": "tardif_mod:block/demat_lever_classic_off_texture",
-    "particle": "tardif_mod:block/demat_lever_classic_off_texture",
-    "0": "tardif_mod:block/demat_lever_classic_off_texture"
+    "down": "tardif_mod:block/demat_lever_classic_off_texture",
+    "up": "tardif_mod:block/demat_lever_classic_off_texture",
+    "north": "tardif_mod:block/demat_lever_classic_off_texture",
+    "east": "tardif_mod:block/demat_lever_classic_off_texture",
+    "south": "tardif_mod:block/demat_lever_classic_off_texture",
+    "west": "tardif_mod:block/demat_lever_classic_off_texture",
+    "particle": "tardif_mod:block/demat_lever_classic_off_texture"
   },
   "render_type": "translucent"
 }
