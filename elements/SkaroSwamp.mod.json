@@ -2,38 +2,38 @@
   "_fv": 60,
   "_type": "biome",
   "definition": {
-    "name": "Skaro Forest",
+    "name": "Skaro Swamp",
     "groundBlock": {
-      "value": "CUSTOM:SkaroGrass"
+      "value": "CUSTOM:SkaroDirt"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:SkaroDirt"
+      "value": "CUSTOM:SkaroStone"
     },
     "underwaterBlock": {
       "value": "Blocks.FLOWING_WATER"
     },
     "airColor": {
-      "value": -1532056,
+      "value": -1526680,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -39322,
+      "value": -6711040,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -39322,
+      "value": -13408768,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -39322,
+      "value": -13421824,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -39322,
+      "value": -10079488,
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "CUSTOM:skaro_ambience"
+      "value": ""
     },
     "additionsSound": {
       "value": ""
@@ -47,9 +47,9 @@
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "SMOKE_NORMAL"
+      "value": "WATER_DROP"
     },
-    "particlesProbability": 0.4,
+    "particlesProbability": 0.1,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "spawnBiome": false,
@@ -57,36 +57,36 @@
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": -1.0,
-      "max": 0.5001
+      "max": 1.0001
     },
     "genHumidity": {
       "min": -1.0,
-      "max": 0.5001
+      "max": 0.5
     },
     "genContinentalness": {
-      "min": -1.0,
+      "min": 0.3,
       "max": 1.0
     },
     "genErosion": {
-      "min": -1.0,
-      "max": 0.4999
+      "min": -0.5,
+      "max": 0.5
     },
     "genWeirdness": {
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 6,
+    "treesPerChunk": 3,
     "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 9,
+    "minHeight": 7,
     "treeStem": {
       "value": "CUSTOM:SkaroLogs"
     },
     "treeBranch": {
-      "value": "Blocks.AIR"
+      "value": "Blocks.LEAVES#0"
     },
     "treeVines": {
-      "value": ""
+      "value": "Blocks.VINE"
     },
     "treeFruits": {
       "value": ""

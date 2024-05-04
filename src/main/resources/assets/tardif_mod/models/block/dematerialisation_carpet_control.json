@@ -2,8 +2,7 @@
   "parent": "tardif_mod:custom/carpet_control_dematerialisation_off_model",
   "textures": {
     "all": "tardif_mod:block/demat_lever_classic_off_texture",
-    "particle": "tardif_mod:block/demat_lever_classic_off_texture",
-    "0": "tardif_mod:block/demat_lever_classic_off_texture"
+    "particle": "tardif_mod:block/demat_lever_classic_off_texture"
   },
   "render_type": "translucent"
 }

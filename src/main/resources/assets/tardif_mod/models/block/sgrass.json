@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tardif_mod:block/skarograssplant",
+    "particle": "tardif_mod:block/skarograssplant"
+  },
+  "render_type": "cutout"
+}

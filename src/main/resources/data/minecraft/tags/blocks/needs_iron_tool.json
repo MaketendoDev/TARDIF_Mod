@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tardif_mod:zyton_ore",
+    "tardif_mod:solder_ore",
+    "tardif_mod:plastic_ore"
+  ]
+}

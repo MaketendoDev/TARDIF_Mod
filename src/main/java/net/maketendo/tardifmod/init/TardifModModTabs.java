@@ -165,6 +165,7 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModBlocks.SKARO_SAND.get().asItem());
 			tabData.accept(TardifModModBlocks.RAW_DALEKIUM_BLOCK.get().asItem());
 			tabData.accept(TardifModModBlocks.SKAROWOOD_2.get().asItem());
+			tabData.accept(TardifModModBlocks.SGRASS.get().asItem());
 		}
 	}
 }
