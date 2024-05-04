@@ -24,13 +24,13 @@ public class TardifModModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modellaser.LAYER_LOCATION, Modellaser::createBodyLayer);
-		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modelclassix_box.LAYER_LOCATION, Modelclassix_box::createBodyLayer);
 		event.registerLayerDefinition(Modelmondasian_cybervillager.LAYER_LOCATION, Modelmondasian_cybervillager::createBodyLayer);
 		event.registerLayerDefinition(Modelpolicebox_fourteen.LAYER_LOCATION, Modelpolicebox_fourteen::createBodyLayer);
 		event.registerLayerDefinition(Modelcopper_console.LAYER_LOCATION, Modelcopper_console::createBodyLayer);
-		event.registerLayerDefinition(Modelhartnell_console.LAYER_LOCATION, Modelhartnell_console::createBodyLayer);
 		event.registerLayerDefinition(Modelcybermantenth.LAYER_LOCATION, Modelcybermantenth::createBodyLayer);
 		event.registerLayerDefinition(Modeltenth_cyberman.LAYER_LOCATION, Modeltenth_cyberman::createBodyLayer);
+		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
+		event.registerLayerDefinition(Modelhartnell_console.LAYER_LOCATION, Modelhartnell_console::createBodyLayer);
 	}
 }
