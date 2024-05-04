@@ -1,16 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-<<<<<<< HEAD
     "down": "tardif_mod:block/demat_lever_classic_off_texture",
     "up": "tardif_mod:block/demat_lever_classic_off_texture",
     "north": "tardif_mod:block/demat_lever_classic_off_texture",
     "east": "tardif_mod:block/demat_lever_classic_off_texture",
     "south": "tardif_mod:block/demat_lever_classic_off_texture",
     "west": "tardif_mod:block/demat_lever_classic_off_texture",
-=======
-    "all": "tardif_mod:block/demat_lever_classic_off_texture",
->>>>>>> branch 'master' of https://github.com/MaketendoDev/TARDIF-Mod.git
     "particle": "tardif_mod:block/demat_lever_classic_off_texture"
   },
   "render_type": "translucent"

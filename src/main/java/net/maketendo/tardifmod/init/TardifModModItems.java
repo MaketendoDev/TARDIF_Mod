@@ -173,6 +173,7 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> HEXAGONAL_FRAME_OFFSET = block(TardifModModBlocks.HEXAGONAL_FRAME_OFFSET);
 	public static final RegistryObject<Item> TARDIS_INTERIOR_DOOR = block(TardifModModBlocks.TARDIS_INTERIOR_DOOR);
 	public static final RegistryObject<Item> DEMATERIALISATION_CARPET_CONTROL = block(TardifModModBlocks.DEMATERIALISATION_CARPET_CONTROL);
+	public static final RegistryObject<Item> SGRASS = block(TardifModModBlocks.SGRASS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -34,6 +34,7 @@ import net.maketendo.tardifmod.block.SkaroLogsBlock;
 import net.maketendo.tardifmod.block.SkaroGrassBlock;
 import net.maketendo.tardifmod.block.SkaroDirtBlock;
 import net.maketendo.tardifmod.block.SkaroCobbleBlock;
+import net.maketendo.tardifmod.block.SgrassBlock;
 import net.maketendo.tardifmod.block.RoundelDoorBlock;
 import net.maketendo.tardifmod.block.RoundelBlock;
 import net.maketendo.tardifmod.block.RotorBlock;
@@ -170,6 +171,7 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> HEXAGONAL_FRAME_OFFSET = REGISTRY.register("hexagonal_frame_offset", () -> new HexagonalFrameOffsetBlock());
 	public static final RegistryObject<Block> TARDIS_INTERIOR_DOOR = REGISTRY.register("tardis_interior_door", () -> new TARDISInteriorDoorBlock());
 	public static final RegistryObject<Block> DEMATERIALISATION_CARPET_CONTROL = REGISTRY.register("dematerialisation_carpet_control", () -> new DematerialisationCarpetControlBlock());
+	public static final RegistryObject<Block> SGRASS = REGISTRY.register("sgrass", () -> new SgrassBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

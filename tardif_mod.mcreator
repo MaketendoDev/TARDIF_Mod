@@ -4866,6 +4866,45 @@
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
+    },
+    {
+      "name": "Sgrass",
+      "type": "plant",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sgrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/block/sgrass.json",
+          "src/main/resources/assets/tardif_mod/blockstates/sgrass.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/sgrass.json",
+          "src/main/resources/assets/tardif_mod/models/item/sgrass.json",
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/sgrass_biome_modifier.json",
+          "src/main/java/net/maketendo/tardifmod/block/SgrassBlock.java",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/sgrass.json",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/sgrass.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro"
+    },
+    {
+      "name": "SkaroSwamp",
+      "type": "biome",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skaro_swamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/skaro_swamp_tree.json",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_swamp_tree.json",
+          "src/main/java/net/maketendo/tardifmod/world/features/treedecorators/SkaroSwampTrunkDecorator.java",
+          "src/main/java/net/maketendo/tardifmod/world/features/treedecorators/SkaroSwampLeaveDecorator.java",
+          "src/main/resources/data/tardif_mod/worldgen/biome/skaro_swamp.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro"
     }
   ],
   "variable_elements": [
@@ -5478,6 +5517,7 @@
       "biome.tardif_mod.classic_plains": "Classic Plains",
       "gui.tardif_mod.monitor_gui.label_exterior": "Exterior:",
       "gui.tardif_mod.monitor_gui.label_z_input": "z_input",
+      "block.tardif_mod.sgrass": "Sgrass",
       "block.tardif_mod.tardis_exterior": "TARDIS Exterior",
       "gui.tardif_mod.monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "block.tardif_mod.dalekium_refinery": "Dalekium Refinery",
@@ -5522,6 +5562,7 @@
       "block.tardif_mod.roundel_door": "Roundel Door",
       "block.tardif_mod.classic_yellow_wool": "Classic Yellow Wool",
       "block.tardif_mod.wallpaper_roundel_door": "Roundel Door",
+      "biome.tardif_mod.skaro_swamp": "Skaro Swamp",
       "gui.tardif_mod.engine_gui.label_tardis_engine": "TARDIS Engine",
       "biome.tardif_mod.space_biome": "Space Biome",
       "subtitles.tardis_beep": "TARDIS Beep",
@@ -5674,6 +5715,19 @@
                     "children": []
                   },
                   {
+                    "name": "Panel Functions",
+                    "children": [
+                      {
+                        "name": "Power",
+                        "children": []
+                      },
+                      {
+                        "name": "Coorinates selector",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
                     "name": "Coordinate Pannel",
                     "children": []
                   },
@@ -5697,19 +5751,6 @@
                   {
                     "name": "Time Pannel",
                     "children": []
-                  },
-                  {
-                    "name": "Panel Functions",
-                    "children": [
-                      {
-                        "name": "Power",
-                        "children": []
-                      },
-                      {
-                        "name": "Coorinates selector",
-                        "children": []
-                      }
-                    ]
                   }
                 ]
               },
@@ -5786,6 +5827,10 @@
             "children": []
           },
           {
+            "name": "Hexagonal Frame",
+            "children": []
+          },
+          {
             "name": "Roundel Doors",
             "children": [
               {
@@ -5800,11 +5845,11 @@
                 "name": "Tall Varient",
                 "children": [
                   {
-                    "name": "Wallpaper",
+                    "name": "Mint",
                     "children": []
                   },
                   {
-                    "name": "Mint",
+                    "name": "Wallpaper",
                     "children": []
                   }
                 ]
@@ -5853,10 +5898,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Hexagonal Frame",
-            "children": []
           }
         ]
       },
@@ -6018,6 +6059,10 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Moon",
+            "children": []
           }
         ]
       },
