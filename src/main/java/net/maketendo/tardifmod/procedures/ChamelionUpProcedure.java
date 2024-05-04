@@ -22,18 +22,13 @@ public class ChamelionUpProcedure {
 					TardifModModVariables.MapVariables.get(world).syncData(world);
 				} else {
 					if (TardifModModVariables.MapVariables.get(world).ChamelionRotation == 4) {
-						TardifModModVariables.MapVariables.get(world).Exterior = "Dirt House";
+						TardifModModVariables.MapVariables.get(world).Exterior = "Police Box";
 						TardifModModVariables.MapVariables.get(world).syncData(world);
 					} else {
-						if (TardifModModVariables.MapVariables.get(world).ChamelionRotation == 5) {
-							TardifModModVariables.MapVariables.get(world).Exterior = "Police Box";
-							TardifModModVariables.MapVariables.get(world).syncData(world);
-						} else {
-							TardifModModVariables.MapVariables.get(world).ChamelionRotation = 1;
-							TardifModModVariables.MapVariables.get(world).syncData(world);
-							TardifModModVariables.MapVariables.get(world).Exterior = "Phonebox";
-							TardifModModVariables.MapVariables.get(world).syncData(world);
-						}
+						TardifModModVariables.MapVariables.get(world).ChamelionRotation = 1;
+						TardifModModVariables.MapVariables.get(world).syncData(world);
+						TardifModModVariables.MapVariables.get(world).Exterior = "Phonebox";
+						TardifModModVariables.MapVariables.get(world).syncData(world);
 					}
 				}
 			}
