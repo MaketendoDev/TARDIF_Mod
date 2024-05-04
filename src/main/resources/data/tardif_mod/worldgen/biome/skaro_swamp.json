@@ -3,19 +3,18 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "ambient_sound": "tardif_mod:skaro_ambience",
     "particle": {
       "options": {
-        "type": "smoke"
+        "type": "falling_water"
       },
-      "probability": 0.004
+      "probability": 0.001
     },
-    "foliage_color": -39322,
-    "grass_color": -39322,
-    "sky_color": -1532056,
-    "fog_color": -1532056,
-    "water_color": -39322,
-    "water_fog_color": -39322
+    "foliage_color": -13408768,
+    "grass_color": -6711040,
+    "sky_color": -1526680,
+    "fog_color": -1526680,
+    "water_color": -13421824,
+    "water_fog_color": -10079488
   },
   "spawners": {
     "monster": [],
@@ -64,7 +63,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "tardif_mod:skaro_swamp_tree"
+    ],
     [
       "minecraft:freeze_top_layer"
     ]

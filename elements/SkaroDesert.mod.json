@@ -13,7 +13,7 @@
       "value": "Blocks.WATER"
     },
     "airColor": {
-      "value": -39322,
+      "value": -1532056,
       "falpha": 0.0
     },
     "grassColor": {
@@ -56,15 +56,15 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -0.4999,
+      "min": -1.0,
       "max": 0.5001
     },
     "genHumidity": {
-      "min": -0.4999,
+      "min": -1.0,
       "max": 0.5001
     },
     "genContinentalness": {
-      "min": 0.3001,
+      "min": -1.0,
       "max": 1.0001
     },
     "genErosion": {

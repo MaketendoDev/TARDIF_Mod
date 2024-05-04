@@ -11,6 +11,9 @@
       },
       {
         "value": "CUSTOM:SkaroPlains"
+      },
+      {
+        "value": "CUSTOM:SkaroSwamp"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -21,16 +24,16 @@
       "value": "Blocks.FLOWING_WATER"
     },
     "airColor": {
-      "value": -39322,
+      "value": -1532056,
       "falpha": 0.0
     },
-    "canRespawnHere": false,
+    "canRespawnHere": true,
     "hasFog": true,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
     "hasSkyLight": true,
-    "imitateOverworldBehaviour": false,
+    "imitateOverworldBehaviour": true,
     "portalFrame": {
       "value": ""
     },

@@ -80,11 +80,6 @@ public class DimentionSelectionGuiScreen extends AbstractContainerScreen<Dimenti
 	}
 
 	@Override
-	public void onClose() {
-		super.onClose();
-	}
-
-	@Override
 	public void init() {
 		super.init();
 		imagebutton_moon = new ImageButton(this.leftPos + 215, this.topPos + 43, 26, 26, 0, 0, 26, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_moon.png"), 26, 52, e -> {
