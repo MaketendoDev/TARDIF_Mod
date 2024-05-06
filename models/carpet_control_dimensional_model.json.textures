@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dimensional_selector_control"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "telepathic_circuit_control"
+      },
+      "name": "default"
+    }
+  }
+}
