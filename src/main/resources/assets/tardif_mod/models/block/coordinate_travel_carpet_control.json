@@ -1,0 +1,9 @@
+{
+  "parent": "tardif_mod:custom/carpet_control_coordinate_model",
+  "textures": {
+    "all": "tardif_mod:block/coordinate_control",
+    "particle": "tardif_mod:block/coordinate_control",
+    "0": "tardif_mod:block/coordinate_control"
+  },
+  "render_type": "translucent"
+}

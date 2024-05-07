@@ -19,6 +19,7 @@ import net.maketendo.tardifmod.block.WallpaperRoundelDoorBlock;
 import net.maketendo.tardifmod.block.WallpaperRoundelBlock;
 import net.maketendo.tardifmod.block.TimeMovementCarpetControlBlock;
 import net.maketendo.tardifmod.block.TheMomentBlock;
+import net.maketendo.tardifmod.block.TelapathicCarpetControlBlock;
 import net.maketendo.tardifmod.block.TallWallpaperRoundelDoorBlock;
 import net.maketendo.tardifmod.block.TallRoundelDoorBlock;
 import net.maketendo.tardifmod.block.TallMintRoundelDoorBlock;
@@ -59,12 +60,14 @@ import net.maketendo.tardifmod.block.HexagonRoundelBlock;
 import net.maketendo.tardifmod.block.FoodCubeMachineBlock;
 import net.maketendo.tardifmod.block.FlightPannelBlock;
 import net.maketendo.tardifmod.block.DrainedZyton7BlockBlock;
+import net.maketendo.tardifmod.block.DimensionalSelectorCarpetControlBlock;
 import net.maketendo.tardifmod.block.DimensionalPannelBlock;
 import net.maketendo.tardifmod.block.DematerialisationCarpetControlBlock;
 import net.maketendo.tardifmod.block.DalekiumRefineryBlock;
 import net.maketendo.tardifmod.block.DalekiumOreBlock;
 import net.maketendo.tardifmod.block.DalekiumBlockBlock;
 import net.maketendo.tardifmod.block.CopperMonitorBlock;
+import net.maketendo.tardifmod.block.CoordinateTravelCarpetControlBlock;
 import net.maketendo.tardifmod.block.CoordinatePannelBlock;
 import net.maketendo.tardifmod.block.ClassicgrassBlock;
 import net.maketendo.tardifmod.block.ClassicYellowWoolBlock;
@@ -172,6 +175,9 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> DEMATERIALISATION_CARPET_CONTROL = REGISTRY.register("dematerialisation_carpet_control", () -> new DematerialisationCarpetControlBlock());
 	public static final RegistryObject<Block> SGRASS = REGISTRY.register("sgrass", () -> new SgrassBlock());
 	public static final RegistryObject<Block> TIME_MOVEMENT_CARPET_CONTROL = REGISTRY.register("time_movement_carpet_control", () -> new TimeMovementCarpetControlBlock());
+	public static final RegistryObject<Block> DIMENSIONAL_SELECTOR_CARPET_CONTROL = REGISTRY.register("dimensional_selector_carpet_control", () -> new DimensionalSelectorCarpetControlBlock());
+	public static final RegistryObject<Block> COORDINATE_TRAVEL_CARPET_CONTROL = REGISTRY.register("coordinate_travel_carpet_control", () -> new CoordinateTravelCarpetControlBlock());
+	public static final RegistryObject<Block> TELAPATHIC_CARPET_CONTROL = REGISTRY.register("telapathic_carpet_control", () -> new TelapathicCarpetControlBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

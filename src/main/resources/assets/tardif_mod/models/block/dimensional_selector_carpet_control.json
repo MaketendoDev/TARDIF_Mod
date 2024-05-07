@@ -1,0 +1,9 @@
+{
+  "parent": "tardif_mod:custom/carpet_control_dimensional_model",
+  "textures": {
+    "all": "tardif_mod:block/dimensional_selector_control",
+    "particle": "tardif_mod:block/dimensional_selector_control",
+    "0": "tardif_mod:block/dimensional_selector_control"
+  },
+  "render_type": "translucent"
+}

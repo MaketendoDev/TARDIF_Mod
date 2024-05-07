@@ -174,6 +174,9 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> DEMATERIALISATION_CARPET_CONTROL = block(TardifModModBlocks.DEMATERIALISATION_CARPET_CONTROL);
 	public static final RegistryObject<Item> SGRASS = block(TardifModModBlocks.SGRASS);
 	public static final RegistryObject<Item> TIME_MOVEMENT_CARPET_CONTROL = block(TardifModModBlocks.TIME_MOVEMENT_CARPET_CONTROL);
+	public static final RegistryObject<Item> DIMENSIONAL_SELECTOR_CARPET_CONTROL = block(TardifModModBlocks.DIMENSIONAL_SELECTOR_CARPET_CONTROL);
+	public static final RegistryObject<Item> COORDINATE_TRAVEL_CARPET_CONTROL = block(TardifModModBlocks.COORDINATE_TRAVEL_CARPET_CONTROL);
+	public static final RegistryObject<Item> TELAPATHIC_CARPET_CONTROL = block(TardifModModBlocks.TELAPATHIC_CARPET_CONTROL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

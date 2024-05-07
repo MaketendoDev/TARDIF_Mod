@@ -4891,6 +4891,59 @@
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Time Movement Carpet Control"
+    },
+    {
+      "name": "DimensionalSelectorCarpetControl",
+      "type": "block",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensional_selector_carpet_control",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/block/dimensional_selector_carpet_control.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/dimensional_selector_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/blockstates/dimensional_selector_carpet_control.json",
+          "src/main/java/net/maketendo/tardifmod/block/DimensionalSelectorCarpetControlBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/dimensional_selector_carpet_control.json"
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
+    },
+    {
+      "name": "CoordinateTravelCarpetControl",
+      "type": "block",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coordinate_travel_carpet_control",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/blockstates/coordinate_travel_carpet_control.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/coordinate_travel_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/models/block/coordinate_travel_carpet_control.json",
+          "src/main/java/net/maketendo/tardifmod/block/CoordinateTravelCarpetControlBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/coordinate_travel_carpet_control.json"
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
+    },
+    {
+      "name": "TelapathicCarpetControl",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telapathic_carpet_control",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/item/telapathic_carpet_control.json",
+          "src/main/java/net/maketendo/tardifmod/block/TelapathicCarpetControlBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/telapathic_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/blockstates/telapathic_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/models/block/telapathic_carpet_control.json"
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/Console/Telepathic Carpet Control"
     }
   ],
   "variable_elements": [
@@ -5468,6 +5521,7 @@
       "gui.tardif_mod.monitor_gui.label_tardis_data": "TARDIS Data",
       "item.tardif_mod.time_extender_upgrade_template": "Time Extender Upgrade Template",
       "block.tardif_mod.classic_stone": "Classic Stone",
+      "block.tardif_mod.dimensional_selector_carpet_control": "Dimensional Travel Control",
       "block.tardif_mod.plastic_ore": "Plastic Ore",
       "item.tardif_mod.laser_item": "Compressed Laser Charge",
       "item.tardif_mod.message_orb": "Message Orb",
@@ -5555,12 +5609,14 @@
       "subtitles.tardis_landing_beep": "TARDIS Detected",
       "gui.tardif_mod.monitor_gui.label_dimension": "Dimension:",
       "gui.tardif_mod.monitor_gui.label_interior": "Interior:",
+      "block.tardif_mod.coordinate_travel_carpet_control": "Coordinational Pin-Pointer Control",
       "gui.tardif_mod.monitor_gui.label_exterior_input": "exterior_input",
       "item.tardif_mod.communication_upgrade_template": "Communication Unit Upgrade Template",
       "advancements.advanced.title": "Advanced redstone!",
       "block.tardif_mod.skaro_dirt": "Skaro Dirt",
       "block.tardif_mod.tall_mint_roundel_door": "Mint Roundel Door",
       "item.tardif_mod.tenth_cyberman_spawn_egg": "Mondasians Cyberman Spawn Egg",
+      "block.tardif_mod.telapathic_carpet_control": "Coordinational Pin-Pointer Control",
       "gui.tardif_mod.coordinate_select_gui.Calculate_Y": "Calculate Y?",
       "block.tardif_mod.wallpaper_roundel": "Wallpaper Roundel",
       "gui.tardif_mod.monitor_gui.label_x": "X:",
@@ -5728,6 +5784,18 @@
                   },
                   {
                     "name": "Time Movement Carpet Control",
+                    "children": []
+                  },
+                  {
+                    "name": "Dimensional Selector Carpet Control",
+                    "children": []
+                  },
+                  {
+                    "name": "Coordinate Control Carpet Control",
+                    "children": []
+                  },
+                  {
+                    "name": "Telepathic Carpet Control",
                     "children": []
                   }
                 ]
