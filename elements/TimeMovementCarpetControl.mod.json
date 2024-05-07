@@ -2,25 +2,25 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "time_pannel",
+    "texture": "time_selector_control",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "time_pannel:default",
+    "customModelName": "carpet_control_time_model:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "time_selector_control",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -28,15 +28,20 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 3.0,
+        "My": 1.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Time Movement Panel",
+    "name": "Time Manipulation Control",
     "specialInformation": {
       "fixedValue": [
-        "Level: 1"
+        "§8Themes:",
+        "§a> Mixed",
+        "§8 Classic ",
+        "§8 Kitchen",
+        "§8 Rusty",
+        "§8 Orb"
       ]
     },
     "hardness": 1.0,

@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tardif_mod:item/demat_lever_classic_off_texture"
+    "layer0": "tardif_mod:item/time_selector_control"
   },
   "render_type": "translucent"
 }

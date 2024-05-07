@@ -81,7 +81,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> DRAINED_ZYTON_7 = REGISTRY.register("drained_zyton_7", () -> new DrainedZyton7Item());
 	public static final RegistryObject<Item> ZYTON_7_BLOCK = block(TardifModModBlocks.ZYTON_7_BLOCK);
 	public static final RegistryObject<Item> DRAINED_ZYTON_7_BLOCK = block(TardifModModBlocks.DRAINED_ZYTON_7_BLOCK);
-	public static final RegistryObject<Item> TIMEPANNEL = block(TardifModModBlocks.TIMEPANNEL);
 	public static final RegistryObject<Item> ZYTON_ORE = block(TardifModModBlocks.ZYTON_ORE);
 	public static final RegistryObject<Item> JELLYBABIES = REGISTRY.register("jellybabies", () -> new JellybabiesItem());
 	public static final RegistryObject<Item> EMPTY_BAG = REGISTRY.register("empty_bag", () -> new EmptyBagItem());
@@ -174,6 +173,7 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> TARDIS_INTERIOR_DOOR = block(TardifModModBlocks.TARDIS_INTERIOR_DOOR);
 	public static final RegistryObject<Item> DEMATERIALISATION_CARPET_CONTROL = block(TardifModModBlocks.DEMATERIALISATION_CARPET_CONTROL);
 	public static final RegistryObject<Item> SGRASS = block(TardifModModBlocks.SGRASS);
+	public static final RegistryObject<Item> TIME_MOVEMENT_CARPET_CONTROL = block(TardifModModBlocks.TIME_MOVEMENT_CARPET_CONTROL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

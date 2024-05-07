@@ -30,10 +30,10 @@ import net.maketendo.tardifmod.procedures.TimepannelOnBlockRightClickedProcedure
 
 import java.util.List;
 
-public class TimepannelBlock extends Block {
+public class TimeMovementCarpetControlBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public TimepannelBlock() {
+	public TimeMovementCarpetControlBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -41,7 +41,12 @@ public class TimepannelBlock extends Block {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("Level: 1"));
+		list.add(Component.literal("\u00A78Themes:"));
+		list.add(Component.literal("\u00A7a> Mixed"));
+		list.add(Component.literal("\u00A78 Classic "));
+		list.add(Component.literal("\u00A78 Kitchen"));
+		list.add(Component.literal("\u00A78 Rusty"));
+		list.add(Component.literal("\u00A78 Orb"));
 	}
 
 	@Override
@@ -62,10 +67,10 @@ public class TimepannelBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 3, 16);
-			case NORTH -> box(0, 0, 0, 16, 3, 16);
-			case EAST -> box(0, 0, 0, 16, 3, 16);
-			case WEST -> box(0, 0, 0, 16, 3, 16);
+			default -> box(0, 0, 0, 16, 1, 16);
+			case NORTH -> box(0, 0, 0, 16, 1, 16);
+			case EAST -> box(0, 0, 0, 16, 1, 16);
+			case WEST -> box(0, 0, 0, 16, 1, 16);
 		};
 	}
 

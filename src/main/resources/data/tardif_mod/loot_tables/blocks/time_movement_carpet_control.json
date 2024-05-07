@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "tardif_mod:blocks/timepannel",
+  "random_sequence": "tardif_mod:blocks/time_movement_carpet_control",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tardif_mod:timepannel"
+          "name": "tardif_mod:time_movement_carpet_control"
         }
       ]
     }

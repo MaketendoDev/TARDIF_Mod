@@ -17,7 +17,7 @@ import net.maketendo.tardifmod.block.WhiteWallpaperSlabBlock;
 import net.maketendo.tardifmod.block.WhiteWallpaperBlock;
 import net.maketendo.tardifmod.block.WallpaperRoundelDoorBlock;
 import net.maketendo.tardifmod.block.WallpaperRoundelBlock;
-import net.maketendo.tardifmod.block.TimepannelBlock;
+import net.maketendo.tardifmod.block.TimeMovementCarpetControlBlock;
 import net.maketendo.tardifmod.block.TheMomentBlock;
 import net.maketendo.tardifmod.block.TallWallpaperRoundelDoorBlock;
 import net.maketendo.tardifmod.block.TallRoundelDoorBlock;
@@ -112,7 +112,6 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> SOLDER_ORE = REGISTRY.register("solder_ore", () -> new SolderOreBlock());
 	public static final RegistryObject<Block> ZYTON_7_BLOCK = REGISTRY.register("zyton_7_block", () -> new Zyton7BlockBlock());
 	public static final RegistryObject<Block> DRAINED_ZYTON_7_BLOCK = REGISTRY.register("drained_zyton_7_block", () -> new DrainedZyton7BlockBlock());
-	public static final RegistryObject<Block> TIMEPANNEL = REGISTRY.register("timepannel", () -> new TimepannelBlock());
 	public static final RegistryObject<Block> ZYTON_ORE = REGISTRY.register("zyton_ore", () -> new ZytonOreBlock());
 	public static final RegistryObject<Block> CLASSIC_WHITE_WOOL = REGISTRY.register("classic_white_wool", () -> new ClassicWhiteWoolBlock());
 	public static final RegistryObject<Block> CLASSIC_LIGHT_GRAY_WOOL = REGISTRY.register("classic_light_gray_wool", () -> new ClassicLightGrayWoolBlock());
@@ -172,6 +171,7 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> TARDIS_INTERIOR_DOOR = REGISTRY.register("tardis_interior_door", () -> new TARDISInteriorDoorBlock());
 	public static final RegistryObject<Block> DEMATERIALISATION_CARPET_CONTROL = REGISTRY.register("dematerialisation_carpet_control", () -> new DematerialisationCarpetControlBlock());
 	public static final RegistryObject<Block> SGRASS = REGISTRY.register("sgrass", () -> new SgrassBlock());
+	public static final RegistryObject<Block> TIME_MOVEMENT_CARPET_CONTROL = REGISTRY.register("time_movement_carpet_control", () -> new TimeMovementCarpetControlBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
