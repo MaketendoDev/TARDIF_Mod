@@ -1,9 +1,9 @@
 {
-  "parent": "tardif_mod:custom/carpet_control_coordinate_model",
+  "parent": "tardif_mod:custom/carpet_control_telepathic_model",
   "textures": {
-    "all": "tardif_mod:block/coordinate_control",
-    "particle": "tardif_mod:block/coordinate_control",
-    "0": "tardif_mod:block/coordinate_control"
+    "all": "tardif_mod:block/telepathic_circuit_control",
+    "particle": "tardif_mod:block/telepathic_circuit_control",
+    "0": "tardif_mod:block/telepathic_circuit_control"
   },
   "render_type": "translucent"
 }

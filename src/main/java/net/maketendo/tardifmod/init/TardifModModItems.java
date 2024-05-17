@@ -71,8 +71,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> MONITOR = block(TardifModModBlocks.MONITOR);
 	public static final RegistryObject<Item> MINT_ROUNDEL = block(TardifModModBlocks.MINT_ROUNDEL);
 	public static final RegistryObject<Item> MINT_ROUNDEL_DOOR = doubleBlock(TardifModModBlocks.MINT_ROUNDEL_DOOR);
-	public static final RegistryObject<Item> COORDINATE_PANNEL = block(TardifModModBlocks.COORDINATE_PANNEL);
-	public static final RegistryObject<Item> DIMENSIONAL_PANNEL = block(TardifModModBlocks.DIMENSIONAL_PANNEL);
 	public static final RegistryObject<Item> ROTOR = block(TardifModModBlocks.ROTOR);
 	public static final RegistryObject<Item> CIRCUIT_BOARD = REGISTRY.register("circuit_board", () -> new CircuitBoardItem());
 	public static final RegistryObject<Item> SOLDER = REGISTRY.register("solder", () -> new SolderItem());
@@ -150,7 +148,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> DALEKIUM_BLOCK = block(TardifModModBlocks.DALEKIUM_BLOCK);
 	public static final RegistryObject<Item> SKAROWOOD_2 = block(TardifModModBlocks.SKAROWOOD_2);
 	public static final RegistryObject<Item> ARCHITECT_PANEL = block(TardifModModBlocks.ARCHITECT_PANEL);
-	public static final RegistryObject<Item> ROTATION_PANEL = block(TardifModModBlocks.ROTATION_PANEL);
 	public static final RegistryObject<Item> MESSAGE_ORB = REGISTRY.register("message_orb", () -> new MessageOrbItem());
 	public static final RegistryObject<Item> MESSAGE_ORB_TELEPORTER = REGISTRY.register("message_orb_teleporter", () -> new MessageOrbTeleporterItem());
 	public static final RegistryObject<Item> WALLPAPER_ROUNDEL = block(TardifModModBlocks.WALLPAPER_ROUNDEL);

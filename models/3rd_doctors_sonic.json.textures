@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "3rd_doctors_sonic"
+      },
+      "name": "default"
+    }
+  }
+}

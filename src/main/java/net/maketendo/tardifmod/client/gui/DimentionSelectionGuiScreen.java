@@ -57,6 +57,8 @@ public class DimentionSelectionGuiScreen extends AbstractContainerScreen<Dimenti
 
 		guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/space.png"), this.leftPos + 4, this.topPos + 4, 0, 0, 376, 206, 376, 206);
 
+		guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/sun.png"), this.leftPos + 154, this.topPos + 71, 0, 0, 80, 80, 80, 80);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -80,9 +82,14 @@ public class DimentionSelectionGuiScreen extends AbstractContainerScreen<Dimenti
 	}
 
 	@Override
+	public void onClose() {
+		super.onClose();
+	}
+
+	@Override
 	public void init() {
 		super.init();
-		imagebutton_moon = new ImageButton(this.leftPos + 215, this.topPos + 43, 26, 26, 0, 0, 26, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_moon.png"), 26, 52, e -> {
+		imagebutton_moon = new ImageButton(this.leftPos + 223, this.topPos + 37, 26, 26, 0, 0, 26, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_moon.png"), 26, 52, e -> {
 		});
 		guistate.put("button:imagebutton_moon", imagebutton_moon);
 		this.addRenderableWidget(imagebutton_moon);

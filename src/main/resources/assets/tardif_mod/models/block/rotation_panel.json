@@ -1,9 +1,0 @@
-{
-  "parent": "tardif_mod:custom/rotation_panel",
-  "textures": {
-    "all": "tardif_mod:block/rotation_panel_textures",
-    "particle": "tardif_mod:block/rotation_panel_textures",
-    "0": "tardif_mod:block/rotation_panel_textures"
-  },
-  "render_type": "translucent"
-}

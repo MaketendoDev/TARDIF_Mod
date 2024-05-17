@@ -642,7 +642,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Dimentional Pannel/Dimentional Function"
+      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     },
     {
       "name": "Plastic_ChunkOre",
@@ -739,7 +739,7 @@
           "src/main/java/net/maketendo/tardifmod/network/DimentionSelectionGuiButtonMessage.java"
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Dimentional Pannel/Dimentional Function"
+      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     },
     {
       "name": "Overworldselected",
@@ -759,7 +759,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Dimentional Pannel/Dimentional Function"
+      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     },
     {
       "name": "ClassicNetherack",
@@ -881,7 +881,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Dimentional Pannel/Dimentional Function"
+      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     },
     {
       "name": "SetNether",
@@ -905,7 +905,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Dimentional Pannel/Dimentional Function"
+      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     },
     {
       "name": "SetEnd",
@@ -929,7 +929,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Dimentional Pannel/Dimentional Function"
+      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     },
     {
       "name": "SetClassicNether",
@@ -953,7 +953,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Dimentional Pannel/Dimentional Function"
+      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     },
     {
       "name": "MintRoundelDoor",
@@ -1190,24 +1190,6 @@
       "path": "~/TARDIS/Monitor/Status"
     },
     {
-      "name": "CoordinatePannel",
-      "type": "block",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coordinate_pannel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/block/CoordinatePannelBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/coordinate_pannel.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/coordinate_pannel.json",
-          "src/main/resources/assets/tardif_mod/models/item/coordinate_pannel.json",
-          "src/main/resources/assets/tardif_mod/blockstates/coordinate_pannel.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Coordinate Pannel"
-    },
-    {
       "name": "DimensionalPannelOnBlockRightClicked",
       "type": "procedure",
       "sortid": 155,
@@ -1241,25 +1223,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Dimentional Pannel"
-    },
-    {
-      "name": "DimensionalPannel",
-      "type": "block",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dimensional_pannel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tardif_mod/models/item/dimensional_pannel.json",
-          "src/main/resources/assets/tardif_mod/blockstates/dimensional_pannel.json",
-          "src/main/java/net/maketendo/tardifmod/block/DimensionalPannelBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/dimensional_pannel.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/dimensional_pannel.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Dimentional Pannel"
+      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     },
     {
       "name": "Rotor",
@@ -1515,34 +1479,6 @@
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Time Movement Carpet Control"
-    },
-    {
-      "name": "CoordinatePannelRecipie",
-      "type": "recipe",
-      "sortid": 165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coordinate_pannel_recipie",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/recipes/coordinate_pannel_recipie.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Coordinate Pannel"
-    },
-    {
-      "name": "DimentionalPannelRecipie",
-      "type": "recipe",
-      "sortid": 167,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dimentional_pannel_recipie",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/recipes/dimentional_pannel_recipie.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Dimentional Pannel"
     },
     {
       "name": "TARDISKeyRecipie",
@@ -3697,38 +3633,6 @@
       "path": "~/TARDIS/TARDIS Controls/Pannels/Reconfiguration Panel"
     },
     {
-      "name": "RotationPanel",
-      "type": "block",
-      "sortid": 251,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rotation_panel",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/rotation_panel.json",
-          "src/main/resources/assets/tardif_mod/models/block/rotation_panel.json",
-          "src/main/java/net/maketendo/tardifmod/block/RotationPanelBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/rotation_panel.json",
-          "src/main/resources/assets/tardif_mod/models/item/rotation_panel.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Rotation Panel"
-    },
-    {
-      "name": "RotationPannelRecipie",
-      "type": "recipe",
-      "sortid": 252,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rotation_pannel_recipie",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/recipes/rotation_pannel_recipie.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Rotation Panel"
-    },
-    {
       "name": "Refine",
       "type": "procedure",
       "sortid": 253,
@@ -4931,6 +4835,7 @@
     {
       "name": "TelapathicCarpetControl",
       "type": "block",
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "telapathic_carpet_control",
@@ -5317,13 +5222,13 @@
     }
   ],
   "tag_elements": {
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
     "ITEMS:minecraft:roundel_doors": [
       "CUSTOM:RoundelDoor",
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:ClassicLeaves"
@@ -5397,7 +5302,6 @@
       "~CUSTOM:RoundelDoor"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:RotationPanel",
       "~CUSTOM:ArchitectPanel",
       "~CUSTOM:DalekiumRefinery",
       "~CUSTOM:Nitro9",
@@ -5407,8 +5311,6 @@
       "~CUSTOM:DrainedZyton7Block",
       "~CUSTOM:Zyton7Block",
       "~CUSTOM:SolderOre",
-      "~CUSTOM:DimensionalPannel",
-      "~CUSTOM:CoordinatePannel",
       "~CUSTOM:ClassicNetherack",
       "~CUSTOM:Plastic_ChunkOre",
       "~CUSTOM:ClassicStone"
@@ -5467,7 +5369,6 @@
       "block.tardif_mod.nitro_9": "Nitro 9",
       "subtitles.tardis_copper_hum": "TARDIS Hum",
       "block.tardif_mod.the_moment": "The Moment",
-      "block.tardif_mod.dimensional_pannel": "Dimensional Panel",
       "gui.tardif_mod.monitor_gui.label_interior_input": "interior_input",
       "gui.tardif_mod.monitor_gui.label_stuff": "InFlight:",
       "block.tardif_mod.classic_sand": "Classic Sand",
@@ -5477,25 +5378,24 @@
       "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
       "gui.tardif_mod.coordinate_select_gui.X_Coord": "X",
       "subtitles.tardis_shutdown": "TARDIS Deactivating",
-      "death.attack.moment_damage_type.item": "%1$s was killed by the moment whilst also killed by %2$s using %3$s",
       "advancements.refine_it.descr": "Obtain Dalekium Refinery",
+      "death.attack.moment_damage_type.item": "%1$s was killed by the moment whilst also killed by %2$s using %3$s",
       "item.tardif_mod.melart_axe": "Melart Axe",
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "item.tardif_mod.dalekium_axe": "Dalekium Axe",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "advancements.obtain_dalekium.descr": "Obtain Dalekium",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
+      "item.tardif_mod.dalekium_axe": "Dalekium Axe",
       "item.tardif_mod.tardis_item": "TARDIS",
-      "block.tardif_mod.rotation_panel": "Rotation Panel",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
       "block.tardif_mod.monitor": "Monitor",
       "gui.tardif_mod.coordinate_select_gui.Y_Coord": "Y",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
-      "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
       "advancements.the_hell_planet.descr": "Travel To Skaro",
+      "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
       "advancements.obtain_tardis.title": "It\u0027s alive!",
       "item.tardif_mod.dalekium_armor_leggings": "Dalekium Leggings",
@@ -5639,7 +5539,6 @@
       "advancements.what_is_this_place.title": "IT\u0027S SMALLER ON THE OUTSIDE!",
       "item.tardif_mod.circuit_board": "Circuit Board",
       "item_group.tardif_mod.tardif_items": "TARDIF Items",
-      "block.tardif_mod.coordinate_pannel": "Coordinate Panel",
       "block.tardif_mod.skaro_stone": "Skaro Stone",
       "item.tardif_mod.melart_ingot": "Melart Ingot",
       "block.tardif_mod.dalekium_ore": "Dalekium Ore",
@@ -5736,10 +5635,6 @@
                 "name": "Pannels",
                 "children": [
                   {
-                    "name": "Rotation Panel",
-                    "children": []
-                  },
-                  {
                     "name": "Panel Functions",
                     "children": [
                       {
@@ -5748,19 +5643,6 @@
                       },
                       {
                         "name": "Coorinates selector",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Coordinate Pannel",
-                    "children": []
-                  },
-                  {
-                    "name": "Dimentional Pannel",
-                    "children": [
-                      {
-                        "name": "Dimentional Function",
                         "children": []
                       }
                     ]

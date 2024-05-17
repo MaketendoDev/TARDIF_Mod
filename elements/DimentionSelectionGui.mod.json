@@ -31,8 +31,8 @@
           "name": "imagebutton_moon",
           "image": "moon.png",
           "hoveredImage": "",
-          "x": 236,
-          "y": 56
+          "x": 244,
+          "y": 50
         }
       },
       {
@@ -94,6 +94,15 @@
           "use1Xscale": false,
           "x": 25,
           "y": 17
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sun.png",
+          "use1Xscale": false,
+          "x": 175,
+          "y": 84
         }
       }
     ],

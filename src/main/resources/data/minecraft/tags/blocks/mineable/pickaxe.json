@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tardif_mod:rotation_panel",
     "tardif_mod:architect_panel",
     "tardif_mod:dalekium_refinery",
     "tardif_mod:nitro_9",
@@ -11,8 +10,6 @@
     "tardif_mod:drained_zyton_7_block",
     "tardif_mod:zyton_7_block",
     "tardif_mod:solder_ore",
-    "tardif_mod:dimensional_pannel",
-    "tardif_mod:coordinate_pannel",
     "tardif_mod:classic_netherack",
     "tardif_mod:plastic_ore",
     "tardif_mod:classic_stone"
