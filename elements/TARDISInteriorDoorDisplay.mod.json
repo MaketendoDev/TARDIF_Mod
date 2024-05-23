@@ -139,6 +139,1123 @@
             "subtract": false
           }
         ]
+      },
+      {
+        "texture": "police_box_interior_door_texture",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "policebox_interior_door_closed:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -16.0,
+            "mz": 1.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 17.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 2.0,
+            "My": -6.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 2.0,
+            "mz": 0.0,
+            "Mx": 2.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": -6.0,
+            "mz": 0.0,
+            "Mx": 2.0,
+            "My": 2.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 10.0,
+            "mz": 0.0,
+            "Mx": 2.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 8.0,
+            "My": -6.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": -6.0,
+            "mz": 0.0,
+            "Mx": 8.0,
+            "My": 2.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 2.0,
+            "mz": 0.0,
+            "Mx": 8.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 10.0,
+            "mz": 0.0,
+            "Mx": 8.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 7.0,
+            "My": -14.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": -8.0,
+            "mz": 0.0,
+            "Mx": 7.0,
+            "My": -6.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 7.0,
+            "My": 2.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 8.0,
+            "mz": 0.0,
+            "Mx": 7.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": -15.0,
+            "mz": 1.0,
+            "Mx": 8.0,
+            "My": 17.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 16.0,
+            "mz": 0.0,
+            "Mx": 7.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 4.0,
+            "mz": -1.0,
+            "Mx": 8.0,
+            "My": 7.0,
+            "Mz": 0.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 9.0,
+            "My": -6.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": -6.0,
+            "mz": 0.0,
+            "Mx": 9.0,
+            "My": 2.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": 2.0,
+            "mz": 0.0,
+            "Mx": 9.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": 10.0,
+            "mz": 0.0,
+            "Mx": 9.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 15.0,
+            "My": -6.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": -6.0,
+            "mz": 0.0,
+            "Mx": 15.0,
+            "My": 2.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 2.0,
+            "mz": 0.0,
+            "Mx": 15.0,
+            "My": 10.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 10.0,
+            "mz": 0.0,
+            "Mx": 15.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": -14.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": -8.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": -6.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 2.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 8.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 2.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 5.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 8.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": -15.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 17.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 16.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 17.0,
+            "mz": 2.0,
+            "Mx": 15.0,
+            "My": 19.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 4.0,
+            "mz": 0.0,
+            "Mx": 10.0,
+            "My": 6.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": -15.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": -6.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": -6.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 2.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 2.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 2.0,
+            "mz": 7.0,
+            "Mx": 16.0,
+            "My": 10.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 10.0,
+            "mz": 7.0,
+            "Mx": 16.0,
+            "My": 17.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 16.0,
+            "My": 2.0,
+            "Mz": 7.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 2.0,
+            "mz": 8.0,
+            "Mx": 16.0,
+            "My": 10.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 2.0,
+            "mz": 14.0,
+            "Mx": 16.0,
+            "My": 10.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": 2.0,
+            "mz": 15.0,
+            "Mx": 9.0,
+            "My": 10.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 2.0,
+            "mz": 14.0,
+            "Mx": 8.0,
+            "My": 10.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 2.0,
+            "mz": 14.0,
+            "Mx": 2.0,
+            "My": 10.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 10.0,
+            "mz": 14.0,
+            "Mx": 1.0,
+            "My": 17.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": -15.0,
+            "mz": 9.0,
+            "Mx": 2.0,
+            "My": -14.0,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 10.0,
+            "mz": 1.0,
+            "Mx": 1.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": -15.0,
+            "mz": -1.0,
+            "Mx": 1.0,
+            "My": 17.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": -15.0,
+            "mz": -1.0,
+            "Mx": 17.0,
+            "My": 17.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": 17.0,
+            "mz": -1.0,
+            "Mx": 17.0,
+            "My": 20.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 20.0,
+            "mz": -1.0,
+            "Mx": 17.0,
+            "My": 22.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 20.0,
+            "mz": 15.0,
+            "Mx": 17.0,
+            "My": 22.0,
+            "Mz": 17.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": 20.0,
+            "mz": 15.0,
+            "Mx": 1.0,
+            "My": 22.0,
+            "Mz": 17.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": 20.0,
+            "mz": -1.0,
+            "Mx": 1.0,
+            "My": 22.0,
+            "Mz": 1.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "police_box_interior_door_texture",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "police_box_interior_door_open:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -16.0,
+            "mz": 1.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 17.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": -15.0,
+            "mz": 1.0,
+            "Mx": 0.0,
+            "My": -6.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": 2.0,
+            "mz": 1.0,
+            "Mx": 0.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": -6.0,
+            "mz": 1.0,
+            "Mx": 0.0,
+            "My": 2.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": 10.0,
+            "mz": 1.0,
+            "Mx": 0.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": -15.0,
+            "mz": 7.0,
+            "Mx": 0.0,
+            "My": -6.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": -6.0,
+            "mz": 7.0,
+            "Mx": 0.0,
+            "My": 2.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": 2.0,
+            "mz": 7.0,
+            "Mx": 0.0,
+            "My": 10.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": 10.0,
+            "mz": 7.0,
+            "Mx": 0.0,
+            "My": 17.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": -15.0,
+            "mz": 2.0,
+            "Mx": 0.0,
+            "My": -14.0,
+            "Mz": 7.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": -8.0,
+            "mz": 2.0,
+            "Mx": 0.0,
+            "My": -6.0,
+            "Mz": 7.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 0.0,
+            "My": 2.0,
+            "Mz": 7.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": 8.0,
+            "mz": 2.0,
+            "Mx": 0.0,
+            "My": 10.0,
+            "Mz": 7.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": -15.0,
+            "mz": 1.0,
+            "Mx": -1.0,
+            "My": 17.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": 16.0,
+            "mz": 2.0,
+            "Mx": 0.0,
+            "My": 17.0,
+            "Mz": 7.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 4.0,
+            "mz": 7.0,
+            "Mx": 1.0,
+            "My": 7.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 9.0,
+            "My": -6.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": -6.0,
+            "mz": 0.0,
+            "Mx": 9.0,
+            "My": 2.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": 2.0,
+            "mz": 0.0,
+            "Mx": 9.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": 10.0,
+            "mz": 0.0,
+            "Mx": 9.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 15.0,
+            "My": -6.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": -6.0,
+            "mz": 0.0,
+            "Mx": 15.0,
+            "My": 2.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 2.0,
+            "mz": 0.0,
+            "Mx": 15.0,
+            "My": 10.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 10.0,
+            "mz": 0.0,
+            "Mx": 15.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": -15.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": -14.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": -8.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": -6.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 2.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 8.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 2.0,
+            "mz": 2.0,
+            "Mx": 14.0,
+            "My": 8.0,
+            "Mz": 5.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 8.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": -15.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 17.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 16.0,
+            "mz": 0.0,
+            "Mx": 14.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 17.0,
+            "mz": 2.0,
+            "Mx": 15.0,
+            "My": 19.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 4.0,
+            "mz": 0.0,
+            "Mx": 10.0,
+            "My": 6.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": -15.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": -6.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": -6.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 2.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 2.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 10.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 2.0,
+            "mz": 7.0,
+            "Mx": 16.0,
+            "My": 10.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 10.0,
+            "mz": 7.0,
+            "Mx": 16.0,
+            "My": 17.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 0.0,
+            "mz": 2.0,
+            "Mx": 16.0,
+            "My": 2.0,
+            "Mz": 7.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 2.0,
+            "mz": 8.0,
+            "Mx": 16.0,
+            "My": 10.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 2.0,
+            "mz": 14.0,
+            "Mx": 16.0,
+            "My": 10.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.0,
+            "my": 2.0,
+            "mz": 15.0,
+            "Mx": 9.0,
+            "My": 10.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 2.0,
+            "mz": 14.0,
+            "Mx": 8.0,
+            "My": 10.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 2.0,
+            "mz": 14.0,
+            "Mx": 2.0,
+            "My": 10.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 10.0,
+            "mz": 14.0,
+            "Mx": 1.0,
+            "My": 17.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": -15.0,
+            "mz": 9.0,
+            "Mx": 2.0,
+            "My": -14.0,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 10.0,
+            "mz": 1.0,
+            "Mx": 1.0,
+            "My": 17.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": -15.0,
+            "mz": -1.0,
+            "Mx": 1.0,
+            "My": 17.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": -15.0,
+            "mz": -1.0,
+            "Mx": 17.0,
+            "My": 17.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": 17.0,
+            "mz": -1.0,
+            "Mx": 17.0,
+            "My": 20.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 20.0,
+            "mz": -1.0,
+            "Mx": 17.0,
+            "My": 22.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 20.0,
+            "mz": 15.0,
+            "Mx": 17.0,
+            "My": 22.0,
+            "Mz": 17.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": 20.0,
+            "mz": 15.0,
+            "Mx": 1.0,
+            "My": 22.0,
+            "Mz": 17.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": 20.0,
+            "mz": -1.0,
+            "Mx": 1.0,
+            "My": 22.0,
+            "Mz": 1.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "bin_interior_texture",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "bin_interior_door_closed:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.0,
+            "my": -16.0,
+            "mz": 1.0,
+            "Mx": 14.0,
+            "My": 1.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": -16.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 1.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 1.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 8.0,
+            "Mz": 1.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "bin_interior_texture",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "bin_interior_door_open:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -16.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 1.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 1.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 8.0,
+            "Mz": 1.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "roundel",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "roundel_half",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
       }
     ]
   }

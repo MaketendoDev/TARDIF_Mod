@@ -1,0 +1,9 @@
+{
+  "parent": "tardif_mod:custom/bin_interior_door_open",
+  "textures": {
+    "all": "tardif_mod:block/bin_interior_texture",
+    "particle": "tardif_mod:block/transparrent",
+    "1": "tardif_mod:block/bin_interior_texture"
+  },
+  "render_type": "cutout"
+}

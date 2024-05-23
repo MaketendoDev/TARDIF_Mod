@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "CUTOUT",
     "disableOffset": false,
@@ -128,6 +128,9 @@
     },
     "onBlockAdded": {
       "name": "TARDISInteriorDoorBlockAdded"
+    },
+    "onTickUpdate": {
+      "name": "TARDISInteriorDoorOnTickUpdate"
     },
     "onEntityCollides": {
       "name": "TARDISInteriorDoorUpdateTick"

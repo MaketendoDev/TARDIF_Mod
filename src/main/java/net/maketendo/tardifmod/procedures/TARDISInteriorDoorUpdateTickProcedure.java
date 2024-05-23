@@ -25,6 +25,7 @@ public class TARDISInteriorDoorUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		DoorDisplayUpdateProcedure.execute(world, x, y, z);
 		if (TardifModModVariables.MapVariables.get(world).DoorOpen == true) {
 			if ((TardifModModVariables.MapVariables.get(world).TargetDimension).equals("Overworld")) {
 				{

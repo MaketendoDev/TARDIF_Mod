@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "tardif_mod:circuit_board"
+    },
+    "c": {
+      "item": "minecraft:stone_button"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:crumpled_teleportation_device",
+    "count": 1
+  }
+}
