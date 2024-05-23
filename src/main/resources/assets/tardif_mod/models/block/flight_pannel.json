@@ -1,9 +1,0 @@
-{
-  "parent": "tardif_mod:custom/flight_pannel",
-  "textures": {
-    "all": "tardif_mod:block/flight_panel",
-    "particle": "tardif_mod:block/flight_panel",
-    "0": "tardif_mod:block/flight_panel"
-  },
-  "render_type": "translucent"
-}

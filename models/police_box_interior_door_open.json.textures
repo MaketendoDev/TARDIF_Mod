@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "police_box_interior_door_texture",
+        "missing": "police_box_interior_door_texture"
+      },
+      "name": "default"
+    }
+  }
+}

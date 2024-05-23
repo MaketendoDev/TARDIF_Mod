@@ -57,7 +57,6 @@ import net.maketendo.tardifmod.block.HexagonalFrameOffsetBlock;
 import net.maketendo.tardifmod.block.HexagonalFrameCenteredBlock;
 import net.maketendo.tardifmod.block.HexagonRoundelBlock;
 import net.maketendo.tardifmod.block.FoodCubeMachineBlock;
-import net.maketendo.tardifmod.block.FlightPannelBlock;
 import net.maketendo.tardifmod.block.DrainedZyton7BlockBlock;
 import net.maketendo.tardifmod.block.DimensionalSelectorCarpetControlBlock;
 import net.maketendo.tardifmod.block.DematerialisationCarpetControlBlock;
@@ -88,7 +87,6 @@ import net.maketendo.tardifmod.block.ClassicDirtBlock;
 import net.maketendo.tardifmod.block.ClassicCyanWoolBlock;
 import net.maketendo.tardifmod.block.ClassicBlueWoolBlock;
 import net.maketendo.tardifmod.block.ClassicAquaWoolBlock;
-import net.maketendo.tardifmod.block.ArchitectPanelBlock;
 import net.maketendo.tardifmod.TardifModMod;
 
 public class TardifModModBlocks {
@@ -129,7 +127,6 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> CLASSIC_ORANGE_WOOL = REGISTRY.register("classic_orange_wool", () -> new ClassicOrangeWoolBlock());
 	public static final RegistryObject<Block> TARDIS_EXTERIOR = REGISTRY.register("tardis_exterior", () -> new TARDISExteriorBlock());
 	public static final RegistryObject<Block> THE_MOMENT = REGISTRY.register("the_moment", () -> new TheMomentBlock());
-	public static final RegistryObject<Block> FLIGHT_PANNEL = REGISTRY.register("flight_pannel", () -> new FlightPannelBlock());
 	public static final RegistryObject<Block> TARDIS_MAINTENANCE_ENGINE = REGISTRY.register("tardis_maintenance_engine", () -> new TARDISMaintenanceEngineBlock());
 	public static final RegistryObject<Block> COPPER_MONITOR = REGISTRY.register("copper_monitor", () -> new CopperMonitorBlock());
 	public static final RegistryObject<Block> PHONEBOX_DECORATION = REGISTRY.register("phonebox_decoration", () -> new PhoneboxDecorationBlock());
@@ -147,7 +144,6 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> DALEKIUM_REFINERY = REGISTRY.register("dalekium_refinery", () -> new DalekiumRefineryBlock());
 	public static final RegistryObject<Block> DALEKIUM_BLOCK = REGISTRY.register("dalekium_block", () -> new DalekiumBlockBlock());
 	public static final RegistryObject<Block> SKAROWOOD_2 = REGISTRY.register("skarowood_2", () -> new Skarowood2Block());
-	public static final RegistryObject<Block> ARCHITECT_PANEL = REGISTRY.register("architect_panel", () -> new ArchitectPanelBlock());
 	public static final RegistryObject<Block> WALLPAPER_ROUNDEL = REGISTRY.register("wallpaper_roundel", () -> new WallpaperRoundelBlock());
 	public static final RegistryObject<Block> WALLPAPER_ROUNDEL_DOOR = REGISTRY.register("wallpaper_roundel_door", () -> new WallpaperRoundelDoorBlock());
 	public static final RegistryObject<Block> PLAIN_WALLPAPER = REGISTRY.register("plain_wallpaper", () -> new PlainWallpaperBlock());

@@ -26,7 +26,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.maketendo.tardifmod.procedures.TimepannelOnBlockRightClickedProcedure;
+import net.maketendo.tardifmod.procedures.CoordinatesOnBlockRightClickedProcedure;
 
 import java.util.List;
 
@@ -102,7 +102,7 @@ public class CoordinateTravelCarpetControlBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		TimepannelOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
+		CoordinatesOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 }

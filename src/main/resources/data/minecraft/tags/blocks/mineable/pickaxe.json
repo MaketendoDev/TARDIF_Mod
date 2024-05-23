@@ -1,10 +1,8 @@
 {
   "replace": false,
   "values": [
-    "tardif_mod:architect_panel",
     "tardif_mod:dalekium_refinery",
     "tardif_mod:nitro_9",
-    "tardif_mod:flight_pannel",
     "tardif_mod:food_cube_machine",
     "tardif_mod:zyton_ore",
     "tardif_mod:drained_zyton_7_block",

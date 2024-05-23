@@ -124,6 +124,7 @@ public class TardifModModVariables {
 		public double TardisPower = 0;
 		public double TardisHealth = 0;
 		public double TardisMood = 0;
+		public boolean LoadedGarage = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -169,6 +170,7 @@ public class TardifModModVariables {
 			TardisPower = nbt.getDouble("TardisPower");
 			TardisHealth = nbt.getDouble("TardisHealth");
 			TardisMood = nbt.getDouble("TardisMood");
+			LoadedGarage = nbt.getBoolean("LoadedGarage");
 		}
 
 		@Override
@@ -210,6 +212,7 @@ public class TardifModModVariables {
 			nbt.putDouble("TardisPower", TardisPower);
 			nbt.putDouble("TardisHealth", TardisHealth);
 			nbt.putDouble("TardisMood", TardisMood);
+			nbt.putBoolean("LoadedGarage", LoadedGarage);
 			return nbt;
 		}
 

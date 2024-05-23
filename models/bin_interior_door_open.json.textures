@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bin_interior_texture"
+      },
+      "name": "default"
+    }
+  }
+}

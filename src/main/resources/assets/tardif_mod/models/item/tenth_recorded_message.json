@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tardif_mod:item/message_orb"
+    "layer0": "tardif_mod:item/blink_music_disk"
   }
 }

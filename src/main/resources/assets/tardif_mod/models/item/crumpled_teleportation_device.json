@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tardif_mod:item/teleportational_device"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damaged": 1
+      },
+      "model": "tardif_mod:item/crumpled_teleportation_device_0"
+    }
+  ]
+}

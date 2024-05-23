@@ -93,13 +93,18 @@ public class CoordinateSelectGUIScreen extends AbstractContainerScreen<Coordinat
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.coordinate_select_gui.label_coordinate_selector"), 9, 7, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.coordinate_select_gui.label_coordinate_selector"), 6, 6, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.coordinate_select_gui.label_x"), 5, 29, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.coordinate_select_gui.label_y"), 5, 48, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.coordinate_select_gui.label_z"), 5, 67, -12829636, false);
 		guiGraphics.drawString(this.font,
 
 				RotateDisplayProcedure.execute(world), 66, 114, -12829636, false);
+	}
+
+	@Override
+	public void onClose() {
+		super.onClose();
 	}
 
 	@Override

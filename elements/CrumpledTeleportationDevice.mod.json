@@ -3,14 +3,29 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "message_orb",
+    "texture": "teleportational_device",
     "customModelName": "Normal",
     "customProperties": {},
-    "states": [],
-    "name": "Message Orb",
-    "rarity": "RARE",
+    "states": [
+      {
+        "renderType": 0,
+        "texture": "teleportational_device_broken",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "name": "damaged",
+              "type": "logic"
+            },
+            "value": true
+          }
+        ]
+      }
+    ],
+    "name": "Crumpled Teleportation Device",
+    "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TARDIFItems"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -21,14 +36,14 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "\"Look's like it has coordinates in it...\""
+        "§8 Lets just hope that it can hold together but where will it take me..."
       ]
     },
     "glowCondition": {
@@ -37,6 +52,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "CrumpledTeleportationDeviceRightclicked"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {

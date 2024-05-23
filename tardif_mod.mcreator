@@ -306,7 +306,7 @@
           "src/main/java/net/maketendo/tardifmod/client/gui/CoordinateSelectGUIScreen.java"
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Panel Functions/Coorinates selector"
+      "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
     },
     {
       "name": "CoordinatesOnBlockRightClicked",
@@ -338,7 +338,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Panel Functions/Coorinates selector"
+      "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
     },
     {
       "name": "SaveCoords",
@@ -378,7 +378,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Panel Functions/Coorinates selector"
+      "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
     },
     {
       "name": "CalculateY",
@@ -398,7 +398,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Panel Functions/Coorinates selector"
+      "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
     },
     {
       "name": "Randomiser",
@@ -418,7 +418,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Panel Functions/Coorinates selector"
+      "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
     },
     {
       "name": "TimeBlocks",
@@ -2253,38 +2253,6 @@
       "path": "~/Advancements"
     },
     {
-      "name": "FlightPannel",
-      "type": "block",
-      "sortid": 192,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flight_pannel",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/flight_pannel.json",
-          "src/main/java/net/maketendo/tardifmod/block/FlightPannelBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/flight_pannel.json",
-          "src/main/resources/assets/tardif_mod/models/block/flight_pannel.json",
-          "src/main/resources/assets/tardif_mod/blockstates/flight_pannel.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Flight Pannel"
-    },
-    {
-      "name": "FlightPanelRecipe",
-      "type": "recipe",
-      "sortid": 193,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flight_panel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/recipes/flight_panel_recipe.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Flight Pannel"
-    },
-    {
       "name": "TARDISMaintenanceEngine",
       "type": "block",
       "sortid": 24,
@@ -3006,7 +2974,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Panel Functions/Coorinates selector"
+      "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
     },
     {
       "name": "RotateButton",
@@ -3026,7 +2994,7 @@
           }
         ]
       },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Panel Functions/Coorinates selector"
+      "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
     },
     {
       "name": "Abandonedship",
@@ -3601,38 +3569,6 @@
       "path": "~/Dimensions/Skaro"
     },
     {
-      "name": "ArchitectPanel",
-      "type": "block",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "architect_panel",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/architect_panel.json",
-          "src/main/resources/assets/tardif_mod/blockstates/architect_panel.json",
-          "src/main/java/net/maketendo/tardifmod/block/ArchitectPanelBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/architect_panel.json",
-          "src/main/resources/assets/tardif_mod/models/item/architect_panel.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Reconfiguration Panel"
-    },
-    {
-      "name": "ArchitectPanelRecipe",
-      "type": "recipe",
-      "sortid": 250,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "architect_panel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/recipes/architect_panel_recipe.json"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Reconfiguration Panel"
-    },
-    {
       "name": "Refine",
       "type": "procedure",
       "sortid": 253,
@@ -3651,50 +3587,6 @@
         ]
       },
       "path": "~/Dimensions/Skaro"
-    },
-    {
-      "name": "MessageOrb",
-      "type": "item",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "message_orb",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/item/MessageOrbItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/message_orb.json"
-        ]
-      },
-      "path": "~/Gameplay/Message Orb"
-    },
-    {
-      "name": "MessageOrbTeleporter",
-      "type": "item",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "message_orb_teleporter",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/item/MessageOrbTeleporterItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/message_orb_teleporter.json"
-        ]
-      },
-      "path": "~/Gameplay/Message Orb"
-    },
-    {
-      "name": "MessageOrbTeleporterRecipe",
-      "type": "recipe",
-      "sortid": 254,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "message_orb_teleporter_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/recipes/message_orb_teleporter_recipe.json"
-        ]
-      },
-      "path": "~/Gameplay/Message Orb"
     },
     {
       "name": "WallpaperRoundel",
@@ -4849,6 +4741,93 @@
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Telepathic Carpet Control"
+    },
+    {
+      "name": "CrumpledTeleportationDeviceRightclicked",
+      "type": "procedure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crumpled_teleportation_device_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/CrumpledTeleportationDeviceRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TARDIS/Items/Teleportation Device"
+    },
+    {
+      "name": "CrumpledTeleportationDevice",
+      "type": "item",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crumpled_teleportation_device",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/item/CrumpledTeleportationDeviceItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/crumpled_teleportation_device.json",
+          "src/main/resources/assets/tardif_mod/models/item/crumpled_teleportation_device_0.json"
+        ]
+      },
+      "path": "~/TARDIS/Items/Teleportation Device"
+    },
+    {
+      "name": "SpacePlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/SpacePlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Space"
+    },
+    {
+      "name": "TenthRecordedMessage",
+      "type": "musicdisc",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenth_recorded_message",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/item/TenthRecordedMessageItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/tenth_recorded_message.json"
+        ]
+      },
+      "path": "~/Music Disk"
     }
   ],
   "variable_elements": [
@@ -5073,6 +5052,12 @@
       "type": "number",
       "scope": "map",
       "value": "0"
+    },
+    {
+      "name": "LoadedGarage",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -5249,6 +5234,9 @@
       "~CUSTOM:ClassicDirt",
       "~Blocks.AIR"
     ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:TenthRecordedMessage"
+    ],
     "BLOCKS:minecraft:logs": [
       "CUSTOM:SkaroLogs",
       "CUSTOM:ClassicLog"
@@ -5302,10 +5290,8 @@
       "~CUSTOM:RoundelDoor"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:ArchitectPanel",
       "~CUSTOM:DalekiumRefinery",
       "~CUSTOM:Nitro9",
-      "~CUSTOM:FlightPannel",
       "~CUSTOM:FoodCubeMachine",
       "~CUSTOM:ZytonOre",
       "~CUSTOM:DrainedZyton7Block",
@@ -5350,7 +5336,6 @@
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
       "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
-      "block.tardif_mod.flight_pannel": "Flight Panel",
       "block.tardif_mod.skaro_sand": "Skaro Sand",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
@@ -5394,6 +5379,7 @@
       "block.tardif_mod.monitor": "Monitor",
       "gui.tardif_mod.coordinate_select_gui.Y_Coord": "Y",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
+      "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
       "advancements.the_hell_planet.descr": "Travel To Skaro",
       "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
@@ -5409,6 +5395,7 @@
       "gui.tardif_mod.exterior_monitor_gui.label_stuff": "InFlight:",
       "block.tardif_mod.mint_roundel": "Mint Roundel",
       "block.tardif_mod.zyton_ore": "Zyton Ore",
+      "item.tardif_mod.tenth_recorded_message": "Music Disc",
       "item.tardif_mod.upgraded_melart_sword": "Upgraded Melart Sword",
       "gui.tardif_mod.monitor_gui.label_x_input": "x_input",
       "gui.tardif_mod.exteriorselectgui.label_dimension": "Dimension:",
@@ -5424,7 +5411,6 @@
       "block.tardif_mod.dimensional_selector_carpet_control": "Dimensional Travel Control",
       "block.tardif_mod.plastic_ore": "Plastic Ore",
       "item.tardif_mod.laser_item": "Compressed Laser Charge",
-      "item.tardif_mod.message_orb": "Message Orb",
       "item.tardif_mod.dalekium_armor_chestplate": "Dalekium Chestplate",
       "advancements.obtain_melart.descr": "Obtain Melart",
       "block.tardif_mod.skarowood_2": "Skaro Wood",
@@ -5493,10 +5479,8 @@
       "block.tardif_mod.skaro_logs": "Skaro Logs",
       "block.tardif_mod.hexagonal_frame_offset": "Hexagonal Frame",
       "block.tardif_mod.classic_dirt": "Classic Dirt",
-      "block.tardif_mod.architect_panel": "Architect Panel",
       "gui.tardif_mod.coordinate_select_gui.button_rotate": "Rotate",
       "advancements.obtain_tardis.descr": "Obtain the TARDIS!",
-      "item.tardif_mod.message_orb_teleporter": "Message Orb Teleporter",
       "block.tardif_mod.white_wallpaper": "Plain Wallpaper",
       "item.tardif_mod.telepathic_upgrade_template": "Telepathic Upgrade Template",
       "block.tardif_mod.classic_netherack": "Classic Netherack",
@@ -5530,6 +5514,7 @@
       "gui.tardif_mod.coordinate_select_gui.label_z": "Z:",
       "item.tardif_mod.melart_sword": "Melart Sword",
       "block.tardif_mod.mint_wallpaper_slab": "Plain Wallpaper",
+      "item.tardif_mod.tenth_recorded_message.desc": "10th Doctor - Pre-Recorded Message",
       "item.tardif_mod.copper_screwdriver": "Copper Screwdriver",
       "subtitles.interior_creak": "TARDIS Creaking",
       "gui.tardif_mod.coordinate_select_gui.label_x": "X:",
@@ -5650,10 +5635,6 @@
                   {
                     "name": "Flight Pannel",
                     "children": []
-                  },
-                  {
-                    "name": "Reconfiguration Panel",
-                    "children": []
                   }
                 ]
               },
@@ -5693,6 +5674,10 @@
             "children": [
               {
                 "name": "TARDIS Key",
+                "children": []
+              },
+              {
+                "name": "Teleportation Device",
                 "children": []
               }
             ]
@@ -5862,10 +5847,6 @@
             "children": []
           },
           {
-            "name": "Message Orb",
-            "children": []
-          },
-          {
             "name": "Zyton - 7",
             "children": []
           },
@@ -5983,6 +5964,10 @@
       },
       {
         "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "Music Disk",
         "children": []
       }
     ]

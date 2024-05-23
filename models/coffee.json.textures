@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "coffee_texture",
+        "missing": "coffee_texture"
+      },
+      "name": "default"
+    }
+  }
+}

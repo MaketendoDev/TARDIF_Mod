@@ -25,6 +25,9 @@
     "sleepResult": "DENY",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "SpacePlayerEntersDimension"
+    },
     "portalFrame": {
       "value": ""
     },

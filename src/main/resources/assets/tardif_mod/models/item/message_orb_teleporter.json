@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tardif_mod:item/message_orb_teleporter"
-  }
-}

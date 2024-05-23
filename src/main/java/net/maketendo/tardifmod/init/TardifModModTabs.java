@@ -27,6 +27,8 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModItems.PSYCHIC_PAPER.get());
 				tabData.accept(TardifModModItems.LASER_ITEM.get());
 				tabData.accept(TardifModModBlocks.THE_MOMENT.get().asItem());
+				tabData.accept(TardifModModItems.CRUMPLED_TELEPORTATION_DEVICE.get());
+				tabData.accept(TardifModModItems.TENTH_RECORDED_MESSAGE.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> TARDIS_ITEMS = REGISTRY.register("tardis_items",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tardif_mod.tardis_items")).icon(() -> new ItemStack(TardifModModItems.TARDIS_ITEM.get())).displayItems((parameters, tabData) -> {
@@ -34,7 +36,6 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModItems.TARDIS_KEY.get());
 				tabData.accept(TardifModModBlocks.MONITOR.get().asItem());
 				tabData.accept(TardifModModBlocks.COPPER_MONITOR.get().asItem());
-				tabData.accept(TardifModModBlocks.ARCHITECT_PANEL.get().asItem());
 				tabData.accept(TardifModModBlocks.FOOD_CUBE_MACHINE.get().asItem());
 				tabData.accept(TardifModModBlocks.TARDIS_MAINTENANCE_ENGINE.get().asItem());
 				tabData.accept(TardifModModItems.TELEPATHIC_UPGRADE_TEMPLATE.get());
@@ -151,8 +152,6 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModItems.DALEKIUM_PICKAXE.get());
 			tabData.accept(TardifModModItems.DALEKIUM_AXE.get());
 			tabData.accept(TardifModModItems.DALEKIUM_HOE.get());
-			tabData.accept(TardifModModItems.MESSAGE_ORB.get());
-			tabData.accept(TardifModModItems.MESSAGE_ORB_TELEPORTER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(TardifModModItems.JELLYBABIES.get());
 			tabData.accept(TardifModModItems.FISH_FINGERAND_CUSTARD.get());

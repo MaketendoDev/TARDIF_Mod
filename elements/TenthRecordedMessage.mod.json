@@ -1,0 +1,24 @@
+{
+  "_fv": 60,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "rarity": "RARE",
+    "texture": "blink_music_disk",
+    "description": "10th Doctor - Pre-Recorded Message",
+    "creativeTab": {
+      "value": "CUSTOM:TARDIFItems"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:time_throttle"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 5
+  }
+}

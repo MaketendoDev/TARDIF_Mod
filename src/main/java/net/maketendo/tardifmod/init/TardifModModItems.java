@@ -17,6 +17,7 @@ import net.minecraft.world.item.BlockItem;
 import net.maketendo.tardifmod.item.Zyton7Item;
 import net.maketendo.tardifmod.item.UpgradedMelartSwordItem;
 import net.maketendo.tardifmod.item.TimeExtenderUpgradeTemplateItem;
+import net.maketendo.tardifmod.item.TenthRecordedMessageItem;
 import net.maketendo.tardifmod.item.TelepathicUpgradeTemplateItem;
 import net.maketendo.tardifmod.item.TARDISKeyItem;
 import net.maketendo.tardifmod.item.TARDISItemItem;
@@ -25,8 +26,6 @@ import net.maketendo.tardifmod.item.RawDalekiumItem;
 import net.maketendo.tardifmod.item.PsychicPaperItem;
 import net.maketendo.tardifmod.item.PlasticItem;
 import net.maketendo.tardifmod.item.PhoneboxItemItem;
-import net.maketendo.tardifmod.item.MessageOrbTeleporterItem;
-import net.maketendo.tardifmod.item.MessageOrbItem;
 import net.maketendo.tardifmod.item.MelartSwordItem;
 import net.maketendo.tardifmod.item.MelartShardItem;
 import net.maketendo.tardifmod.item.MelartPickaxeItem;
@@ -45,6 +44,7 @@ import net.maketendo.tardifmod.item.DalekiumIngotItem;
 import net.maketendo.tardifmod.item.DalekiumHoeItem;
 import net.maketendo.tardifmod.item.DalekiumAxeItem;
 import net.maketendo.tardifmod.item.DalekiumArmorItem;
+import net.maketendo.tardifmod.item.CrumpledTeleportationDeviceItem;
 import net.maketendo.tardifmod.item.CopperScrewdriverItem;
 import net.maketendo.tardifmod.item.CommunicationUpgradeTemplateItem;
 import net.maketendo.tardifmod.item.CircuitBoardItem;
@@ -104,7 +104,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> LASER_ITEM = REGISTRY.register("laser_item", () -> new LaserItemItem());
 	public static final RegistryObject<Item> TARDIS_EXTERIOR = block(TardifModModBlocks.TARDIS_EXTERIOR);
 	public static final RegistryObject<Item> THE_MOMENT = block(TardifModModBlocks.THE_MOMENT);
-	public static final RegistryObject<Item> FLIGHT_PANNEL = block(TardifModModBlocks.FLIGHT_PANNEL);
 	public static final RegistryObject<Item> TARDIS_MAINTENANCE_ENGINE = block(TardifModModBlocks.TARDIS_MAINTENANCE_ENGINE);
 	public static final RegistryObject<Item> TELEPATHIC_UPGRADE_TEMPLATE = REGISTRY.register("telepathic_upgrade_template", () -> new TelepathicUpgradeTemplateItem());
 	public static final RegistryObject<Item> TIME_EXTENDER_UPGRADE_TEMPLATE = REGISTRY.register("time_extender_upgrade_template", () -> new TimeExtenderUpgradeTemplateItem());
@@ -147,9 +146,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> MELART_SHARD = REGISTRY.register("melart_shard", () -> new MelartShardItem());
 	public static final RegistryObject<Item> DALEKIUM_BLOCK = block(TardifModModBlocks.DALEKIUM_BLOCK);
 	public static final RegistryObject<Item> SKAROWOOD_2 = block(TardifModModBlocks.SKAROWOOD_2);
-	public static final RegistryObject<Item> ARCHITECT_PANEL = block(TardifModModBlocks.ARCHITECT_PANEL);
-	public static final RegistryObject<Item> MESSAGE_ORB = REGISTRY.register("message_orb", () -> new MessageOrbItem());
-	public static final RegistryObject<Item> MESSAGE_ORB_TELEPORTER = REGISTRY.register("message_orb_teleporter", () -> new MessageOrbTeleporterItem());
 	public static final RegistryObject<Item> WALLPAPER_ROUNDEL = block(TardifModModBlocks.WALLPAPER_ROUNDEL);
 	public static final RegistryObject<Item> WALLPAPER_ROUNDEL_DOOR = doubleBlock(TardifModModBlocks.WALLPAPER_ROUNDEL_DOOR);
 	public static final RegistryObject<Item> PLAIN_WALLPAPER = block(TardifModModBlocks.PLAIN_WALLPAPER);
@@ -174,6 +170,8 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> DIMENSIONAL_SELECTOR_CARPET_CONTROL = block(TardifModModBlocks.DIMENSIONAL_SELECTOR_CARPET_CONTROL);
 	public static final RegistryObject<Item> COORDINATE_TRAVEL_CARPET_CONTROL = block(TardifModModBlocks.COORDINATE_TRAVEL_CARPET_CONTROL);
 	public static final RegistryObject<Item> TELAPATHIC_CARPET_CONTROL = block(TardifModModBlocks.TELAPATHIC_CARPET_CONTROL);
+	public static final RegistryObject<Item> CRUMPLED_TELEPORTATION_DEVICE = REGISTRY.register("crumpled_teleportation_device", () -> new CrumpledTeleportationDeviceItem());
+	public static final RegistryObject<Item> TENTH_RECORDED_MESSAGE = REGISTRY.register("tenth_recorded_message", () -> new TenthRecordedMessageItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
