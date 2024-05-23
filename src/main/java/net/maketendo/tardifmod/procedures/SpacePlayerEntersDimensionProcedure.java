@@ -15,7 +15,7 @@ public class SpacePlayerEntersDimensionProcedure {
 	public static void execute(LevelAccessor world) {
 		if (TardifModModVariables.MapVariables.get(world).LoadedGarage == false) {
 			if (world instanceof ServerLevel _serverworld) {
-				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tardif_mod", "tardis_garage"));
+				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("tardif_mod", "lost_lone_island"));
 				if (template != null) {
 					template.placeInWorld(_serverworld, new BlockPos(100, 100, 100), new BlockPos(100, 100, 100), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 				}

@@ -28,7 +28,6 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModItems.LASER_ITEM.get());
 				tabData.accept(TardifModModBlocks.THE_MOMENT.get().asItem());
 				tabData.accept(TardifModModItems.CRUMPLED_TELEPORTATION_DEVICE.get());
-				tabData.accept(TardifModModItems.TENTH_RECORDED_MESSAGE.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> TARDIS_ITEMS = REGISTRY.register("tardis_items",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tardif_mod.tardis_items")).icon(() -> new ItemStack(TardifModModItems.TARDIS_ITEM.get())).displayItems((parameters, tabData) -> {
@@ -147,6 +146,7 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModItems.DALEKIUM_INGOT.get());
 			tabData.accept(TardifModModItems.MELART_INGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(TardifModModItems.TENTH_RECORDED_MESSAGE.get());
 			tabData.accept(TardifModModItems.MELART_AXE.get());
 			tabData.accept(TardifModModItems.MELART_PICKAXE.get());
 			tabData.accept(TardifModModItems.DALEKIUM_PICKAXE.get());

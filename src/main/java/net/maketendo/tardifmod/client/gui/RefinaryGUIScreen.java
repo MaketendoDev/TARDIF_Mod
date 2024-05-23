@@ -82,6 +82,11 @@ public class RefinaryGUIScreen extends AbstractContainerScreen<RefinaryGUIMenu> 
 	}
 
 	@Override
+	public void onClose() {
+		super.onClose();
+	}
+
+	@Override
 	public void init() {
 		super.init();
 		button_refine = Button.builder(Component.translatable("gui.tardif_mod.refinary_gui.button_refine"), e -> {

@@ -3,7 +3,7 @@
     {
       "name": "TARDISDim",
       "type": "dimension",
-      "sortid": 1,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_dim",
@@ -19,7 +19,7 @@
     {
       "name": "TARDISItems",
       "type": "tab",
-      "sortid": 115,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_items",
@@ -31,7 +31,7 @@
     {
       "name": "TARDISItemRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_item_rightclicked_on_block",
@@ -67,7 +67,7 @@
     {
       "name": "TARDISItem",
       "type": "item",
-      "sortid": 13,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_item",
@@ -82,7 +82,7 @@
     {
       "name": "TARDISKey",
       "type": "item",
-      "sortid": 14,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_key",
@@ -97,7 +97,7 @@
     {
       "name": "TARDISRightClickedOnEntity",
       "type": "procedure",
-      "sortid": 117,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_right_clicked_on_entity",
@@ -117,7 +117,7 @@
     {
       "name": "TARDIFDecoration",
       "type": "tab",
-      "sortid": 119,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardif_decoration",
@@ -129,7 +129,7 @@
     {
       "name": "RoundelDoor",
       "type": "block",
-      "sortid": 43,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundel_door",
@@ -154,7 +154,7 @@
     {
       "name": "Roundel",
       "type": "block",
-      "sortid": 39,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundel",
@@ -172,7 +172,7 @@
     {
       "name": "ScrewdriverRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "screwdriver_rightclicked_on_block",
@@ -204,7 +204,7 @@
     {
       "name": "CopperScrewdriver",
       "type": "item",
-      "sortid": 61,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_screwdriver",
@@ -219,7 +219,7 @@
     {
       "name": "TARDIFItems",
       "type": "tab",
-      "sortid": 121,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardif_items",
@@ -231,7 +231,7 @@
     {
       "name": "PsychicPaperItemInHandTick",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "psychic_paper_item_in_hand_tick",
@@ -251,7 +251,7 @@
     {
       "name": "PsychicPaper",
       "type": "item",
-      "sortid": 62,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "psychic_paper",
@@ -266,7 +266,7 @@
     {
       "name": "PsychicPaperRecipie",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "psychic_paper_recipie",
@@ -280,7 +280,7 @@
     {
       "name": "Plastic",
       "type": "item",
-      "sortid": 30,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic",
@@ -295,7 +295,7 @@
     {
       "name": "CoordinateSelectGUI",
       "type": "gui",
-      "sortid": 124,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coordinate_select_gui",
@@ -311,7 +311,7 @@
     {
       "name": "CoordinatesOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 125,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coordinates_on_block_right_clicked",
@@ -343,7 +343,7 @@
     {
       "name": "SaveCoords",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "save_coords",
@@ -383,7 +383,7 @@
     {
       "name": "CalculateY",
       "type": "procedure",
-      "sortid": 127,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "calculate_y",
@@ -403,7 +403,7 @@
     {
       "name": "Randomiser",
       "type": "procedure",
-      "sortid": 128,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "randomiser",
@@ -423,7 +423,7 @@
     {
       "name": "TimeBlocks",
       "type": "tab",
-      "sortid": 129,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "time_blocks",
@@ -435,7 +435,7 @@
     {
       "name": "Classicgrass",
       "type": "block",
-      "sortid": 70,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classicgrass",
@@ -453,7 +453,7 @@
     {
       "name": "ClassicStone",
       "type": "block",
-      "sortid": 71,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_stone",
@@ -471,7 +471,7 @@
     {
       "name": "ClassicSand",
       "type": "block",
-      "sortid": 72,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_sand",
@@ -489,7 +489,7 @@
     {
       "name": "ClassicLeaves",
       "type": "block",
-      "sortid": 73,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_leaves",
@@ -507,7 +507,7 @@
     {
       "name": "ClassicLog",
       "type": "block",
-      "sortid": 74,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_log",
@@ -525,7 +525,7 @@
     {
       "name": "ClassicPlains",
       "type": "biome",
-      "sortid": 130,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_plains",
@@ -541,7 +541,7 @@
     {
       "name": "ClassicOverworld",
       "type": "dimension",
-      "sortid": 2,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_overworld",
@@ -557,7 +557,7 @@
     {
       "name": "ClassicFeature",
       "type": "feature",
-      "sortid": 131,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_feature",
@@ -573,7 +573,7 @@
     {
       "name": "ClassicDirt",
       "type": "block",
-      "sortid": 75,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt",
@@ -591,7 +591,7 @@
     {
       "name": "TARDISDimPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_dim_player_enters_dimension",
@@ -611,7 +611,7 @@
     {
       "name": "FlightOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flight_on_block_right_clicked",
@@ -647,7 +647,7 @@
     {
       "name": "Plastic_ChunkOre",
       "type": "block",
-      "sortid": 92,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_ore",
@@ -668,7 +668,7 @@
     {
       "name": "RoundelDoorRecipie",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundel_door_recipie",
@@ -682,7 +682,7 @@
     {
       "name": "Roundelrecipie",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundelrecipie",
@@ -696,7 +696,7 @@
     {
       "name": "TARDISOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 136,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_on_entity_tick_update",
@@ -728,7 +728,7 @@
     {
       "name": "DimentionSelectionGui",
       "type": "gui",
-      "sortid": 137,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimention_selection_gui",
@@ -744,7 +744,7 @@
     {
       "name": "Overworldselected",
       "type": "procedure",
-      "sortid": 138,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "overworldselected",
@@ -764,7 +764,7 @@
     {
       "name": "ClassicNetherack",
       "type": "block",
-      "sortid": 76,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_netherack",
@@ -782,7 +782,7 @@
     {
       "name": "ClassicNetherBiome",
       "type": "biome",
-      "sortid": 139,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether_biome",
@@ -796,7 +796,7 @@
     {
       "name": "ClassicNether",
       "type": "dimension",
-      "sortid": 3,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether",
@@ -812,7 +812,7 @@
     {
       "name": "Monitor",
       "type": "block",
-      "sortid": 16,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "monitor",
@@ -830,7 +830,7 @@
     {
       "name": "MintRoundel",
       "type": "block",
-      "sortid": 40,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_roundel",
@@ -848,7 +848,7 @@
     {
       "name": "MintRoundelRecipie",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_roundel_recipie",
@@ -862,7 +862,7 @@
     {
       "name": "SetOverworld",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_overworld",
@@ -886,7 +886,7 @@
     {
       "name": "SetNether",
       "type": "procedure",
-      "sortid": 142,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_nether",
@@ -910,7 +910,7 @@
     {
       "name": "SetEnd",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_end",
@@ -934,7 +934,7 @@
     {
       "name": "SetClassicNether",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_classic_nether",
@@ -958,7 +958,7 @@
     {
       "name": "MintRoundelDoor",
       "type": "block",
-      "sortid": 44,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_roundel_door",
@@ -983,7 +983,7 @@
     {
       "name": "MintRoundelDoorRecipie",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_roundel_door_recipie",
@@ -997,7 +997,7 @@
     {
       "name": "MonitorGUI",
       "type": "gui",
-      "sortid": 146,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "monitor_gui",
@@ -1013,7 +1013,7 @@
     {
       "name": "MonitorOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 147,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "monitor_on_block_right_clicked",
@@ -1045,7 +1045,7 @@
     {
       "name": "Flightdisplay",
       "type": "procedure",
-      "sortid": 148,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flightdisplay",
@@ -1066,7 +1066,7 @@
     {
       "name": "Exteriorinput",
       "type": "procedure",
-      "sortid": 149,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exteriorinput",
@@ -1087,7 +1087,7 @@
     {
       "name": "Interiorinput",
       "type": "procedure",
-      "sortid": 150,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "interiorinput",
@@ -1108,7 +1108,7 @@
     {
       "name": "Xinput",
       "type": "procedure",
-      "sortid": 151,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "xinput",
@@ -1129,7 +1129,7 @@
     {
       "name": "Yinput",
       "type": "procedure",
-      "sortid": 152,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yinput",
@@ -1150,7 +1150,7 @@
     {
       "name": "Zinput",
       "type": "procedure",
-      "sortid": 153,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zinput",
@@ -1171,7 +1171,7 @@
     {
       "name": "Diminput",
       "type": "procedure",
-      "sortid": 154,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diminput",
@@ -1192,7 +1192,7 @@
     {
       "name": "DimensionalPannelOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 155,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimensional_pannel_on_block_right_clicked",
@@ -1228,7 +1228,7 @@
     {
       "name": "Rotor",
       "type": "block",
-      "sortid": 58,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotor",
@@ -1246,7 +1246,7 @@
     {
       "name": "RotorRecipie",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotor_recipie",
@@ -1260,7 +1260,7 @@
     {
       "name": "CircuitBoard",
       "type": "item",
-      "sortid": 31,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "circuit_board",
@@ -1275,7 +1275,7 @@
     {
       "name": "CircuitBoardRecipie",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "circuit_board_recipie",
@@ -1289,7 +1289,7 @@
     {
       "name": "Solder",
       "type": "item",
-      "sortid": 32,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "solder",
@@ -1304,7 +1304,7 @@
     {
       "name": "SolderOre",
       "type": "block",
-      "sortid": 93,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "solder_ore",
@@ -1325,7 +1325,7 @@
     {
       "name": "Zyton7",
       "type": "item",
-      "sortid": 33,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zyton_7",
@@ -1340,7 +1340,7 @@
     {
       "name": "DrainedZyton7",
       "type": "item",
-      "sortid": 34,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drained_zyton_7",
@@ -1355,7 +1355,7 @@
     {
       "name": "Zyton7Block",
       "type": "block",
-      "sortid": 94,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zyton_7_block",
@@ -1373,7 +1373,7 @@
     {
       "name": "DrainedZyton7Block",
       "type": "block",
-      "sortid": 95,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drained_zyton_7_block",
@@ -1391,7 +1391,7 @@
     {
       "name": "ZytonBlockRecipe",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zyton_block_recipe",
@@ -1405,7 +1405,7 @@
     {
       "name": "DrainedZyton7BlockRecipie",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drained_zyton_7_block_recipie",
@@ -1419,7 +1419,7 @@
     {
       "name": "Zyton7Recipie",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zyton_7_recipie",
@@ -1433,7 +1433,7 @@
     {
       "name": "DrainedZyton7Recipie",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drained_zyton_7_recipie",
@@ -1447,7 +1447,7 @@
     {
       "name": "TimepannelOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 164,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "timepannel_on_block_right_clicked",
@@ -1483,7 +1483,7 @@
     {
       "name": "TARDISKeyRecipie",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_key_recipie",
@@ -1497,7 +1497,7 @@
     {
       "name": "ZytonOre",
       "type": "block",
-      "sortid": 96,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zyton_ore",
@@ -1518,7 +1518,7 @@
     {
       "name": "Jellybabies",
       "type": "item",
-      "sortid": 101,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jellybabies",
@@ -1533,7 +1533,7 @@
     {
       "name": "EmptyBag",
       "type": "item",
-      "sortid": 35,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_bag",
@@ -1548,7 +1548,7 @@
     {
       "name": "BagRecipie",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bag_recipie",
@@ -1562,7 +1562,7 @@
     {
       "name": "JellyBabiesRecipies",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jelly_babies_recipies",
@@ -1576,7 +1576,7 @@
     {
       "name": "FishFingerandCustard",
       "type": "item",
-      "sortid": 102,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_fingerand_custard",
@@ -1591,7 +1591,7 @@
     {
       "name": "FishCustardRecipie",
       "type": "recipe",
-      "sortid": 171,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_custard_recipie",
@@ -1605,7 +1605,7 @@
     {
       "name": "DematerialisationLeverOffOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 173,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dematerialisation_lever_off_on_block_right_clicked",
@@ -1641,7 +1641,7 @@
     {
       "name": "CopperScrewdriverRecipe",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_screwdriver_recipe",
@@ -1655,7 +1655,7 @@
     {
       "name": "ClassicWhiteWool",
       "type": "block",
-      "sortid": 77,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_white_wool",
@@ -1673,7 +1673,7 @@
     {
       "name": "ClassicLightGrayWool",
       "type": "block",
-      "sortid": 78,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_light_gray_wool",
@@ -1691,7 +1691,7 @@
     {
       "name": "FoodCubeMachine",
       "type": "block",
-      "sortid": 23,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_cube_machine",
@@ -1709,7 +1709,7 @@
     {
       "name": "FoodCubePlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 176,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_cube_player_finishes_using_item",
@@ -1729,7 +1729,7 @@
     {
       "name": "FoodCube",
       "type": "item",
-      "sortid": 103,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_cube",
@@ -1744,7 +1744,7 @@
     {
       "name": "FoodCubeMachineOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 177,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_cube_machine_on_block_right_clicked",
@@ -1764,7 +1764,7 @@
     {
       "name": "FoodCubeMachineRecipe",
       "type": "recipe",
-      "sortid": 178,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_cube_machine_recipe",
@@ -1778,7 +1778,7 @@
     {
       "name": "ClassicGrayWool",
       "type": "block",
-      "sortid": 79,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_gray_wool",
@@ -1796,7 +1796,7 @@
     {
       "name": "ClassicYellowWool",
       "type": "block",
-      "sortid": 80,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_yellow_wool",
@@ -1814,7 +1814,7 @@
     {
       "name": "ClassicBlueWool",
       "type": "block",
-      "sortid": 81,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_blue_wool",
@@ -1832,7 +1832,7 @@
     {
       "name": "ClassicAquaWool",
       "type": "block",
-      "sortid": 82,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_aqua_wool",
@@ -1850,7 +1850,7 @@
     {
       "name": "ClassicCyanWool",
       "type": "block",
-      "sortid": 83,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_cyan_wool",
@@ -1868,7 +1868,7 @@
     {
       "name": "ClassicGreenWool",
       "type": "block",
-      "sortid": 84,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_green_wool",
@@ -1886,7 +1886,7 @@
     {
       "name": "ClassicLimeWool",
       "type": "block",
-      "sortid": 85,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_lime_wool",
@@ -1904,7 +1904,7 @@
     {
       "name": "ClassicTealWool",
       "type": "block",
-      "sortid": 86,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_teal_wool",
@@ -1922,7 +1922,7 @@
     {
       "name": "ClassicPurpleWool",
       "type": "block",
-      "sortid": 87,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_purple_wool",
@@ -1940,7 +1940,7 @@
     {
       "name": "ClassicIndigoWool",
       "type": "block",
-      "sortid": 88,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_indigo_wool",
@@ -1958,7 +1958,7 @@
     {
       "name": "ClassicMagentaWool",
       "type": "block",
-      "sortid": 89,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_magenta_wool",
@@ -1976,7 +1976,7 @@
     {
       "name": "ClassicRedWool",
       "type": "block",
-      "sortid": 90,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_red_wool",
@@ -1994,7 +1994,7 @@
     {
       "name": "ClassicOrangeWool",
       "type": "block",
-      "sortid": 91,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_orange_wool",
@@ -2012,7 +2012,7 @@
     {
       "name": "TenthCyberman",
       "type": "livingentity",
-      "sortid": 104,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tenth_cyberman",
@@ -2030,7 +2030,7 @@
     {
       "name": "Laser",
       "type": "projectile",
-      "sortid": 179,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laser",
@@ -2045,7 +2045,7 @@
     {
       "name": "LaserItem",
       "type": "item",
-      "sortid": 63,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laser_item",
@@ -2060,7 +2060,7 @@
     {
       "name": "TARDISExterior",
       "type": "block",
-      "sortid": 181,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_exterior",
@@ -2079,7 +2079,7 @@
     {
       "name": "MomentDamageType",
       "type": "damagetype",
-      "sortid": 182,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moment_damage_type",
@@ -2093,7 +2093,7 @@
     {
       "name": "TheMomentOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 183,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_moment_on_block_right_clicked",
@@ -2125,7 +2125,7 @@
     {
       "name": "TheMoment",
       "type": "block",
-      "sortid": 64,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_moment",
@@ -2143,7 +2143,7 @@
     {
       "name": "ObtainTardis",
       "type": "achievement",
-      "sortid": 184,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_tardis",
@@ -2157,7 +2157,7 @@
     {
       "name": "ClassicEnter",
       "type": "achievement",
-      "sortid": 185,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_enter",
@@ -2171,7 +2171,7 @@
     {
       "name": "Advanced",
       "type": "achievement",
-      "sortid": 186,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "advanced",
@@ -2185,7 +2185,7 @@
     {
       "name": "TheSource",
       "type": "achievement",
-      "sortid": 187,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_source",
@@ -2199,7 +2199,7 @@
     {
       "name": "ThePlanetEnder",
       "type": "achievement",
-      "sortid": 188,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_planet_ender",
@@ -2213,7 +2213,7 @@
     {
       "name": "HellOldestArrival",
       "type": "achievement",
-      "sortid": 189,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hell_oldest_arrival",
@@ -2227,7 +2227,7 @@
     {
       "name": "WhatIsThisPlace",
       "type": "achievement",
-      "sortid": 190,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "what_is_this_place",
@@ -2241,7 +2241,7 @@
     {
       "name": "ItsMadeOutOfEvreything",
       "type": "achievement",
-      "sortid": 191,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "its_made_out_of_evreything",
@@ -2255,7 +2255,7 @@
     {
       "name": "TARDISMaintenanceEngine",
       "type": "block",
-      "sortid": 24,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_maintenance_engine",
@@ -2273,7 +2273,7 @@
     {
       "name": "TelepathicUpgradeTemplate",
       "type": "item",
-      "sortid": 25,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "telepathic_upgrade_template",
@@ -2288,7 +2288,7 @@
     {
       "name": "TimeExtenderUpgradeTemplate",
       "type": "item",
-      "sortid": 26,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "time_extender_upgrade_template",
@@ -2303,7 +2303,7 @@
     {
       "name": "ARSUpgradeTemplate",
       "type": "item",
-      "sortid": 27,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ars_upgrade_template",
@@ -2318,7 +2318,7 @@
     {
       "name": "CommunicationUpgradeTemplate",
       "type": "item",
-      "sortid": 28,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "communication_upgrade_template",
@@ -2333,7 +2333,7 @@
     {
       "name": "CopperMonitor",
       "type": "block",
-      "sortid": 17,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_monitor",
@@ -2351,7 +2351,7 @@
     {
       "name": "PhoneboxDecoration",
       "type": "block",
-      "sortid": 196,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phonebox_decoration",
@@ -2369,7 +2369,7 @@
     {
       "name": "PhoneboxItemRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 197,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phonebox_item_rightclicked_on_block",
@@ -2405,7 +2405,7 @@
     {
       "name": "PhoneboxItem",
       "type": "item",
-      "sortid": 60,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phonebox_item",
@@ -2420,7 +2420,7 @@
     {
       "name": "PhoneboxDecorRecipe",
       "type": "recipe",
-      "sortid": 198,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phonebox_decor_recipe",
@@ -2434,7 +2434,7 @@
     {
       "name": "SkaroDirt",
       "type": "block",
-      "sortid": 105,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_dirt",
@@ -2452,7 +2452,7 @@
     {
       "name": "DalekiumIngot",
       "type": "item",
-      "sortid": 37,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_ingot",
@@ -2467,7 +2467,7 @@
     {
       "name": "DalekiumOre",
       "type": "block",
-      "sortid": 109,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_ore",
@@ -2485,7 +2485,7 @@
     {
       "name": "SkaroLogs",
       "type": "block",
-      "sortid": 107,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_logs",
@@ -2503,7 +2503,7 @@
     {
       "name": "RawDalekium",
       "type": "item",
-      "sortid": 36,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_dalekium",
@@ -2518,7 +2518,7 @@
     {
       "name": "SkaroStone",
       "type": "block",
-      "sortid": 108,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_stone",
@@ -2536,7 +2536,7 @@
     {
       "name": "RawDalekiumBlock",
       "type": "block",
-      "sortid": 111,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_dalekium_block",
@@ -2554,7 +2554,7 @@
     {
       "name": "SkaroPlanks",
       "type": "block",
-      "sortid": 98,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_planks",
@@ -2572,7 +2572,7 @@
     {
       "name": "SkaroCobble",
       "type": "block",
-      "sortid": 97,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_cobble",
@@ -2590,7 +2590,7 @@
     {
       "name": "SkaroGrass",
       "type": "block",
-      "sortid": 106,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_grass",
@@ -2608,7 +2608,7 @@
     {
       "name": "SkaroSand",
       "type": "block",
-      "sortid": 110,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_sand",
@@ -2626,7 +2626,7 @@
     {
       "name": "MelartBlock",
       "type": "block",
-      "sortid": 99,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_block",
@@ -2644,7 +2644,7 @@
     {
       "name": "RefinaryGUI",
       "type": "gui",
-      "sortid": 201,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refinary_gui",
@@ -2659,7 +2659,7 @@
     {
       "name": "MondasiansCybermanLoottable",
       "type": "loottable",
-      "sortid": 203,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mondasians_cyberman_loottable",
@@ -2673,7 +2673,7 @@
     {
       "name": "MondasiansCybership",
       "type": "structure",
-      "sortid": 204,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mondasians_cybership",
@@ -2689,7 +2689,7 @@
     {
       "name": "DematSequance",
       "type": "procedure",
-      "sortid": 205,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demat_sequance",
@@ -2704,7 +2704,7 @@
     {
       "name": "Nitro9OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 206,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitro_9_on_block_right_clicked",
@@ -2736,7 +2736,7 @@
     {
       "name": "Nitro9",
       "type": "block",
-      "sortid": 114,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitro_9",
@@ -2754,7 +2754,7 @@
     {
       "name": "Nitro9Recipe",
       "type": "recipe",
-      "sortid": 207,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitro_9_recipe",
@@ -2768,7 +2768,7 @@
     {
       "name": "Nitro9UpdateTick",
       "type": "procedure",
-      "sortid": 208,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitro_9_update_tick",
@@ -2800,7 +2800,7 @@
     {
       "name": "SkaroPlains",
       "type": "biome",
-      "sortid": 209,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_plains",
@@ -2816,7 +2816,7 @@
     {
       "name": "SkaroDesert",
       "type": "biome",
-      "sortid": 210,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_desert",
@@ -2830,7 +2830,7 @@
     {
       "name": "SkaroForest",
       "type": "biome",
-      "sortid": 211,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_forest",
@@ -2846,7 +2846,7 @@
     {
       "name": "Skaro",
       "type": "dimension",
-      "sortid": 4,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro",
@@ -2862,7 +2862,7 @@
     {
       "name": "RawToIngot",
       "type": "recipe",
-      "sortid": 212,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_to_ingot",
@@ -2876,7 +2876,7 @@
     {
       "name": "Logstoplanks",
       "type": "recipe",
-      "sortid": 213,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "logstoplanks",
@@ -2890,7 +2890,7 @@
     {
       "name": "Rawblock",
       "type": "recipe",
-      "sortid": 214,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawblock",
@@ -2904,7 +2904,7 @@
     {
       "name": "Rawblock2",
       "type": "recipe",
-      "sortid": 215,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawblock_2",
@@ -2918,7 +2918,7 @@
     {
       "name": "RematSequance",
       "type": "procedure",
-      "sortid": 216,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remat_sequance",
@@ -2938,7 +2938,7 @@
     {
       "name": "ExteriorSelector",
       "type": "procedure",
-      "sortid": 219,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exterior_selector",
@@ -2958,7 +2958,7 @@
     {
       "name": "RotateDisplay",
       "type": "procedure",
-      "sortid": 220,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotate_display",
@@ -2979,7 +2979,7 @@
     {
       "name": "RotateButton",
       "type": "procedure",
-      "sortid": 221,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotate_button",
@@ -2999,7 +2999,7 @@
     {
       "name": "Abandonedship",
       "type": "structure",
-      "sortid": 222,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abandonedship",
@@ -3015,7 +3015,7 @@
     {
       "name": "AbandonedHouse",
       "type": "structure",
-      "sortid": 223,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abandoned_house",
@@ -3031,7 +3031,7 @@
     {
       "name": "ClassicOverworldRift",
       "type": "structure",
-      "sortid": 224,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_overworld_rift",
@@ -3047,7 +3047,7 @@
     {
       "name": "SpaceBiome",
       "type": "biome",
-      "sortid": 225,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_biome",
@@ -3063,7 +3063,7 @@
     {
       "name": "Space",
       "type": "dimension",
-      "sortid": 5,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space",
@@ -3079,7 +3079,7 @@
     {
       "name": "DalekiumRefinery",
       "type": "block",
-      "sortid": 113,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_refinery",
@@ -3097,7 +3097,7 @@
     {
       "name": "MelartIngot",
       "type": "item",
-      "sortid": 38,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_ingot",
@@ -3112,7 +3112,7 @@
     {
       "name": "MelartArmor",
       "type": "armor",
-      "sortid": 67,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_armor",
@@ -3130,7 +3130,7 @@
     {
       "name": "MelartArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 228,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_armor_helmet_recipe",
@@ -3144,7 +3144,7 @@
     {
       "name": "MelartArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 229,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_armor_chestplate_recipe",
@@ -3158,7 +3158,7 @@
     {
       "name": "MelartArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 230,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_armor_leggings_recipe",
@@ -3172,7 +3172,7 @@
     {
       "name": "MelartArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 231,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_armor_boots_recipe",
@@ -3186,7 +3186,7 @@
     {
       "name": "MelartPickaxe",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_pickaxe",
@@ -3201,7 +3201,7 @@
     {
       "name": "MelartAxe",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_axe",
@@ -3216,7 +3216,7 @@
     {
       "name": "MelartSword",
       "type": "tool",
-      "sortid": 66,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_sword",
@@ -3231,7 +3231,7 @@
     {
       "name": "MelartPickaxeRecipe",
       "type": "recipe",
-      "sortid": 232,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_pickaxe_recipe",
@@ -3245,7 +3245,7 @@
     {
       "name": "MelartAxeRecipe",
       "type": "recipe",
-      "sortid": 233,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_axe_recipe",
@@ -3259,7 +3259,7 @@
     {
       "name": "MelartSwordRecipe",
       "type": "recipe",
-      "sortid": 234,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_sword_recipe",
@@ -3273,7 +3273,7 @@
     {
       "name": "DalekiumPickaxe",
       "type": "tool",
-      "sortid": 8,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_pickaxe",
@@ -3288,7 +3288,7 @@
     {
       "name": "DalekiumAxe",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_axe",
@@ -3303,7 +3303,7 @@
     {
       "name": "DalekiumSword",
       "type": "tool",
-      "sortid": 69,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_sword",
@@ -3318,7 +3318,7 @@
     {
       "name": "DalekiumHoe",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_hoe",
@@ -3333,7 +3333,7 @@
     {
       "name": "DalekiumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 235,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_pickaxe_recipe",
@@ -3347,7 +3347,7 @@
     {
       "name": "DalekiumAxeRecipe",
       "type": "recipe",
-      "sortid": 236,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_axe_recipe",
@@ -3361,7 +3361,7 @@
     {
       "name": "DalekiumSwordRecipe",
       "type": "recipe",
-      "sortid": 237,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_sword_recipe",
@@ -3375,7 +3375,7 @@
     {
       "name": "DalekiumShovelRecipe",
       "type": "recipe",
-      "sortid": 238,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_shovel_recipe",
@@ -3389,7 +3389,7 @@
     {
       "name": "DalekiumHoeRecipe",
       "type": "recipe",
-      "sortid": 239,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_hoe_recipe",
@@ -3403,7 +3403,7 @@
     {
       "name": "DalekiumArmor",
       "type": "armor",
-      "sortid": 68,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_armor",
@@ -3421,7 +3421,7 @@
     {
       "name": "DalekiumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 240,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_armor_helmet_recipe",
@@ -3435,7 +3435,7 @@
     {
       "name": "DalekiumArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 241,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_armor_chestplate_recipe",
@@ -3449,7 +3449,7 @@
     {
       "name": "DalekiumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 242,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_armor_leggings_recipe",
@@ -3463,7 +3463,7 @@
     {
       "name": "DalekiumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 243,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_armor_boots_recipe",
@@ -3477,7 +3477,7 @@
     {
       "name": "UpgradedMelartSword",
       "type": "tool",
-      "sortid": 65,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "upgraded_melart_sword",
@@ -3492,7 +3492,7 @@
     {
       "name": "MelartShard",
       "type": "item",
-      "sortid": 29,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_shard",
@@ -3507,7 +3507,7 @@
     {
       "name": "Upgradedswordrecipie",
       "type": "recipe",
-      "sortid": 244,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "upgradedswordrecipie",
@@ -3521,7 +3521,7 @@
     {
       "name": "DalekiumBlock",
       "type": "block",
-      "sortid": 100,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_block",
@@ -3539,7 +3539,7 @@
     {
       "name": "Skarowood2",
       "type": "block",
-      "sortid": 112,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skarowood_2",
@@ -3557,7 +3557,7 @@
     {
       "name": "Melartshardrecipie",
       "type": "recipe",
-      "sortid": 249,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melartshardrecipie",
@@ -3571,7 +3571,7 @@
     {
       "name": "Refine",
       "type": "procedure",
-      "sortid": 253,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refine",
@@ -3591,7 +3591,7 @@
     {
       "name": "WallpaperRoundel",
       "type": "block",
-      "sortid": 41,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallpaper_roundel",
@@ -3609,7 +3609,7 @@
     {
       "name": "WallpaperRoundelRecipie",
       "type": "recipe",
-      "sortid": 255,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallpaper_roundel_recipie",
@@ -3623,7 +3623,7 @@
     {
       "name": "WallpaperRoundelDoor",
       "type": "block",
-      "sortid": 45,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallpaper_roundel_door",
@@ -3648,7 +3648,7 @@
     {
       "name": "WallpaperRoundelDoorRecipie",
       "type": "recipe",
-      "sortid": 256,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallpaper_roundel_door_recipie",
@@ -3662,7 +3662,7 @@
     {
       "name": "PlainWallpaper",
       "type": "block",
-      "sortid": 51,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper",
@@ -3680,7 +3680,7 @@
     {
       "name": "PlainWallpaperRecipie",
       "type": "recipe",
-      "sortid": 257,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper_recipie",
@@ -3694,7 +3694,7 @@
     {
       "name": "HexagonRoundel",
       "type": "block",
-      "sortid": 42,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hexagon_roundel",
@@ -3712,7 +3712,7 @@
     {
       "name": "MintWallpaper",
       "type": "block",
-      "sortid": 49,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper",
@@ -3730,7 +3730,7 @@
     {
       "name": "MintWallpaperRecipie",
       "type": "recipe",
-      "sortid": 258,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper_recipie",
@@ -3744,7 +3744,7 @@
     {
       "name": "WhiteWallpaper",
       "type": "block",
-      "sortid": 50,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper",
@@ -3762,7 +3762,7 @@
     {
       "name": "WhiteWallpaperRecipie",
       "type": "recipe",
-      "sortid": 259,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper_recipie",
@@ -3776,7 +3776,7 @@
     {
       "name": "MessageOrbTeleporterRightclicked",
       "type": "procedure",
-      "sortid": 260,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "message_orb_teleporter_rightclicked",
@@ -3800,7 +3800,7 @@
     {
       "name": "Power",
       "type": "procedure",
-      "sortid": 261,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "power",
@@ -3820,7 +3820,7 @@
     {
       "name": "PhoneboxDisplay",
       "type": "procedure",
-      "sortid": 263,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phonebox_display",
@@ -3841,7 +3841,7 @@
     {
       "name": "TTCapsuleDisplay",
       "type": "procedure",
-      "sortid": 264,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tt_capsule_display",
@@ -3862,7 +3862,7 @@
     {
       "name": "ChamelionDown",
       "type": "procedure",
-      "sortid": 265,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chamelion_down",
@@ -3882,7 +3882,7 @@
     {
       "name": "ChamelionUp",
       "type": "procedure",
-      "sortid": 266,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chamelion_up",
@@ -3902,7 +3902,7 @@
     {
       "name": "BinDisplay",
       "type": "procedure",
-      "sortid": 267,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bin_display",
@@ -3923,7 +3923,7 @@
     {
       "name": "PoliceBoxDisplay",
       "type": "procedure",
-      "sortid": 268,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "police_box_display",
@@ -3944,7 +3944,7 @@
     {
       "name": "DirtHouseDisplay",
       "type": "procedure",
-      "sortid": 269,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_house_display",
@@ -3965,7 +3965,7 @@
     {
       "name": "EngineGUI",
       "type": "gui",
-      "sortid": 270,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engine_gui",
@@ -3980,7 +3980,7 @@
     {
       "name": "StrongestWeapononTheUniverse",
       "type": "achievement",
-      "sortid": 272,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strongest_weaponon_the_universe",
@@ -3994,7 +3994,7 @@
     {
       "name": "ObtainDalekium",
       "type": "achievement",
-      "sortid": 273,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_dalekium",
@@ -4008,7 +4008,7 @@
     {
       "name": "ObtainMelart",
       "type": "achievement",
-      "sortid": 274,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_melart",
@@ -4022,7 +4022,7 @@
     {
       "name": "RefineIt",
       "type": "achievement",
-      "sortid": 275,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refine_it",
@@ -4036,7 +4036,7 @@
     {
       "name": "TheHellPlanet",
       "type": "achievement",
-      "sortid": 276,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_hell_planet",
@@ -4050,7 +4050,7 @@
     {
       "name": "DematerialisationLeverOnUpdateTick",
       "type": "procedure",
-      "sortid": 279,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dematerialisation_lever_on_update_tick",
@@ -4082,7 +4082,7 @@
     {
       "name": "TARDISExteriorShell",
       "type": "blockstates",
-      "sortid": 280,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_exterior_shell",
@@ -4103,7 +4103,7 @@
     {
       "name": "PlainWallpaperSlab",
       "type": "block",
-      "sortid": 54,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper_slab",
@@ -4123,7 +4123,7 @@
     {
       "name": "PlainWallpaperStair",
       "type": "block",
-      "sortid": 57,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper_stair",
@@ -4143,7 +4143,7 @@
     {
       "name": "PlainWallpaperStairRecipe",
       "type": "recipe",
-      "sortid": 281,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper_stair_recipe",
@@ -4157,7 +4157,7 @@
     {
       "name": "PlainWallpaperSlabRecipie",
       "type": "recipe",
-      "sortid": 282,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper_slab_recipie",
@@ -4171,7 +4171,7 @@
     {
       "name": "WhiteWallpaperSlab",
       "type": "block",
-      "sortid": 52,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper_slab",
@@ -4191,7 +4191,7 @@
     {
       "name": "WhiteWallpaperStairs",
       "type": "block",
-      "sortid": 55,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper_stairs",
@@ -4211,7 +4211,7 @@
     {
       "name": "WhiteWallpaperStairsRecipie",
       "type": "recipe",
-      "sortid": 283,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper_stairs_recipie",
@@ -4225,7 +4225,7 @@
     {
       "name": "WhiteWallpaperSlabRecipie",
       "type": "recipe",
-      "sortid": 284,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper_slab_recipie",
@@ -4239,7 +4239,7 @@
     {
       "name": "MintWallpaperSlab",
       "type": "block",
-      "sortid": 53,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper_slab",
@@ -4259,7 +4259,7 @@
     {
       "name": "MintWallpaperStairs",
       "type": "block",
-      "sortid": 56,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper_stairs",
@@ -4279,7 +4279,7 @@
     {
       "name": "MintWallpaperStairsRecipie",
       "type": "recipe",
-      "sortid": 285,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper_stairs_recipie",
@@ -4293,7 +4293,7 @@
     {
       "name": "MintWallpaperSlabRecipe",
       "type": "recipe",
-      "sortid": 286,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper_slab_recipe",
@@ -4307,7 +4307,7 @@
     {
       "name": "TallRoundelDoor",
       "type": "block",
-      "sortid": 46,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_roundel_door",
@@ -4325,7 +4325,7 @@
     {
       "name": "TallWallpaperRoundelDoor",
       "type": "block",
-      "sortid": 48,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_wallpaper_roundel_door",
@@ -4343,7 +4343,7 @@
     {
       "name": "TallMintRoundelDoor",
       "type": "block",
-      "sortid": 47,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_mint_roundel_door",
@@ -4361,7 +4361,7 @@
     {
       "name": "HexagonalFrameCentered",
       "type": "block",
-      "sortid": 287,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hexagonal_frame_centered",
@@ -4379,7 +4379,7 @@
     {
       "name": "HexagonalFrameOffset",
       "type": "block",
-      "sortid": 288,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hexagonal_frame_offset",
@@ -4397,7 +4397,7 @@
     {
       "name": "TARDISInteriorDoor",
       "type": "block",
-      "sortid": 289,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door",
@@ -4415,7 +4415,7 @@
     {
       "name": "TARDISInteriorDoorBlockAdded",
       "type": "procedure",
-      "sortid": 290,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door_block_added",
@@ -4447,7 +4447,7 @@
     {
       "name": "TARDISInteriorDoorDisplay",
       "type": "blockstates",
-      "sortid": 291,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door_display",
@@ -4462,7 +4462,7 @@
     {
       "name": "TARDISInteriorDoorOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 292,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door_on_block_right_clicked",
@@ -4498,7 +4498,7 @@
     {
       "name": "TARDISInteriorDoorUpdateTick",
       "type": "procedure",
-      "sortid": 293,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door_update_tick",
@@ -4534,7 +4534,7 @@
     {
       "name": "TARDISExteriorUpdateTick",
       "type": "procedure",
-      "sortid": 294,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_exterior_update_tick",
@@ -4566,7 +4566,7 @@
     {
       "name": "TARDISExteriorOnBlockHitByProjectile",
       "type": "procedure",
-      "sortid": 295,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_exterior_on_block_hit_by_projectile",
@@ -4602,7 +4602,7 @@
     {
       "name": "DematerialisationCarpetControl",
       "type": "block",
-      "sortid": 296,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dematerialisation_carpet_control",
@@ -4620,7 +4620,7 @@
     {
       "name": "DematerialisationCarpetControlBlockstate",
       "type": "blockstates",
-      "sortid": 297,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dematerialisation_carpet_control_blockstate",
@@ -4634,7 +4634,7 @@
     {
       "name": "Sgrass",
       "type": "plant",
-      "sortid": 300,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sgrass",
@@ -4655,7 +4655,7 @@
     {
       "name": "SkaroSwamp",
       "type": "biome",
-      "sortid": 298,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro_swamp",
@@ -4673,7 +4673,7 @@
     {
       "name": "TimeMovementCarpetControl",
       "type": "block",
-      "sortid": 301,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "time_movement_carpet_control",
@@ -4691,7 +4691,7 @@
     {
       "name": "DimensionalSelectorCarpetControl",
       "type": "block",
-      "sortid": 302,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimensional_selector_carpet_control",
@@ -4709,7 +4709,7 @@
     {
       "name": "CoordinateTravelCarpetControl",
       "type": "block",
-      "sortid": 303,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coordinate_travel_carpet_control",
@@ -4727,7 +4727,7 @@
     {
       "name": "TelapathicCarpetControl",
       "type": "block",
-      "sortid": 304,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "telapathic_carpet_control",
@@ -4745,7 +4745,7 @@
     {
       "name": "CrumpledTeleportationDeviceRightclicked",
       "type": "procedure",
-      "sortid": 305,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crumpled_teleportation_device_rightclicked",
@@ -4781,7 +4781,7 @@
     {
       "name": "CrumpledTeleportationDevice",
       "type": "item",
-      "sortid": 306,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crumpled_teleportation_device",
@@ -4797,7 +4797,7 @@
     {
       "name": "SpacePlayerEntersDimension",
       "type": "procedure",
-      "sortid": 307,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_player_enters_dimension",
@@ -4817,7 +4817,7 @@
     {
       "name": "TenthRecordedMessage",
       "type": "musicdisc",
-      "sortid": 308,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tenth_recorded_message",
@@ -4827,7 +4827,21 @@
           "src/main/resources/assets/tardif_mod/models/item/tenth_recorded_message.json"
         ]
       },
-      "path": "~/Music Disk"
+      "path": "~/Music Discs"
+    },
+    {
+      "name": "CrumbledTransportDamage",
+      "type": "damagetype",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crumbled_transport_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/damage_type/crumbled_transport_damage.json"
+        ]
+      },
+      "path": "~/TARDIS/Items/Teleportation Device"
     }
   ],
   "variable_elements": [
@@ -5207,13 +5221,13 @@
     }
   ],
   "tag_elements": {
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
     "ITEMS:minecraft:roundel_doors": [
       "CUSTOM:RoundelDoor",
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:ClassicLeaves"
@@ -5327,8 +5341,8 @@
   },
   "language_map": {
     "en_us": {
-      "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
       "subtitles.vm_teleport": "Teleporting...",
+      "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
@@ -5363,16 +5377,16 @@
       "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
       "gui.tardif_mod.coordinate_select_gui.X_Coord": "X",
       "subtitles.tardis_shutdown": "TARDIS Deactivating",
-      "advancements.refine_it.descr": "Obtain Dalekium Refinery",
       "death.attack.moment_damage_type.item": "%1$s was killed by the moment whilst also killed by %2$s using %3$s",
+      "advancements.refine_it.descr": "Obtain Dalekium Refinery",
       "item.tardif_mod.melart_axe": "Melart Axe",
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
       "item.tardif_mod.dalekium_axe": "Dalekium Axe",
+      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
@@ -5380,8 +5394,8 @@
       "gui.tardif_mod.coordinate_select_gui.Y_Coord": "Y",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
       "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
-      "advancements.the_hell_planet.descr": "Travel To Skaro",
       "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
+      "advancements.the_hell_planet.descr": "Travel To Skaro",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
       "advancements.obtain_tardis.title": "It\u0027s alive!",
       "item.tardif_mod.dalekium_armor_leggings": "Dalekium Leggings",
@@ -5439,6 +5453,7 @@
       "item.tardif_mod.jellybabies": "Jelly babies",
       "block.tardif_mod.skaro_grass": "Skaro Grass",
       "subtitles.sonic_screwdriver": "Sonic Screwdriver",
+      "death.attack.crumbled_transport_damage": "%1$s died from the fluxuations of its particles being scattered",
       "subtitles.tardis_power_on": "TARDIS Activated",
       "block.tardif_mod.classic_blue_wool": "Classic Blue Wool",
       "block.tardif_mod.dematerialisation_carpet_control": "Dematerialisational Control",
@@ -5446,6 +5461,7 @@
       "block.tardif_mod.melart_block": "Block of Melart",
       "block.tardif_mod.classic_green_wool": "Classic Green Wool",
       "block.tardif_mod.classic_gray_wool": "Classic Gray Wool",
+      "death.attack.crumbled_transport_damage.item": "%1$s was killed by %2$s using %3$s",
       "block.tardif_mod.solder_ore": "Solder Ore",
       "block.tardif_mod.time_movement_carpet_control": "Time Manipulation Control",
       "gui.tardif_mod.coordinate_select_gui.button_randomize": "Randomize",
@@ -5488,6 +5504,7 @@
       "item.tardif_mod.melart_shard": "Melart Shard",
       "advancements.the_hell_planet.title": "The Hell Planet",
       "block.tardif_mod.tall_wallpaper_roundel_door": "Tall Wallpaper Roundel Door",
+      "death.attack.crumbled_transport_damage.player": "%1$s died whilst trying to teleport away from%2$s",
       "advancements.hell_oldest_arrival.title": "Hell\u0027s Oldest Arrival",
       "block.tardif_mod.white_wallpaper_stairs": "Plain Wallpaper Stairs",
       "subtitles.tardis_landing_beep": "TARDIS Detected",
@@ -5514,7 +5531,7 @@
       "gui.tardif_mod.coordinate_select_gui.label_z": "Z:",
       "item.tardif_mod.melart_sword": "Melart Sword",
       "block.tardif_mod.mint_wallpaper_slab": "Plain Wallpaper",
-      "item.tardif_mod.tenth_recorded_message.desc": "10th Doctor - Pre-Recorded Message",
+      "item.tardif_mod.tenth_recorded_message.desc": "??? - Pre-Recorded Message",
       "item.tardif_mod.copper_screwdriver": "Copper Screwdriver",
       "subtitles.interior_creak": "TARDIS Creaking",
       "gui.tardif_mod.coordinate_select_gui.label_x": "X:",
@@ -5926,12 +5943,7 @@
           },
           {
             "name": "Space",
-            "children": [
-              {
-                "name": "Spaceship Gen",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "name": "Time",
@@ -5967,7 +5979,7 @@
         "children": []
       },
       {
-        "name": "Music Disk",
+        "name": "Music Discs",
         "children": []
       }
     ]
