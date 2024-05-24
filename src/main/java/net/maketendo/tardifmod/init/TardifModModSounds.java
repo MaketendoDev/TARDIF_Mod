@@ -33,4 +33,5 @@ public class TardifModModSounds {
 	public static final RegistryObject<SoundEvent> DOOR_UNLOCK = REGISTRY.register("door_unlock", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("tardif_mod", "door_unlock")));
 	public static final RegistryObject<SoundEvent> SONIC_SCREWDRIVER = REGISTRY.register("sonic_screwdriver", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("tardif_mod", "sonic_screwdriver")));
 	public static final RegistryObject<SoundEvent> SKARO_AMBIENCE = REGISTRY.register("skaro_ambience", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("tardif_mod", "skaro_ambience")));
+	public static final RegistryObject<SoundEvent> TENTH_MESSAGE = REGISTRY.register("tenth_message", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("tardif_mod", "tenth_message")));
 }

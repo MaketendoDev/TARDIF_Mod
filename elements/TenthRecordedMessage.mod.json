@@ -16,9 +16,9 @@
       "fixedValue": false
     },
     "music": {
-      "value": "CUSTOM:take_off"
+      "value": "CUSTOM:tenth_message"
     },
-    "lengthInTicks": 100,
-    "analogOutput": 5
+    "lengthInTicks": 6560,
+    "analogOutput": 15
   }
 }

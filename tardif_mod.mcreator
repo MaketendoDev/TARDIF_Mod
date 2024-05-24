@@ -3774,30 +3774,6 @@
       "path": "~/Decor Blocks/Wallpaper/White"
     },
     {
-      "name": "MessageOrbTeleporterRightclicked",
-      "type": "procedure",
-      "sortid": 234,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "message_orb_teleporter_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/procedures/MessageOrbTeleporterRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Exterior/Demat Sequance"
-    },
-    {
       "name": "Power",
       "type": "procedure",
       "sortid": 235,
@@ -5290,6 +5266,14 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "tenth_message",
+      "files": [
+        "10th_doctors_message_disc"
+      ],
+      "category": "music",
+      "subtitle": "??? talking..."
     }
   ],
   "tag_elements": {
@@ -5524,6 +5508,7 @@
       "block.tardif_mod.roundel": "Roundel",
       "item.tardif_mod.jellybabies": "Jelly babies",
       "block.tardif_mod.skaro_grass": "Skaro Grass",
+      "subtitles.tenth_message": "??? talking...",
       "subtitles.sonic_screwdriver": "Sonic Screwdriver",
       "death.attack.crumbled_transport_damage": "%1$s died from the fluxuations of its particles being scattered",
       "subtitles.tardis_power_on": "TARDIS Activated",

@@ -1,5 +1,5 @@
 {
-  "parent": "tardif_mod:custom/policebox_interior_door_closed",
+  "parent": "tardif_mod:custom/police_box_interior_door_closed",
   "textures": {
     "all": "tardif_mod:block/police_box_interior_door_texture",
     "particle": "tardif_mod:block/transparrent",

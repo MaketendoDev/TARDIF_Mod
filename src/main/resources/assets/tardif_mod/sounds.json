@@ -159,5 +159,14 @@
         "stream": false
       }
     ]
+  },
+  "tenth_message": {
+    "subtitle": "subtitles.tenth_message",
+    "sounds": [
+      {
+        "name": "tardif_mod:10th_doctors_message_disc",
+        "stream": true
+      }
+    ]
   }
 }

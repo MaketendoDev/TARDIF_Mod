@@ -10,6 +10,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class TenthRecordedMessageItem extends RecordItem {
 	public TenthRecordedMessageItem() {
-		super(5, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tardif_mod:take_off")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 100);
+		super(15, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tardif_mod:tenth_message")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 6560);
 	}
 }

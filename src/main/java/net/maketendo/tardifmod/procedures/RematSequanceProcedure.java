@@ -2,8 +2,6 @@ package net.maketendo.tardifmod.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
@@ -14,10 +12,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
 
 import net.maketendo.tardifmod.network.TardifModModVariables;
 import net.maketendo.tardifmod.init.TardifModModBlocks;
@@ -73,20 +68,6 @@ public class RematSequanceProcedure {
 			world.setBlock(_bp, _bs, 3);
 		}
 		while (true) {
-			for (int index1 = 0; index1 < 320; index1++) {
-				TardifModMod.queueServerWork(15, () -> {
-					if (world instanceof ServerLevel _level)
-						_level.getServer().getCommands()
-								.performPrefixedCommand(new CommandSourceStack(CommandSource.NULL,
-										new Vec3(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS), Vec2.ZERO, _level, 4, "",
-										Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "particle dust 0.54 0.25 0.84 2 ~ ~ ~ -1 1.5 1 0 10 force");
-					if (world instanceof ServerLevel _level)
-						_level.getServer().getCommands()
-								.performPrefixedCommand(new CommandSourceStack(CommandSource.NULL,
-										new Vec3(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS), Vec2.ZERO, _level, 4, "",
-										Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "particle dust 0.29 0.84 0.25 2 ~ ~ ~ -1 1.5 1 0 10 force");
-				});
-			}
 			TardifModMod.queueServerWork(20, () -> {
 				ExteriorSelectorProcedure.execute(world);
 			});
