@@ -47,6 +47,7 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModBlocks.DIMENSIONAL_SELECTOR_CARPET_CONTROL.get().asItem());
 				tabData.accept(TardifModModBlocks.COORDINATE_TRAVEL_CARPET_CONTROL.get().asItem());
 				tabData.accept(TardifModModBlocks.TELAPATHIC_CARPET_CONTROL.get().asItem());
+				tabData.accept(TardifModModItems.DEMATERIALISATION_CIRCUIT.get());
 			})
 
 					.build());

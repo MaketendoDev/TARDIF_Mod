@@ -3675,7 +3675,7 @@
           "src/main/resources/assets/tardif_mod/blockstates/plain_wallpaper.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper"
+      "path": "~/Decor Blocks/TARDIS Wallpaper"
     },
     {
       "name": "PlainWallpaperRecipie",
@@ -3689,7 +3689,7 @@
           "src/main/resources/data/tardif_mod/recipes/plain_wallpaper_recipie.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper"
+      "path": "~/Decor Blocks/TARDIS Wallpaper"
     },
     {
       "name": "HexagonRoundel",
@@ -3725,7 +3725,7 @@
           "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Mint"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Mint"
     },
     {
       "name": "MintWallpaperRecipie",
@@ -3739,7 +3739,7 @@
           "src/main/resources/data/tardif_mod/recipes/mint_wallpaper_recipie.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Mint"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Mint"
     },
     {
       "name": "WhiteWallpaper",
@@ -3757,7 +3757,7 @@
           "src/main/java/net/maketendo/tardifmod/block/WhiteWallpaperBlock.java"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/White"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/White"
     },
     {
       "name": "WhiteWallpaperRecipie",
@@ -3771,7 +3771,7 @@
           "src/main/resources/data/tardif_mod/recipes/white_wallpaper_recipie.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/White"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/White"
     },
     {
       "name": "Power",
@@ -4094,7 +4094,7 @@
           "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper_slab.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Slab"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Slab"
     },
     {
       "name": "PlainWallpaperStair",
@@ -4114,7 +4114,7 @@
           "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper_stair.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Stair"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Stair"
     },
     {
       "name": "PlainWallpaperStairRecipe",
@@ -4128,7 +4128,7 @@
           "src/main/resources/data/tardif_mod/recipes/plain_wallpaper_stair_recipe.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Stair"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Stair"
     },
     {
       "name": "PlainWallpaperSlabRecipie",
@@ -4142,7 +4142,7 @@
           "src/main/resources/data/tardif_mod/recipes/plain_wallpaper_slab_recipie.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Slab"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Slab"
     },
     {
       "name": "WhiteWallpaperSlab",
@@ -4162,7 +4162,7 @@
           "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper_slab.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Slab/White"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Slab/White"
     },
     {
       "name": "WhiteWallpaperStairs",
@@ -4182,7 +4182,7 @@
           "src/main/resources/assets/tardif_mod/models/item/white_wallpaper_stairs.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Stair/White"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Stair/White"
     },
     {
       "name": "WhiteWallpaperStairsRecipie",
@@ -4196,7 +4196,7 @@
           "src/main/resources/data/tardif_mod/recipes/white_wallpaper_stairs_recipie.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Stair/White"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Stair/White"
     },
     {
       "name": "WhiteWallpaperSlabRecipie",
@@ -4210,7 +4210,7 @@
           "src/main/resources/data/tardif_mod/recipes/white_wallpaper_slab_recipie.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Slab/White"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Slab/White"
     },
     {
       "name": "MintWallpaperSlab",
@@ -4230,7 +4230,7 @@
           "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Slab/Mint"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Slab/Mint"
     },
     {
       "name": "MintWallpaperStairs",
@@ -4250,7 +4250,7 @@
           "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs_inner.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Stair/Mint"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Stair/Mint"
     },
     {
       "name": "MintWallpaperStairsRecipie",
@@ -4264,7 +4264,7 @@
           "src/main/resources/data/tardif_mod/recipes/mint_wallpaper_stairs_recipie.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Stair/Mint"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Stair/Mint"
     },
     {
       "name": "MintWallpaperSlabRecipe",
@@ -4278,7 +4278,7 @@
           "src/main/resources/data/tardif_mod/recipes/mint_wallpaper_slab_recipe.json"
         ]
       },
-      "path": "~/Decor Blocks/Wallpaper/Slab/Mint"
+      "path": "~/Decor Blocks/TARDIS Wallpaper/Slab/Mint"
     },
     {
       "name": "TallRoundelDoor",
@@ -4890,6 +4890,21 @@
         ]
       },
       "path": "~/TARDIS/Door/Door Code"
+    },
+    {
+      "name": "DematerialisationCircuit",
+      "type": "item",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dematerialisation_circuit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/item/DematerialisationCircuitItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/dematerialisation_circuit.json"
+        ]
+      },
+      "path": "~/TARDIS/Engine/Components"
     }
   ],
   "variable_elements": [
@@ -5277,13 +5292,13 @@
     }
   ],
   "tag_elements": {
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
     "ITEMS:minecraft:roundel_doors": [
       "CUSTOM:RoundelDoor",
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:ClassicLeaves"
@@ -5397,8 +5412,8 @@
   },
   "language_map": {
     "en_us": {
-      "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
       "subtitles.vm_teleport": "Teleporting...",
+      "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
@@ -5433,16 +5448,16 @@
       "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
       "gui.tardif_mod.coordinate_select_gui.X_Coord": "X",
       "subtitles.tardis_shutdown": "TARDIS Deactivating",
-      "advancements.refine_it.descr": "Obtain Dalekium Refinery",
       "death.attack.moment_damage_type.item": "%1$s was killed by the moment whilst also killed by %2$s using %3$s",
+      "advancements.refine_it.descr": "Obtain Dalekium Refinery",
       "item.tardif_mod.melart_axe": "Melart Axe",
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
       "item.tardif_mod.dalekium_axe": "Dalekium Axe",
+      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
@@ -5450,8 +5465,8 @@
       "gui.tardif_mod.coordinate_select_gui.Y_Coord": "Y",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
       "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
-      "advancements.the_hell_planet.descr": "Travel To Skaro",
       "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
+      "advancements.the_hell_planet.descr": "Travel To Skaro",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
       "advancements.obtain_tardis.title": "It\u0027s alive!",
       "item.tardif_mod.dalekium_armor_leggings": "Dalekium Leggings",
@@ -5623,6 +5638,7 @@
       "block.tardif_mod.classic_log": "Classic Log",
       "advancements.the_planet_ender.title": "Final Option...",
       "item.tardif_mod.empty_bag": "Empty bag",
+      "item.tardif_mod.dematerialisation_circuit": "Dematerialisation Circuit",
       "item.tardif_mod.psychic_paper": "Psychic Paper",
       "block.tardif_mod.classic_leaves": "Classic Leaves",
       "block.tardif_mod.classic_magenta_wool": "Classic Magenta Wool",
@@ -5766,6 +5782,10 @@
               {
                 "name": "Upgrades",
                 "children": []
+              },
+              {
+                "name": "Components",
+                "children": []
               }
             ]
           }
@@ -5839,7 +5859,7 @@
             "children": []
           },
           {
-            "name": "Wallpaper",
+            "name": "TARDIS Wallpaper",
             "children": [
               {
                 "name": "Mint",

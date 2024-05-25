@@ -38,6 +38,7 @@ import net.maketendo.tardifmod.item.FoodCubeItem;
 import net.maketendo.tardifmod.item.FishFingerandCustardItem;
 import net.maketendo.tardifmod.item.EmptyBagItem;
 import net.maketendo.tardifmod.item.DrainedZyton7Item;
+import net.maketendo.tardifmod.item.DematerialisationCircuitItem;
 import net.maketendo.tardifmod.item.DalekiumSwordItem;
 import net.maketendo.tardifmod.item.DalekiumPickaxeItem;
 import net.maketendo.tardifmod.item.DalekiumIngotItem;
@@ -172,6 +173,7 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> TELAPATHIC_CARPET_CONTROL = block(TardifModModBlocks.TELAPATHIC_CARPET_CONTROL);
 	public static final RegistryObject<Item> CRUMPLED_TELEPORTATION_DEVICE = REGISTRY.register("crumpled_teleportation_device", () -> new CrumpledTeleportationDeviceItem());
 	public static final RegistryObject<Item> TENTH_RECORDED_MESSAGE = REGISTRY.register("tenth_recorded_message", () -> new TenthRecordedMessageItem());
+	public static final RegistryObject<Item> DEMATERIALISATION_CIRCUIT = REGISTRY.register("dematerialisation_circuit", () -> new DematerialisationCircuitItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

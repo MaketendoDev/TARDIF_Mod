@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tardif_mod:item/zyton_7_crystal"
+    "layer0": "tardif_mod:item/zeiton"
   }
 }

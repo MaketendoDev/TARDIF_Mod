@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "plastic",
+    "texture": "plastic_chunk",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

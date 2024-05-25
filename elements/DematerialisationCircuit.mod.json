@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "drained_zeiton",
+    "texture": "demat_circuit",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Drained Zyton-7",
-    "rarity": "UNCOMMON",
+    "name": "Dematerialisation Circuit",
+    "rarity": "RARE",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:TARDISItems"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -27,9 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "Energy: Drained"
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false
@@ -40,7 +38,7 @@
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
-      "value": "Arrow"
+      "value": "CUSTOM:Laser"
     },
     "isFood": false,
     "nutritionalValue": 4,
