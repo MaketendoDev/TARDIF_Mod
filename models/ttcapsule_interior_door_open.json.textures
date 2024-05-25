@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ttcapsule_interior_door",
+        "missing": "ttcapsule_interior_door"
+      },
+      "name": "default"
+    }
+  }
+}

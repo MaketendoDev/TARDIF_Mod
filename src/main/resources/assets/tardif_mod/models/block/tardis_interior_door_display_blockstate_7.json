@@ -1,13 +1,10 @@
 {
-  "parent": "block/cube",
+  "parent": "tardif_mod:custom/ttcapsule_interior_door_open",
   "textures": {
-    "down": "tardif_mod:block/roundel_half",
-    "up": "tardif_mod:block/roundel_half",
-    "north": "tardif_mod:block/roundel_half",
-    "east": "tardif_mod:block/roundel_half",
-    "south": "tardif_mod:block/roundel_half",
-    "west": "tardif_mod:block/roundel_half",
-    "particle": "tardif_mod:block/transparrent"
+    "all": "tardif_mod:block/ttcapsule_interior_door",
+    "particle": "tardif_mod:block/transparrent",
+    "0": "tardif_mod:block/ttcapsule_interior_door",
+    "missing": "tardif_mod:block/ttcapsule_interior_door"
   },
   "render_type": "cutout"
 }

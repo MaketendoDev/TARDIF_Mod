@@ -161,6 +161,22 @@ public class TARDISInteriorDoorBlock extends Block {
 				case WEST -> Shapes.or(box(0, -16, 0, 1, 1, 16), box(0, 1, 0, 1, 8, 16));
 			};
 		}
+		if (state.getValue(BLOCKSTATE) == 7) {
+			return switch (state.getValue(FACING)) {
+				default -> box(0, -16, 1, 16, 32, 16);
+				case NORTH -> box(0, -16, 0, 16, 32, 15);
+				case EAST -> box(1, -16, 0, 16, 32, 16);
+				case WEST -> box(0, -16, 0, 15, 32, 16);
+			};
+		}
+		if (state.getValue(BLOCKSTATE) == 8) {
+			return switch (state.getValue(FACING)) {
+				default -> box(1, -16, 1, 16, 32, 16);
+				case NORTH -> box(0, -16, 0, 15, 32, 15);
+				case EAST -> box(1, -16, 0, 16, 32, 15);
+				case WEST -> box(0, -16, 1, 15, 32, 16);
+			};
+		}
 		return switch (state.getValue(FACING)) {
 			default -> box(0, 0, 0, 16, 16, 16);
 			case NORTH -> box(0, 0, 0, 16, 16, 16);

@@ -2,8 +2,6 @@ package net.maketendo.tardifmod.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
-import net.minecraft.world.level.block.state.properties.IntegerProperty;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
@@ -25,7 +23,6 @@ public class TARDISInteriorDoorUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		DoorDisplayUpdateProcedure.execute(world, x, y, z);
 		if (TardifModModVariables.MapVariables.get(world).DoorOpen == true) {
 			if ((TardifModModVariables.MapVariables.get(world).TargetDimension).equals("Overworld")) {
 				{
@@ -171,13 +168,6 @@ public class TARDISInteriorDoorUpdateTickProcedure {
 							}
 						}
 					}
-				}
-				{
-					int _value = 1;
-					BlockPos _pos = BlockPos.containing(x, y, z);
-					BlockState _bs = world.getBlockState(_pos);
-					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 				}
 				TardifModModVariables.MapVariables.get(world).DoorOpen = false;
 				TardifModModVariables.MapVariables.get(world).syncData(world);

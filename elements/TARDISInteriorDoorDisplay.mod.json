@@ -980,30 +980,50 @@
         ]
       },
       {
-        "texture": "roundel",
+        "texture": "ttcapsule_interior_door",
         "textureTop": "",
         "textureLeft": "",
         "textureFront": "",
         "textureRight": "",
         "textureBack": "",
         "particleTexture": "",
-        "renderType": 0,
-        "customModelName": "Normal",
+        "renderType": 2,
+        "customModelName": "ttcapsule_interior_door_closed:default",
         "luminance": 0,
-        "boundingBoxes": []
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -16.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 32.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
       },
       {
-        "texture": "roundel_half",
+        "texture": "ttcapsule_interior_door",
         "textureTop": "",
         "textureLeft": "",
         "textureFront": "",
         "textureRight": "",
         "textureBack": "",
         "particleTexture": "",
-        "renderType": 0,
-        "customModelName": "Normal",
+        "renderType": 2,
+        "customModelName": "ttcapsule_interior_door_open:default",
         "luminance": 0,
-        "boundingBoxes": []
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -16.0,
+            "mz": 0.0,
+            "Mx": 15.0,
+            "My": 32.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
       }
     ]
   }
