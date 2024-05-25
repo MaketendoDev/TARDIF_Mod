@@ -5277,13 +5277,13 @@
     }
   ],
   "tag_elements": {
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
     "ITEMS:minecraft:roundel_doors": [
       "CUSTOM:RoundelDoor",
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:ClassicLeaves"
@@ -5397,8 +5397,8 @@
   },
   "language_map": {
     "en_us": {
-      "subtitles.vm_teleport": "Teleporting...",
       "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
+      "subtitles.vm_teleport": "Teleporting...",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
@@ -5433,16 +5433,16 @@
       "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
       "gui.tardif_mod.coordinate_select_gui.X_Coord": "X",
       "subtitles.tardis_shutdown": "TARDIS Deactivating",
-      "death.attack.moment_damage_type.item": "%1$s was killed by the moment whilst also killed by %2$s using %3$s",
       "advancements.refine_it.descr": "Obtain Dalekium Refinery",
+      "death.attack.moment_damage_type.item": "%1$s was killed by the moment whilst also killed by %2$s using %3$s",
       "item.tardif_mod.melart_axe": "Melart Axe",
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "item.tardif_mod.dalekium_axe": "Dalekium Axe",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "advancements.obtain_dalekium.descr": "Obtain Dalekium",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
+      "item.tardif_mod.dalekium_axe": "Dalekium Axe",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
@@ -5450,8 +5450,8 @@
       "gui.tardif_mod.coordinate_select_gui.Y_Coord": "Y",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
       "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
-      "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
       "advancements.the_hell_planet.descr": "Travel To Skaro",
+      "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
       "advancements.obtain_tardis.title": "It\u0027s alive!",
       "item.tardif_mod.dalekium_armor_leggings": "Dalekium Leggings",
