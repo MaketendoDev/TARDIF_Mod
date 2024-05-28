@@ -1,0 +1,9 @@
+{
+  "parent": "tardif_mod:custom/rotor",
+  "textures": {
+    "all": "tardif_mod:block/rotor-original",
+    "particle": "tardif_mod:block/rotor-original",
+    "0": "tardif_mod:block/rotor-original"
+  },
+  "render_type": "translucent"
+}

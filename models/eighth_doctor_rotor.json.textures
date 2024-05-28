@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "eighth_doctor_rotor_texture",
+        "missing": "eighth_doctor_rotor_texture"
+      },
+      "name": "default"
+    }
+  }
+}

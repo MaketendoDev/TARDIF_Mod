@@ -56,6 +56,7 @@ import net.maketendo.tardifmod.block.MelartBlockBlock;
 import net.maketendo.tardifmod.block.HexagonalFrameOffsetBlock;
 import net.maketendo.tardifmod.block.HexagonalFrameCenteredBlock;
 import net.maketendo.tardifmod.block.HexagonRoundelBlock;
+import net.maketendo.tardifmod.block.FourteenthRotorBlock;
 import net.maketendo.tardifmod.block.FoodCubeMachineBlock;
 import net.maketendo.tardifmod.block.DrainedZyton7BlockBlock;
 import net.maketendo.tardifmod.block.DimensionalSelectorCarpetControlBlock;
@@ -168,6 +169,7 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> DIMENSIONAL_SELECTOR_CARPET_CONTROL = REGISTRY.register("dimensional_selector_carpet_control", () -> new DimensionalSelectorCarpetControlBlock());
 	public static final RegistryObject<Block> COORDINATE_TRAVEL_CARPET_CONTROL = REGISTRY.register("coordinate_travel_carpet_control", () -> new CoordinateTravelCarpetControlBlock());
 	public static final RegistryObject<Block> TELAPATHIC_CARPET_CONTROL = REGISTRY.register("telapathic_carpet_control", () -> new TelapathicCarpetControlBlock());
+	public static final RegistryObject<Block> FOURTEENTH_ROTOR = REGISTRY.register("fourteenth_rotor", () -> new FourteenthRotorBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

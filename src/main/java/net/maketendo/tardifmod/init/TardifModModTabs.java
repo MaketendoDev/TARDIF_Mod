@@ -76,6 +76,7 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModItems.PHONEBOX_ITEM.get());
 				tabData.accept(TardifModModBlocks.HEXAGONAL_FRAME_CENTERED.get().asItem());
 				tabData.accept(TardifModModBlocks.HEXAGONAL_FRAME_OFFSET.get().asItem());
+				tabData.accept(TardifModModBlocks.FOURTEENTH_ROTOR.get().asItem());
 			})
 
 					.build());

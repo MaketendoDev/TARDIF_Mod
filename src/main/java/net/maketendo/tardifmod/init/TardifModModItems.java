@@ -174,6 +174,7 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> CRUMPLED_TELEPORTATION_DEVICE = REGISTRY.register("crumpled_teleportation_device", () -> new CrumpledTeleportationDeviceItem());
 	public static final RegistryObject<Item> TENTH_RECORDED_MESSAGE = REGISTRY.register("tenth_recorded_message", () -> new TenthRecordedMessageItem());
 	public static final RegistryObject<Item> DEMATERIALISATION_CIRCUIT = REGISTRY.register("dematerialisation_circuit", () -> new DematerialisationCircuitItem());
+	public static final RegistryObject<Item> FOURTEENTH_ROTOR = block(TardifModModBlocks.FOURTEENTH_ROTOR);
 
 	// Start of user code block custom items
 	// End of user code block custom items
