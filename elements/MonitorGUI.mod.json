@@ -145,7 +145,7 @@
             "value": -1,
             "falpha": 0.0
           },
-          "x": 270,
+          "x": 268,
           "y": 176
         }
       },
@@ -194,7 +194,7 @@
           "name": "imagebutton_galifrayan_symbol_ui",
           "image": "galifrayan_symbol_ui.png",
           "hoveredImage": "galifrayan_symbol_ui.png",
-          "x": 241,
+          "x": 239,
           "y": 167
         }
       },

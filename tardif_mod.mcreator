@@ -5412,8 +5412,8 @@
   },
   "language_map": {
     "en_us": {
-      "subtitles.vm_teleport": "Teleporting...",
       "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
+      "subtitles.vm_teleport": "Teleporting...",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
@@ -5913,6 +5913,15 @@
           {
             "name": "laser",
             "children": []
+          },
+          {
+            "name": "Weeping Angel",
+            "children": [
+              {
+                "name": "Default",
+                "children": []
+              }
+            ]
           }
         ]
       },

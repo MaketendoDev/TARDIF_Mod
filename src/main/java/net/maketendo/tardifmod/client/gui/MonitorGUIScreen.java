@@ -101,7 +101,7 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 		guiGraphics.drawString(this.font,
 
 				ExteriorinputProcedure.execute(world), 17, 42, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_tardis_systems"), 204, 146, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_tardis_systems"), 202, 146, -1, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_tardis_data"), 221, 118, -1, false);
 	}
 
@@ -133,7 +133,7 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 		});
 		guistate.put("button:imagebutton_up_scroll", imagebutton_up_scroll);
 		this.addRenderableWidget(imagebutton_up_scroll);
-		imagebutton_galifrayan_symbol_ui = new ImageButton(this.leftPos + 175, this.topPos + 137, 26, 27, 0, 0, 27, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_galifrayan_symbol_ui.png"), 26, 54, e -> {
+		imagebutton_galifrayan_symbol_ui = new ImageButton(this.leftPos + 173, this.topPos + 137, 26, 27, 0, 0, 27, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_galifrayan_symbol_ui.png"), 26, 54, e -> {
 		});
 		guistate.put("button:imagebutton_galifrayan_symbol_ui", imagebutton_galifrayan_symbol_ui);
 		this.addRenderableWidget(imagebutton_galifrayan_symbol_ui);
