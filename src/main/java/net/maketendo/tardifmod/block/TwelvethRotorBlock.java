@@ -55,10 +55,10 @@ public class TwelvethRotorBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(1, 1, 1, 15, 16, 15));
-			case NORTH -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(1, 1, 1, 15, 16, 15));
-			case EAST -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(1, 1, 1, 15, 16, 15));
-			case WEST -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(1, 1, 1, 15, 16, 15));
+			default -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 30, 0, 16, 32, 16), box(1, 2, 1, 15, 30, 15));
+			case NORTH -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 30, 0, 16, 32, 16), box(1, 2, 1, 15, 30, 15));
+			case EAST -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 30, 0, 16, 32, 16), box(1, 2, 1, 15, 30, 15));
+			case WEST -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 30, 0, 16, 32, 16), box(1, 2, 1, 15, 30, 15));
 		};
 	}
 

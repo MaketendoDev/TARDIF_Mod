@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "rotor:default",
+    "customModelName": "twelveth_doctor_rotor:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,11 +33,20 @@
         "subtract": false
       },
       {
+        "mx": 0.0,
+        "my": 30.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 32.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
         "mx": 1.0,
-        "my": 1.0,
+        "my": 2.0,
         "mz": 1.0,
         "Mx": 15.0,
-        "My": 16.0,
+        "My": 30.0,
         "Mz": 15.0,
         "subtract": false
       },
@@ -51,11 +60,47 @@
         "subtract": false
       },
       {
+        "mx": 1.33954,
+        "my": 13.0,
+        "mz": 7.86756,
+        "Mx": 14.33954,
+        "My": 18.0,
+        "Mz": 7.86756,
+        "subtract": false
+      },
+      {
+        "mx": 8.13173,
+        "my": 13.0,
+        "mz": 1.33883,
+        "Mx": 8.13173,
+        "My": 18.0,
+        "Mz": 14.33883,
+        "subtract": false
+      },
+      {
+        "mx": 8.13173,
+        "my": 18.0,
+        "mz": 1.33883,
+        "Mx": 8.13173,
+        "My": 31.0,
+        "Mz": 14.33883,
+        "subtract": false
+      },
+      {
         "mx": 11.0,
         "my": 0.0,
         "mz": 10.0,
         "Mx": 11.0,
         "My": 13.0,
+        "Mz": 23.0,
+        "subtract": false
+      },
+      {
+        "mx": 11.0,
+        "my": 18.0,
+        "mz": 10.0,
+        "Mx": 11.0,
+        "My": 31.0,
         "Mz": 23.0,
         "subtract": false
       }
