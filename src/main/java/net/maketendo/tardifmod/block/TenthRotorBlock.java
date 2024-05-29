@@ -23,10 +23,10 @@ import net.minecraft.core.BlockPos;
 
 import java.util.List;
 
-public class FourteenthRotorBlock extends Block {
+public class TenthRotorBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public FourteenthRotorBlock() {
+	public TenthRotorBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.GLASS).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -34,7 +34,7 @@ public class FourteenthRotorBlock extends Block {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("\u00A78Orb"));
+		list.add(Component.literal("\u00A78Native"));
 	}
 
 	@Override
@@ -55,10 +55,10 @@ public class FourteenthRotorBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 30, 0, 16, 32, 16), box(1, 2, 1, 15, 30, 15));
-			case NORTH -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 30, 0, 16, 32, 16), box(1, 2, 1, 15, 30, 15));
-			case EAST -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 30, 0, 16, 32, 16), box(1, 2, 1, 15, 30, 15));
-			case WEST -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 30, 0, 16, 32, 16), box(1, 2, 1, 15, 30, 15));
+			default -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(1, 1, 1, 15, 16, 15));
+			case NORTH -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(1, 1, 1, 15, 16, 15));
+			case EAST -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(1, 1, 1, 15, 16, 15));
+			case WEST -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(1, 1, 1, 15, 16, 15));
 		};
 	}
 

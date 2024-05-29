@@ -17,8 +17,10 @@ import net.maketendo.tardifmod.block.WhiteWallpaperSlabBlock;
 import net.maketendo.tardifmod.block.WhiteWallpaperBlock;
 import net.maketendo.tardifmod.block.WallpaperRoundelDoorBlock;
 import net.maketendo.tardifmod.block.WallpaperRoundelBlock;
+import net.maketendo.tardifmod.block.TwelvethRotorBlock;
 import net.maketendo.tardifmod.block.TimeMovementCarpetControlBlock;
 import net.maketendo.tardifmod.block.TheMomentBlock;
+import net.maketendo.tardifmod.block.TenthRotorBlock;
 import net.maketendo.tardifmod.block.TelapathicCarpetControlBlock;
 import net.maketendo.tardifmod.block.TallWallpaperRoundelDoorBlock;
 import net.maketendo.tardifmod.block.TallRoundelDoorBlock;
@@ -58,6 +60,9 @@ import net.maketendo.tardifmod.block.HexagonalFrameCenteredBlock;
 import net.maketendo.tardifmod.block.HexagonRoundelBlock;
 import net.maketendo.tardifmod.block.FourteenthRotorBlock;
 import net.maketendo.tardifmod.block.FoodCubeMachineBlock;
+import net.maketendo.tardifmod.block.EleventhToyotaRotorBlock;
+import net.maketendo.tardifmod.block.EleventhRotorBlock;
+import net.maketendo.tardifmod.block.EighthRotorBlock;
 import net.maketendo.tardifmod.block.DrainedZyton7BlockBlock;
 import net.maketendo.tardifmod.block.DimensionalSelectorCarpetControlBlock;
 import net.maketendo.tardifmod.block.DematerialisationCarpetControlBlock;
@@ -170,6 +175,11 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> COORDINATE_TRAVEL_CARPET_CONTROL = REGISTRY.register("coordinate_travel_carpet_control", () -> new CoordinateTravelCarpetControlBlock());
 	public static final RegistryObject<Block> TELAPATHIC_CARPET_CONTROL = REGISTRY.register("telapathic_carpet_control", () -> new TelapathicCarpetControlBlock());
 	public static final RegistryObject<Block> FOURTEENTH_ROTOR = REGISTRY.register("fourteenth_rotor", () -> new FourteenthRotorBlock());
+	public static final RegistryObject<Block> TWELVETH_ROTOR = REGISTRY.register("twelveth_rotor", () -> new TwelvethRotorBlock());
+	public static final RegistryObject<Block> ELEVENTH_ROTOR = REGISTRY.register("eleventh_rotor", () -> new EleventhRotorBlock());
+	public static final RegistryObject<Block> ELEVENTH_TOYOTA_ROTOR = REGISTRY.register("eleventh_toyota_rotor", () -> new EleventhToyotaRotorBlock());
+	public static final RegistryObject<Block> TENTH_ROTOR = REGISTRY.register("tenth_rotor", () -> new TenthRotorBlock());
+	public static final RegistryObject<Block> EIGHTH_ROTOR = REGISTRY.register("eighth_rotor", () -> new EighthRotorBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -105,9 +105,11 @@
         "subtract": false
       }
     ],
-    "name": "Orb Time Rotor",
+    "name": "Time Rotor",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§8Orb"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

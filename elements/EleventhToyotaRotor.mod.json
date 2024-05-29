@@ -2,14 +2,14 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "rotor-original",
+    "texture": "eleventh_doctor_second_rotor_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "rotor:default",
+    "customModelName": "eleventh_doctor_second_rotor:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -63,7 +63,7 @@
     "name": "Time Rotor",
     "specialInformation": {
       "fixedValue": [
-        "§8Hartnel"
+        "§8Controlled Remastered"
       ]
     },
     "hardness": 1.0,

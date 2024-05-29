@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tardif_mod:block/eleventh_toyota_rotor"
+    },
+    "facing=east": {
+      "model": "tardif_mod:block/eleventh_toyota_rotor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tardif_mod:block/eleventh_toyota_rotor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tardif_mod:block/eleventh_toyota_rotor",
+      "y": 270
+    }
+  }
+}

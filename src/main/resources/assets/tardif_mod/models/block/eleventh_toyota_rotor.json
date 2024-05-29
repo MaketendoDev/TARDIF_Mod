@@ -1,0 +1,10 @@
+{
+  "parent": "tardif_mod:custom/eleventh_doctor_second_rotor",
+  "textures": {
+    "all": "tardif_mod:block/eleventh_doctor_second_rotor_texture",
+    "particle": "tardif_mod:block/eleventh_doctor_second_rotor_texture",
+    "0": "tardif_mod:block/eleventh_doctor_second_rotor_texture",
+    "missing": "tardif_mod:block/eleventh_doctor_second_rotor_texture"
+  },
+  "render_type": "translucent"
+}

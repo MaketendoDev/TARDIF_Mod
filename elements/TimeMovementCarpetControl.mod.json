@@ -35,14 +35,7 @@
     ],
     "name": "Time Manipulation Control",
     "specialInformation": {
-      "fixedValue": [
-        "§8Themes:",
-        "§a> Mixed",
-        "§8 Classic ",
-        "§8 Kitchen",
-        "§8 Rusty",
-        "§8 Orb"
-      ]
+      "fixedValue": []
     },
     "hardness": 1.0,
     "resistance": 10.0,

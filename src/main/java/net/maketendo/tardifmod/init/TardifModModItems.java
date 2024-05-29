@@ -175,6 +175,11 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> TENTH_RECORDED_MESSAGE = REGISTRY.register("tenth_recorded_message", () -> new TenthRecordedMessageItem());
 	public static final RegistryObject<Item> DEMATERIALISATION_CIRCUIT = REGISTRY.register("dematerialisation_circuit", () -> new DematerialisationCircuitItem());
 	public static final RegistryObject<Item> FOURTEENTH_ROTOR = block(TardifModModBlocks.FOURTEENTH_ROTOR);
+	public static final RegistryObject<Item> TWELVETH_ROTOR = block(TardifModModBlocks.TWELVETH_ROTOR);
+	public static final RegistryObject<Item> ELEVENTH_ROTOR = block(TardifModModBlocks.ELEVENTH_ROTOR);
+	public static final RegistryObject<Item> ELEVENTH_TOYOTA_ROTOR = block(TardifModModBlocks.ELEVENTH_TOYOTA_ROTOR);
+	public static final RegistryObject<Item> TENTH_ROTOR = block(TardifModModBlocks.TENTH_ROTOR);
+	public static final RegistryObject<Item> EIGHTH_ROTOR = block(TardifModModBlocks.EIGHTH_ROTOR);
 
 	// Start of user code block custom items
 	// End of user code block custom items
