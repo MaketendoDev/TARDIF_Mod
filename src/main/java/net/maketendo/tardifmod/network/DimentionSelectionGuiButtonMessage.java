@@ -13,9 +13,6 @@ import net.minecraft.core.BlockPos;
 
 import net.maketendo.tardifmod.world.inventory.DimentionSelectionGuiMenu;
 import net.maketendo.tardifmod.procedures.SetOverworldProcedure;
-import net.maketendo.tardifmod.procedures.SetNetherProcedure;
-import net.maketendo.tardifmod.procedures.SetEndProcedure;
-import net.maketendo.tardifmod.procedures.SetClassicNetherProcedure;
 import net.maketendo.tardifmod.TardifModMod;
 
 import java.util.function.Supplier;
@@ -65,21 +62,9 @@ public class DimentionSelectionGuiButtonMessage {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-		if (buttonID == 1) {
+		if (buttonID == 0) {
 
 			SetOverworldProcedure.execute(world, entity);
-		}
-		if (buttonID == 2) {
-
-			SetNetherProcedure.execute(world, entity);
-		}
-		if (buttonID == 3) {
-
-			SetEndProcedure.execute(world, entity);
-		}
-		if (buttonID == 4) {
-
-			SetClassicNetherProcedure.execute(world, entity);
 		}
 	}
 

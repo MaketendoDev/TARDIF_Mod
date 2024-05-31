@@ -28,16 +28,6 @@
       {
         "type": "imagebutton",
         "data": {
-          "name": "imagebutton_moon",
-          "image": "moon.png",
-          "hoveredImage": "",
-          "x": 244,
-          "y": 50
-        }
-      },
-      {
-        "type": "imagebutton",
-        "data": {
           "name": "imagebutton_overworld",
           "image": "overworld.png",
           "hoveredImage": "",
@@ -46,45 +36,6 @@
           },
           "x": 271,
           "y": 81
-        }
-      },
-      {
-        "type": "imagebutton",
-        "data": {
-          "name": "imagebutton_the_neather",
-          "image": "the_neather.png",
-          "hoveredImage": "the_neather.png",
-          "onClick": {
-            "name": "SetNether"
-          },
-          "x": 77,
-          "y": 156
-        }
-      },
-      {
-        "type": "imagebutton",
-        "data": {
-          "name": "imagebutton_the_end",
-          "image": "the_end.png",
-          "hoveredImage": "the_end.png",
-          "onClick": {
-            "name": "SetEnd"
-          },
-          "x": 338,
-          "y": 25
-        }
-      },
-      {
-        "type": "imagebutton",
-        "data": {
-          "name": "imagebutton_mondas",
-          "image": "mondas.png",
-          "hoveredImage": "",
-          "onClick": {
-            "name": "SetClassicNether"
-          },
-          "x": 93,
-          "y": 33
         }
       },
       {

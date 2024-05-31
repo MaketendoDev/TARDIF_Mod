@@ -22,11 +22,7 @@ public class DimentionSelectionGuiScreen extends AbstractContainerScreen<Dimenti
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	ImageButton imagebutton_moon;
 	ImageButton imagebutton_overworld;
-	ImageButton imagebutton_the_neather;
-	ImageButton imagebutton_the_end;
-	ImageButton imagebutton_mondas;
 
 	public DimentionSelectionGuiScreen(DimentionSelectionGuiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -89,41 +85,13 @@ public class DimentionSelectionGuiScreen extends AbstractContainerScreen<Dimenti
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_moon = new ImageButton(this.leftPos + 223, this.topPos + 37, 26, 26, 0, 0, 26, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_moon.png"), 26, 52, e -> {
-		});
-		guistate.put("button:imagebutton_moon", imagebutton_moon);
-		this.addRenderableWidget(imagebutton_moon);
 		imagebutton_overworld = new ImageButton(this.leftPos + 250, this.topPos + 68, 51, 51, 0, 0, 51, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_overworld.png"), 51, 102, e -> {
 			if (true) {
-				TardifModMod.PACKET_HANDLER.sendToServer(new DimentionSelectionGuiButtonMessage(1, x, y, z));
-				DimentionSelectionGuiButtonMessage.handleButtonAction(entity, 1, x, y, z);
+				TardifModMod.PACKET_HANDLER.sendToServer(new DimentionSelectionGuiButtonMessage(0, x, y, z));
+				DimentionSelectionGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		});
 		guistate.put("button:imagebutton_overworld", imagebutton_overworld);
 		this.addRenderableWidget(imagebutton_overworld);
-		imagebutton_the_neather = new ImageButton(this.leftPos + 56, this.topPos + 143, 49, 49, 0, 0, 49, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_the_neather.png"), 49, 98, e -> {
-			if (true) {
-				TardifModMod.PACKET_HANDLER.sendToServer(new DimentionSelectionGuiButtonMessage(2, x, y, z));
-				DimentionSelectionGuiButtonMessage.handleButtonAction(entity, 2, x, y, z);
-			}
-		});
-		guistate.put("button:imagebutton_the_neather", imagebutton_the_neather);
-		this.addRenderableWidget(imagebutton_the_neather);
-		imagebutton_the_end = new ImageButton(this.leftPos + 317, this.topPos + 12, 52, 52, 0, 0, 52, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_the_end.png"), 52, 104, e -> {
-			if (true) {
-				TardifModMod.PACKET_HANDLER.sendToServer(new DimentionSelectionGuiButtonMessage(3, x, y, z));
-				DimentionSelectionGuiButtonMessage.handleButtonAction(entity, 3, x, y, z);
-			}
-		});
-		guistate.put("button:imagebutton_the_end", imagebutton_the_end);
-		this.addRenderableWidget(imagebutton_the_end);
-		imagebutton_mondas = new ImageButton(this.leftPos + 72, this.topPos + 20, 51, 51, 0, 0, 51, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_mondas.png"), 51, 102, e -> {
-			if (true) {
-				TardifModMod.PACKET_HANDLER.sendToServer(new DimentionSelectionGuiButtonMessage(4, x, y, z));
-				DimentionSelectionGuiButtonMessage.handleButtonAction(entity, 4, x, y, z);
-			}
-		});
-		guistate.put("button:imagebutton_mondas", imagebutton_mondas);
-		this.addRenderableWidget(imagebutton_mondas);
 	}
 }
