@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "minecraft:red_stained_glass_pane"
+    },
+    "c": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "d": {
+      "item": "tardif_mod:circuit_board"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:fourth_rotor",
+    "count": 1
+  }
+}
