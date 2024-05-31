@@ -23,10 +23,10 @@ import net.minecraft.core.BlockPos;
 
 import java.util.List;
 
-public class RotorBlock extends Block {
+public class FifthRotorBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public RotorBlock() {
+	public FifthRotorBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.GLASS).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -34,7 +34,7 @@ public class RotorBlock extends Block {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("\u00A78Canvas"));
+		list.add(Component.literal("\u00A78Hexagon"));
 	}
 
 	@Override

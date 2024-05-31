@@ -58,8 +58,10 @@ import net.maketendo.tardifmod.block.MelartBlockBlock;
 import net.maketendo.tardifmod.block.HexagonalFrameOffsetBlock;
 import net.maketendo.tardifmod.block.HexagonalFrameCenteredBlock;
 import net.maketendo.tardifmod.block.HexagonRoundelBlock;
+import net.maketendo.tardifmod.block.FourthRotorBlock;
 import net.maketendo.tardifmod.block.FourteenthRotorBlock;
 import net.maketendo.tardifmod.block.FoodCubeMachineBlock;
+import net.maketendo.tardifmod.block.FifthRotorBlock;
 import net.maketendo.tardifmod.block.EleventhToyotaRotorBlock;
 import net.maketendo.tardifmod.block.EleventhRotorBlock;
 import net.maketendo.tardifmod.block.EighthRotorBlock;
@@ -180,6 +182,8 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> ELEVENTH_TOYOTA_ROTOR = REGISTRY.register("eleventh_toyota_rotor", () -> new EleventhToyotaRotorBlock());
 	public static final RegistryObject<Block> TENTH_ROTOR = REGISTRY.register("tenth_rotor", () -> new TenthRotorBlock());
 	public static final RegistryObject<Block> EIGHTH_ROTOR = REGISTRY.register("eighth_rotor", () -> new EighthRotorBlock());
+	public static final RegistryObject<Block> FIFTH_ROTOR = REGISTRY.register("fifth_rotor", () -> new FifthRotorBlock());
+	public static final RegistryObject<Block> FOURTH_ROTOR = REGISTRY.register("fourth_rotor", () -> new FourthRotorBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

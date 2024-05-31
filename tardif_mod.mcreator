@@ -5013,6 +5013,42 @@
         ]
       },
       "path": "~/Decor Blocks/Rotor/8th Rotor"
+    },
+    {
+      "name": "FifthRotor",
+      "type": "block",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifth_rotor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/item/fifth_rotor.json",
+          "src/main/java/net/maketendo/tardifmod/block/FifthRotorBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/fifth_rotor.json",
+          "src/main/resources/assets/tardif_mod/blockstates/fifth_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/block/fifth_rotor.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Rotor/5th Rotor"
+    },
+    {
+      "name": "FourthRotor",
+      "type": "block",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourth_rotor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/item/fourth_rotor.json",
+          "src/main/java/net/maketendo/tardifmod/block/FourthRotorBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/fourth_rotor.json",
+          "src/main/resources/assets/tardif_mod/blockstates/fourth_rotor.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/fourth_rotor.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Rotor/4th Rotor"
     }
   ],
   "variable_elements": [
@@ -5584,7 +5620,7 @@
       "item.tardif_mod.plastic": "Plastic Mold",
       "advancements.the_source.descr": "Obtain Zyton-7",
       "advancements.strongest_weaponon_the_universe.title": "Strongest Weaponon In The Universe?",
-      "block.tardif_mod.twelveth_rotor": "Time Rotor",
+      "block.tardif_mod.twelveth_rotor": "Tall Time Rotor",
       "gui.tardif_mod.coordinate_select_gui.button_y": "Y",
       "gui.tardif_mod.exterior_monitor_gui.label_stuff": "InFlight:",
       "block.tardif_mod.mint_roundel": "Mint Roundel",
@@ -5631,7 +5667,7 @@
       "gui.tardif_mod.monitor_gui.label_dim_input": "dim_input",
       "block.tardif_mod.roundel": "Roundel",
       "item.tardif_mod.jellybabies": "Jelly babies",
-      "block.tardif_mod.eighth_rotor": "Time Rotor",
+      "block.tardif_mod.eighth_rotor": "Tall Time Rotor",
       "block.tardif_mod.skaro_grass": "Skaro Grass",
       "subtitles.tenth_message": "??? talking...",
       "subtitles.sonic_screwdriver": "Sonic Screwdriver",
@@ -5654,7 +5690,7 @@
       "item.tardif_mod.food_cube": "Food Cube",
       "advancements.strongest_weaponon_the_universe.descr": "Obtain The Upgraded Melart Sword",
       "block.tardif_mod.food_cube_machine": "Food Cube Machine",
-      "block.tardif_mod.fourteenth_rotor": "Time Rotor",
+      "block.tardif_mod.fourteenth_rotor": "Tall Time Rotor",
       "block.tardif_mod.zyton_7_block": "Block of Zyton-7",
       "biome.tardif_mod.classic_nether_biome": "Classic Nether Biome",
       "block.tardif_mod.classic_red_wool": "Classic Red Wool",
@@ -5672,6 +5708,7 @@
       "block.tardif_mod.wallpaper_roundel_door": "Roundel Door",
       "biome.tardif_mod.skaro_swamp": "Skaro Swamp",
       "gui.tardif_mod.engine_gui.label_tardis_engine": "TARDIS Engine",
+      "block.tardif_mod.fourth_rotor": "Time Rotor",
       "biome.tardif_mod.space_biome": "Space Biome",
       "subtitles.tardis_beep": "TARDIS Beep",
       "gui.tardif_mod.coordinate_select_gui.button_save": "Save",
@@ -5680,6 +5717,7 @@
       "block.tardif_mod.classic_dirt": "Classic Dirt",
       "gui.tardif_mod.coordinate_select_gui.button_rotate": "Rotate",
       "advancements.obtain_tardis.descr": "Obtain the TARDIS!",
+      "block.tardif_mod.fifth_rotor": "Time Rotor",
       "block.tardif_mod.white_wallpaper": "Plain Wallpaper",
       "item.tardif_mod.telepathic_upgrade_template": "Telepathic Upgrade Template",
       "block.tardif_mod.classic_netherack": "Classic Netherack",
@@ -5720,7 +5758,7 @@
       "gui.tardif_mod.coordinate_select_gui.label_x": "X:",
       "gui.tardif_mod.coordinate_select_gui.label_y": "Y:",
       "item.tardif_mod.dalekium_ingot": "Dalekium Ingot",
-      "block.tardif_mod.eleventh_toyota_rotor": "Time Rotor",
+      "block.tardif_mod.eleventh_toyota_rotor": "Tall Time Rotor",
       "item.tardif_mod.raw_dalekium": "Raw Dalekium",
       "advancements.what_is_this_place.title": "IT\u0027S SMALLER ON THE OUTSIDE!",
       "item.tardif_mod.circuit_board": "Circuit Board",
@@ -5733,11 +5771,11 @@
       "subtitles.inflight": "TARDIS Engines",
       "item.tardif_mod.melart_armor_helmet": "Melart Helmet",
       "advancements.advanced.descr": "Crafted or obtained the circut item!",
-      "block.tardif_mod.tenth_rotor": "Time Rotor",
+      "block.tardif_mod.tenth_rotor": "Tall Time Rotor",
       "subtitles.tardis_stabilisers": "TARDIS Stabilisers",
       "gui.tardif_mod.coordinate_select_gui.tooltip_generate_y": "Constiplate Life",
       "block.tardif_mod.classic_aqua_wool": "Classic Aqua Wool",
-      "block.tardif_mod.eleventh_rotor": "Time Rotor",
+      "block.tardif_mod.eleventh_rotor": "Tall Time Rotor",
       "block.tardif_mod.classic_purple_wool": "Classic Purple Wool",
       "entity.tardif_mod.tenth_cyberman": "Mondasians Cyberman",
       "biome.tardif_mod.skaro_plains": "Skaro Plains",
@@ -5989,6 +6027,14 @@
               },
               {
                 "name": "8th Rotor",
+                "children": []
+              },
+              {
+                "name": "5th Rotor",
+                "children": []
+              },
+              {
+                "name": "4th Rotor",
                 "children": []
               }
             ]

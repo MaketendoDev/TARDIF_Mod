@@ -180,6 +180,8 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> ELEVENTH_TOYOTA_ROTOR = block(TardifModModBlocks.ELEVENTH_TOYOTA_ROTOR);
 	public static final RegistryObject<Item> TENTH_ROTOR = block(TardifModModBlocks.TENTH_ROTOR);
 	public static final RegistryObject<Item> EIGHTH_ROTOR = block(TardifModModBlocks.EIGHTH_ROTOR);
+	public static final RegistryObject<Item> FIFTH_ROTOR = block(TardifModModBlocks.FIFTH_ROTOR);
+	public static final RegistryObject<Item> FOURTH_ROTOR = block(TardifModModBlocks.FOURTH_ROTOR);
 
 	// Start of user code block custom items
 	// End of user code block custom items
