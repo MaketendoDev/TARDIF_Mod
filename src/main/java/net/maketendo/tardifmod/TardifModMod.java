@@ -40,6 +40,8 @@ public class TardifModMod {
 	public static final String MODID = "tardif_mod";
 
 	public TardifModMod() {
+		// Start of user code block mod constructor
+		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		TardifModModSounds.REGISTRY.register(bus);

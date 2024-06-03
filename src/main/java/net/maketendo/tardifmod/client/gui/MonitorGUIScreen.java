@@ -106,11 +106,6 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 	}
 
 	@Override
-	public void onClose() {
-		super.onClose();
-	}
-
-	@Override
 	public void init() {
 		super.init();
 		imagebutton_status_button = new ImageButton(this.leftPos + 261, this.topPos + 13, 20, 20, 0, 0, 20, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_status_button.png"), 20, 40, e -> {

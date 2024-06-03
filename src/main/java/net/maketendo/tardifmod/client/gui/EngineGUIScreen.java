@@ -72,11 +72,6 @@ public class EngineGUIScreen extends AbstractContainerScreen<EngineGUIMenu> {
 	}
 
 	@Override
-	public void onClose() {
-		super.onClose();
-	}
-
-	@Override
 	public void init() {
 		super.init();
 	}

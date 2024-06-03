@@ -103,11 +103,6 @@ public class CoordinateSelectGUIScreen extends AbstractContainerScreen<Coordinat
 	}
 
 	@Override
-	public void onClose() {
-		super.onClose();
-	}
-
-	@Override
 	public void init() {
 		super.init();
 		X_Coord = new EditBox(this.font, this.leftPos + 17, this.topPos + 25, 118, 18, Component.translatable("gui.tardif_mod.coordinate_select_gui.X_Coord")) {
