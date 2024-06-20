@@ -1,9 +1,9 @@
 {
-  "parent": "tardif_mod:custom/ttcapsule",
+  "parent": "tardif_mod:custom/tardis_exterior_ttcapsule_closed",
   "textures": {
-    "all": "tardif_mod:block/ttcapsule_closed_texture",
+    "all": "tardif_mod:block/tardis_exterior_ttcapsule_closed_texture",
     "particle": "tardif_mod:block/transparrent",
-    "0": "tardif_mod:block/ttcapsule_closed_texture"
+    "0": "tardif_mod:block/tardis_exterior_ttcapsule_closed_texture"
   },
   "render_type": "cutout_mipped"
 }

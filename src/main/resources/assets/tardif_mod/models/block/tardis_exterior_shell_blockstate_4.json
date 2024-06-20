@@ -1,10 +1,9 @@
 {
-  "parent": "tardif_mod:custom/bin_exterior",
+  "parent": "tardif_mod:custom/tardis_exterior_bin_closed",
   "textures": {
-    "all": "tardif_mod:block/bin_exterior_texture",
+    "all": "tardif_mod:block/tardis_exterior_bin_closed_texture",
     "particle": "tardif_mod:block/transparrent",
-    "0": "tardif_mod:block/bin_exterior_texture",
-    "missing": "tardif_mod:block/bin_exterior_texture"
+    "0": "tardif_mod:block/tardis_exterior_bin_closed_texture"
   },
   "render_type": "cutout_mipped"
 }
