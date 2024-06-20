@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "tardis_exterior_phonebox_closed_texture"
+      },
+      "name": "default"
+    }
+  }
+}

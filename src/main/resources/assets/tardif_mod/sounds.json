@@ -168,5 +168,14 @@
         "stream": true
       }
     ]
+  },
+  "tardis_sound_music_forever": {
+    "subtitle": "subtitles.tardis_sound_music_forever",
+    "sounds": [
+      {
+        "name": "tardif_mod:14th_doctor_forever_extract",
+        "stream": true
+      }
+    ]
   }
 }

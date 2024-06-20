@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tardis_exterior_policebox_closed_texture"
+      },
+      "name": "default"
+    }
+  }
+}
