@@ -116,15 +116,6 @@
       }
     ]
   },
-  "vm_teleport": {
-    "subtitle": "subtitles.vm_teleport",
-    "sounds": [
-      {
-        "name": "tardif_mod:vm_teleport",
-        "stream": false
-      }
-    ]
-  },
   "door_lock": {
     "subtitle": "subtitles.door_lock",
     "sounds": [
@@ -175,6 +166,15 @@
       {
         "name": "tardif_mod:14th_doctor_forever_extract",
         "stream": true
+      }
+    ]
+  },
+  "tardis_sfx_groaning": {
+    "subtitle": "subtitles.tardis_sfx_groaning",
+    "sounds": [
+      {
+        "name": "tardif_mod:tardis_sfx_groaning",
+        "stream": false
       }
     ]
   }
