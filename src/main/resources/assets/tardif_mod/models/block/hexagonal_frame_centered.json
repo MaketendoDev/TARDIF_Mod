@@ -1,10 +1,10 @@
 {
-  "parent": "tardif_mod:custom/hexagonal_frame_center",
+  "parent": "tardif_mod:custom/block_decoration_centered_hexagonalframe",
   "textures": {
-    "all": "tardif_mod:block/hexagonal_frame_texture",
-    "particle": "tardif_mod:block/hexagonal_frame_texture",
-    "1": "tardif_mod:block/hexagonal_frame_texture",
-    "missing": "tardif_mod:block/hexagonal_frame_texture"
+    "all": "tardif_mod:block/block_decoration_hexagonalframe_texture",
+    "particle": "tardif_mod:block/block_decoration_hexagonalframe_texture",
+    "1": "tardif_mod:block/block_decoration_hexagonalframe_texture",
+    "missing": "tardif_mod:block/block_decoration_hexagonalframe_texture"
   },
   "render_type": "translucent"
 }

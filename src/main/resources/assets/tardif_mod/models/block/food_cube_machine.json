@@ -1,9 +1,9 @@
 {
-  "parent": "tardif_mod:custom/foodcubemachine",
+  "parent": "tardif_mod:custom/block_functional_foodcubemachine",
   "textures": {
-    "all": "tardif_mod:block/foodcubemachine_texture",
-    "particle": "tardif_mod:block/foodcubemachine_texture",
-    "0": "tardif_mod:block/foodcubemachine_texture"
+    "all": "tardif_mod:block/block_functional_foodcubemachine_texture",
+    "particle": "tardif_mod:block/block_functional_foodcubemachine_texture",
+    "2": "tardif_mod:block/block_functional_foodcubemachine_texture"
   },
   "render_type": "cutout"
 }

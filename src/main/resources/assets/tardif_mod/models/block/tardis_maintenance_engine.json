@@ -1,10 +1,9 @@
 {
-  "parent": "tardif_mod:custom/engine_maintanance_block",
+  "parent": "tardif_mod:custom/block_tardis_engine",
   "textures": {
-    "all": "tardif_mod:block/engine_maintanance_block_texture",
-    "particle": "tardif_mod:block/engine_maintanance_block_texture",
-    "0": "tardif_mod:block/engine_maintanance_block_texture",
-    "missing": "tardif_mod:block/engine_maintanance_block_texture"
+    "all": "tardif_mod:block/block_functional_foodcubemachine_texture",
+    "particle": "tardif_mod:block/block_functional_foodcubemachine_texture",
+    "1": "tardif_mod:block/block_tardis_engine_texture"
   },
   "render_type": "solid"
 }

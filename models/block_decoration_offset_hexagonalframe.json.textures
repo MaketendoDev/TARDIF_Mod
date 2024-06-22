@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "block_decoration_hexagonalframe_texture",
+        "missing": "block_decoration_hexagonalframe_texture"
+      },
+      "name": "default"
+    }
+  }
+}

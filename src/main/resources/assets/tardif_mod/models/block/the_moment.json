@@ -1,10 +1,9 @@
 {
-  "parent": "tardif_mod:custom/the_moment",
+  "parent": "tardif_mod:custom/block_functional_themoment",
   "textures": {
-    "all": "tardif_mod:block/themoment_texture",
-    "particle": "tardif_mod:block/themoment_texture",
-    "0": "tardif_mod:block/themoment_texture",
-    "missing": "tardif_mod:block/themoment_texture"
+    "all": "tardif_mod:block/block_functional_themoment_texture",
+    "particle": "tardif_mod:block/block_functional_themoment_texture",
+    "1": "tardif_mod:block/block_functional_themoment_texture"
   },
   "render_type": "translucent"
 }

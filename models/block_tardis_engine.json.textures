@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "block_tardis_engine_texture"
+      },
+      "name": "default"
+    }
+  }
+}

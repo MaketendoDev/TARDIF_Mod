@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "tardif_mod:block/the_moment"
+    },
+    "facing=east": {
+      "model": "tardif_mod:block/the_moment",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tardif_mod:block/the_moment",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tardif_mod:block/the_moment",
+      "y": 270
     }
   }
 }

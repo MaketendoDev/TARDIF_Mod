@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "block_functional_themoment_texture"
+      },
+      "name": "default"
+    }
+  }
+}
