@@ -12,7 +12,7 @@ public class DoorDisplayUpdateProcedure {
 		if (TardifModModVariables.MapVariables.get(world).DoorOpen == true) {
 			if ((TardifModModVariables.MapVariables.get(world).Exterior).equals("Phonebox")) {
 				{
-					int _value = 0;
+					int _value = 2;
 					BlockPos _pos = BlockPos.containing(x, y, z);
 					BlockState _bs = world.getBlockState(_pos);
 					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))

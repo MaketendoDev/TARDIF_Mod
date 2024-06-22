@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "texture_5"
+        "0": "block_functional_dalekrefinary_texture"
       },
       "name": "default"
     }

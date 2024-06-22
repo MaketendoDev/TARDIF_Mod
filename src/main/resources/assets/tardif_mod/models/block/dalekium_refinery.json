@@ -1,9 +1,9 @@
 {
-  "parent": "tardif_mod:custom/refinary",
+  "parent": "tardif_mod:custom/block_functional_dalekrefinary",
   "textures": {
-    "all": "tardif_mod:block/texture_5",
-    "particle": "tardif_mod:block/texture_5",
-    "1": "tardif_mod:block/texture_5"
+    "all": "tardif_mod:block/block_functional_dalekrefinary_texture",
+    "particle": "tardif_mod:block/block_functional_dalekrefinary_texture",
+    "0": "tardif_mod:block/block_functional_dalekrefinary_texture"
   },
   "render_type": "solid"
 }
