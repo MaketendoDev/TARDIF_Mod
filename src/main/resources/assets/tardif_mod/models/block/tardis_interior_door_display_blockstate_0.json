@@ -1,10 +1,9 @@
 {
-  "parent": "tardif_mod:custom/phonebox_interior_door",
+  "parent": "tardif_mod:custom/tardis_interior_tardisdoor_phonebox",
   "textures": {
-    "all": "tardif_mod:block/phonebox_exterior_texture",
+    "all": "tardif_mod:block/tardis_interior_tardisdoor_phonebox_texture",
     "particle": "tardif_mod:block/transparrent",
-    "2": "tardif_mod:block/phonebox_exterior_texture",
-    "missing": "tardif_mod:block/phonebox_exterior_texture"
+    "1": "tardif_mod:block/tardis_interior_tardisdoor_phonebox_texture"
   },
   "render_type": "cutout"
 }

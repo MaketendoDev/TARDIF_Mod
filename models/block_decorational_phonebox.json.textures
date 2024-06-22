@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "block_decorational_phonebox_texture"
+      },
+      "name": "default"
+    }
+  }
+}

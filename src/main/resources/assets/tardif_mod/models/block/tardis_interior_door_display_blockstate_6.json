@@ -1,10 +1,9 @@
 {
-  "parent": "tardif_mod:custom/ttcapsule_interior_door_closed",
+  "parent": "tardif_mod:custom/tardis_interior_tardisdoor_ttcapsule",
   "textures": {
-    "all": "tardif_mod:block/ttcapsule_interior_door",
+    "all": "tardif_mod:block/tardis_interior_tardisdoor_ttcapsule_texture",
     "particle": "tardif_mod:block/transparrent",
-    "0": "tardif_mod:block/ttcapsule_interior_door",
-    "missing": "tardif_mod:block/ttcapsule_interior_door"
+    "0": "tardif_mod:block/tardis_interior_tardisdoor_ttcapsule_texture"
   },
   "render_type": "cutout"
 }

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tardis_interior_tardisdoor_ttcapsule_texture"
+      },
+      "name": "default"
+    }
+  }
+}

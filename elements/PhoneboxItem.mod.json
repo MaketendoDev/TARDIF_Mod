@@ -3,8 +3,8 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "phonebox_exterior_texture",
-    "customModelName": "phonebox_decor:default",
+    "texture": "block_decorational_phonebox_texture",
+    "customModelName": "block_decorational_phonebox:default",
     "customProperties": {},
     "states": [],
     "name": "Telephone Box Decoration",
