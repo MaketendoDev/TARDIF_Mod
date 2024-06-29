@@ -80,7 +80,7 @@ public class TARDISInteriorDoorUpdateTickProcedure {
 			TardifModModVariables.MapVariables.get(world).DoorOpen = false;
 			TardifModModVariables.MapVariables.get(world).syncData(world);
 			TardifModMod.queueServerWork(1, () -> {
-				if ((TardifModModVariables.MapVariables.get(world).Facing).equals("north")) {
+				if ((TardifModModVariables.MapVariables.get(world).Facing).equals("North")) {
 					{
 						Entity _ent = entity;
 						_ent.setYRot(180);
@@ -102,7 +102,7 @@ public class TARDISInteriorDoorUpdateTickProcedure {
 									_ent.getYRot(), _ent.getXRot());
 					}
 				} else {
-					if ((TardifModModVariables.MapVariables.get(world).Facing).equals("east")) {
+					if ((TardifModModVariables.MapVariables.get(world).Facing).equals("East")) {
 						{
 							Entity _ent = entity;
 							_ent.setYRot(-90);
@@ -124,7 +124,7 @@ public class TARDISInteriorDoorUpdateTickProcedure {
 										_ent.getYRot(), _ent.getXRot());
 						}
 					} else {
-						if ((TardifModModVariables.MapVariables.get(world).Facing).equals("south")) {
+						if ((TardifModModVariables.MapVariables.get(world).Facing).equals("Eouth")) {
 							{
 								Entity _ent = entity;
 								_ent.setYRot(0);
