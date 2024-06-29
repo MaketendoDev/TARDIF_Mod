@@ -5161,6 +5161,24 @@
         ]
       },
       "path": "~/Decor Blocks/Rotor/14th Rotor"
+    },
+    {
+      "name": "CogRoundel",
+      "type": "block",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cog_roundel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/item/cog_roundel.json",
+          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel.json",
+          "src/main/resources/assets/tardif_mod/models/block/cog_roundel.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/cog_roundel.json",
+          "src/main/java/net/maketendo/tardifmod/block/CogRoundelBlock.java"
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels"
     }
   ],
   "variable_elements": [
@@ -5623,6 +5641,7 @@
       "CUSTOM:SkaroGrass"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:CogRoundel",
       "~CUSTOM:TallMintRoundelDoor",
       "~CUSTOM:TallWallpaperRoundelDoor",
       "~CUSTOM:TallRoundelDoor",
@@ -5824,6 +5843,7 @@
       "advancements.strongest_weaponon_the_universe.descr": "Obtain The Upgraded Melart Sword",
       "block.tardif_mod.food_cube_machine": "Food Cube Machine",
       "block.tardif_mod.fourteenth_rotor": "Tall Time Rotor",
+      "block.tardif_mod.cog_roundel": "Roundel",
       "block.tardif_mod.zyton_7_block": "Block of Zyton-7",
       "biome.tardif_mod.classic_nether_biome": "Classic Nether Biome",
       "block.tardif_mod.classic_red_wool": "Classic Red Wool",
@@ -6103,6 +6123,10 @@
               },
               {
                 "name": "Wallpaper Roundel",
+                "children": []
+              },
+              {
+                "name": "Cog Roundel",
                 "children": []
               }
             ]

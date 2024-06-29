@@ -73,6 +73,7 @@ import net.maketendo.tardifmod.block.DalekiumOreBlock;
 import net.maketendo.tardifmod.block.DalekiumBlockBlock;
 import net.maketendo.tardifmod.block.CopperMonitorBlock;
 import net.maketendo.tardifmod.block.CoordinateTravelCarpetControlBlock;
+import net.maketendo.tardifmod.block.CogRoundelBlock;
 import net.maketendo.tardifmod.block.ClassicgrassBlock;
 import net.maketendo.tardifmod.block.ClassicYellowWoolBlock;
 import net.maketendo.tardifmod.block.ClassicWhiteWoolBlock;
@@ -184,6 +185,7 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> EIGHTH_ROTOR = REGISTRY.register("eighth_rotor", () -> new EighthRotorBlock());
 	public static final RegistryObject<Block> FIFTH_ROTOR = REGISTRY.register("fifth_rotor", () -> new FifthRotorBlock());
 	public static final RegistryObject<Block> FOURTH_ROTOR = REGISTRY.register("fourth_rotor", () -> new FourthRotorBlock());
+	public static final RegistryObject<Block> COG_ROUNDEL = REGISTRY.register("cog_roundel", () -> new CogRoundelBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

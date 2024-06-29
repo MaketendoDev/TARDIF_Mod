@@ -2,15 +2,15 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "skaro_nature_sand",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
+    "texture": "white_wallpaper",
+    "textureTop": "white_wallpaper",
+    "textureLeft": "roundel_half",
+    "textureFront": "roundel",
+    "textureRight": "roundel_half",
+    "textureBack": "roundel",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,18 +33,18 @@
         "subtract": false
       }
     ],
-    "name": "Skaro Sand",
+    "name": "Roundel",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.05,
-    "resistance": 9.5,
-    "hasGravity": true,
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:TARDIFDecoration"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "SAND"
+      "value": "WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SAND"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""

@@ -84,6 +84,7 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModBlocks.EIGHTH_ROTOR.get().asItem());
 				tabData.accept(TardifModModBlocks.FIFTH_ROTOR.get().asItem());
 				tabData.accept(TardifModModBlocks.FOURTH_ROTOR.get().asItem());
+				tabData.accept(TardifModModBlocks.COG_ROUNDEL.get().asItem());
 			})
 
 					.build());
