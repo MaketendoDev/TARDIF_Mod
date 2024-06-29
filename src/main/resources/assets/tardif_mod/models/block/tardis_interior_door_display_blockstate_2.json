@@ -3,7 +3,7 @@
   "textures": {
     "all": "tardif_mod:block/tardis_interior_tardisdoor_policebox_texture",
     "particle": "tardif_mod:block/transparrent",
-    "0": "tardif_mod:block/tardis_interior_tardisdoor_phonebox_texture"
+    "0": "tardif_mod:block/tardis_interior_tardisdoor_policebox_texture"
   },
   "render_type": "cutout"
 }

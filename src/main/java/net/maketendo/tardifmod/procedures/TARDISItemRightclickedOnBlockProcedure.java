@@ -24,6 +24,7 @@ public class TARDISItemRightclickedOnBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		boolean placed = false;
 		if (TardifModModVariables.MapVariables.get(world).ExteriorSurplus == false) {
 			world.setBlock(BlockPos.containing(x, y + 2, z), (new Object() {
 				public BlockState with(BlockState _bs, String _property, int _newValue) {

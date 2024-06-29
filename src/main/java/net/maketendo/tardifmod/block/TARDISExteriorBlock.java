@@ -232,10 +232,10 @@ public class TARDISExteriorBlock extends Block implements EntityBlock {
 			};
 		}
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 32, 16);
-			case NORTH -> box(0, 0, 0, 16, 32, 16);
-			case EAST -> box(0, 0, 0, 16, 32, 16);
-			case WEST -> box(0, 0, 0, 16, 32, 16);
+			default -> box(0, -16, 0, 16, 32, 16);
+			case NORTH -> box(0, -16, 0, 16, 32, 16);
+			case EAST -> box(0, -16, 0, 16, 32, 16);
+			case WEST -> box(0, -16, 0, 16, 32, 16);
 		};
 	}
 
@@ -295,7 +295,7 @@ public class TARDISExteriorBlock extends Block implements EntityBlock {
 
 	@Override
 	public void onProjectileHit(Level world, BlockState blockstate, BlockHitResult hit, Projectile entity) {
-		TARDISExteriorOnBlockHitByProjectileProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ(), entity);
+		TARDISExteriorOnBlockHitByProjectileProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ());
 	}
 
 	@Override
@@ -308,7 +308,7 @@ public class TARDISExteriorBlock extends Block implements EntityBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		TARDISRightClickedOnEntityProcedure.execute(world);
+		TARDISRightClickedOnEntityProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 
