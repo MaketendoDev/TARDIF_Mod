@@ -22,6 +22,8 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TardifModModVariables {
+	public static boolean BetaTesting = true;
+
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		TardifModMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new, SavedDataSyncMessage::handler);

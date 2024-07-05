@@ -1,0 +1,63 @@
+{
+  "_fv": 60,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "gear_ui.png",
+          "use1Xscale": false,
+          "anchorPoint": "TOP_LEFT",
+          "x": 3,
+          "y": 4
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tardif_mod_200_forge_20241",
+          "text": {
+            "fixedValue": "TARDIF Mod 2.0.0 Forge (1.20.1)"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_LEFT",
+          "x": 20,
+          "y": 4
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_alpha_test_ver_65935",
+          "text": {
+            "fixedValue": "ALPHA TEST VER. 65.9.35"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_LEFT",
+          "x": 21,
+          "y": 13
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "VersionDisplayDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

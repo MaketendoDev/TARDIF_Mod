@@ -5194,6 +5194,36 @@
         ]
       },
       "path": "~/TARDIS/TARDIS Exterior/TARDIS Exterior Procedures"
+    },
+    {
+      "name": "VersionDisplay",
+      "type": "overlay",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "version_display",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/client/screens/VersionDisplayOverlay.java"
+        ]
+      },
+      "path": "~/Beta Testing"
+    },
+    {
+      "name": "VersionDisplayDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "version_display_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/VersionDisplayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Beta Testing"
     }
   ],
   "variable_elements": [
@@ -5424,6 +5454,12 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "BetaTesting",
+      "type": "logic",
+      "scope": "global",
+      "value": "true"
     }
   ],
   "sound_elements": [
@@ -5589,13 +5625,13 @@
     }
   ],
   "tag_elements": {
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
     "ITEMS:minecraft:roundel_doors": [
       "CUSTOM:RoundelDoor",
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:ZytonOre",
@@ -5723,8 +5759,8 @@
   },
   "language_map": {
     "en_us": {
-      "subtitles.vm_teleport": "Teleporting...",
       "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
+      "subtitles.vm_teleport": "Teleporting...",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
@@ -5750,6 +5786,7 @@
       "block.tardif_mod.nitro_9": "Nitro 9",
       "subtitles.tardis_copper_hum": "TARDIS Hum",
       "block.tardif_mod.the_moment": "The Moment",
+      "gui.tardif_mod.version_display.label_alpha_test_ver_65935": "ALPHA TEST VER. 65.9.35",
       "gui.tardif_mod.monitor_gui.label_interior_input": "interior_input",
       "gui.tardif_mod.monitor_gui.label_stuff": "InFlight:",
       "block.tardif_mod.classic_sand": "Classic Sand",
@@ -5759,16 +5796,16 @@
       "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
       "gui.tardif_mod.coordinate_select_gui.X_Coord": "X",
       "subtitles.tardis_shutdown": "TARDIS Deactivating",
-      "advancements.refine_it.descr": "Obtain Dalekium Refinery",
       "death.attack.moment_damage_type.item": "%1$s was killed by the moment whilst also killed by %2$s using %3$s",
+      "advancements.refine_it.descr": "Obtain Dalekium Refinery",
       "item.tardif_mod.melart_axe": "Melart Axe",
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
       "item.tardif_mod.dalekium_axe": "Dalekium Axe",
+      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
@@ -5776,8 +5813,8 @@
       "gui.tardif_mod.coordinate_select_gui.Y_Coord": "Y",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
       "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
-      "advancements.the_hell_planet.descr": "Travel To Skaro",
       "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
+      "advancements.the_hell_planet.descr": "Travel To Skaro",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
       "advancements.obtain_tardis.title": "It\u0027s alive!",
       "item.tardif_mod.dalekium_armor_leggings": "Dalekium Leggings",
@@ -5886,6 +5923,7 @@
       "gui.tardif_mod.coordinate_select_gui.button_rotate": "Rotate",
       "advancements.obtain_tardis.descr": "Obtain the TARDIS!",
       "subtitles.tardis_sfx_groaning": "TARDIS Groaning",
+      "gui.tardif_mod.version_display.label_tardif_mod_200_forge_20241": "TARDIF Mod 2.0.0 Forge (1.20.1)",
       "block.tardif_mod.fifth_rotor": "Time Rotor",
       "block.tardif_mod.white_wallpaper": "Plain Wallpaper",
       "item.tardif_mod.telepathic_upgrade_template": "Telepathic Upgrade Template",
@@ -5907,7 +5945,7 @@
       "block.tardif_mod.skaro_dirt": "Skaro Dirt",
       "block.tardif_mod.tall_mint_roundel_door": "Mint Roundel Door",
       "item.tardif_mod.tenth_cyberman_spawn_egg": "Mondasians Cyberman Spawn Egg",
-      "block.tardif_mod.telapathic_carpet_control": "Coordinational Pin-Pointer Control",
+      "block.tardif_mod.telapathic_carpet_control": "Mid-Telepathical Controls",
       "gui.tardif_mod.coordinate_select_gui.Calculate_Y": "Calculate Y?",
       "block.tardif_mod.wallpaper_roundel": "Wallpaper Roundel",
       "gui.tardif_mod.monitor_gui.label_x": "X:",
@@ -6426,6 +6464,10 @@
       },
       {
         "name": "Music Discs",
+        "children": []
+      },
+      {
+        "name": "Beta Testing",
         "children": []
       }
     ]

@@ -36,12 +36,7 @@
     "name": "Dimensional Travel Control",
     "specialInformation": {
       "fixedValue": [
-        "§8Themes:",
-        "§a> Mixed",
-        "§8 Classic ",
-        "§8 Kitchen",
-        "§8 Rusty",
-        "§8 Orb"
+        "§8Dimensional Control"
       ]
     },
     "hardness": 1.0,

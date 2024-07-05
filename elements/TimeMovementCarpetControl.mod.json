@@ -35,7 +35,9 @@
     ],
     "name": "Time Manipulation Control",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§8Time Control"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

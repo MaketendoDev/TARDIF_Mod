@@ -41,12 +41,7 @@ public class CoordinateTravelCarpetControlBlock extends Block {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("\u00A78Themes:"));
-		list.add(Component.literal("\u00A7a> Mixed"));
-		list.add(Component.literal("\u00A78 Classic "));
-		list.add(Component.literal("\u00A78 Kitchen"));
-		list.add(Component.literal("\u00A78 Rusty"));
-		list.add(Component.literal("\u00A78 Orb"));
+		list.add(Component.literal("\u00A78Coordinate TARDIS Control"));
 	}
 
 	@Override
