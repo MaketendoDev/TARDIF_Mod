@@ -4,10 +4,10 @@
   "definition": {
     "name": "Skaro Swamp",
     "groundBlock": {
-      "value": "CUSTOM:SkaroDirt"
+      "value": "CUSTOM:PetrifiedDirt"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:SkaroStone"
+      "value": "CUSTOM:PetrifiedDirt"
     },
     "underwaterBlock": {
       "value": "Blocks.FLOWING_WATER"
@@ -80,7 +80,7 @@
     "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": "CUSTOM:SkaroLogs"
+      "value": "CUSTOM:Drystonelog"
     },
     "treeBranch": {
       "value": "Blocks.LEAVES#0"

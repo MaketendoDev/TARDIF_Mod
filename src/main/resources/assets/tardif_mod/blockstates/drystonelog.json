@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tardif_mod:block/drystonelog",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tardif_mod:block/drystonelog"
+    },
+    "axis=z": {
+      "model": "tardif_mod:block/drystonelog",
+      "x": 90
+    }
+  }
+}

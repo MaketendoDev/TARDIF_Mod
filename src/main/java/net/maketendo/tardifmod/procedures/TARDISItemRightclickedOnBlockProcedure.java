@@ -53,8 +53,6 @@ public class TARDISItemRightclickedOnBlockProcedure {
 			TardifModModVariables.MapVariables.get(world).syncData(world);
 			TardifModModVariables.MapVariables.get(world).DoorOpen = false;
 			TardifModModVariables.MapVariables.get(world).syncData(world);
-			TardifModModVariables.MapVariables.get(world).Exterior = "Default Capsule";
-			TardifModModVariables.MapVariables.get(world).syncData(world);
 			if ((entity.level().dimension()) == Level.OVERWORLD) {
 				TardifModModVariables.MapVariables.get(world).TargetDimension = "Overworld";
 				TardifModModVariables.MapVariables.get(world).syncData(world);
@@ -78,12 +76,19 @@ public class TARDISItemRightclickedOnBlockProcedure {
 								if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("tardif_mod:classic_overworld"))) {
 									TardifModModVariables.MapVariables.get(world).TargetDimension = "Classic Overworld";
 									TardifModModVariables.MapVariables.get(world).syncData(world);
+								} else {
+									if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("tardif_mod:space"))) {
+										TardifModModVariables.MapVariables.get(world).TargetDimension = "Space";
+										TardifModModVariables.MapVariables.get(world).syncData(world);
+									}
 								}
 							}
 						}
 					}
 				}
 			}
+			TardifModModVariables.MapVariables.get(world).Exterior = "Default Capsule";
+			TardifModModVariables.MapVariables.get(world).syncData(world);
 			TardifModModVariables.MapVariables.get(world).X = new java.text.DecimalFormat("##.##").format(entity.getX());
 			TardifModModVariables.MapVariables.get(world).syncData(world);
 			TardifModModVariables.MapVariables.get(world).Y = new java.text.DecimalFormat("##.##").format(entity.getY());

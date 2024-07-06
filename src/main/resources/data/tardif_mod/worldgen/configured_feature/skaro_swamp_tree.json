@@ -12,13 +12,16 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "tardif_mod:skaro_stone"
+        "Name": "tardif_mod:petrified_dirt"
       }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "tardif_mod:skaro_logs"
+        "Name": "tardif_mod:drystonelog",
+        "Properties": {
+          "axis": "y"
+        }
       }
     },
     "foliage_provider": {

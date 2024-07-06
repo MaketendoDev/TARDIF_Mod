@@ -616,7 +616,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "tardif_mod:skaro_dirt"
+                        "Name": "tardif_mod:petrified_dirt"
                       }
                     }
                   }
@@ -691,7 +691,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "tardif_mod:skaro_dirt"
+                        "Name": "tardif_mod:petrified_dirt"
                       }
                     }
                   }
@@ -738,7 +738,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "tardif_mod:skaro_dirt"
+                              "Name": "tardif_mod:petrified_dirt"
                             }
                           }
                         },
@@ -766,7 +766,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "tardif_mod:skaro_stone"
+                        "Name": "tardif_mod:petrified_dirt"
                       }
                     }
                   }

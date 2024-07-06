@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "tardif_mod:block/dalekium",
-    "up": "tardif_mod:block/dalekium",
-    "north": "tardif_mod:block/dalekium",
-    "east": "tardif_mod:block/dalekium",
-    "south": "tardif_mod:block/dalekium",
-    "west": "tardif_mod:block/dalekium",
-    "particle": "tardif_mod:block/dalekium"
+    "down": "tardif_mod:block/skaro_natural_dalekium_ore",
+    "up": "tardif_mod:block/skaro_natural_dalekium_ore",
+    "north": "tardif_mod:block/skaro_natural_dalekium_ore",
+    "east": "tardif_mod:block/skaro_natural_dalekium_ore",
+    "south": "tardif_mod:block/skaro_natural_dalekium_ore",
+    "west": "tardif_mod:block/skaro_natural_dalekium_ore",
+    "particle": "tardif_mod:block/skaro_natural_dalekium_ore"
   },
   "render_type": "solid"
 }

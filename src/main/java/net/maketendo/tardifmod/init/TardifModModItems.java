@@ -112,7 +112,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> COMMUNICATION_UPGRADE_TEMPLATE = REGISTRY.register("communication_upgrade_template", () -> new CommunicationUpgradeTemplateItem());
 	public static final RegistryObject<Item> PHONEBOX_DECORATION = block(TardifModModBlocks.PHONEBOX_DECORATION);
 	public static final RegistryObject<Item> PHONEBOX_ITEM = REGISTRY.register("phonebox_item", () -> new PhoneboxItemItem());
-	public static final RegistryObject<Item> SKARO_DIRT = block(TardifModModBlocks.SKARO_DIRT);
 	public static final RegistryObject<Item> DALEKIUM_INGOT = REGISTRY.register("dalekium_ingot", () -> new DalekiumIngotItem());
 	public static final RegistryObject<Item> DALEKIUM_ORE = block(TardifModModBlocks.DALEKIUM_ORE);
 	public static final RegistryObject<Item> SKARO_LOGS = block(TardifModModBlocks.SKARO_LOGS);
@@ -145,7 +144,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> UPGRADED_MELART_SWORD = REGISTRY.register("upgraded_melart_sword", () -> new UpgradedMelartSwordItem());
 	public static final RegistryObject<Item> MELART_SHARD = REGISTRY.register("melart_shard", () -> new MelartShardItem());
 	public static final RegistryObject<Item> DALEKIUM_BLOCK = block(TardifModModBlocks.DALEKIUM_BLOCK);
-	public static final RegistryObject<Item> SKAROWOOD_2 = block(TardifModModBlocks.SKAROWOOD_2);
 	public static final RegistryObject<Item> WALLPAPER_ROUNDEL = block(TardifModModBlocks.WALLPAPER_ROUNDEL);
 	public static final RegistryObject<Item> WALLPAPER_ROUNDEL_DOOR = doubleBlock(TardifModModBlocks.WALLPAPER_ROUNDEL_DOOR);
 	public static final RegistryObject<Item> PLAIN_WALLPAPER = block(TardifModModBlocks.PLAIN_WALLPAPER);
@@ -183,6 +181,11 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> FOURTH_ROTOR = block(TardifModModBlocks.FOURTH_ROTOR);
 	public static final RegistryObject<Item> COG_ROUNDEL = block(TardifModModBlocks.COG_ROUNDEL);
 	public static final RegistryObject<Item> DALEK_SPAWN_EGG = REGISTRY.register("dalek_spawn_egg", () -> new ForgeSpawnEggItem(TardifModModEntities.DALEK, -6724096, -6737152, new Item.Properties()));
+	public static final RegistryObject<Item> DRYSTONELOG = block(TardifModModBlocks.DRYSTONELOG);
+	public static final RegistryObject<Item> DRYSTONEWOOD = block(TardifModModBlocks.DRYSTONEWOOD);
+	public static final RegistryObject<Item> PETRIFIED_DIRT = block(TardifModModBlocks.PETRIFIED_DIRT);
+	public static final RegistryObject<Item> PETRIFIED_PLANKS = block(TardifModModBlocks.PETRIFIED_PLANKS);
+	public static final RegistryObject<Item> WEAK_PETRIFIED_PLANKS = block(TardifModModBlocks.WEAK_PETRIFIED_PLANKS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "tardif_mod:blocks/skaro_dirt",
+  "random_sequence": "tardif_mod:blocks/petrified_planks",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tardif_mod:skaro_dirt"
+          "name": "tardif_mod:petrified_planks"
         }
       ]
     }

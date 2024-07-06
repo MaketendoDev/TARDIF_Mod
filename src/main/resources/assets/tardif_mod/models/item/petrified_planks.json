@@ -1,5 +1,5 @@
 {
-  "parent": "tardif_mod:block/skaro_dirt",
+  "parent": "tardif_mod:block/petrified_planks",
   "display": {
     "thirdperson": {
       "rotation": [

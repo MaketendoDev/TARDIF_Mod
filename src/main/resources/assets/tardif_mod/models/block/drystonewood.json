@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/skaro_natural_drystonelog_sides",
+    "up": "tardif_mod:block/skaro_natural_drystonelog_sides",
+    "north": "tardif_mod:block/skaro_natural_drystonelog_sides",
+    "east": "tardif_mod:block/skaro_natural_drystonelog_sides",
+    "south": "tardif_mod:block/skaro_natural_drystonelog_sides",
+    "west": "tardif_mod:block/skaro_natural_drystonelog_sides",
+    "particle": "tardif_mod:block/skaro_natural_drystonelog_sides"
+  },
+  "render_type": "solid"
+}

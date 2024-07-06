@@ -125,6 +125,8 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModBlocks.SKARO_PLANKS.get().asItem());
 			tabData.accept(TardifModModBlocks.MELART_BLOCK.get().asItem());
 			tabData.accept(TardifModModBlocks.DALEKIUM_BLOCK.get().asItem());
+			tabData.accept(TardifModModBlocks.PETRIFIED_PLANKS.get().asItem());
+			tabData.accept(TardifModModBlocks.WEAK_PETRIFIED_PLANKS.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(TardifModModBlocks.DALEKIUM_REFINERY.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
@@ -167,15 +169,16 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModItems.FISH_FINGERAND_CUSTARD.get());
 			tabData.accept(TardifModModItems.FOOD_CUBE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(TardifModModBlocks.SKARO_DIRT.get().asItem());
 			tabData.accept(TardifModModBlocks.SKARO_GRASS.get().asItem());
 			tabData.accept(TardifModModBlocks.SKARO_LOGS.get().asItem());
 			tabData.accept(TardifModModBlocks.SKARO_STONE.get().asItem());
 			tabData.accept(TardifModModBlocks.DALEKIUM_ORE.get().asItem());
 			tabData.accept(TardifModModBlocks.SKARO_SAND.get().asItem());
 			tabData.accept(TardifModModBlocks.RAW_DALEKIUM_BLOCK.get().asItem());
-			tabData.accept(TardifModModBlocks.SKAROWOOD_2.get().asItem());
 			tabData.accept(TardifModModBlocks.SGRASS.get().asItem());
+			tabData.accept(TardifModModBlocks.DRYSTONELOG.get().asItem());
+			tabData.accept(TardifModModBlocks.DRYSTONEWOOD.get().asItem());
+			tabData.accept(TardifModModBlocks.PETRIFIED_DIRT.get().asItem());
 		}
 	}
 }

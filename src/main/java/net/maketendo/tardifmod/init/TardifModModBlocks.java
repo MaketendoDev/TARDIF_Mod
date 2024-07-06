@@ -15,6 +15,7 @@ import net.maketendo.tardifmod.block.Zyton7BlockBlock;
 import net.maketendo.tardifmod.block.WhiteWallpaperStairsBlock;
 import net.maketendo.tardifmod.block.WhiteWallpaperSlabBlock;
 import net.maketendo.tardifmod.block.WhiteWallpaperBlock;
+import net.maketendo.tardifmod.block.WeakPetrifiedPlanksBlock;
 import net.maketendo.tardifmod.block.WallpaperRoundelDoorBlock;
 import net.maketendo.tardifmod.block.WallpaperRoundelBlock;
 import net.maketendo.tardifmod.block.TwelvethRotorBlock;
@@ -29,13 +30,11 @@ import net.maketendo.tardifmod.block.TARDISMaintenanceEngineBlock;
 import net.maketendo.tardifmod.block.TARDISInteriorDoorBlock;
 import net.maketendo.tardifmod.block.TARDISExteriorBlock;
 import net.maketendo.tardifmod.block.SolderOreBlock;
-import net.maketendo.tardifmod.block.Skarowood2Block;
 import net.maketendo.tardifmod.block.SkaroStoneBlock;
 import net.maketendo.tardifmod.block.SkaroSandBlock;
 import net.maketendo.tardifmod.block.SkaroPlanksBlock;
 import net.maketendo.tardifmod.block.SkaroLogsBlock;
 import net.maketendo.tardifmod.block.SkaroGrassBlock;
-import net.maketendo.tardifmod.block.SkaroDirtBlock;
 import net.maketendo.tardifmod.block.SkaroCobbleBlock;
 import net.maketendo.tardifmod.block.SgrassBlock;
 import net.maketendo.tardifmod.block.RoundelDoorBlock;
@@ -47,6 +46,8 @@ import net.maketendo.tardifmod.block.PlainWallpaperStairBlock;
 import net.maketendo.tardifmod.block.PlainWallpaperSlabBlock;
 import net.maketendo.tardifmod.block.PlainWallpaperBlock;
 import net.maketendo.tardifmod.block.PhoneboxDecorationBlock;
+import net.maketendo.tardifmod.block.PetrifiedPlanksBlock;
+import net.maketendo.tardifmod.block.PetrifiedDirtBlock;
 import net.maketendo.tardifmod.block.Nitro9Block;
 import net.maketendo.tardifmod.block.MonitorBlock;
 import net.maketendo.tardifmod.block.MintWallpaperStairsBlock;
@@ -65,6 +66,8 @@ import net.maketendo.tardifmod.block.FifthRotorBlock;
 import net.maketendo.tardifmod.block.EleventhToyotaRotorBlock;
 import net.maketendo.tardifmod.block.EleventhRotorBlock;
 import net.maketendo.tardifmod.block.EighthRotorBlock;
+import net.maketendo.tardifmod.block.DrystonewoodBlock;
+import net.maketendo.tardifmod.block.DrystonelogBlock;
 import net.maketendo.tardifmod.block.DrainedZyton7BlockBlock;
 import net.maketendo.tardifmod.block.DimensionalSelectorCarpetControlBlock;
 import net.maketendo.tardifmod.block.DematerialisationCarpetControlBlock;
@@ -137,7 +140,6 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> THE_MOMENT = REGISTRY.register("the_moment", () -> new TheMomentBlock());
 	public static final RegistryObject<Block> TARDIS_MAINTENANCE_ENGINE = REGISTRY.register("tardis_maintenance_engine", () -> new TARDISMaintenanceEngineBlock());
 	public static final RegistryObject<Block> PHONEBOX_DECORATION = REGISTRY.register("phonebox_decoration", () -> new PhoneboxDecorationBlock());
-	public static final RegistryObject<Block> SKARO_DIRT = REGISTRY.register("skaro_dirt", () -> new SkaroDirtBlock());
 	public static final RegistryObject<Block> DALEKIUM_ORE = REGISTRY.register("dalekium_ore", () -> new DalekiumOreBlock());
 	public static final RegistryObject<Block> SKARO_LOGS = REGISTRY.register("skaro_logs", () -> new SkaroLogsBlock());
 	public static final RegistryObject<Block> SKARO_STONE = REGISTRY.register("skaro_stone", () -> new SkaroStoneBlock());
@@ -150,7 +152,6 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> NITRO_9 = REGISTRY.register("nitro_9", () -> new Nitro9Block());
 	public static final RegistryObject<Block> DALEKIUM_REFINERY = REGISTRY.register("dalekium_refinery", () -> new DalekiumRefineryBlock());
 	public static final RegistryObject<Block> DALEKIUM_BLOCK = REGISTRY.register("dalekium_block", () -> new DalekiumBlockBlock());
-	public static final RegistryObject<Block> SKAROWOOD_2 = REGISTRY.register("skarowood_2", () -> new Skarowood2Block());
 	public static final RegistryObject<Block> WALLPAPER_ROUNDEL = REGISTRY.register("wallpaper_roundel", () -> new WallpaperRoundelBlock());
 	public static final RegistryObject<Block> WALLPAPER_ROUNDEL_DOOR = REGISTRY.register("wallpaper_roundel_door", () -> new WallpaperRoundelDoorBlock());
 	public static final RegistryObject<Block> PLAIN_WALLPAPER = REGISTRY.register("plain_wallpaper", () -> new PlainWallpaperBlock());
@@ -184,6 +185,11 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> FIFTH_ROTOR = REGISTRY.register("fifth_rotor", () -> new FifthRotorBlock());
 	public static final RegistryObject<Block> FOURTH_ROTOR = REGISTRY.register("fourth_rotor", () -> new FourthRotorBlock());
 	public static final RegistryObject<Block> COG_ROUNDEL = REGISTRY.register("cog_roundel", () -> new CogRoundelBlock());
+	public static final RegistryObject<Block> DRYSTONELOG = REGISTRY.register("drystonelog", () -> new DrystonelogBlock());
+	public static final RegistryObject<Block> DRYSTONEWOOD = REGISTRY.register("drystonewood", () -> new DrystonewoodBlock());
+	public static final RegistryObject<Block> PETRIFIED_DIRT = REGISTRY.register("petrified_dirt", () -> new PetrifiedDirtBlock());
+	public static final RegistryObject<Block> PETRIFIED_PLANKS = REGISTRY.register("petrified_planks", () -> new PetrifiedPlanksBlock());
+	public static final RegistryObject<Block> WEAK_PETRIFIED_PLANKS = REGISTRY.register("weak_petrified_planks", () -> new WeakPetrifiedPlanksBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

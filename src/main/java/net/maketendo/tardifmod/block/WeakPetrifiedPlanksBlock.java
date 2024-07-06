@@ -9,9 +9,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
-public class Skarowood2Block extends Block {
-	public Skarowood2Block() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.STEM).strength(0.95f, 10.5f));
+public class WeakPetrifiedPlanksBlock extends Block {
+	public WeakPetrifiedPlanksBlock() {
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(1.1f, 11f));
 	}
 
 	@Override

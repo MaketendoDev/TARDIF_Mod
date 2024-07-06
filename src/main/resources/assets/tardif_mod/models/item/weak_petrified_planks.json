@@ -1,5 +1,5 @@
 {
-  "parent": "tardif_mod:block/skarowood_2",
+  "parent": "tardif_mod:block/weak_petrified_planks",
   "display": {
     "thirdperson": {
       "rotation": [

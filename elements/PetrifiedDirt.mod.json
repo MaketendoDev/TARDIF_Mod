@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "skaro_building_dry_stone_planks",
+    "texture": "skaro_natural_petrified_dirt",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,16 +33,16 @@
         "subtract": false
       }
     ],
-    "name": "Skaro Planks",
+    "name": "Petrified Dirt",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.1,
-    "resistance": 11.0,
+    "hardness": 0.95,
+    "resistance": 9.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "DECORATIONS"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "WOOD"
+      "value": "EARTH"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""

@@ -2,15 +2,15 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "red_wood",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
+    "texture": "skaro_natural_drystonelog_top",
+    "textureTop": "skaro_natural_drystonelog_top",
+    "textureLeft": "skaro_natural_drystonelog_sides",
+    "textureFront": "skaro_natural_drystonelog_sides",
+    "textureRight": "skaro_natural_drystonelog_sides",
+    "textureBack": "skaro_natural_drystonelog_sides",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,12 +33,12 @@
         "subtract": false
       }
     ],
-    "name": "Skaro Wood",
+    "name": "Dry Stone Log",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.95,
-    "resistance": 10.5,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -65,7 +65,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "WOOD",
     "creativePickItem": {
       "value": ""
     },
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "HYPHAE"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
