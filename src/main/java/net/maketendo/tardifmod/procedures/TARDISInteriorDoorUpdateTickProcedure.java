@@ -72,8 +72,114 @@ public class TARDISInteriorDoorUpdateTickProcedure {
 							}
 						}
 					} else {
-						if (entity instanceof Player _player && !_player.level().isClientSide())
-							_player.displayClientMessage(Component.literal("\u00A74ERROR!!!!!"), false);
+						if ((TardifModModVariables.MapVariables.get(world).TargetDimension).equals("Skaro")) {
+							{
+								Entity _ent = entity;
+								_ent.teleportTo(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS);
+								if (_ent instanceof ServerPlayer _serverPlayer)
+									_serverPlayer.connection.teleport(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS,
+											_ent.getYRot(), _ent.getXRot());
+							}
+							{
+								Entity _ent = entity;
+								if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+									_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null,
+											4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute in tardif_mod:skaro run tp @s ~ ~ ~");
+								}
+							}
+						} else {
+							if ((TardifModModVariables.MapVariables.get(world).TargetDimension).equals("Classic Skaro")) {
+								{
+									Entity _ent = entity;
+									_ent.teleportTo(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS);
+									if (_ent instanceof ServerPlayer _serverPlayer)
+										_serverPlayer.connection.teleport(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS,
+												_ent.getYRot(), _ent.getXRot());
+								}
+								{
+									Entity _ent = entity;
+									if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+										_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
+												_ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute in the_end run tp @s ~ ~ ~");
+									}
+								}
+							} else {
+								if ((TardifModModVariables.MapVariables.get(world).TargetDimension).equals("TARDIS Dimension")) {
+									{
+										Entity _ent = entity;
+										_ent.teleportTo(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS);
+										if (_ent instanceof ServerPlayer _serverPlayer)
+											_serverPlayer.connection.teleport(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS,
+													_ent.getYRot(), _ent.getXRot());
+									}
+									{
+										Entity _ent = entity;
+										if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+											_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
+													_ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent),
+													"/execute in tardif_mod:tardis_dim tp @s ~ ~ ~");
+										}
+									}
+								} else {
+									if ((TardifModModVariables.MapVariables.get(world).TargetDimension).equals("Classic Overworld")) {
+										{
+											Entity _ent = entity;
+											_ent.teleportTo(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS);
+											if (_ent instanceof ServerPlayer _serverPlayer)
+												_serverPlayer.connection.teleport(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS,
+														_ent.getYRot(), _ent.getXRot());
+										}
+										{
+											Entity _ent = entity;
+											if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+												_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
+														_ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent),
+														"/execute in tardif_mod:classic_overworld tp @s ~ ~ ~");
+											}
+										}
+									} else {
+										if ((TardifModModVariables.MapVariables.get(world).TargetDimension).equals("Classic Nether")) {
+											{
+												Entity _ent = entity;
+												_ent.teleportTo(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS);
+												if (_ent instanceof ServerPlayer _serverPlayer)
+													_serverPlayer.connection.teleport(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS,
+															TardifModModVariables.MapVariables.get(world).Z_TARDIS, _ent.getYRot(), _ent.getXRot());
+											}
+											{
+												Entity _ent = entity;
+												if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+													_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
+															_ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent),
+															"/execute in tardif_mod:classic_nether tp @s ~ ~ ~");
+												}
+											}
+										} else {
+											if ((TardifModModVariables.MapVariables.get(world).TargetDimension).equals("Space")) {
+												{
+													Entity _ent = entity;
+													_ent.teleportTo(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS);
+													if (_ent instanceof ServerPlayer _serverPlayer)
+														_serverPlayer.connection.teleport(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS,
+																TardifModModVariables.MapVariables.get(world).Z_TARDIS, _ent.getYRot(), _ent.getXRot());
+												}
+												{
+													Entity _ent = entity;
+													if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+														_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
+																_ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent),
+																"/execute in tardif_mod:space tp @s ~ ~ ~");
+													}
+												}
+											} else {
+												if (entity instanceof Player _player && !_player.level().isClientSide())
+													_player.displayClientMessage(Component.literal("\u00A74ERROR!!!!!"), false);
+											}
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}

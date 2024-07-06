@@ -2347,24 +2347,6 @@
       "path": "~/TARDIS/Engine/Upgrades"
     },
     {
-      "name": "CopperMonitor",
-      "type": "block",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copper_monitor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tardif_mod/models/block/copper_monitor.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/copper_monitor.json",
-          "src/main/resources/assets/tardif_mod/blockstates/copper_monitor.json",
-          "src/main/java/net/maketendo/tardifmod/block/CopperMonitorBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/copper_monitor.json"
-        ]
-      },
-      "path": "~/TARDIS/Monitor"
-    },
-    {
       "name": "PhoneboxDecoration",
       "type": "block",
       "sortid": 183,
@@ -5173,7 +5155,7 @@
           "src/main/java/net/maketendo/tardifmod/block/CogRoundelBlock.java"
         ]
       },
-      "path": "~/Decor Blocks/Roundels"
+      "path": "~/Decor Blocks/Roundels/Cog Roundel"
     },
     {
       "name": "TARDISExteriorSkinUpdate",
@@ -5220,6 +5202,52 @@
         "return_type": "logic",
         "files": [
           "src/main/java/net/maketendo/tardifmod/procedures/VersionDisplayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Beta Testing"
+    },
+    {
+      "name": "CogRoundelRecipie",
+      "type": "recipe",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cog_roundel_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/recipes/cog_roundel_recipie.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels/Cog Roundel"
+    },
+    {
+      "name": "Dalek",
+      "type": "livingentity",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalek",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/entity/DalekEntity.java",
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/dalek_biome_modifier.json",
+          "src/main/resources/assets/tardif_mod/models/item/dalek_spawn_egg.json",
+          "src/main/java/net/maketendo/tardifmod/client/renderer/DalekRenderer.java"
+        ]
+      },
+      "path": "~/Entities - Mobs/Dalek"
+    },
+    {
+      "name": "MemoryChecker",
+      "type": "procedure",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memory_checker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/MemoryCheckerProcedure.java"
         ],
         "dependencies": []
       },
@@ -5811,6 +5839,7 @@
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
       "block.tardif_mod.monitor": "Monitor",
       "gui.tardif_mod.coordinate_select_gui.Y_Coord": "Y",
+      "item.tardif_mod.dalek_spawn_egg": "Dalek Spawn Egg",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
       "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
       "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
@@ -5907,7 +5936,6 @@
       "subtitles.take_off": "TARDIS Engines Starting...",
       "item.tardif_mod.dalekium_hoe": "Dalekium Hoe",
       "advancements.hell_oldest_arrival.descr": "Traveled into the Classic Nether",
-      "block.tardif_mod.copper_monitor": "Copper Monitor",
       "block.tardif_mod.roundel_door": "Roundel Door",
       "block.tardif_mod.classic_yellow_wool": "Classic Yellow Wool",
       "block.tardif_mod.wallpaper_roundel_door": "Roundel Door",
@@ -5981,6 +6009,7 @@
       "advancements.advanced.descr": "Crafted or obtained the circut item!",
       "block.tardif_mod.tenth_rotor": "Tall Time Rotor",
       "subtitles.tardis_stabilisers": "TARDIS Stabilisers",
+      "entity.tardif_mod.dalek": "Dalek",
       "gui.tardif_mod.coordinate_select_gui.tooltip_generate_y": "Constiplate Life",
       "block.tardif_mod.classic_aqua_wool": "Classic Aqua Wool",
       "block.tardif_mod.eleventh_rotor": "Tall Time Rotor",
@@ -6320,6 +6349,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Dalek",
+            "children": []
           }
         ]
       },

@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.maketendo.tardifmod.client.renderer.TenthCybermanRenderer;
 import net.maketendo.tardifmod.client.renderer.LaserRenderer;
+import net.maketendo.tardifmod.client.renderer.DalekRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class TardifModModEntityRenderers {
@@ -21,5 +22,6 @@ public class TardifModModEntityRenderers {
 		event.registerEntityRenderer(TardifModModEntities.TENTH_CYBERMAN.get(), TenthCybermanRenderer::new);
 		event.registerEntityRenderer(TardifModModEntities.TENTH_CYBERMAN_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(TardifModModEntities.LASER.get(), LaserRenderer::new);
+		event.registerEntityRenderer(TardifModModEntities.DALEK.get(), DalekRenderer::new);
 	}
 }

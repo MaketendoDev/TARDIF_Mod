@@ -34,7 +34,6 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModItems.TARDIS_ITEM.get());
 				tabData.accept(TardifModModItems.TARDIS_KEY.get());
 				tabData.accept(TardifModModBlocks.MONITOR.get().asItem());
-				tabData.accept(TardifModModBlocks.COPPER_MONITOR.get().asItem());
 				tabData.accept(TardifModModBlocks.FOOD_CUBE_MACHINE.get().asItem());
 				tabData.accept(TardifModModBlocks.TARDIS_MAINTENANCE_ENGINE.get().asItem());
 				tabData.accept(TardifModModItems.TELEPATHIC_UPGRADE_TEMPLATE.get());
@@ -144,6 +143,7 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModItems.DALEKIUM_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(TardifModModItems.TENTH_CYBERMAN_SPAWN_EGG.get());
+			tabData.accept(TardifModModItems.DALEK_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(TardifModModItems.MELART_SHARD.get());
 			tabData.accept(TardifModModItems.PLASTIC.get());

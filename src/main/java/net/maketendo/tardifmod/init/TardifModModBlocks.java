@@ -71,7 +71,6 @@ import net.maketendo.tardifmod.block.DematerialisationCarpetControlBlock;
 import net.maketendo.tardifmod.block.DalekiumRefineryBlock;
 import net.maketendo.tardifmod.block.DalekiumOreBlock;
 import net.maketendo.tardifmod.block.DalekiumBlockBlock;
-import net.maketendo.tardifmod.block.CopperMonitorBlock;
 import net.maketendo.tardifmod.block.CoordinateTravelCarpetControlBlock;
 import net.maketendo.tardifmod.block.CogRoundelBlock;
 import net.maketendo.tardifmod.block.ClassicgrassBlock;
@@ -137,7 +136,6 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> TARDIS_EXTERIOR = REGISTRY.register("tardis_exterior", () -> new TARDISExteriorBlock());
 	public static final RegistryObject<Block> THE_MOMENT = REGISTRY.register("the_moment", () -> new TheMomentBlock());
 	public static final RegistryObject<Block> TARDIS_MAINTENANCE_ENGINE = REGISTRY.register("tardis_maintenance_engine", () -> new TARDISMaintenanceEngineBlock());
-	public static final RegistryObject<Block> COPPER_MONITOR = REGISTRY.register("copper_monitor", () -> new CopperMonitorBlock());
 	public static final RegistryObject<Block> PHONEBOX_DECORATION = REGISTRY.register("phonebox_decoration", () -> new PhoneboxDecorationBlock());
 	public static final RegistryObject<Block> SKARO_DIRT = REGISTRY.register("skaro_dirt", () -> new SkaroDirtBlock());
 	public static final RegistryObject<Block> DALEKIUM_ORE = REGISTRY.register("dalekium_ore", () -> new DalekiumOreBlock());

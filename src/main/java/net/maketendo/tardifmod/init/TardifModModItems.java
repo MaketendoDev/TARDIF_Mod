@@ -110,7 +110,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> TIME_EXTENDER_UPGRADE_TEMPLATE = REGISTRY.register("time_extender_upgrade_template", () -> new TimeExtenderUpgradeTemplateItem());
 	public static final RegistryObject<Item> ARS_UPGRADE_TEMPLATE = REGISTRY.register("ars_upgrade_template", () -> new ARSUpgradeTemplateItem());
 	public static final RegistryObject<Item> COMMUNICATION_UPGRADE_TEMPLATE = REGISTRY.register("communication_upgrade_template", () -> new CommunicationUpgradeTemplateItem());
-	public static final RegistryObject<Item> COPPER_MONITOR = block(TardifModModBlocks.COPPER_MONITOR);
 	public static final RegistryObject<Item> PHONEBOX_DECORATION = block(TardifModModBlocks.PHONEBOX_DECORATION);
 	public static final RegistryObject<Item> PHONEBOX_ITEM = REGISTRY.register("phonebox_item", () -> new PhoneboxItemItem());
 	public static final RegistryObject<Item> SKARO_DIRT = block(TardifModModBlocks.SKARO_DIRT);
@@ -183,6 +182,7 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> FIFTH_ROTOR = block(TardifModModBlocks.FIFTH_ROTOR);
 	public static final RegistryObject<Item> FOURTH_ROTOR = block(TardifModModBlocks.FOURTH_ROTOR);
 	public static final RegistryObject<Item> COG_ROUNDEL = block(TardifModModBlocks.COG_ROUNDEL);
+	public static final RegistryObject<Item> DALEK_SPAWN_EGG = REGISTRY.register("dalek_spawn_egg", () -> new ForgeSpawnEggItem(TardifModModEntities.DALEK, -6724096, -6737152, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

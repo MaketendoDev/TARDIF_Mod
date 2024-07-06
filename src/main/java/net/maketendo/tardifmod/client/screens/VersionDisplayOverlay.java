@@ -45,7 +45,7 @@ public class VersionDisplayOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (VersionDisplayDisplayOverlayIngameProcedure.execute()) {
-			event.getGuiGraphics().blit(new ResourceLocation("tardif_mod:textures/screens/gear_ui.png"), 3, 4, 0, 0, 16, 16, 16, 16);
+			event.getGuiGraphics().blit(new ResourceLocation("tardif_mod:textures/screens/wrench_ui.png"), 3, 4, 0, 0, 16, 16, 16, 16);
 
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tardif_mod.version_display.label_tardif_mod_200_forge_20241"), 20, 4, -1, false);
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tardif_mod.version_display.label_alpha_test_ver_65935"), 21, 13, -1, false);

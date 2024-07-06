@@ -19,6 +19,7 @@ import net.minecraft.world.entity.Entity;
 import net.maketendo.tardifmod.entity.TenthCybermanEntityProjectile;
 import net.maketendo.tardifmod.entity.TenthCybermanEntity;
 import net.maketendo.tardifmod.entity.LaserEntity;
+import net.maketendo.tardifmod.entity.DalekEntity;
 import net.maketendo.tardifmod.TardifModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -31,6 +32,10 @@ public class TardifModModEntities {
 					.setCustomClientFactory(TenthCybermanEntityProjectile::new).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<LaserEntity>> LASER = register("laser",
 			EntityType.Builder.<LaserEntity>of(LaserEntity::new, MobCategory.MISC).setCustomClientFactory(LaserEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<DalekEntity>> DALEK = register("dalek",
+			EntityType.Builder.<DalekEntity>of(DalekEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DalekEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -40,11 +45,13 @@ public class TardifModModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			TenthCybermanEntity.init();
+			DalekEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(TENTH_CYBERMAN.get(), TenthCybermanEntity.createAttributes().build());
+		event.put(DALEK.get(), DalekEntity.createAttributes().build());
 	}
 }
