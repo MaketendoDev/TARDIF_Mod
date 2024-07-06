@@ -2,12 +2,12 @@
   "_fv": 60,
   "_type": "achievement",
   "definition": {
-    "achievementName": "The Hell Planet",
-    "achievementDescription": "Travel To Skaro",
+    "achievementName": "The deadliest planet that lived...",
+    "achievementDescription": "Use the TARDIS to travel to Skaro for the first time!",
     "achievementIcon": {
-      "value": "CUSTOM:SkaroGrass"
+      "value": "CUSTOM:PetrifiedGrassBlock"
     },
-    "background": "screen_gui.png",
+    "background": "Default",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:ObtainTardis"
     },
-    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"dimension_entered\" x=\"50\" y=\"52\"><field name=\"dimension\">CUSTOM:Skaro</field></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"dimension_entered\"><field name=\"dimension\">CUSTOM:Skaro</field></block></next></block></xml>"
   }
 }

@@ -4,7 +4,7 @@
   "definition": {
     "name": "Skaro Forest",
     "groundBlock": {
-      "value": "CUSTOM:SkaroGrass"
+      "value": "CUSTOM:PetrifiedGrassBlock"
     },
     "undergroundBlock": {
       "value": "CUSTOM:PetrifiedDirt"

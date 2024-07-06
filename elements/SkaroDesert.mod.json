@@ -4,10 +4,10 @@
   "definition": {
     "name": "Skaro Desert",
     "groundBlock": {
-      "value": "CUSTOM:SkaroSand"
+      "value": "CUSTOM:RaidiatedSand"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:SkaroSand"
+      "value": "CUSTOM:RaidiatedSand"
     },
     "underwaterBlock": {
       "value": "Blocks.WATER"

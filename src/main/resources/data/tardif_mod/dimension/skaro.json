@@ -123,7 +123,7 @@
       "aquifers_enabled": true,
       "ore_veins_enabled": true,
       "default_block": {
-        "Name": "tardif_mod:skaro_stone"
+        "Name": "tardif_mod:petrified_stone"
       },
       "default_fluid": {
         "Name": "minecraft:water",
@@ -513,7 +513,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "tardif_mod:skaro_sand"
+                              "Name": "tardif_mod:raidiated_sand"
                             }
                           }
                         },
@@ -541,7 +541,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "tardif_mod:skaro_sand"
+                        "Name": "tardif_mod:raidiated_sand"
                       }
                     }
                   }
@@ -588,7 +588,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "tardif_mod:skaro_grass"
+                              "Name": "tardif_mod:petrified_grass_block"
                             }
                           }
                         },
@@ -663,7 +663,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "tardif_mod:skaro_grass"
+                              "Name": "tardif_mod:petrified_grass_block"
                             }
                           }
                         },

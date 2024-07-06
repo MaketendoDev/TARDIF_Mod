@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tardif_mod:weak_drystone_planks"
+    },
+    {
+      "item": "tardif_mod:weak_drystone_planks"
+    },
+    {
+      "item": "tardif_mod:weak_drystone_planks"
+    },
+    {
+      "item": "tardif_mod:weak_drystone_planks"
+    }
+  ],
+  "result": {
+    "item": "tardif_mod:dry_stone_planks",
+    "count": 4
+  }
+}

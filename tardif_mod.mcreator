@@ -2442,7 +2442,7 @@
           "src/main/java/net/maketendo/tardifmod/item/DalekiumIngotItem.java"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Ores"
     },
     {
       "name": "DalekiumOre",
@@ -2463,24 +2463,6 @@
       "path": "~/Dimensions/Skaro/Skaro/Natural"
     },
     {
-      "name": "SkaroLogs",
-      "type": "block",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skaro_logs",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/skaro_logs.json",
-          "src/main/java/net/maketendo/tardifmod/block/SkaroLogsBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/skaro_logs.json",
-          "src/main/resources/assets/tardif_mod/models/block/skaro_logs.json",
-          "src/main/resources/assets/tardif_mod/blockstates/skaro_logs.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro"
-    },
-    {
       "name": "RawDalekium",
       "type": "item",
       "sortid": 30,
@@ -2493,25 +2475,7 @@
           "src/main/resources/assets/tardif_mod/models/item/raw_dalekium.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
-    },
-    {
-      "name": "SkaroStone",
-      "type": "block",
-      "sortid": 104,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skaro_stone",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/block/SkaroStoneBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/skaro_stone.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/skaro_stone.json",
-          "src/main/resources/assets/tardif_mod/blockstates/skaro_stone.json",
-          "src/main/resources/assets/tardif_mod/models/block/skaro_stone.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Ores"
     },
     {
       "name": "RawDalekiumBlock",
@@ -2529,79 +2493,7 @@
           "src/main/resources/assets/tardif_mod/models/block/raw_dalekium_block.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
-    },
-    {
-      "name": "SkaroPlanks",
-      "type": "block",
-      "sortid": 94,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skaro_planks",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/block/SkaroPlanksBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/skaro_planks.json",
-          "src/main/resources/assets/tardif_mod/blockstates/skaro_planks.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/skaro_planks.json",
-          "src/main/resources/assets/tardif_mod/models/block/skaro_planks.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro"
-    },
-    {
-      "name": "SkaroCobble",
-      "type": "block",
-      "sortid": 93,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skaro_cobble",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tardif_mod/models/block/skaro_cobble.json",
-          "src/main/resources/assets/tardif_mod/models/item/skaro_cobble.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/skaro_cobble.json",
-          "src/main/java/net/maketendo/tardifmod/block/SkaroCobbleBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/skaro_cobble.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro"
-    },
-    {
-      "name": "SkaroGrass",
-      "type": "block",
-      "sortid": 102,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skaro_grass",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/skaro_grass.json",
-          "src/main/resources/assets/tardif_mod/blockstates/skaro_grass.json",
-          "src/main/resources/assets/tardif_mod/models/block/skaro_grass.json",
-          "src/main/resources/assets/tardif_mod/models/item/skaro_grass.json",
-          "src/main/java/net/maketendo/tardifmod/block/SkaroGrassBlock.java"
-        ]
-      },
-      "path": "~/Dimensions/Skaro"
-    },
-    {
-      "name": "SkaroSand",
-      "type": "block",
-      "sortid": 106,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skaro_sand",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tardif_mod/models/block/skaro_sand.json",
-          "src/main/java/net/maketendo/tardifmod/block/SkaroSandBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/skaro_sand.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/skaro_sand.json",
-          "src/main/resources/assets/tardif_mod/blockstates/skaro_sand.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Building"
     },
     {
       "name": "MelartBlock",
@@ -2619,7 +2511,7 @@
           "src/main/resources/data/tardif_mod/loot_tables/blocks/melart_block.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Building"
     },
     {
       "name": "RefinaryGUI",
@@ -2791,7 +2683,7 @@
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_plains_tree.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Biomes"
     },
     {
       "name": "SkaroDesert",
@@ -2805,7 +2697,7 @@
           "src/main/resources/data/tardif_mod/worldgen/biome/skaro_desert.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Biomes"
     },
     {
       "name": "SkaroForest",
@@ -2821,7 +2713,7 @@
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_forest_tree.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Biomes"
     },
     {
       "name": "Skaro",
@@ -2837,7 +2729,7 @@
           "src/main/resources/data/tardif_mod/dimension_type/skaro.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro"
     },
     {
       "name": "RawToIngot",
@@ -2865,7 +2757,7 @@
           "src/main/resources/data/tardif_mod/recipes/logstoplanks.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "Rawblock",
@@ -4543,27 +4435,6 @@
       "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
     },
     {
-      "name": "Sgrass",
-      "type": "plant",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sgrass",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tardif_mod/models/block/sgrass.json",
-          "src/main/resources/assets/tardif_mod/blockstates/sgrass.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/sgrass.json",
-          "src/main/resources/assets/tardif_mod/models/item/sgrass.json",
-          "src/main/resources/data/tardif_mod/forge/biome_modifier/sgrass_biome_modifier.json",
-          "src/main/java/net/maketendo/tardifmod/block/SgrassBlock.java",
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/sgrass.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/sgrass.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro"
-    },
-    {
       "name": "SkaroSwamp",
       "type": "biome",
       "sortid": 264,
@@ -4579,7 +4450,7 @@
           "src/main/resources/data/tardif_mod/worldgen/biome/skaro_swamp.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Biomes"
     },
     {
       "name": "TimeMovementCarpetControl",
@@ -5272,40 +5143,179 @@
       "path": "~/Dimensions/Skaro/Skaro/Natural"
     },
     {
-      "name": "PetrifiedPlanks",
+      "name": "PetrifiedGrassBlock",
       "type": "block",
-      "sortid": 298,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "petrified_planks",
+      "registry_name": "petrified_grass_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/petrified_planks.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_planks.json",
-          "src/main/resources/assets/tardif_mod/models/item/petrified_planks.json",
-          "src/main/resources/assets/tardif_mod/blockstates/petrified_planks.json",
-          "src/main/java/net/maketendo/tardifmod/block/PetrifiedPlanksBlock.java"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_grass_block.json",
+          "src/main/resources/assets/tardif_mod/models/block/petrified_grass_block.json",
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlockBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/petrified_grass_block.json",
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_grass_block.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
     },
     {
-      "name": "WeakPetrifiedPlanks",
-      "type": "block",
-      "sortid": 299,
+      "name": "PetrifiedGrass",
+      "type": "plant",
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "weak_petrified_planks",
+      "registry_name": "petrified_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/weak_petrified_planks.json",
-          "src/main/java/net/maketendo/tardifmod/block/WeakPetrifiedPlanksBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/weak_petrified_planks.json",
-          "src/main/resources/assets/tardif_mod/blockstates/weak_petrified_planks.json",
-          "src/main/resources/assets/tardif_mod/models/item/weak_petrified_planks.json"
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/petrified_grass_biome_modifier.json",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/petrified_grass.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_grass.json",
+          "src/main/resources/assets/tardif_mod/models/item/petrified_grass.json",
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_grass.json",
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/petrified_grass.json",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/petrified_grass.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
+    },
+    {
+      "name": "WeakPetrifiedPlanksEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_petrified_planks_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/WeakPetrifiedPlanksEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Building"
+    },
+    {
+      "name": "PetrifiedPlanksRecipie",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_planks_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/recipes/petrified_planks_recipie.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
+    },
+    {
+      "name": "RaidiatedSand",
+      "type": "block",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raidiated_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/raidiated_sand.json",
+          "src/main/resources/assets/tardif_mod/blockstates/raidiated_sand.json",
+          "src/main/resources/assets/tardif_mod/models/block/raidiated_sand.json",
+          "src/main/resources/assets/tardif_mod/models/item/raidiated_sand.json",
+          "src/main/java/net/maketendo/tardifmod/block/RaidiatedSandBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Natural"
+    },
+    {
+      "name": "DryStonePlanks",
+      "type": "block",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/dry_stone_planks.json",
+          "src/main/java/net/maketendo/tardifmod/block/DryStonePlanksBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/dry_stone_planks.json",
+          "src/main/resources/assets/tardif_mod/models/item/dry_stone_planks.json",
+          "src/main/resources/assets/tardif_mod/blockstates/dry_stone_planks.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Building"
+    },
+    {
+      "name": "WeakDrystonePlanks",
+      "type": "block",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_drystone_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/block/WeakDrystonePlanksBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/weak_drystone_planks.json",
+          "src/main/resources/assets/tardif_mod/models/item/weak_drystone_planks.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/weak_drystone_planks.json",
+          "src/main/resources/assets/tardif_mod/models/block/weak_drystone_planks.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Building"
+    },
+    {
+      "name": "PetrifiedStone",
+      "type": "block",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedStoneBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_stone.json",
+          "src/main/resources/assets/tardif_mod/models/block/petrified_stone.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_stone.json",
+          "src/main/resources/assets/tardif_mod/models/item/petrified_stone.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Natural"
+    },
+    {
+      "name": "PetrifiedCobblestone",
+      "type": "block",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/item/petrified_cobblestone.json",
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedCobblestoneBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/petrified_cobblestone.json",
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_cobblestone.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_cobblestone.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Building"
     }
   ],
   "variable_elements": [
@@ -5729,6 +5739,9 @@
       "CUSTOM:MintWallpaper"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:RaidiatedSand",
+      "~CUSTOM:PetrifiedStone",
+      "~CUSTOM:PetrifiedGrassBlock",
       "~CUSTOM:PetrifiedDirt",
       "~CUSTOM:SkaroGrass",
       "~CUSTOM:SkaroDirt",
@@ -5851,14 +5864,12 @@
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
       "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
-      "block.tardif_mod.skaro_sand": "Skaro Sand",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
       "gui.tardif_mod.coordinate_select_gui.label_rotatedisplay": "RotateDisplay",
       "gui.tardif_mod.coordinate_select_gui.tooltip_calculate_y": "Calculate Y?",
       "gui.tardif_mod.control_display.label_codename_krang": "Codename: Krang",
       "block.tardif_mod.classicgrass": "Classic Grass Block",
-      "block.tardif_mod.petrified_planks": "Petrified Planks",
       "gui.tardif_mod.refinary_gui.label_refinary_placholder": "Dalekanium Refinary",
       "item.tardif_mod.dalekium_armor_helmet": "Dalekium Helmet",
       "gui.tardif_mod.exteriorselectgui.label_y": "Y:",
@@ -5898,7 +5909,7 @@
       "item.tardif_mod.dalek_spawn_egg": "Dalek Spawn Egg",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
       "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
-      "advancements.the_hell_planet.descr": "Travel To Skaro",
+      "advancements.the_hell_planet.descr": "Use the TARDIS to travel to Skaro for the first time!",
       "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
       "advancements.obtain_tardis.title": "It\u0027s alive!",
@@ -5910,6 +5921,7 @@
       "advancements.the_source.descr": "Obtain Zyton-7",
       "advancements.strongest_weaponon_the_universe.title": "Strongest Weaponon In The Universe?",
       "block.tardif_mod.twelveth_rotor": "Tall Time Rotor",
+      "block.tardif_mod.dry_stone_planks": "Dry Stone Planks",
       "gui.tardif_mod.coordinate_select_gui.button_y": "Y",
       "gui.tardif_mod.exterior_monitor_gui.label_stuff": "InFlight:",
       "block.tardif_mod.mint_roundel": "Mint Roundel",
@@ -5933,6 +5945,7 @@
       "item.tardif_mod.dalekium_armor_chestplate": "Dalekium Chestplate",
       "advancements.obtain_melart.descr": "Obtain Melart",
       "item.tardif_mod.melart_armor_leggings": "Melart Leggings",
+      "block.tardif_mod.weak_drystone_planks": "Weak Dry Stone Planks",
       "gui.tardif_mod.monitor_gui.label_status": "- TARDIS Status -",
       "item.tardif_mod.solder": "Solder",
       "gui.tardif_mod.exterior_monitor_gui.label_police_box": "Police Box",
@@ -5943,7 +5956,6 @@
       "biome.tardif_mod.classic_plains": "Classic Plains",
       "gui.tardif_mod.monitor_gui.label_exterior": "Exterior:",
       "gui.tardif_mod.monitor_gui.label_z_input": "z_input",
-      "block.tardif_mod.sgrass": "Sgrass",
       "block.tardif_mod.tardis_exterior": "TARDIS Exterior",
       "gui.tardif_mod.monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "block.tardif_mod.dalekium_refinery": "Dalekium Refinery",
@@ -5956,7 +5968,6 @@
       "block.tardif_mod.roundel": "Roundel",
       "item.tardif_mod.jellybabies": "Jelly babies",
       "block.tardif_mod.eighth_rotor": "Tall Time Rotor",
-      "block.tardif_mod.skaro_grass": "Skaro Grass",
       "subtitles.tenth_message": "??? Talking...",
       "subtitles.sonic_screwdriver": "Sonic Screwdriver",
       "death.attack.crumbled_transport_damage": "%1$s died from the fluxuations of its particles being scattered",
@@ -5966,7 +5977,6 @@
       "block.tardif_mod.classic_white_wool": "Classic White Wool",
       "block.tardif_mod.melart_block": "Block of Melart",
       "block.tardif_mod.classic_green_wool": "Classic Green Wool",
-      "block.tardif_mod.weak_petrified_planks": "Weak Petrified Planks",
       "block.tardif_mod.classic_gray_wool": "Classic Gray Wool",
       "death.attack.crumbled_transport_damage.item": "%1$s was killed by %2$s using %3$s",
       "block.tardif_mod.solder_ore": "Solder Ore",
@@ -6002,9 +6012,11 @@
       "biome.tardif_mod.space_biome": "Space Biome",
       "subtitles.tardis_beep": "TARDIS Beep",
       "gui.tardif_mod.coordinate_select_gui.button_save": "Save",
-      "block.tardif_mod.skaro_logs": "Skaro Logs",
+      "block.tardif_mod.petrified_stone": "Petrified Stone",
       "block.tardif_mod.hexagonal_frame_offset": "Hexagonal Frame",
+      "block.tardif_mod.petrified_grass": "Petrified Grass",
       "block.tardif_mod.classic_dirt": "Classic Dirt",
+      "block.tardif_mod.petrified_cobblestone": "Petrified Cobblestone",
       "gui.tardif_mod.coordinate_select_gui.button_rotate": "Rotate",
       "advancements.obtain_tardis.descr": "Obtain the TARDIS!",
       "subtitles.tardis_sfx_groaning": "TARDIS Groaning",
@@ -6015,9 +6027,10 @@
       "block.tardif_mod.classic_netherack": "Classic Netherack",
       "item.tardif_mod.dalekium_armor_boots": "Dalekium Boots",
       "item.tardif_mod.melart_shard": "Melart Shard",
-      "advancements.the_hell_planet.title": "The Hell Planet",
+      "advancements.the_hell_planet.title": "The deadliest planet that lived...",
       "block.tardif_mod.tall_wallpaper_roundel_door": "Tall Wallpaper Roundel Door",
       "death.attack.crumbled_transport_damage.player": "%1$s died whilst trying to teleport away from%2$s",
+      "block.tardif_mod.raidiated_sand": "Raidiated Sand",
       "advancements.hell_oldest_arrival.title": "Hell\u0027s Oldest Arrival",
       "block.tardif_mod.white_wallpaper_stairs": "Plain Wallpaper Stairs",
       "subtitles.tardis_landing_beep": "TARDIS Detected",
@@ -6056,10 +6069,9 @@
       "advancements.what_is_this_place.title": "IT\u0027S SMALLER ON THE OUTSIDE!",
       "item.tardif_mod.circuit_board": "Circuit Board",
       "item_group.tardif_mod.tardif_items": "TARDIF Items",
-      "block.tardif_mod.skaro_stone": "Skaro Stone",
       "item.tardif_mod.melart_ingot": "Melart Ingot",
       "block.tardif_mod.dalekium_ore": "Dalekium Ore",
-      "block.tardif_mod.skaro_planks": "Skaro Planks",
+      "block.tardif_mod.petrified_grass_block": "Petrified Grass Block",
       "item.tardif_mod.drained_zyton_7": "Drained Zyton-7",
       "subtitles.inflight": "TARDIS Engines",
       "item.tardif_mod.melart_armor_helmet": "Melart Helmet",
@@ -6091,7 +6103,6 @@
       "block.tardif_mod.classic_magenta_wool": "Classic Magenta Wool",
       "block.tardif_mod.rotor": "Time Rotor",
       "gui.tardif_mod.monitor_gui.label_tardis_systems": "TARDIS Systems",
-      "block.tardif_mod.skaro_cobble": "Skaro Cobblestone",
       "subtitles.door_unlock": "Door Unlocked",
       "item.tardif_mod.fish_fingerand_custard": "Fish finger and custard",
       "block.tardif_mod.classic_cyan_wool": "Classic Cyan Wool",
@@ -6431,10 +6442,6 @@
             ]
           },
           {
-            "name": "Ores",
-            "children": []
-          },
-          {
             "name": "Circuit",
             "children": []
           },
@@ -6525,8 +6532,32 @@
                   {
                     "name": "Recipies",
                     "children": []
+                  },
+                  {
+                    "name": "Biomes",
+                    "children": []
+                  },
+                  {
+                    "name": "Building",
+                    "children": []
+                  },
+                  {
+                    "name": "Ores",
+                    "children": []
+                  },
+                  {
+                    "name": "Armor",
+                    "children": []
+                  },
+                  {
+                    "name": "Tools",
+                    "children": []
                   }
                 ]
+              },
+              {
+                "name": "Classic Skaro",
+                "children": []
               }
             ]
           },

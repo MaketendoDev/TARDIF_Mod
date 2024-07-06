@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "tardif_mod:skaro_logs"
+      "item": "tardif_mod:drystonelog"
     }
   ],
   "result": {
-    "item": "tardif_mod:skaro_planks",
+    "item": "tardif_mod:weak_drystone_planks",
     "count": 4
   }
 }

@@ -18,7 +18,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:SkaroStone"
+      "value": "CUSTOM:PetrifiedStone"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"

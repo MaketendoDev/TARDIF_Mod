@@ -4,7 +4,7 @@
   "definition": {
     "name": "Skaro Plains",
     "groundBlock": {
-      "value": "CUSTOM:SkaroGrass"
+      "value": "CUSTOM:PetrifiedGrassBlock"
     },
     "undergroundBlock": {
       "value": "CUSTOM:PetrifiedDirt"
@@ -45,9 +45,9 @@
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "ASH"
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
@@ -116,6 +116,16 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Dalek"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

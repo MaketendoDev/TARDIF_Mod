@@ -114,14 +114,8 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> PHONEBOX_ITEM = REGISTRY.register("phonebox_item", () -> new PhoneboxItemItem());
 	public static final RegistryObject<Item> DALEKIUM_INGOT = REGISTRY.register("dalekium_ingot", () -> new DalekiumIngotItem());
 	public static final RegistryObject<Item> DALEKIUM_ORE = block(TardifModModBlocks.DALEKIUM_ORE);
-	public static final RegistryObject<Item> SKARO_LOGS = block(TardifModModBlocks.SKARO_LOGS);
 	public static final RegistryObject<Item> RAW_DALEKIUM = REGISTRY.register("raw_dalekium", () -> new RawDalekiumItem());
-	public static final RegistryObject<Item> SKARO_STONE = block(TardifModModBlocks.SKARO_STONE);
 	public static final RegistryObject<Item> RAW_DALEKIUM_BLOCK = block(TardifModModBlocks.RAW_DALEKIUM_BLOCK);
-	public static final RegistryObject<Item> SKARO_PLANKS = block(TardifModModBlocks.SKARO_PLANKS);
-	public static final RegistryObject<Item> SKARO_COBBLE = block(TardifModModBlocks.SKARO_COBBLE);
-	public static final RegistryObject<Item> SKARO_GRASS = block(TardifModModBlocks.SKARO_GRASS);
-	public static final RegistryObject<Item> SKARO_SAND = block(TardifModModBlocks.SKARO_SAND);
 	public static final RegistryObject<Item> MELART_BLOCK = block(TardifModModBlocks.MELART_BLOCK);
 	public static final RegistryObject<Item> NITRO_9 = block(TardifModModBlocks.NITRO_9);
 	public static final RegistryObject<Item> DALEKIUM_REFINERY = block(TardifModModBlocks.DALEKIUM_REFINERY);
@@ -163,7 +157,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> HEXAGONAL_FRAME_OFFSET = block(TardifModModBlocks.HEXAGONAL_FRAME_OFFSET);
 	public static final RegistryObject<Item> TARDIS_INTERIOR_DOOR = block(TardifModModBlocks.TARDIS_INTERIOR_DOOR);
 	public static final RegistryObject<Item> DEMATERIALISATION_CARPET_CONTROL = block(TardifModModBlocks.DEMATERIALISATION_CARPET_CONTROL);
-	public static final RegistryObject<Item> SGRASS = block(TardifModModBlocks.SGRASS);
 	public static final RegistryObject<Item> TIME_MOVEMENT_CARPET_CONTROL = block(TardifModModBlocks.TIME_MOVEMENT_CARPET_CONTROL);
 	public static final RegistryObject<Item> DIMENSIONAL_SELECTOR_CARPET_CONTROL = block(TardifModModBlocks.DIMENSIONAL_SELECTOR_CARPET_CONTROL);
 	public static final RegistryObject<Item> COORDINATE_TRAVEL_CARPET_CONTROL = block(TardifModModBlocks.COORDINATE_TRAVEL_CARPET_CONTROL);
@@ -184,8 +177,13 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> DRYSTONELOG = block(TardifModModBlocks.DRYSTONELOG);
 	public static final RegistryObject<Item> DRYSTONEWOOD = block(TardifModModBlocks.DRYSTONEWOOD);
 	public static final RegistryObject<Item> PETRIFIED_DIRT = block(TardifModModBlocks.PETRIFIED_DIRT);
-	public static final RegistryObject<Item> PETRIFIED_PLANKS = block(TardifModModBlocks.PETRIFIED_PLANKS);
-	public static final RegistryObject<Item> WEAK_PETRIFIED_PLANKS = block(TardifModModBlocks.WEAK_PETRIFIED_PLANKS);
+	public static final RegistryObject<Item> PETRIFIED_GRASS_BLOCK = block(TardifModModBlocks.PETRIFIED_GRASS_BLOCK);
+	public static final RegistryObject<Item> PETRIFIED_GRASS = block(TardifModModBlocks.PETRIFIED_GRASS);
+	public static final RegistryObject<Item> RAIDIATED_SAND = block(TardifModModBlocks.RAIDIATED_SAND);
+	public static final RegistryObject<Item> DRY_STONE_PLANKS = block(TardifModModBlocks.DRY_STONE_PLANKS);
+	public static final RegistryObject<Item> WEAK_DRYSTONE_PLANKS = block(TardifModModBlocks.WEAK_DRYSTONE_PLANKS);
+	public static final RegistryObject<Item> PETRIFIED_STONE = block(TardifModModBlocks.PETRIFIED_STONE);
+	public static final RegistryObject<Item> PETRIFIED_COBBLESTONE = block(TardifModModBlocks.PETRIFIED_COBBLESTONE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:SkaroLogs"
+        "value": "CUSTOM:Drystonelog"
       },
       {
         "value": ""
@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SkaroPlanks"
+      "value": "CUSTOM:WeakDrystonePlanks"
     },
     "name": "logstoplanks",
     "namespace": "mod"
