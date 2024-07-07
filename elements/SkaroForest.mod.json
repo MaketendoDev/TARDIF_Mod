@@ -47,7 +47,7 @@
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "SMOKE_NORMAL"
+      "value": "ASH"
     },
     "particlesProbability": 0.4,
     "rainingPossibility": 0.5,
@@ -76,7 +76,7 @@
       "max": 1.0
     },
     "treesPerChunk": 6,
-    "vanillaTreeType": "Default",
+    "vanillaTreeType": "Mega spruce trees",
     "treeType": 1,
     "minHeight": 9,
     "treeStem": {

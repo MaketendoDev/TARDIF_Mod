@@ -15,7 +15,6 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.maketendo.tardifmod.item.Zyton7Item;
-import net.maketendo.tardifmod.item.UpgradedMelartSwordItem;
 import net.maketendo.tardifmod.item.TimeExtenderUpgradeTemplateItem;
 import net.maketendo.tardifmod.item.TenthRecordedMessageItem;
 import net.maketendo.tardifmod.item.TelepathicUpgradeTemplateItem;
@@ -135,7 +134,6 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> DALEKIUM_ARMOR_CHESTPLATE = REGISTRY.register("dalekium_armor_chestplate", () -> new DalekiumArmorItem.Chestplate());
 	public static final RegistryObject<Item> DALEKIUM_ARMOR_LEGGINGS = REGISTRY.register("dalekium_armor_leggings", () -> new DalekiumArmorItem.Leggings());
 	public static final RegistryObject<Item> DALEKIUM_ARMOR_BOOTS = REGISTRY.register("dalekium_armor_boots", () -> new DalekiumArmorItem.Boots());
-	public static final RegistryObject<Item> UPGRADED_MELART_SWORD = REGISTRY.register("upgraded_melart_sword", () -> new UpgradedMelartSwordItem());
 	public static final RegistryObject<Item> MELART_SHARD = REGISTRY.register("melart_shard", () -> new MelartShardItem());
 	public static final RegistryObject<Item> DALEKIUM_BLOCK = block(TardifModModBlocks.DALEKIUM_BLOCK);
 	public static final RegistryObject<Item> WALLPAPER_ROUNDEL = block(TardifModModBlocks.WALLPAPER_ROUNDEL);

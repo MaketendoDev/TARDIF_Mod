@@ -6,7 +6,7 @@
     "ambient_sound": "tardif_mod:skaro_ambience",
     "particle": {
       "options": {
-        "type": "smoke"
+        "type": "ash"
       },
       "probability": 0.004
     },

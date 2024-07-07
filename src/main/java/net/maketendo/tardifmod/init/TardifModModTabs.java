@@ -131,7 +131,6 @@ public class TardifModModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(TardifModModBlocks.NITRO_9.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(TardifModModItems.UPGRADED_MELART_SWORD.get());
 			tabData.accept(TardifModModItems.MELART_SWORD.get());
 			tabData.accept(TardifModModItems.MELART_ARMOR_HELMET.get());
 			tabData.accept(TardifModModItems.MELART_ARMOR_CHESTPLATE.get());

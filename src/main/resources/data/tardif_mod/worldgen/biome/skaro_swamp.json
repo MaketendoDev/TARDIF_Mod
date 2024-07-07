@@ -5,7 +5,7 @@
   "effects": {
     "particle": {
       "options": {
-        "type": "falling_water"
+        "type": "ash"
       },
       "probability": 0.001
     },

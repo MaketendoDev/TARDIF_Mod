@@ -47,7 +47,7 @@
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "WATER_DROP"
+      "value": "ASH"
     },
     "particlesProbability": 0.1,
     "rainingPossibility": 0.5,

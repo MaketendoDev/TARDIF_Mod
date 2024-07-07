@@ -2526,7 +2526,7 @@
           "src/main/java/net/maketendo/tardifmod/world/inventory/RefinaryGUIMenu.java"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Refinery"
     },
     {
       "name": "MondasiansCybermanLoottable",
@@ -2743,7 +2743,7 @@
           "src/main/resources/data/tardif_mod/recipes/raw_to_ingot.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "Logstoplanks",
@@ -2771,7 +2771,7 @@
           "src/main/resources/data/tardif_mod/recipes/rawblock.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "Rawblock2",
@@ -2785,7 +2785,7 @@
           "src/main/resources/data/tardif_mod/recipes/rawblock_2.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "RematSequance",
@@ -2964,7 +2964,7 @@
           "src/main/resources/assets/tardif_mod/models/block/dalekium_refinery.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Refinery"
     },
     {
       "name": "MelartIngot",
@@ -2979,7 +2979,7 @@
           "src/main/java/net/maketendo/tardifmod/item/MelartIngotItem.java"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Ores"
     },
     {
       "name": "MelartArmor",
@@ -2997,7 +2997,7 @@
           "src/main/resources/assets/tardif_mod/models/item/melart_armor_chestplate.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Armor"
     },
     {
       "name": "MelartArmorHelmetRecipe",
@@ -3011,7 +3011,7 @@
           "src/main/resources/data/tardif_mod/recipes/melart_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "MelartArmorChestplateRecipe",
@@ -3025,7 +3025,7 @@
           "src/main/resources/data/tardif_mod/recipes/melart_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "MelartArmorLeggingsRecipe",
@@ -3039,7 +3039,7 @@
           "src/main/resources/data/tardif_mod/recipes/melart_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "MelartArmorBootsRecipe",
@@ -3053,7 +3053,7 @@
           "src/main/resources/data/tardif_mod/recipes/melart_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "MelartPickaxe",
@@ -3068,7 +3068,7 @@
           "src/main/resources/assets/tardif_mod/models/item/melart_pickaxe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Tools"
     },
     {
       "name": "MelartAxe",
@@ -3083,7 +3083,7 @@
           "src/main/resources/assets/tardif_mod/models/item/melart_axe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Tools"
     },
     {
       "name": "MelartSword",
@@ -3098,7 +3098,7 @@
           "src/main/resources/assets/tardif_mod/models/item/melart_sword.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Tools"
     },
     {
       "name": "MelartPickaxeRecipe",
@@ -3112,7 +3112,7 @@
           "src/main/resources/data/tardif_mod/recipes/melart_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "MelartAxeRecipe",
@@ -3126,7 +3126,7 @@
           "src/main/resources/data/tardif_mod/recipes/melart_axe_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "MelartSwordRecipe",
@@ -3140,7 +3140,7 @@
           "src/main/resources/data/tardif_mod/recipes/melart_sword_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "DalekiumPickaxe",
@@ -3155,7 +3155,7 @@
           "src/main/resources/assets/tardif_mod/models/item/dalekium_pickaxe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Tools"
     },
     {
       "name": "DalekiumAxe",
@@ -3170,7 +3170,7 @@
           "src/main/java/net/maketendo/tardifmod/item/DalekiumAxeItem.java"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Tools"
     },
     {
       "name": "DalekiumSword",
@@ -3185,7 +3185,7 @@
           "src/main/java/net/maketendo/tardifmod/item/DalekiumSwordItem.java"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Tools"
     },
     {
       "name": "DalekiumHoe",
@@ -3200,7 +3200,7 @@
           "src/main/java/net/maketendo/tardifmod/item/DalekiumHoeItem.java"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Tools"
     },
     {
       "name": "DalekiumPickaxeRecipe",
@@ -3214,7 +3214,7 @@
           "src/main/resources/data/tardif_mod/recipes/dalekium_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "DalekiumAxeRecipe",
@@ -3228,7 +3228,7 @@
           "src/main/resources/data/tardif_mod/recipes/dalekium_axe_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "DalekiumSwordRecipe",
@@ -3242,7 +3242,7 @@
           "src/main/resources/data/tardif_mod/recipes/dalekium_sword_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "DalekiumShovelRecipe",
@@ -3256,7 +3256,7 @@
           "src/main/resources/data/tardif_mod/recipes/dalekium_shovel_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "DalekiumHoeRecipe",
@@ -3270,7 +3270,7 @@
           "src/main/resources/data/tardif_mod/recipes/dalekium_hoe_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "DalekiumArmor",
@@ -3288,7 +3288,7 @@
           "src/main/java/net/maketendo/tardifmod/item/DalekiumArmorItem.java"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "DalekiumArmorHelmetRecipe",
@@ -3302,7 +3302,7 @@
           "src/main/resources/data/tardif_mod/recipes/dalekium_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "DalekiumArmorChestplateRecipe",
@@ -3316,7 +3316,7 @@
           "src/main/resources/data/tardif_mod/recipes/dalekium_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "DalekiumArmorLeggingsRecipe",
@@ -3330,7 +3330,7 @@
           "src/main/resources/data/tardif_mod/recipes/dalekium_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "DalekiumArmorBootsRecipe",
@@ -3344,22 +3344,7 @@
           "src/main/resources/data/tardif_mod/recipes/dalekium_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
-    },
-    {
-      "name": "UpgradedMelartSword",
-      "type": "tool",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "upgraded_melart_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tardif_mod/models/item/upgraded_melart_sword.json",
-          "src/main/java/net/maketendo/tardifmod/item/UpgradedMelartSwordItem.java"
-        ]
-      },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "MelartShard",
@@ -3374,21 +3359,7 @@
           "src/main/resources/assets/tardif_mod/models/item/melart_shard.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
-    },
-    {
-      "name": "Upgradedswordrecipie",
-      "type": "recipe",
-      "sortid": 226,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "upgradedswordrecipie",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/recipes/upgradedswordrecipie.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Ores"
     },
     {
       "name": "DalekiumBlock",
@@ -3406,7 +3377,7 @@
           "src/main/resources/assets/tardif_mod/models/block/dalekium_block.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Building"
     },
     {
       "name": "Melartshardrecipie",
@@ -3420,7 +3391,7 @@
           "src/main/resources/data/tardif_mod/recipes/melartshardrecipie.json"
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Recipies"
     },
     {
       "name": "Refine",
@@ -3440,7 +3411,7 @@
           }
         ]
       },
-      "path": "~/Dimensions/Skaro"
+      "path": "~/Dimensions/Skaro/Skaro/Refinery"
     },
     {
       "name": "WallpaperRoundel",
@@ -5708,11 +5679,11 @@
       "subtitle": "TARDIS Ambient Music"
     },
     {
-      "name": "tardis_sfx_groaning",
+      "name": "tardis_sfx_groan",
       "files": [
-        "tardis_sfx_groaning"
+        "tardis_groan"
       ],
-      "category": "ambient",
+      "category": "neutral",
       "subtitle": "TARDIS Groaning"
     }
   ],
@@ -5927,7 +5898,6 @@
       "block.tardif_mod.mint_roundel": "Mint Roundel",
       "block.tardif_mod.zyton_ore": "Zyton Ore",
       "item.tardif_mod.tenth_recorded_message": "Music Disc",
-      "item.tardif_mod.upgraded_melart_sword": "Upgraded Melart Sword",
       "gui.tardif_mod.monitor_gui.label_x_input": "x_input",
       "gui.tardif_mod.exteriorselectgui.label_dimension": "Dimension:",
       "gui.tardif_mod.refinary_gui.button_refine": "Refine",
@@ -5974,6 +5944,7 @@
       "subtitles.tardis_power_on": "TARDIS Activated",
       "block.tardif_mod.classic_blue_wool": "Classic Blue Wool",
       "block.tardif_mod.dematerialisation_carpet_control": "Dematerialisational Control",
+      "subtitles.tardis_sfx_groan": "TARDIS Groaning",
       "block.tardif_mod.classic_white_wool": "Classic White Wool",
       "block.tardif_mod.melart_block": "Block of Melart",
       "block.tardif_mod.classic_green_wool": "Classic Green Wool",
@@ -6551,6 +6522,10 @@
                   },
                   {
                     "name": "Tools",
+                    "children": []
+                  },
+                  {
+                    "name": "Refinery",
                     "children": []
                   }
                 ]

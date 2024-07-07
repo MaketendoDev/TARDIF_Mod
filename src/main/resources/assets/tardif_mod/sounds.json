@@ -169,11 +169,11 @@
       }
     ]
   },
-  "tardis_sfx_groaning": {
-    "subtitle": "subtitles.tardis_sfx_groaning",
+  "tardis_sfx_groan": {
+    "subtitle": "subtitles.tardis_sfx_groan",
     "sounds": [
       {
-        "name": "tardif_mod:tardis_sfx_groaning",
+        "name": "tardif_mod:tardis_groan",
         "stream": false
       }
     ]
