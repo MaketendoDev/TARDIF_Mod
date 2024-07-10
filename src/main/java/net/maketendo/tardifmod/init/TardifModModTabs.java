@@ -32,6 +32,7 @@ public class TardifModModTabs {
 	public static final RegistryObject<CreativeModeTab> TARDIS_ITEMS = REGISTRY.register("tardis_items",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tardif_mod.tardis_items")).icon(() -> new ItemStack(TardifModModItems.TARDIS_ITEM.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(TardifModModItems.TARDIS_ITEM.get());
+				tabData.accept(TardifModModBlocks.TARDIS_INTERIOR_DOOR.get().asItem());
 				tabData.accept(TardifModModItems.TARDIS_KEY.get());
 				tabData.accept(TardifModModBlocks.MONITOR.get().asItem());
 				tabData.accept(TardifModModBlocks.FOOD_CUBE_MACHINE.get().asItem());
@@ -40,13 +41,12 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModItems.TIME_EXTENDER_UPGRADE_TEMPLATE.get());
 				tabData.accept(TardifModModItems.ARS_UPGRADE_TEMPLATE.get());
 				tabData.accept(TardifModModItems.COMMUNICATION_UPGRADE_TEMPLATE.get());
-				tabData.accept(TardifModModBlocks.TARDIS_INTERIOR_DOOR.get().asItem());
+				tabData.accept(TardifModModItems.DEMATERIALISATION_CIRCUIT.get());
 				tabData.accept(TardifModModBlocks.DEMATERIALISATION_CARPET_CONTROL.get().asItem());
 				tabData.accept(TardifModModBlocks.TIME_MOVEMENT_CARPET_CONTROL.get().asItem());
 				tabData.accept(TardifModModBlocks.DIMENSIONAL_SELECTOR_CARPET_CONTROL.get().asItem());
 				tabData.accept(TardifModModBlocks.COORDINATE_TRAVEL_CARPET_CONTROL.get().asItem());
 				tabData.accept(TardifModModBlocks.TELAPATHIC_CARPET_CONTROL.get().asItem());
-				tabData.accept(TardifModModItems.DEMATERIALISATION_CIRCUIT.get());
 			})
 
 					.build());
@@ -56,6 +56,7 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModBlocks.MINT_ROUNDEL.get().asItem());
 				tabData.accept(TardifModModBlocks.WALLPAPER_ROUNDEL.get().asItem());
 				tabData.accept(TardifModModBlocks.HEXAGON_ROUNDEL.get().asItem());
+				tabData.accept(TardifModModBlocks.COG_ROUNDEL.get().asItem());
 				tabData.accept(TardifModModBlocks.ROUNDEL_DOOR.get().asItem());
 				tabData.accept(TardifModModBlocks.MINT_ROUNDEL_DOOR.get().asItem());
 				tabData.accept(TardifModModBlocks.WALLPAPER_ROUNDEL_DOOR.get().asItem());
@@ -83,7 +84,6 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModBlocks.EIGHTH_ROTOR.get().asItem());
 				tabData.accept(TardifModModBlocks.FIFTH_ROTOR.get().asItem());
 				tabData.accept(TardifModModBlocks.FOURTH_ROTOR.get().asItem());
-				tabData.accept(TardifModModBlocks.COG_ROUNDEL.get().asItem());
 			})
 
 					.build());
@@ -140,28 +140,24 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModItems.DALEKIUM_ARMOR_CHESTPLATE.get());
 			tabData.accept(TardifModModItems.DALEKIUM_ARMOR_LEGGINGS.get());
 			tabData.accept(TardifModModItems.DALEKIUM_ARMOR_BOOTS.get());
-			tabData.accept(TardifModModItems.DALEKIUM_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(TardifModModItems.TENTH_CYBERMAN_SPAWN_EGG.get());
 			tabData.accept(TardifModModItems.DALEK_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(TardifModModItems.MELART_SHARD.get());
 			tabData.accept(TardifModModItems.PLASTIC.get());
-			tabData.accept(TardifModModItems.CIRCUIT_BOARD.get());
 			tabData.accept(TardifModModItems.SOLDER.get());
+			tabData.accept(TardifModModItems.CIRCUIT_BOARD.get());
+			tabData.accept(TardifModModItems.MELART_SHARD.get());
 			tabData.accept(TardifModModItems.ZYTON_7.get());
 			tabData.accept(TardifModModItems.DRAINED_ZYTON_7.get());
-			tabData.accept(TardifModModItems.EMPTY_BAG.get());
-			tabData.accept(TardifModModItems.RAW_DALEKIUM.get());
 			tabData.accept(TardifModModItems.DALEKIUM_INGOT.get());
+			tabData.accept(TardifModModItems.RAW_DALEKIUM.get());
 			tabData.accept(TardifModModItems.MELART_INGOT.get());
+			tabData.accept(TardifModModItems.EMPTY_BAG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(TardifModModItems.TENTH_RECORDED_MESSAGE.get());
 			tabData.accept(TardifModModItems.MELART_AXE.get());
 			tabData.accept(TardifModModItems.MELART_PICKAXE.get());
-			tabData.accept(TardifModModItems.DALEKIUM_PICKAXE.get());
-			tabData.accept(TardifModModItems.DALEKIUM_AXE.get());
-			tabData.accept(TardifModModItems.DALEKIUM_HOE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(TardifModModItems.JELLYBABIES.get());
 			tabData.accept(TardifModModItems.FISH_FINGERAND_CUSTARD.get());

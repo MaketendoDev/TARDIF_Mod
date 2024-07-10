@@ -8,23 +8,14 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "EQUIPMENT",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:DalekiumIngot"
-      },
-      {
         "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:DalekiumIngot"
       },
       {
         "value": ""
@@ -33,16 +24,25 @@
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:Drystonelog"
+      },
+      {
+        "value": "CUSTOM:Drystonelog"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Drystonelog"
+      },
+      {
+        "value": "CUSTOM:Drystonelog"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DalekiumSword"
+      "value": "CUSTOM:Drystonewood"
     },
-    "name": "dalekium_sword_recipe",
+    "name": "dry_stone_logto_dry_stone_wood",
     "namespace": "mod"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "tardif_mod:drystonelog"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:drystonewood",
+    "count": 1
+  }
+}
