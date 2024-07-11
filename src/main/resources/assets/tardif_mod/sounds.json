@@ -160,21 +160,29 @@
       }
     ]
   },
-  "tardis_sound_music_forever": {
-    "subtitle": "subtitles.tardis_sound_music_forever",
-    "sounds": [
-      {
-        "name": "tardif_mod:14th_doctor_forever_extract",
-        "stream": true
-      }
-    ]
-  },
   "tardis_sfx_groan": {
     "subtitle": "subtitles.tardis_sfx_groan",
     "sounds": [
       {
         "name": "tardif_mod:tardis_groan",
         "stream": false
+      }
+    ]
+  },
+  "tardis_groan_sfx": {
+    "subtitle": "subtitles.tardis_groan_sfx",
+    "sounds": [
+      {
+        "name": "tardif_mod:tardis_groan_sfx",
+        "stream": false
+      }
+    ]
+  },
+  "tardis_msuic_forever": {
+    "sounds": [
+      {
+        "name": "tardif_mod:tardis_music_forever",
+        "stream": true
       }
     ]
   }

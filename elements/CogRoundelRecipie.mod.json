@@ -15,15 +15,6 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "Items.COPPER_INGOT"
       },
       {
@@ -33,10 +24,19 @@
         "value": ""
       },
       {
-        "value": "Items.COPPER_INGOT"
+        "value": "CUSTOM:Plastic"
       },
       {
-        "value": "Items.COPPER_INGOT"
+        "value": "CUSTOM:Plastic"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Plastic"
+      },
+      {
+        "value": "CUSTOM:Plastic"
       }
     ],
     "recipeReturnStack": {

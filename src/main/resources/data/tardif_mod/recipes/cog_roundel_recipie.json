@@ -3,11 +3,15 @@
   "category": "misc",
   "pattern": [
     "aa",
-    "aa"
+    "bb",
+    "bb"
   ],
   "key": {
     "a": {
       "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "tardif_mod:plastic"
     }
   },
   "result": {
