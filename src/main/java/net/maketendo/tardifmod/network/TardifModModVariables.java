@@ -126,7 +126,8 @@ public class TardifModModVariables {
 		public double TardisPower = 0;
 		public double TardisHealth = 0;
 		public double TardisMood = 0;
-		public boolean LoadedGarage = false;
+		public boolean LoadedLoneIsland = false;
+		public String TARDIS_Current_Dimension = "\"\"";
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -172,7 +173,8 @@ public class TardifModModVariables {
 			TardisPower = nbt.getDouble("TardisPower");
 			TardisHealth = nbt.getDouble("TardisHealth");
 			TardisMood = nbt.getDouble("TardisMood");
-			LoadedGarage = nbt.getBoolean("LoadedGarage");
+			LoadedLoneIsland = nbt.getBoolean("LoadedLoneIsland");
+			TARDIS_Current_Dimension = nbt.getString("TARDIS_Current_Dimension");
 		}
 
 		@Override
@@ -214,7 +216,8 @@ public class TardifModModVariables {
 			nbt.putDouble("TardisPower", TardisPower);
 			nbt.putDouble("TardisHealth", TardisHealth);
 			nbt.putDouble("TardisMood", TardisMood);
-			nbt.putBoolean("LoadedGarage", LoadedGarage);
+			nbt.putBoolean("LoadedLoneIsland", LoadedLoneIsland);
+			nbt.putString("TARDIS_Current_Dimension", TARDIS_Current_Dimension);
 			return nbt;
 		}
 

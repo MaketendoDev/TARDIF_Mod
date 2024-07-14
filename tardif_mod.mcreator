@@ -3481,26 +3481,6 @@
       "path": "~/Decor Blocks/TARDIS Wallpaper/White"
     },
     {
-      "name": "Power",
-      "type": "procedure",
-      "sortid": 234,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "power",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/procedures/PowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Pannels/Panel Functions/Power"
-    },
-    {
       "name": "PhoneboxDisplay",
       "type": "procedure",
       "sortid": 235,
@@ -5183,6 +5163,60 @@
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Recipies"
+    },
+    {
+      "name": "DematerialisationCarpetControlBlockHitSensor",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dematerialisation_carpet_control_block_hit_sensor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/DematerialisationCarpetControlBlockHitSensorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "hitX",
+            "type": "number"
+          },
+          {
+            "name": "hitY",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
+    },
+    {
+      "name": "P",
+      "type": "procedure",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/PProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [
@@ -5409,7 +5443,7 @@
       "value": "0"
     },
     {
-      "name": "LoadedGarage",
+      "name": "LoadedLoneIsland",
       "type": "logic",
       "scope": "map",
       "value": "false"
@@ -5419,6 +5453,12 @@
       "type": "logic",
       "scope": "global",
       "value": "true"
+    },
+    {
+      "name": "TARDIS_Current_Dimension",
+      "type": "string",
+      "scope": "map",
+      "value": "\"\""
     }
   ],
   "sound_elements": [
@@ -5592,13 +5632,13 @@
     }
   ],
   "tag_elements": {
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
     "ITEMS:minecraft:roundel_doors": [
       "CUSTOM:RoundelDoor",
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:ZytonOre",
@@ -5730,8 +5770,8 @@
   },
   "language_map": {
     "en_us": {
-      "subtitles.vm_teleport": "Teleporting...",
       "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
+      "subtitles.vm_teleport": "Teleporting...",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
@@ -5766,15 +5806,15 @@
       "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
       "gui.tardif_mod.coordinate_select_gui.X_Coord": "X",
       "subtitles.tardis_shutdown": "TARDIS Deactivating",
-      "advancements.refine_it.descr": "Obtain Dalekium Refinery",
       "death.attack.moment_damage_type.item": "%1$s was killed by the moment whilst also killed by %2$s using %3$s",
+      "advancements.refine_it.descr": "Obtain Dalekium Refinery",
       "item.tardif_mod.melart_axe": "Melart Axe",
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
@@ -5783,8 +5823,8 @@
       "item.tardif_mod.dalek_spawn_egg": "Dalek Spawn Egg",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
       "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
-      "advancements.the_hell_planet.descr": "Use the TARDIS to travel to Skaro for the first time!",
       "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
+      "advancements.the_hell_planet.descr": "Use the TARDIS to travel to Skaro for the first time!",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
       "advancements.obtain_tardis.title": "It\u0027s alive!",
       "item.tardif_mod.dalekium_armor_leggings": "Dalekium Leggings",
@@ -6037,28 +6077,6 @@
           {
             "name": "TARDIS Controls",
             "children": [
-              {
-                "name": "Pannels",
-                "children": [
-                  {
-                    "name": "Panel Functions",
-                    "children": [
-                      {
-                        "name": "Power",
-                        "children": []
-                      },
-                      {
-                        "name": "Coorinates selector",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Flight Pannel",
-                    "children": []
-                  }
-                ]
-              },
               {
                 "name": "Console",
                 "children": [

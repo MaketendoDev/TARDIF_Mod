@@ -3,6 +3,7 @@ package net.maketendo.tardifmod.procedures;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
@@ -25,6 +26,10 @@ public class TARDISItemRightclickedOnBlockProcedure {
 		if (entity == null)
 			return;
 		boolean placed = false;
+		String portalWorld = "";
+		double portalX = 0;
+		double portalY = 0;
+		double portalZ = 0;
 		if (TardifModModVariables.MapVariables.get(world).ExteriorSurplus == false) {
 			world.setBlock(BlockPos.containing(x, y + 2, z), (new Object() {
 				public BlockState with(BlockState _bs, String _property, int _newValue) {
@@ -52,6 +57,11 @@ public class TARDISItemRightclickedOnBlockProcedure {
 			TardifModModVariables.MapVariables.get(world).Locked = false;
 			TardifModModVariables.MapVariables.get(world).syncData(world);
 			TardifModModVariables.MapVariables.get(world).DoorOpen = false;
+			TardifModModVariables.MapVariables.get(world).syncData(world);
+			TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension = ("" + (world instanceof Level _lvl ? _lvl.dimension() : (world instanceof WorldGenLevel _wgl ? _wgl.getLevel().dimension() : Level.OVERWORLD)))
+					.replace("ResourceKey[minecraft:dimension / ", "");
+			TardifModModVariables.MapVariables.get(world).syncData(world);
+			TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension = TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension.replace("]", "");
 			TardifModModVariables.MapVariables.get(world).syncData(world);
 			if ((entity.level().dimension()) == Level.OVERWORLD) {
 				TardifModModVariables.MapVariables.get(world).TargetDimension = "Overworld";
