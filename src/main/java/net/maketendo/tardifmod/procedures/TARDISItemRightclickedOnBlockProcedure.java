@@ -114,11 +114,11 @@ public class TARDISItemRightclickedOnBlockProcedure {
 			TardifModModVariables.MapVariables.get(world).Z_TARDIS = z;
 			TardifModModVariables.MapVariables.get(world).syncData(world);
 			if (TardifModModVariables.MapVariables.get(world).InteriorLoad == false) {
-				TardifModModVariables.MapVariables.get(world).DoorPosX = 5;
+				TardifModModVariables.MapVariables.get(world).DoorPosX = 9;
 				TardifModModVariables.MapVariables.get(world).syncData(world);
-				TardifModModVariables.MapVariables.get(world).DoorPosY = 11;
+				TardifModModVariables.MapVariables.get(world).DoorPosY = 13;
 				TardifModModVariables.MapVariables.get(world).syncData(world);
-				TardifModModVariables.MapVariables.get(world).DoorPosZ = 11;
+				TardifModModVariables.MapVariables.get(world).DoorPosZ = 15;
 				TardifModModVariables.MapVariables.get(world).syncData(world);
 			}
 		} else {

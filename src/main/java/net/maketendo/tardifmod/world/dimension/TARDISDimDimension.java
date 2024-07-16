@@ -48,7 +48,7 @@ public class TARDISDimDimension {
 		double y = entity.getY();
 		double z = entity.getZ();
 		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("tardif_mod:tardis_dim"))) {
-			TARDISDimPlayerEntersDimensionProcedure.execute(world, x, y, z);
+			TARDISDimPlayerEntersDimensionProcedure.execute(world);
 		}
 	}
 }
