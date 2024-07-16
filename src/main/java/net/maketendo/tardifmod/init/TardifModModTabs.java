@@ -33,6 +33,7 @@ public class TardifModModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tardif_mod.tardis_items")).icon(() -> new ItemStack(TardifModModItems.TARDIS_ITEM.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(TardifModModItems.TARDIS_ITEM.get());
 				tabData.accept(TardifModModBlocks.TARDIS_INTERIOR_DOOR.get().asItem());
+				tabData.accept(TardifModModBlocks.TARDIS_EXIT_VOID.get().asItem());
 				tabData.accept(TardifModModItems.TARDIS_KEY.get());
 				tabData.accept(TardifModModBlocks.MONITOR.get().asItem());
 				tabData.accept(TardifModModBlocks.FOOD_CUBE_MACHINE.get().asItem());
@@ -47,6 +48,7 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModBlocks.DIMENSIONAL_SELECTOR_CARPET_CONTROL.get().asItem());
 				tabData.accept(TardifModModBlocks.COORDINATE_TRAVEL_CARPET_CONTROL.get().asItem());
 				tabData.accept(TardifModModBlocks.TELAPATHIC_CARPET_CONTROL.get().asItem());
+				tabData.accept(TardifModModBlocks.CORRIDORS_VOID.get().asItem());
 			})
 
 					.build());

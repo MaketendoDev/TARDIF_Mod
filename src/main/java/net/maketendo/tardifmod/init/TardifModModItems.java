@@ -174,6 +174,8 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> WEAK_DRYSTONE_PLANKS = block(TardifModModBlocks.WEAK_DRYSTONE_PLANKS);
 	public static final RegistryObject<Item> PETRIFIED_STONE = block(TardifModModBlocks.PETRIFIED_STONE);
 	public static final RegistryObject<Item> PETRIFIED_COBBLESTONE = block(TardifModModBlocks.PETRIFIED_COBBLESTONE);
+	public static final RegistryObject<Item> TARDIS_EXIT_VOID = block(TardifModModBlocks.TARDIS_EXIT_VOID);
+	public static final RegistryObject<Item> CORRIDORS_VOID = block(TardifModModBlocks.CORRIDORS_VOID);
 
 	// Start of user code block custom items
 	// End of user code block custom items

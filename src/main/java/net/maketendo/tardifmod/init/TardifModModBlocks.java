@@ -29,6 +29,7 @@ import net.maketendo.tardifmod.block.TallMintRoundelDoorBlock;
 import net.maketendo.tardifmod.block.TARDISMaintenanceEngineBlock;
 import net.maketendo.tardifmod.block.TARDISInteriorDoorBlock;
 import net.maketendo.tardifmod.block.TARDISExteriorBlock;
+import net.maketendo.tardifmod.block.TARDISExitVoidBlock;
 import net.maketendo.tardifmod.block.SolderOreBlock;
 import net.maketendo.tardifmod.block.RoundelDoorBlock;
 import net.maketendo.tardifmod.block.RoundelBlock;
@@ -72,6 +73,7 @@ import net.maketendo.tardifmod.block.DematerialisationCarpetControlBlock;
 import net.maketendo.tardifmod.block.DalekiumRefineryBlock;
 import net.maketendo.tardifmod.block.DalekiumOreBlock;
 import net.maketendo.tardifmod.block.DalekiumBlockBlock;
+import net.maketendo.tardifmod.block.CorridorsVoidBlock;
 import net.maketendo.tardifmod.block.CoordinateTravelCarpetControlBlock;
 import net.maketendo.tardifmod.block.CogRoundelBlock;
 import net.maketendo.tardifmod.block.ClassicgrassBlock;
@@ -186,6 +188,8 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> WEAK_DRYSTONE_PLANKS = REGISTRY.register("weak_drystone_planks", () -> new WeakDrystonePlanksBlock());
 	public static final RegistryObject<Block> PETRIFIED_STONE = REGISTRY.register("petrified_stone", () -> new PetrifiedStoneBlock());
 	public static final RegistryObject<Block> PETRIFIED_COBBLESTONE = REGISTRY.register("petrified_cobblestone", () -> new PetrifiedCobblestoneBlock());
+	public static final RegistryObject<Block> TARDIS_EXIT_VOID = REGISTRY.register("tardis_exit_void", () -> new TARDISExitVoidBlock());
+	public static final RegistryObject<Block> CORRIDORS_VOID = REGISTRY.register("corridors_void", () -> new CorridorsVoidBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
