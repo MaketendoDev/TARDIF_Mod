@@ -2277,11 +2277,11 @@
       "registry_name": "tardis_maintenance_engine",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_maintenance_engine.json",
+          "src/main/resources/assets/tardif_mod/models/item/tardis_maintenance_engine.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_maintenance_engine.json",
           "src/main/resources/assets/tardif_mod/blockstates/tardis_maintenance_engine.json",
           "src/main/java/net/maketendo/tardifmod/block/TARDISMaintenanceEngineBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_maintenance_engine.json",
-          "src/main/resources/assets/tardif_mod/models/item/tardis_maintenance_engine.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_maintenance_engine.json"
         ]
       },
       "path": "~/TARDIS/Engine"
@@ -4517,8 +4517,8 @@
       "registry_name": "dematerialisation_circuit",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/DematerialisationCircuitItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/dematerialisation_circuit.json"
+          "src/main/resources/assets/tardif_mod/models/item/dematerialisation_circuit.json",
+          "src/main/java/net/maketendo/tardifmod/item/DematerialisationCircuitItem.java"
         ]
       },
       "path": "~/TARDIS/Engine/Components"
@@ -5225,6 +5225,47 @@
         ]
       },
       "path": "~/TARDIS/Corridors"
+    },
+    {
+      "name": "CreateTARDISDimensions",
+      "type": "procedure",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_tardis_dimensions",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/TARDIS/Important Stuff"
+    },
+    {
+      "name": "EyeOfHarmonyDamage",
+      "type": "damagetype",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye_of_harmony_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/damage_type/eye_of_harmony_damage.json"
+        ]
+      },
+      "path": "~/TARDIS/Engine"
+    },
+    {
+      "name": "TeleportIntoTARDIS",
+      "type": "procedure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "teleport_into_tardis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/TeleportIntoTARDISProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/TARDIS/Important Stuff"
     }
   ],
   "variable_elements": [
@@ -5467,6 +5508,12 @@
       "type": "string",
       "scope": "map",
       "value": "\"\""
+    },
+    {
+      "name": "PlayerBeenInTARDISBefore",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -5847,10 +5894,12 @@
       "block.tardif_mod.dry_stone_planks": "Dry Stone Planks",
       "gui.tardif_mod.coordinate_select_gui.button_y": "Y",
       "gui.tardif_mod.exterior_monitor_gui.label_stuff": "InFlight:",
+      "death.attack.eye_of_harmony_damage": "%1$s was burnt up by the Eye of Harmony",
       "block.tardif_mod.mint_roundel": "Mint Roundel",
       "block.tardif_mod.zyton_ore": "Zyton Ore",
       "item.tardif_mod.tenth_recorded_message": "Music Disc",
       "gui.tardif_mod.monitor_gui.label_x_input": "x_input",
+      "death.attack.eye_of_harmony_damage.item": "%1$s was burnt up by %2$s using %3$s",
       "gui.tardif_mod.exteriorselectgui.label_dimension": "Dimension:",
       "gui.tardif_mod.refinary_gui.button_refine": "Refine",
       "gui.tardif_mod.control_display.label_dematerialise_lever": "TARDIF Mod BETA 0.0.1",
@@ -5882,6 +5931,7 @@
       "block.tardif_mod.tardis_exterior": "TARDIS Exterior",
       "gui.tardif_mod.monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "block.tardif_mod.dalekium_refinery": "Dalekium Refinery",
+      "death.attack.eye_of_harmony_damage.player": "%1$s burnt up whilst trying to escape %2$s",
       "block.tardif_mod.classic_light_gray_wool": "Classic Light Gray Wool",
       "item_group.tardif_mod.tardif_decoration": "TARDIF Decoration",
       "advancements.its_made_out_of_evreything.descr": "Obtain Plastic!",
