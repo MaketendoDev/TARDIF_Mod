@@ -52,6 +52,12 @@ public class TardifModModTabs {
 			})
 
 					.build());
+	public static final RegistryObject<CreativeModeTab> CRATES = REGISTRY.register("crates",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tardif_mod.crates")).icon(() -> new ItemStack(TardifModModItems.TIER_1_ITEM_CRATE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(TardifModModItems.TIER_1_ITEM_CRATE.get());
+			})
+
+					.build());
 	public static final RegistryObject<CreativeModeTab> TARDIF_DECORATION = REGISTRY.register("tardif_decoration",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tardif_mod.tardif_decoration")).icon(() -> new ItemStack(TardifModModBlocks.ROUNDEL.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(TardifModModBlocks.ROUNDEL.get().asItem());
@@ -128,6 +134,7 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModBlocks.DRY_STONE_PLANKS.get().asItem());
 			tabData.accept(TardifModModBlocks.WEAK_DRYSTONE_PLANKS.get().asItem());
 			tabData.accept(TardifModModBlocks.PETRIFIED_COBBLESTONE.get().asItem());
+			tabData.accept(TardifModModBlocks.PRESSURISER.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(TardifModModBlocks.DALEKIUM_REFINERY.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
@@ -142,6 +149,10 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModItems.DALEKIUM_ARMOR_CHESTPLATE.get());
 			tabData.accept(TardifModModItems.DALEKIUM_ARMOR_LEGGINGS.get());
 			tabData.accept(TardifModModItems.DALEKIUM_ARMOR_BOOTS.get());
+			tabData.accept(TardifModModItems.SPACE_SUIT_ARMOR_HELMET.get());
+			tabData.accept(TardifModModItems.SPACE_SUIT_ARMOR_CHESTPLATE.get());
+			tabData.accept(TardifModModItems.SPACE_SUIT_ARMOR_LEGGINGS.get());
+			tabData.accept(TardifModModItems.SPACE_SUIT_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(TardifModModItems.TENTH_CYBERMAN_SPAWN_EGG.get());
 			tabData.accept(TardifModModItems.DALEK_SPAWN_EGG.get());
@@ -174,6 +185,7 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModBlocks.PETRIFIED_GRASS.get().asItem());
 			tabData.accept(TardifModModBlocks.RAIDIATED_SAND.get().asItem());
 			tabData.accept(TardifModModBlocks.PETRIFIED_STONE.get().asItem());
+			tabData.accept(TardifModModBlocks.SPACE_ROCK.get().asItem());
 		}
 	}
 }

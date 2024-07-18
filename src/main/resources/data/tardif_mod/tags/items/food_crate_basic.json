@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:apple",
+    "minecraft:mushroom_stew",
+    "minecraft:wheat_seeds",
+    "minecraft:wheat",
+    "minecraft:carrot",
+    "minecraft:potato",
+    "minecraft:baked_potato",
+    "minecraft:pumpkin_pie",
+    "minecraft:golden_carrot",
+    "minecraft:bread",
+    "minecraft:pumpkin_seeds",
+    "minecraft:melon_slice",
+    "minecraft:melon_seeds",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_salmon",
+    "minecraft:cooked_porkchop",
+    "minecraft:cooked_beef",
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_rabbit",
+    "minecraft:rabbit_stew",
+    "minecraft:cooked_mutton",
+    "minecraft:beetroot",
+    "minecraft:beetroot_seeds",
+    "minecraft:beetroot_soup"
+  ]
+}

@@ -302,8 +302,8 @@
       "registry_name": "plastic",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/PlasticItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/plastic.json"
+          "src/main/resources/assets/tardif_mod/models/item/plastic.json",
+          "src/main/java/net/maketendo/tardifmod/item/PlasticItem.java"
         ]
       },
       "path": "~/Gameplay/Plastic"
@@ -457,11 +457,11 @@
       "registry_name": "classicgrass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/classicgrass.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classicgrass.json",
           "src/main/resources/assets/tardif_mod/blockstates/classicgrass.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicgrassBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/classicgrass.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classicgrass.json"
+          "src/main/resources/assets/tardif_mod/models/item/classicgrass.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block"
@@ -475,10 +475,10 @@
       "registry_name": "classic_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/ClassicStoneBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_stone.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_stone.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_stone.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_stone.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_stone.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicStoneBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/classic_stone.json"
         ]
       },
@@ -493,11 +493,11 @@
       "registry_name": "classic_sand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/classic_sand.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_sand.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_sand.json",
+          "src/main/resources/assets/tardif_mod/models/item/classic_sand.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicSandBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/classic_sand.json"
+          "src/main/resources/assets/tardif_mod/blockstates/classic_sand.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_sand.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block"
@@ -511,11 +511,11 @@
       "registry_name": "classic_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/classic_leaves.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicLeavesBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/classic_leaves.json",
+          "src/main/resources/assets/tardif_mod/models/item/classic_leaves.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_leaves.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_leaves.json"
+          "src/main/resources/assets/tardif_mod/models/block/classic_leaves.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicLeavesBlock.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block"
@@ -529,11 +529,11 @@
       "registry_name": "classic_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/classic_log.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_log.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_log.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_log.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicLogBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/classic_log.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicLogBlock.java"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_log.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block"
@@ -595,11 +595,11 @@
       "registry_name": "classic_dirt",
       "metadata": {
         "files": [
+          "src/main/java/net/maketendo/tardifmod/block/ClassicDirtBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_dirt.json",
           "src/main/resources/assets/tardif_mod/blockstates/classic_dirt.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_dirt.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_dirt.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_dirt.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicDirtBlock.java"
+          "src/main/resources/assets/tardif_mod/models/block/classic_dirt.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block"
@@ -670,12 +670,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/plastic_ore.json",
-          "src/main/java/net/maketendo/tardifmod/block/Plastic_ChunkOreBlock.java",
-          "src/main/resources/data/tardif_mod/forge/biome_modifier/plastic_ore_biome_modifier.json",
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/plastic_ore.json",
-          "src/main/resources/assets/tardif_mod/models/item/plastic_ore.json",
-          "src/main/resources/assets/tardif_mod/models/block/plastic_ore.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/plastic_ore.json",
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/plastic_ore_biome_modifier.json",
+          "src/main/resources/assets/tardif_mod/models/block/plastic_ore.json",
+          "src/main/resources/assets/tardif_mod/models/item/plastic_ore.json",
+          "src/main/java/net/maketendo/tardifmod/block/Plastic_ChunkOreBlock.java",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/plastic_ore.json",
           "src/main/resources/assets/tardif_mod/blockstates/plastic_ore.json"
         ]
       },
@@ -786,11 +786,11 @@
       "registry_name": "classic_netherack",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/classic_netherack.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicNetherackBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/classic_netherack.json",
           "src/main/resources/assets/tardif_mod/blockstates/classic_netherack.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_netherack.json"
+          "src/main/resources/assets/tardif_mod/models/item/classic_netherack.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicNetherackBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_netherack.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_netherack.json"
         ]
       },
       "path": "~/Dimensions/Time/Nether"
@@ -1282,8 +1282,8 @@
       "registry_name": "circuit_board",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/circuit_board.json",
-          "src/main/java/net/maketendo/tardifmod/item/CircuitBoardItem.java"
+          "src/main/java/net/maketendo/tardifmod/item/CircuitBoardItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/circuit_board.json"
         ]
       },
       "path": "~/Gameplay/Circuit"
@@ -1326,14 +1326,14 @@
       "registry_name": "solder_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/solder_ore.json",
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/solder_ore.json",
-          "src/main/resources/data/tardif_mod/forge/biome_modifier/solder_ore_biome_modifier.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/solder_ore.json",
-          "src/main/resources/assets/tardif_mod/models/item/solder_ore.json",
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/solder_ore.json",
           "src/main/resources/assets/tardif_mod/blockstates/solder_ore.json",
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/solder_ore_biome_modifier.json",
+          "src/main/resources/assets/tardif_mod/models/item/solder_ore.json",
           "src/main/java/net/maketendo/tardifmod/block/SolderOreBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/solder_ore.json"
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/solder_ore.json"
         ]
       },
       "path": "~/Gameplay/Solder"
@@ -1347,8 +1347,8 @@
       "registry_name": "zyton_7",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/Zyton7Item.java",
-          "src/main/resources/assets/tardif_mod/models/item/zyton_7.json"
+          "src/main/resources/assets/tardif_mod/models/item/zyton_7.json",
+          "src/main/java/net/maketendo/tardifmod/item/Zyton7Item.java"
         ]
       },
       "path": "~/Gameplay/Zyton - 7"
@@ -1362,8 +1362,8 @@
       "registry_name": "drained_zyton_7",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/DrainedZyton7Item.java",
-          "src/main/resources/assets/tardif_mod/models/item/drained_zyton_7.json"
+          "src/main/resources/assets/tardif_mod/models/item/drained_zyton_7.json",
+          "src/main/java/net/maketendo/tardifmod/item/DrainedZyton7Item.java"
         ]
       },
       "path": "~/Gameplay/Zyton - 7"
@@ -1377,11 +1377,11 @@
       "registry_name": "zyton_7_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/zyton_7_block.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/zyton_7_block.json",
+          "src/main/resources/assets/tardif_mod/blockstates/zyton_7_block.json",
           "src/main/resources/assets/tardif_mod/models/item/zyton_7_block.json",
+          "src/main/resources/assets/tardif_mod/models/block/zyton_7_block.json",
           "src/main/java/net/maketendo/tardifmod/block/Zyton7BlockBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/zyton_7_block.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/zyton_7_block.json"
         ]
       },
       "path": "~/Gameplay/Zyton - 7"
@@ -1395,11 +1395,11 @@
       "registry_name": "drained_zyton_7_block",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/DrainedZyton7BlockBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/drained_zyton_7_block.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/drained_zyton_7_block.json",
-          "src/main/resources/assets/tardif_mod/models/item/drained_zyton_7_block.json",
+          "src/main/java/net/maketendo/tardifmod/block/DrainedZyton7BlockBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/drained_zyton_7_block.json",
-          "src/main/resources/assets/tardif_mod/models/block/drained_zyton_7_block.json"
+          "src/main/resources/assets/tardif_mod/models/item/drained_zyton_7_block.json"
         ]
       },
       "path": "~/Gameplay/Zyton - 7"
@@ -1519,13 +1519,13 @@
       "registry_name": "zyton_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/forge/biome_modifier/zyton_ore_biome_modifier.json",
           "src/main/resources/data/tardif_mod/worldgen/configured_feature/zyton_ore.json",
-          "src/main/resources/assets/tardif_mod/models/block/zyton_ore.json",
-          "src/main/resources/assets/tardif_mod/models/item/zyton_ore.json",
-          "src/main/resources/assets/tardif_mod/blockstates/zyton_ore.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/zyton_ore.json",
           "src/main/java/net/maketendo/tardifmod/block/ZytonOreBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/zyton_ore.json",
+          "src/main/resources/assets/tardif_mod/models/item/zyton_ore.json",
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/zyton_ore_biome_modifier.json",
+          "src/main/resources/assets/tardif_mod/models/block/zyton_ore.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/zyton_ore.json",
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/zyton_ore.json"
         ]
       },
@@ -1677,11 +1677,11 @@
       "registry_name": "classic_white_wool",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_white_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_white_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicWhiteWoolBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/classic_white_wool.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_white_wool.json",
-          "src/main/resources/assets/tardif_mod/models/item/classic_white_wool.json"
+          "src/main/resources/assets/tardif_mod/blockstates/classic_white_wool.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_white_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1696,10 +1696,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_light_gray_wool.json",
-          "src/main/resources/assets/tardif_mod/models/item/classic_light_gray_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_light_gray_wool.json",
           "src/main/resources/assets/tardif_mod/blockstates/classic_light_gray_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicLightGrayWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/classic_light_gray_wool.json"
+          "src/main/resources/assets/tardif_mod/models/item/classic_light_gray_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1713,11 +1713,11 @@
       "registry_name": "food_cube_machine",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/food_cube_machine.json",
-          "src/main/resources/assets/tardif_mod/models/item/food_cube_machine.json",
           "src/main/resources/assets/tardif_mod/models/block/food_cube_machine.json",
           "src/main/java/net/maketendo/tardifmod/block/FoodCubeMachineBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/food_cube_machine.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/food_cube_machine.json",
+          "src/main/resources/assets/tardif_mod/blockstates/food_cube_machine.json",
+          "src/main/resources/assets/tardif_mod/models/item/food_cube_machine.json"
         ]
       },
       "path": "~/Gameplay/TARDIS Blocks/Food Cube Machines"
@@ -1751,8 +1751,8 @@
       "registry_name": "food_cube",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/FoodCubeItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/food_cube.json"
+          "src/main/resources/assets/tardif_mod/models/item/food_cube.json",
+          "src/main/java/net/maketendo/tardifmod/item/FoodCubeItem.java"
         ]
       },
       "path": "~/Gameplay/Foods/Food Cubes"
@@ -1800,11 +1800,11 @@
       "registry_name": "classic_gray_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/classic_gray_wool.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_gray_wool.json",
+          "src/main/resources/assets/tardif_mod/models/item/classic_gray_wool.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_gray_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicGrayWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/classic_gray_wool.json"
+          "src/main/resources/assets/tardif_mod/blockstates/classic_gray_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_gray_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1818,11 +1818,11 @@
       "registry_name": "classic_yellow_wool",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/ClassicYellowWoolBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_yellow_wool.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_yellow_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_yellow_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_yellow_wool.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_yellow_wool.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_yellow_wool.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicYellowWoolBlock.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1836,11 +1836,11 @@
       "registry_name": "classic_blue_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/classic_blue_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_blue_wool.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_blue_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_blue_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicBlueWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/classic_blue_wool.json"
+          "src/main/resources/assets/tardif_mod/models/item/classic_blue_wool.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_blue_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1854,11 +1854,11 @@
       "registry_name": "classic_aqua_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/classic_aqua_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_aqua_wool.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_aqua_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicAquaWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/classic_aqua_wool.json"
+          "src/main/resources/assets/tardif_mod/models/block/classic_aqua_wool.json",
+          "src/main/resources/assets/tardif_mod/models/item/classic_aqua_wool.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_aqua_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1872,11 +1872,11 @@
       "registry_name": "classic_cyan_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/classic_cyan_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicCyanWoolBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/classic_cyan_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_cyan_wool.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_cyan_wool.json"
+          "src/main/java/net/maketendo/tardifmod/block/ClassicCyanWoolBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_cyan_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_cyan_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1890,11 +1890,11 @@
       "registry_name": "classic_green_wool",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/ClassicGreenWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_green_wool.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_green_wool.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_green_wool.json",
-          "src/main/resources/assets/tardif_mod/models/item/classic_green_wool.json"
+          "src/main/java/net/maketendo/tardifmod/block/ClassicGreenWoolBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/classic_green_wool.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_green_wool.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_green_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1908,11 +1908,11 @@
       "registry_name": "classic_lime_wool",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/ClassicLimeWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_lime_wool.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_lime_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_lime_wool.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_lime_wool.json"
+          "src/main/java/net/maketendo/tardifmod/block/ClassicLimeWoolBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_lime_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_lime_wool.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_lime_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1926,11 +1926,11 @@
       "registry_name": "classic_teal_wool",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_teal_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicTealWoolBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_teal_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_teal_wool.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_teal_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_teal_wool.json"
+          "src/main/java/net/maketendo/tardifmod/block/ClassicTealWoolBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_teal_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_teal_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1945,10 +1945,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_purple_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_purple_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_purple_wool.json",
           "src/main/resources/assets/tardif_mod/blockstates/classic_purple_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicPurpleWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/classic_purple_wool.json"
+          "src/main/java/net/maketendo/tardifmod/block/ClassicPurpleWoolBlock.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1962,11 +1962,11 @@
       "registry_name": "classic_indigo_wool",
       "metadata": {
         "files": [
+          "src/main/java/net/maketendo/tardifmod/block/ClassicIndigoWoolBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/classic_indigo_wool.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_indigo_wool.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_indigo_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicIndigoWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_indigo_wool.json"
+          "src/main/resources/assets/tardif_mod/blockstates/classic_indigo_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_indigo_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1980,11 +1980,11 @@
       "registry_name": "classic_magenta_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/classic_magenta_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicMagentaWoolBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/classic_magenta_wool.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_magenta_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_magenta_wool.json",
-          "src/main/resources/assets/tardif_mod/models/item/classic_magenta_wool.json"
+          "src/main/resources/assets/tardif_mod/models/item/classic_magenta_wool.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_magenta_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1998,10 +1998,10 @@
       "registry_name": "classic_red_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/classic_red_wool.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_red_wool.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_red_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_red_wool.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_red_wool.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_red_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicRedWoolBlock.java"
         ]
       },
@@ -2016,11 +2016,11 @@
       "registry_name": "classic_orange_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/classic_orange_wool.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_orange_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_orange_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicOrangeWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/classic_orange_wool.json"
+          "src/main/resources/assets/tardif_mod/blockstates/classic_orange_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_orange_wool.json",
+          "src/main/resources/assets/tardif_mod/models/item/classic_orange_wool.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_orange_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -2147,11 +2147,11 @@
       "registry_name": "the_moment",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/the_moment.json",
-          "src/main/resources/assets/tardif_mod/blockstates/the_moment.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/the_moment.json",
+          "src/main/resources/assets/tardif_mod/blockstates/the_moment.json",
           "src/main/java/net/maketendo/tardifmod/block/TheMomentBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/the_moment.json"
+          "src/main/resources/assets/tardif_mod/models/block/the_moment.json",
+          "src/main/resources/assets/tardif_mod/models/item/the_moment.json"
         ]
       },
       "path": "~/Gameplay/Weapons/The Moment"
@@ -2453,11 +2453,11 @@
       "registry_name": "dalekium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/dalekium_ore.json",
-          "src/main/resources/assets/tardif_mod/models/block/dalekium_ore.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_ore.json",
           "src/main/resources/assets/tardif_mod/blockstates/dalekium_ore.json",
-          "src/main/java/net/maketendo/tardifmod/block/DalekiumOreBlock.java"
+          "src/main/java/net/maketendo/tardifmod/block/DalekiumOreBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/dalekium_ore.json",
+          "src/main/resources/assets/tardif_mod/models/item/dalekium_ore.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -2471,8 +2471,8 @@
       "registry_name": "raw_dalekium",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/RawDalekiumItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/raw_dalekium.json"
+          "src/main/resources/assets/tardif_mod/models/item/raw_dalekium.json",
+          "src/main/java/net/maketendo/tardifmod/item/RawDalekiumItem.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Ores"
@@ -2486,11 +2486,11 @@
       "registry_name": "raw_dalekium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/raw_dalekium_block.json",
-          "src/main/java/net/maketendo/tardifmod/block/RawDalekiumBlockBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/raw_dalekium_block.json",
           "src/main/resources/assets/tardif_mod/blockstates/raw_dalekium_block.json",
-          "src/main/resources/assets/tardif_mod/models/block/raw_dalekium_block.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/raw_dalekium_block.json",
+          "src/main/resources/assets/tardif_mod/models/item/raw_dalekium_block.json",
+          "src/main/resources/assets/tardif_mod/models/block/raw_dalekium_block.json",
+          "src/main/java/net/maketendo/tardifmod/block/RawDalekiumBlockBlock.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -2504,11 +2504,11 @@
       "registry_name": "melart_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/melart_block.json",
-          "src/main/java/net/maketendo/tardifmod/block/MelartBlockBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/melart_block.json",
+          "src/main/resources/assets/tardif_mod/models/item/melart_block.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/melart_block.json",
           "src/main/resources/assets/tardif_mod/blockstates/melart_block.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/melart_block.json"
+          "src/main/java/net/maketendo/tardifmod/block/MelartBlockBlock.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -2614,11 +2614,11 @@
       "registry_name": "nitro_9",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/Nitro9Block.java",
-          "src/main/resources/assets/tardif_mod/models/item/nitro_9.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/nitro_9.json",
           "src/main/resources/assets/tardif_mod/blockstates/nitro_9.json",
-          "src/main/resources/assets/tardif_mod/models/block/nitro_9.json"
+          "src/main/resources/assets/tardif_mod/models/block/nitro_9.json",
+          "src/main/java/net/maketendo/tardifmod/block/Nitro9Block.java",
+          "src/main/resources/assets/tardif_mod/models/item/nitro_9.json"
         ]
       },
       "path": "~/Gameplay/Weapons/Nitro-9"
@@ -2941,11 +2941,11 @@
       "registry_name": "dalekium_refinery",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/dalekium_refinery.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_refinery.json",
-          "src/main/resources/assets/tardif_mod/blockstates/dalekium_refinery.json",
           "src/main/java/net/maketendo/tardifmod/block/DalekiumRefineryBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/dalekium_refinery.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_refinery.json",
+          "src/main/resources/assets/tardif_mod/models/block/dalekium_refinery.json",
+          "src/main/resources/assets/tardif_mod/models/item/dalekium_refinery.json",
+          "src/main/resources/assets/tardif_mod/blockstates/dalekium_refinery.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Refinery"
@@ -2974,11 +2974,11 @@
       "registry_name": "melart_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/MelartArmorItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/melart_armor_helmet.json",
+          "src/main/resources/assets/tardif_mod/models/item/melart_armor_chestplate.json",
           "src/main/resources/assets/tardif_mod/models/item/melart_armor_boots.json",
           "src/main/resources/assets/tardif_mod/models/item/melart_armor_leggings.json",
-          "src/main/resources/assets/tardif_mod/models/item/melart_armor_chestplate.json"
+          "src/main/resources/assets/tardif_mod/models/item/melart_armor_helmet.json",
+          "src/main/java/net/maketendo/tardifmod/item/MelartArmorItem.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Armor"
@@ -3048,8 +3048,8 @@
       "registry_name": "melart_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/MelartPickaxeItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/melart_pickaxe.json"
+          "src/main/resources/assets/tardif_mod/models/item/melart_pickaxe.json",
+          "src/main/java/net/maketendo/tardifmod/item/MelartPickaxeItem.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Tools"
@@ -3063,8 +3063,8 @@
       "registry_name": "melart_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/MelartAxeItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/melart_axe.json"
+          "src/main/resources/assets/tardif_mod/models/item/melart_axe.json",
+          "src/main/java/net/maketendo/tardifmod/item/MelartAxeItem.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Tools"
@@ -3135,11 +3135,11 @@
       "registry_name": "dalekium_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_chestplate.json",
+          "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_helmet.json",
           "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_leggings.json",
           "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_boots.json",
-          "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_helmet.json",
-          "src/main/java/net/maketendo/tardifmod/item/DalekiumArmorItem.java"
+          "src/main/java/net/maketendo/tardifmod/item/DalekiumArmorItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_chestplate.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Armor"
@@ -3209,8 +3209,8 @@
       "registry_name": "melart_shard",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/MelartShardItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/melart_shard.json"
+          "src/main/resources/assets/tardif_mod/models/item/melart_shard.json",
+          "src/main/java/net/maketendo/tardifmod/item/MelartShardItem.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Ores"
@@ -3225,10 +3225,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/maketendo/tardifmod/block/DalekiumBlockBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_block.json",
-          "src/main/resources/assets/tardif_mod/models/item/dalekium_block.json",
+          "src/main/resources/assets/tardif_mod/models/block/dalekium_block.json",
           "src/main/resources/assets/tardif_mod/blockstates/dalekium_block.json",
-          "src/main/resources/assets/tardif_mod/models/block/dalekium_block.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_block.json",
+          "src/main/resources/assets/tardif_mod/models/item/dalekium_block.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -4902,11 +4902,11 @@
       "registry_name": "drystonelog",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/drystonelog.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/drystonelog.json",
           "src/main/resources/assets/tardif_mod/models/item/drystonelog.json",
-          "src/main/java/net/maketendo/tardifmod/block/DrystonelogBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/drystonelog.json",
           "src/main/resources/assets/tardif_mod/blockstates/drystonelog.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/drystonelog.json"
+          "src/main/java/net/maketendo/tardifmod/block/DrystonelogBlock.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -4920,11 +4920,11 @@
       "registry_name": "drystonewood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/drystonewood.json",
           "src/main/resources/assets/tardif_mod/models/item/drystonewood.json",
           "src/main/resources/assets/tardif_mod/models/block/drystonewood.json",
           "src/main/java/net/maketendo/tardifmod/block/DrystonewoodBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/drystonewood.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/drystonewood.json",
+          "src/main/resources/assets/tardif_mod/blockstates/drystonewood.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -4938,11 +4938,11 @@
       "registry_name": "petrified_dirt",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/petrified_dirt.json",
           "src/main/resources/assets/tardif_mod/blockstates/petrified_dirt.json",
-          "src/main/resources/assets/tardif_mod/models/item/petrified_dirt.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_dirt.json",
           "src/main/java/net/maketendo/tardifmod/block/PetrifiedDirtBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/petrified_dirt.json"
+          "src/main/resources/assets/tardif_mod/models/item/petrified_dirt.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_dirt.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -4956,11 +4956,11 @@
       "registry_name": "petrified_grass_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_grass_block.json",
-          "src/main/resources/assets/tardif_mod/models/block/petrified_grass_block.json",
           "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlockBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/petrified_grass_block.json",
-          "src/main/resources/assets/tardif_mod/blockstates/petrified_grass_block.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_grass_block.json",
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_grass_block.json",
+          "src/main/resources/assets/tardif_mod/models/block/petrified_grass_block.json",
+          "src/main/resources/assets/tardif_mod/models/item/petrified_grass_block.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -4974,14 +4974,14 @@
       "registry_name": "petrified_grass",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/forge/biome_modifier/petrified_grass_biome_modifier.json",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/petrified_grass.json",
           "src/main/resources/data/tardif_mod/worldgen/configured_feature/petrified_grass.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_grass.json",
           "src/main/resources/assets/tardif_mod/models/item/petrified_grass.json",
-          "src/main/resources/assets/tardif_mod/blockstates/petrified_grass.json",
-          "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/petrified_grass.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/petrified_grass.json"
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/petrified_grass_biome_modifier.json",
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_grass.json",
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_grass.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -5041,11 +5041,11 @@
       "registry_name": "raidiated_sand",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/raidiated_sand.json",
-          "src/main/resources/assets/tardif_mod/blockstates/raidiated_sand.json",
+          "src/main/java/net/maketendo/tardifmod/block/RaidiatedSandBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/raidiated_sand.json",
-          "src/main/resources/assets/tardif_mod/models/item/raidiated_sand.json",
-          "src/main/java/net/maketendo/tardifmod/block/RaidiatedSandBlock.java"
+          "src/main/resources/assets/tardif_mod/blockstates/raidiated_sand.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/raidiated_sand.json",
+          "src/main/resources/assets/tardif_mod/models/item/raidiated_sand.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -5059,11 +5059,11 @@
       "registry_name": "dry_stone_planks",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/dry_stone_planks.json",
           "src/main/java/net/maketendo/tardifmod/block/DryStonePlanksBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/dry_stone_planks.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/dry_stone_planks.json",
+          "src/main/resources/assets/tardif_mod/blockstates/dry_stone_planks.json",
           "src/main/resources/assets/tardif_mod/models/item/dry_stone_planks.json",
-          "src/main/resources/assets/tardif_mod/blockstates/dry_stone_planks.json"
+          "src/main/resources/assets/tardif_mod/models/block/dry_stone_planks.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -5077,11 +5077,11 @@
       "registry_name": "weak_drystone_planks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/weak_drystone_planks.json",
           "src/main/java/net/maketendo/tardifmod/block/WeakDrystonePlanksBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/weak_drystone_planks.json",
           "src/main/resources/assets/tardif_mod/models/item/weak_drystone_planks.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/weak_drystone_planks.json",
-          "src/main/resources/assets/tardif_mod/models/block/weak_drystone_planks.json"
+          "src/main/resources/assets/tardif_mod/blockstates/weak_drystone_planks.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -5095,11 +5095,11 @@
       "registry_name": "petrified_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/PetrifiedStoneBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/petrified_stone.json",
-          "src/main/resources/assets/tardif_mod/models/block/petrified_stone.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_stone.json",
-          "src/main/resources/assets/tardif_mod/models/item/petrified_stone.json"
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_stone.json",
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedStoneBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/petrified_stone.json",
+          "src/main/resources/assets/tardif_mod/models/block/petrified_stone.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -5113,11 +5113,11 @@
       "registry_name": "petrified_cobblestone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/petrified_cobblestone.json",
-          "src/main/java/net/maketendo/tardifmod/block/PetrifiedCobblestoneBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/petrified_cobblestone.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_cobblestone.json",
           "src/main/resources/assets/tardif_mod/blockstates/petrified_cobblestone.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_cobblestone.json"
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedCobblestoneBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/petrified_cobblestone.json",
+          "src/main/resources/assets/tardif_mod/models/block/petrified_cobblestone.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -5266,6 +5266,283 @@
         "dependencies": []
       },
       "path": "~/TARDIS/Important Stuff"
+    },
+    {
+      "name": "SpaceSuffocation",
+      "type": "damagetype",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_suffocation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/damage_type/space_suffocation.json"
+        ]
+      },
+      "path": "~/Dimensions/Space"
+    },
+    {
+      "name": "PiratesPhaserRifleDamage",
+      "type": "damagetype",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pirates_phaser_rifle_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/damage_type/pirates_phaser_rifle_damage.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Pirate"
+    },
+    {
+      "name": "Tier1ItemCrate",
+      "type": "item",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1_item_crate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/item/Tier1ItemCrateItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/tier_1_item_crate.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Merchant"
+    },
+    {
+      "name": "Tier1ItemCrateRightclicked",
+      "type": "procedure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1_item_crate_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/Tier1ItemCrateRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Merchant"
+    },
+    {
+      "name": "Crates",
+      "type": "tab",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crates",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Merchant"
+    },
+    {
+      "name": "CratesGalore",
+      "type": "achievement",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crates_galore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/advancements/crates_galore.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Merchant"
+    },
+    {
+      "name": "PlayerPicksUpACrate",
+      "type": "procedure",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_picks_up_a_crate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/PlayerPicksUpACrateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Merchant"
+    },
+    {
+      "name": "SpaceRock",
+      "type": "block",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/space_rock.json",
+          "src/main/resources/assets/tardif_mod/models/item/space_rock.json",
+          "src/main/resources/assets/tardif_mod/blockstates/space_rock.json",
+          "src/main/resources/assets/tardif_mod/models/block/space_rock.json",
+          "src/main/java/net/maketendo/tardifmod/block/SpaceRockBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
+    },
+    {
+      "name": "PlayerInSpaceWithSuitOrNot",
+      "type": "procedure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_in_space_with_suit_or_not",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/PlayerInSpaceWithSuitOrNotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
+    },
+    {
+      "name": "Space_SuitArmor",
+      "type": "armor",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_suit_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/item/space_suit_armor_leggings.json",
+          "src/main/resources/assets/tardif_mod/models/item/space_suit_armor_helmet.json",
+          "src/main/java/net/maketendo/tardifmod/item/Space_SuitArmorItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/space_suit_armor_chestplate.json",
+          "src/main/resources/assets/tardif_mod/models/item/space_suit_armor_boots.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
+    },
+    {
+      "name": "Space_SuitArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_suit_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/recipes/space_suit_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
+    },
+    {
+      "name": "Space_SuitArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_suit_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/recipes/space_suit_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
+    },
+    {
+      "name": "Space_SuitArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_suit_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/recipes/space_suit_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
+    },
+    {
+      "name": "Space_SuitArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_suit_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/recipes/space_suit_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
+    },
+    {
+      "name": "Pressuriser",
+      "type": "block",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pressuriser",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/pressuriser.json",
+          "src/main/resources/assets/tardif_mod/blockstates/pressuriser.json",
+          "src/main/java/net/maketendo/tardifmod/block/PressuriserBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/pressuriser.json",
+          "src/main/resources/assets/tardif_mod/models/item/pressuriser.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
+    },
+    {
+      "name": "PressuriserRecipe",
+      "type": "recipe",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pressuriser_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/recipes/pressuriser_recipe.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
     }
   ],
   "variable_elements": [
@@ -5687,44 +5964,39 @@
     }
   ],
   "tag_elements": {
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
     "ITEMS:minecraft:roundel_doors": [
       "CUSTOM:RoundelDoor",
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
     ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:ZytonOre",
-      "~CUSTOM:SolderOre",
-      "~CUSTOM:Plastic_ChunkOre"
+    "ITEMS:mod:crates": [
+      "CUSTOM:Tier1ItemCrate"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:ClassicLeaves"
+    ],
+    "ITEMS:mod:music_discs_drops": [
+      "Items.RECORD_13",
+      "Items.RECORD_CAT",
+      "Items.RECORD_BLOCKS",
+      "Items.RECORD_CHIRP",
+      "Items.RECORD_FAR",
+      "Items.RECORD_MALL",
+      "Items.RECORD_MELLOHI",
+      "Items.RECORD_STAL",
+      "Items.RECORD_STRAD",
+      "Items.RECORD_WARD",
+      "Items.RECORD_11",
+      "Items.RECORD_WAIT",
+      "Items.MUSIC_DISC_OTHERSIDE",
+      "Items.MUSIC_DISC_PIGSTEP",
+      "Items.MUSIC_DISC_RELIC",
+      "Items.DISC_FRAGMENT_5"
     ],
     "BLOCKS:minecraft:wallpaper": [
       "CUSTOM:PlainWallpaper",
       "CUSTOM:HexagonRoundel",
       "CUSTOM:MintWallpaper"
-    ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:RaidiatedSand",
-      "~CUSTOM:PetrifiedStone",
-      "~CUSTOM:PetrifiedGrassBlock",
-      "~CUSTOM:PetrifiedDirt",
-      "~CUSTOM:SkaroGrass",
-      "~CUSTOM:SkaroDirt",
-      "~CUSTOM:SkaroStone",
-      "~CUSTOM:SkaroSand",
-      "~CUSTOM:ClassicNetherack",
-      "~CUSTOM:Classicgrass",
-      "~CUSTOM:ClassicStone",
-      "~CUSTOM:ClassicDirt",
-      "~Blocks.AIR"
-    ],
-    "ITEMS:minecraft:music_discs": [
-      "~CUSTOM:TenthRecordedMessage"
     ],
     "BLOCKS:minecraft:logs": [
       "CUSTOM:SkaroLogs",
@@ -5752,10 +6024,111 @@
       "CUSTOM:ClassicDirt",
       "CUSTOM:ClassicNetherack"
     ],
+    "ITEMS:forge:space_surviving": [
+      "CUSTOM:Space_SuitArmor.helmet",
+      "CUSTOM:Space_SuitArmor.body",
+      "CUSTOM:Space_SuitArmor.legs",
+      "CUSTOM:Space_SuitArmor.boots"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MintWallpaperSlab",
+      "~CUSTOM:WhiteWallpaperSlab",
+      "~CUSTOM:PlainWallpaperSlab"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Pressuriser",
+      "~CUSTOM:SpaceRock",
+      "~CUSTOM:Nitro9",
+      "~CUSTOM:DrainedZyton7Block",
+      "~CUSTOM:Zyton7Block",
+      "~CUSTOM:ClassicNetherack",
+      "~CUSTOM:ClassicLeaves",
+      "~CUSTOM:ClassicStone"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MintWallpaperStairs",
+      "~CUSTOM:WhiteWallpaperStairs",
+      "~CUSTOM:PlainWallpaperStair"
+    ],
+    "ITEMS:mod:food_crate_basic": [
+      "Items.APPLE",
+      "Items.MUSHROOM_STEW",
+      "Items.WHEAT_SEEDS",
+      "Items.WHEAT",
+      "Items.CARROT",
+      "Items.POTATO",
+      "Items.BAKED_POTATO",
+      "Items.PUMPKIN_PIE",
+      "Items.GOLDEN_CARROT",
+      "Items.BREAD",
+      "Items.PUMPKIN_SEEDS",
+      "Items.MELON",
+      "Items.MELON_SEEDS",
+      "Items.SWEET_BERRIES",
+      "Items.GLOW_BERRIES",
+      "Items.COOKED_FISH#0",
+      "Items.COOKED_FISH#1",
+      "Items.COOKED_PORKCHOP",
+      "Items.COOKED_BEEF",
+      "Items.COOKED_CHICKEN",
+      "Items.COOKED_RABBIT",
+      "Items.RABBIT_STEW",
+      "Items.COOKED_MUTTON",
+      "Items.BEETROOT",
+      "Items.BEETROOT_SEEDS",
+      "Items.BEETROOT_SOUP"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:SkaroPlanks"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:ZytonOre",
+      "~CUSTOM:SolderOre",
+      "~CUSTOM:Plastic_ChunkOre"
+    ],
+    "ITEMS:mod:medical_crate_basic": [],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:RaidiatedSand",
+      "~CUSTOM:PetrifiedStone",
+      "~CUSTOM:PetrifiedGrassBlock",
+      "~CUSTOM:PetrifiedDirt",
+      "~CUSTOM:SkaroGrass",
+      "~CUSTOM:SkaroDirt",
+      "~CUSTOM:SkaroStone",
+      "~CUSTOM:SkaroSand",
+      "~CUSTOM:ClassicNetherack",
+      "~CUSTOM:Classicgrass",
+      "~CUSTOM:ClassicStone",
+      "~CUSTOM:ClassicDirt",
+      "~Blocks.AIR"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:TenthRecordedMessage"
+    ],
     "BLOCKS:minecraft:dirt": [
       "CUSTOM:SkaroDirt",
       "CUSTOM:ClassicDirt",
       "CUSTOM:SkaroGrass"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Pressuriser",
+      "~CUSTOM:SpaceRock",
+      "~CUSTOM:DalekiumRefinery",
+      "~CUSTOM:Nitro9",
+      "~CUSTOM:FoodCubeMachine",
+      "~CUSTOM:ZytonOre",
+      "~CUSTOM:DrainedZyton7Block",
+      "~CUSTOM:Zyton7Block",
+      "~CUSTOM:SolderOre",
+      "~CUSTOM:ClassicNetherack",
+      "~CUSTOM:Plastic_ChunkOre",
+      "~CUSTOM:ClassicStone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:CogRoundel",
@@ -5779,61 +6152,66 @@
       "~CUSTOM:Roundel",
       "~CUSTOM:RoundelDoor"
     ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:DalekiumRefinery",
-      "~CUSTOM:Nitro9",
-      "~CUSTOM:FoodCubeMachine",
-      "~CUSTOM:ZytonOre",
-      "~CUSTOM:DrainedZyton7Block",
-      "~CUSTOM:Zyton7Block",
-      "~CUSTOM:SolderOre",
-      "~CUSTOM:ClassicNetherack",
-      "~CUSTOM:Plastic_ChunkOre",
-      "~CUSTOM:ClassicStone"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:MintWallpaperSlab",
-      "~CUSTOM:WhiteWallpaperSlab",
-      "~CUSTOM:PlainWallpaperSlab"
-    ],
-    "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:Nitro9",
-      "~CUSTOM:DrainedZyton7Block",
-      "~CUSTOM:Zyton7Block",
-      "~CUSTOM:ClassicNetherack",
-      "~CUSTOM:ClassicLeaves",
-      "~CUSTOM:ClassicStone"
-    ],
     "BIOMES:minecraft:is_forest": [
       "CUSTOM:SkaroForest"
     ],
-    "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:MintWallpaperStairs",
-      "~CUSTOM:WhiteWallpaperStairs",
-      "~CUSTOM:PlainWallpaperStair"
+    "ITEMS:forge:general_crate_basic": [
+      "Items.RAW_IRON",
+      "Items.EMERALD",
+      "Items.QUARTZ",
+      "Items.AMETHYST_SHARD",
+      "Items.COMPASS",
+      "Items.CLOCK",
+      "Items.MUSHROOM_STEW",
+      "Items.STRING",
+      "Items.FEATHER",
+      "Items.WHEAT_SEEDS",
+      "Items.WHEAT",
+      "Items.CARROT",
+      "Items.POTATO",
+      "Items.BAKED_POTATO",
+      "Items.PUMPKIN_PIE",
+      "Items.BREAD",
+      "Items.PUMPKIN_SEEDS",
+      "Items.LEATHER",
+      "Items.SADDLE",
+      "Items.BRICK",
+      "Items.DRIED_KELP",
+      "Items.SUGAR",
+      "Items.MELON",
+      "Items.MELON_SEEDS",
+      "Items.SWEET_BERRIES",
+      "Items.COOKED_FISH#0",
+      "Items.COOKED_FISH#1",
+      "Items.COOKED_PORKCHOP",
+      "Items.COOKED_BEEF",
+      "Items.COOKED_CHICKEN",
+      "Items.COOKED_RABBIT",
+      "Items.RABBIT_STEW",
+      "Items.COOKED_MUTTON",
+      "Items.BEETROOT",
+      "Items.BEETROOT_SEEDS",
+      "Items.BEETROOT_SOUP",
+      "Blocks.AMETHYST_BLOCK",
+      "Blocks.BOOKSHELF",
+      "Blocks.SCULK"
     ],
     "BLOCKS:minecraft:beacon_base_blocks": [
       "CUSTOM:DalekiumBlock",
       "CUSTOM:MelartBlock"
-    ],
-    "ITEMS:minecraft:planks": [
-      "CUSTOM:SkaroPlanks"
     ]
   },
   "language_map": {
     "en_us": {
-      "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
       "subtitles.vm_teleport": "Teleporting...",
+      "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
       "advancements.obtain_melart.title": "Strongest Material On Skaro",
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
-      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
+      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
       "gui.tardif_mod.coordinate_select_gui.label_rotatedisplay": "RotateDisplay",
@@ -5848,9 +6226,11 @@
       "gui.tardif_mod.exteriorselectgui.label_z": "Z:",
       "block.tardif_mod.drained_zyton_7_block": "Block of Drained Zyton-7",
       "death.attack.moment_damage_type": "%1$s was killed by the moment",
+      "block.tardif_mod.pressuriser": "Pressuriser",
       "block.tardif_mod.nitro_9": "Nitro 9",
       "subtitles.tardis_copper_hum": "TARDIS Hum",
       "block.tardif_mod.the_moment": "The Moment",
+      "block.tardif_mod.space_rock": "Space Rock",
       "gui.tardif_mod.version_display.label_alpha_test_ver_65935": "ALPHA TEST VER. 74.9.35",
       "gui.tardif_mod.monitor_gui.label_interior_input": "interior_input",
       "gui.tardif_mod.monitor_gui.label_stuff": "InFlight:",
@@ -5861,15 +6241,16 @@
       "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
       "gui.tardif_mod.coordinate_select_gui.X_Coord": "X",
       "subtitles.tardis_shutdown": "TARDIS Deactivating",
-      "death.attack.moment_damage_type.item": "%1$s was killed by the moment whilst also killed by %2$s using %3$s",
       "advancements.refine_it.descr": "Obtain Dalekium Refinery",
+      "death.attack.moment_damage_type.item": "%1$s was killed by the moment whilst also killed by %2$s using %3$s",
       "item.tardif_mod.melart_axe": "Melart Axe",
+      "death.attack.pirates_phaser_rifle_damage": "%1$s\u0027s atoms were violently torn apart",
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "advancements.obtain_dalekium.descr": "Obtain Dalekium",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
@@ -5878,8 +6259,8 @@
       "item.tardif_mod.dalek_spawn_egg": "Dalek Spawn Egg",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
       "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
-      "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
       "advancements.the_hell_planet.descr": "Use the TARDIS to travel to Skaro for the first time!",
+      "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
       "advancements.obtain_tardis.title": "It\u0027s alive!",
       "item.tardif_mod.dalekium_armor_leggings": "Dalekium Leggings",
@@ -5887,10 +6268,13 @@
       "advancements.refine_it.title": "Refine It",
       "block.tardif_mod.classic_orange_wool": "Classic Orange Wool",
       "item.tardif_mod.plastic": "Plastic Mold",
+      "item.tardif_mod.space_suit_armor_chestplate": "Space Suit Chestplate",
+      "death.attack.pirates_phaser_rifle_damage.item": "%1$s was atomically torn apart by %2$s using %3$s",
       "advancements.the_source.descr": "Obtain Zyton-7",
       "advancements.strongest_weaponon_the_universe.title": "Strongest Weaponon In The Universe?",
       "block.tardif_mod.twelveth_rotor": "Tall Time Rotor",
       "subtitles.tardis_groan_sfx": "TARDIS Groaning",
+      "death.attack.pirates_phaser_rifle_damage.player": "%1$s was atomically torn apart whilst trying to escape %2$s",
       "block.tardif_mod.dry_stone_planks": "Dry Stone Planks",
       "gui.tardif_mod.coordinate_select_gui.button_y": "Y",
       "gui.tardif_mod.exterior_monitor_gui.label_stuff": "InFlight:",
@@ -5901,6 +6285,7 @@
       "gui.tardif_mod.monitor_gui.label_x_input": "x_input",
       "death.attack.eye_of_harmony_damage.item": "%1$s was burnt up by %2$s using %3$s",
       "gui.tardif_mod.exteriorselectgui.label_dimension": "Dimension:",
+      "item_group.tardif_mod.crates": "Crates",
       "gui.tardif_mod.refinary_gui.button_refine": "Refine",
       "gui.tardif_mod.control_display.label_dematerialise_lever": "TARDIF Mod BETA 0.0.1",
       "block.tardif_mod.hexagonal_frame_centered": "Hexagonal Frame",
@@ -5928,7 +6313,9 @@
       "biome.tardif_mod.classic_plains": "Classic Plains",
       "gui.tardif_mod.monitor_gui.label_exterior": "Exterior:",
       "gui.tardif_mod.monitor_gui.label_z_input": "z_input",
+      "death.attack.space_suffocation.player": "%1$s died whilst trying to escape %2$s",
       "block.tardif_mod.tardis_exterior": "TARDIS Exterior",
+      "item.tardif_mod.tier_1_item_crate": "Basic Supply Crate",
       "gui.tardif_mod.monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "block.tardif_mod.dalekium_refinery": "Dalekium Refinery",
       "death.attack.eye_of_harmony_damage.player": "%1$s burnt up whilst trying to escape %2$s",
@@ -5936,6 +6323,7 @@
       "item_group.tardif_mod.tardif_decoration": "TARDIF Decoration",
       "advancements.its_made_out_of_evreything.descr": "Obtain Plastic!",
       "biome.tardif_mod.skaro_desert": "Skaro Desert",
+      "death.attack.space_suffocation": "%1$s thought they could breathe in space",
       "biome.tardif_mod.skaro_forest": "Skaro Forest",
       "gui.tardif_mod.monitor_gui.label_dim_input": "dim_input",
       "block.tardif_mod.roundel": "Roundel",
@@ -5977,11 +6365,13 @@
       "subtitles.take_off": "TARDIS Engines Starting...",
       "advancements.hell_oldest_arrival.descr": "Traveled into the Classic Nether",
       "block.tardif_mod.roundel_door": "Roundel Door",
+      "item.tardif_mod.space_suit_armor_boots": "Space Suit Boots",
       "block.tardif_mod.classic_yellow_wool": "Classic Yellow Wool",
       "block.tardif_mod.wallpaper_roundel_door": "Roundel Door",
       "biome.tardif_mod.skaro_swamp": "Skaro Swamp",
       "gui.tardif_mod.engine_gui.label_tardis_engine": "TARDIS Engine",
       "block.tardif_mod.fourth_rotor": "Time Rotor",
+      "advancements.crates_galore.descr": "Obtain a Supply Crate",
       "biome.tardif_mod.space_biome": "Space Biome",
       "subtitles.tardis_beep": "TARDIS Beep",
       "gui.tardif_mod.coordinate_select_gui.button_save": "Save",
@@ -5990,10 +6380,12 @@
       "block.tardif_mod.petrified_grass": "Petrified Grass",
       "block.tardif_mod.classic_dirt": "Classic Dirt",
       "block.tardif_mod.petrified_cobblestone": "Petrified Cobblestone",
+      "item.tardif_mod.space_suit_armor_helmet": "Space Suit Helmet",
       "gui.tardif_mod.coordinate_select_gui.button_rotate": "Rotate",
       "advancements.obtain_tardis.descr": "Obtain the TARDIS!",
       "subtitles.tardis_sfx_groaning": "TARDIS Groaning",
       "gui.tardif_mod.version_display.label_tardif_mod_200_forge_20241": "TARDIF Mod 2.0.0 Forge (1.20.1)",
+      "advancements.crates_galore.title": "Stocking up!",
       "block.tardif_mod.fifth_rotor": "Time Rotor",
       "block.tardif_mod.white_wallpaper": "Plain Wallpaper",
       "item.tardif_mod.telepathic_upgrade_template": "Telepathic Upgrade Template",
@@ -6016,6 +6408,7 @@
       "block.tardif_mod.tall_mint_roundel_door": "Mint Roundel Door",
       "item.tardif_mod.tenth_cyberman_spawn_egg": "Mondasians Cyberman Spawn Egg",
       "block.tardif_mod.telapathic_carpet_control": "Mid-Telepathical Controls",
+      "item.tardif_mod.space_suit_armor_leggings": "Space Suit Leggings",
       "gui.tardif_mod.coordinate_select_gui.Calculate_Y": "Calculate Y?",
       "block.tardif_mod.wallpaper_roundel": "Wallpaper Roundel",
       "gui.tardif_mod.monitor_gui.label_x": "X:",
@@ -6042,6 +6435,7 @@
       "advancements.what_is_this_place.title": "IT\u0027S SMALLER ON THE OUTSIDE!",
       "item.tardif_mod.circuit_board": "Circuit Board",
       "item_group.tardif_mod.tardif_items": "TARDIF Items",
+      "death.attack.space_suffocation.item": "%1$s was killed by %2$s using %3$s",
       "item.tardif_mod.melart_ingot": "Melart Ingot",
       "block.tardif_mod.dalekium_ore": "Dalekium Ore",
       "block.tardif_mod.petrified_grass_block": "Petrified Grass Block",
@@ -6513,7 +6907,29 @@
           },
           {
             "name": "Space",
-            "children": []
+            "children": [
+              {
+                "name": "Foxys Space Stuff",
+                "children": [
+                  {
+                    "name": "Generic",
+                    "children": []
+                  },
+                  {
+                    "name": "Merchant",
+                    "children": []
+                  },
+                  {
+                    "name": "Scavenger",
+                    "children": []
+                  },
+                  {
+                    "name": "Pirate",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "name": "Time",

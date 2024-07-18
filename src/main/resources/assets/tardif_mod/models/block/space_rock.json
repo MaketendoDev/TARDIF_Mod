@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/skaro_natural_petrified_stone",
+    "up": "tardif_mod:block/skaro_natural_petrified_stone",
+    "north": "tardif_mod:block/skaro_natural_petrified_stone",
+    "east": "tardif_mod:block/skaro_natural_petrified_stone",
+    "south": "tardif_mod:block/skaro_natural_petrified_stone",
+    "west": "tardif_mod:block/skaro_natural_petrified_stone",
+    "particle": "tardif_mod:block/skaro_natural_petrified_stone"
+  },
+  "render_type": "solid"
+}

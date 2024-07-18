@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "tardif_mod:pressuriser",
+    "tardif_mod:space_rock",
     "tardif_mod:dalekium_refinery",
     "tardif_mod:nitro_9",
     "tardif_mod:food_cube_machine",

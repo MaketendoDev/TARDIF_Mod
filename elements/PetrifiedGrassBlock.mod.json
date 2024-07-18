@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "ddirt",
+    "texture": "skaro_natural_petrified_dirt",
     "textureTop": "skaro_natural_petrified_grass_top",
     "textureLeft": "skaro_natural_petrified_grass_sides",
     "textureFront": "skaro_natural_petrified_grass_sides",

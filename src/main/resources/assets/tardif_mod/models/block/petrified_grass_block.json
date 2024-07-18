@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "tardif_mod:block/ddirt",
+    "down": "tardif_mod:block/skaro_natural_petrified_dirt",
     "up": "tardif_mod:block/skaro_natural_petrified_grass_top",
     "north": "tardif_mod:block/skaro_natural_petrified_grass_sides",
     "east": "tardif_mod:block/skaro_natural_petrified_grass_sides",
     "south": "tardif_mod:block/skaro_natural_petrified_grass_sides",
     "west": "tardif_mod:block/skaro_natural_petrified_grass_sides",
-    "particle": "tardif_mod:block/ddirt"
+    "particle": "tardif_mod:block/skaro_natural_petrified_dirt"
   },
   "render_type": "solid"
 }

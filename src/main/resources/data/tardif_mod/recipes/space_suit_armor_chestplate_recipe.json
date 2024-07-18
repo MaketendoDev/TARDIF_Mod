@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "tardif_mod:plastic"
+    },
+    "b": {
+      "item": "tardif_mod:circuit_board"
+    },
+    "c": {
+      "item": "minecraft:leather"
+    },
+    "d": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:space_suit_armor_chestplate",
+    "count": 1
+  }
+}

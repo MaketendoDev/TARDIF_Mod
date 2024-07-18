@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tardif_mod:space_suit_armor_helmet",
+    "tardif_mod:space_suit_armor_chestplate",
+    "tardif_mod:space_suit_armor_leggings",
+    "tardif_mod:space_suit_armor_boots"
+  ]
+}

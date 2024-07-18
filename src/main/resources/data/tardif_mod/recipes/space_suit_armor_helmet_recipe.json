@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "tardif_mod:circuit_board"
+    },
+    "c": {
+      "item": "tardif_mod:plastic"
+    },
+    "d": {
+      "tag": "forge:stained_glass"
+    }
+  },
+  "result": {
+    "item": "tardif_mod:space_suit_armor_helmet",
+    "count": 1
+  }
+}

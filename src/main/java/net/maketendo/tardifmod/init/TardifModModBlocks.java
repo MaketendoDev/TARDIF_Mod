@@ -30,12 +30,14 @@ import net.maketendo.tardifmod.block.TARDISMaintenanceEngineBlock;
 import net.maketendo.tardifmod.block.TARDISInteriorDoorBlock;
 import net.maketendo.tardifmod.block.TARDISExteriorBlock;
 import net.maketendo.tardifmod.block.TARDISExitVoidBlock;
+import net.maketendo.tardifmod.block.SpaceRockBlock;
 import net.maketendo.tardifmod.block.SolderOreBlock;
 import net.maketendo.tardifmod.block.RoundelDoorBlock;
 import net.maketendo.tardifmod.block.RoundelBlock;
 import net.maketendo.tardifmod.block.RotorBlock;
 import net.maketendo.tardifmod.block.RawDalekiumBlockBlock;
 import net.maketendo.tardifmod.block.RaidiatedSandBlock;
+import net.maketendo.tardifmod.block.PressuriserBlock;
 import net.maketendo.tardifmod.block.Plastic_ChunkOreBlock;
 import net.maketendo.tardifmod.block.PlainWallpaperStairBlock;
 import net.maketendo.tardifmod.block.PlainWallpaperSlabBlock;
@@ -190,6 +192,8 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> PETRIFIED_COBBLESTONE = REGISTRY.register("petrified_cobblestone", () -> new PetrifiedCobblestoneBlock());
 	public static final RegistryObject<Block> TARDIS_EXIT_VOID = REGISTRY.register("tardis_exit_void", () -> new TARDISExitVoidBlock());
 	public static final RegistryObject<Block> CORRIDORS_VOID = REGISTRY.register("corridors_void", () -> new CorridorsVoidBlock());
+	public static final RegistryObject<Block> SPACE_ROCK = REGISTRY.register("space_rock", () -> new SpaceRockBlock());
+	public static final RegistryObject<Block> PRESSURISER = REGISTRY.register("pressuriser", () -> new PressuriserBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

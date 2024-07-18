@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "tardif_mod:pressuriser",
+    "tardif_mod:space_rock",
     "tardif_mod:nitro_9",
     "tardif_mod:drained_zyton_7_block",
     "tardif_mod:zyton_7_block",

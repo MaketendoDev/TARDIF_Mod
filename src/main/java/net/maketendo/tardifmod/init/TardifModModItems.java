@@ -16,10 +16,12 @@ import net.minecraft.world.item.BlockItem;
 
 import net.maketendo.tardifmod.item.Zyton7Item;
 import net.maketendo.tardifmod.item.TimeExtenderUpgradeTemplateItem;
+import net.maketendo.tardifmod.item.Tier1ItemCrateItem;
 import net.maketendo.tardifmod.item.TenthRecordedMessageItem;
 import net.maketendo.tardifmod.item.TelepathicUpgradeTemplateItem;
 import net.maketendo.tardifmod.item.TARDISKeyItem;
 import net.maketendo.tardifmod.item.TARDISItemItem;
+import net.maketendo.tardifmod.item.Space_SuitArmorItem;
 import net.maketendo.tardifmod.item.SolderItem;
 import net.maketendo.tardifmod.item.RawDalekiumItem;
 import net.maketendo.tardifmod.item.PsychicPaperItem;
@@ -176,6 +178,13 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> PETRIFIED_COBBLESTONE = block(TardifModModBlocks.PETRIFIED_COBBLESTONE);
 	public static final RegistryObject<Item> TARDIS_EXIT_VOID = block(TardifModModBlocks.TARDIS_EXIT_VOID);
 	public static final RegistryObject<Item> CORRIDORS_VOID = block(TardifModModBlocks.CORRIDORS_VOID);
+	public static final RegistryObject<Item> TIER_1_ITEM_CRATE = REGISTRY.register("tier_1_item_crate", () -> new Tier1ItemCrateItem());
+	public static final RegistryObject<Item> SPACE_ROCK = block(TardifModModBlocks.SPACE_ROCK);
+	public static final RegistryObject<Item> SPACE_SUIT_ARMOR_HELMET = REGISTRY.register("space_suit_armor_helmet", () -> new Space_SuitArmorItem.Helmet());
+	public static final RegistryObject<Item> SPACE_SUIT_ARMOR_CHESTPLATE = REGISTRY.register("space_suit_armor_chestplate", () -> new Space_SuitArmorItem.Chestplate());
+	public static final RegistryObject<Item> SPACE_SUIT_ARMOR_LEGGINGS = REGISTRY.register("space_suit_armor_leggings", () -> new Space_SuitArmorItem.Leggings());
+	public static final RegistryObject<Item> SPACE_SUIT_ARMOR_BOOTS = REGISTRY.register("space_suit_armor_boots", () -> new Space_SuitArmorItem.Boots());
+	public static final RegistryObject<Item> PRESSURISER = block(TardifModModBlocks.PRESSURISER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

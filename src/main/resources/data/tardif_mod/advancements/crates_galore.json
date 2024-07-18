@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "tardif_mod:textures/screens/screen_gui.png",
+    "icon": {
+      "item": "tardif_mod:tier_1_item_crate"
+    },
+    "title": {
+      "translate": "advancements.crates_galore.title"
+    },
+    "description": {
+      "translate": "advancements.crates_galore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crates_galore_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
