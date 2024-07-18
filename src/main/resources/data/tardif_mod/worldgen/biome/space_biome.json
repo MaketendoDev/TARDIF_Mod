@@ -3,12 +3,6 @@
   "temperature": -1,
   "downfall": 0,
   "effects": {
-    "particle": {
-      "options": {
-        "type": "end_rod"
-      },
-      "probability": 0.02
-    },
     "foliage_color": -13421773,
     "grass_color": -6710887,
     "sky_color": -13421773,

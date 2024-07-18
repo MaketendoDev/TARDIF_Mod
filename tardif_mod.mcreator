@@ -10,8 +10,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/maketendo/tardifmod/world/dimension/TARDISDimDimension.java",
-          "src/main/resources/data/tardif_mod/dimension/tardis_dim.json",
-          "src/main/resources/data/tardif_mod/dimension_type/tardis_dim.json"
+          "src/main/resources/data/tardif_mod/dimension_type/tardis_dim.json",
+          "src/main/resources/data/tardif_mod/dimension/tardis_dim.json"
         ]
       },
       "path": "~/TARDIS/Important Stuff"
@@ -151,18 +151,18 @@
       "registry_name": "roundel_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_right_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_left.json",
-          "src/main/java/net/maketendo/tardifmod/block/RoundelDoorBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/roundel_door.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/roundel_door.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_left_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_left.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_left_open.json",
           "src/main/resources/assets/tardif_mod/models/item/roundel_door.json",
+          "src/main/java/net/maketendo/tardifmod/block/RoundelDoorBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_right.json"
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_left.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right_open.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_left.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_right.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/roundel_door.json",
+          "src/main/resources/assets/tardif_mod/blockstates/roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_right_open.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors"
@@ -176,11 +176,11 @@
       "registry_name": "roundel",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/RoundelBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/roundel.json",
-          "src/main/resources/assets/tardif_mod/blockstates/roundel.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/roundel.json",
-          "src/main/resources/assets/tardif_mod/models/item/roundel.json"
+          "src/main/resources/assets/tardif_mod/models/item/roundel.json",
+          "src/main/java/net/maketendo/tardifmod/block/RoundelBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/roundel.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels"
@@ -273,8 +273,8 @@
       "registry_name": "psychic_paper",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/PsychicPaperItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/psychic_paper.json"
+          "src/main/resources/assets/tardif_mod/models/item/psychic_paper.json",
+          "src/main/java/net/maketendo/tardifmod/item/PsychicPaperItem.java"
         ]
       },
       "path": "~/Items/Psychic_Paper"
@@ -317,9 +317,9 @@
       "registry_name": "coordinate_select_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/maketendo/tardifmod/client/gui/CoordinateSelectGUIScreen.java",
           "src/main/java/net/maketendo/tardifmod/network/CoordinateSelectGUIButtonMessage.java",
-          "src/main/java/net/maketendo/tardifmod/world/inventory/CoordinateSelectGUIMenu.java",
-          "src/main/java/net/maketendo/tardifmod/client/gui/CoordinateSelectGUIScreen.java"
+          "src/main/java/net/maketendo/tardifmod/world/inventory/CoordinateSelectGUIMenu.java"
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
@@ -547,9 +547,9 @@
       "registry_name": "classic_plains",
       "metadata": {
         "files": [
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/classic_plains_tree.json",
           "src/main/resources/data/tardif_mod/worldgen/configured_feature/classic_plains_tree.json",
-          "src/main/resources/data/tardif_mod/worldgen/biome/classic_plains.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/classic_plains_tree.json"
+          "src/main/resources/data/tardif_mod/worldgen/biome/classic_plains.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic"
@@ -564,8 +564,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/dimension_type/classic_overworld.json",
-          "src/main/java/net/maketendo/tardifmod/world/dimension/ClassicOverworldDimension.java",
-          "src/main/resources/data/tardif_mod/dimension/classic_overworld.json"
+          "src/main/resources/data/tardif_mod/dimension/classic_overworld.json",
+          "src/main/java/net/maketendo/tardifmod/world/dimension/ClassicOverworldDimension.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic"
@@ -579,9 +579,9 @@
       "registry_name": "classic_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/forge/biome_modifier/classic_feature_biome_modifier.json",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/classic_feature.json",
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/classic_feature.json",
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/classic_feature.json"
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/classic_feature_biome_modifier.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic"
@@ -818,9 +818,9 @@
       "registry_name": "classic_nether",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/world/dimension/ClassicNetherDimension.java",
+          "src/main/resources/data/tardif_mod/dimension/classic_nether.json",
           "src/main/resources/data/tardif_mod/dimension_type/classic_nether.json",
-          "src/main/resources/data/tardif_mod/dimension/classic_nether.json"
+          "src/main/java/net/maketendo/tardifmod/world/dimension/ClassicNetherDimension.java"
         ]
       },
       "path": "~/Dimensions/Time/Nether"
@@ -834,11 +834,11 @@
       "registry_name": "monitor",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/monitor.json",
           "src/main/resources/assets/tardif_mod/blockstates/monitor.json",
-          "src/main/resources/assets/tardif_mod/models/block/monitor.json",
           "src/main/resources/assets/tardif_mod/models/item/monitor.json",
-          "src/main/java/net/maketendo/tardifmod/block/MonitorBlock.java"
+          "src/main/java/net/maketendo/tardifmod/block/MonitorBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/monitor.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/monitor.json"
         ]
       },
       "path": "~/TARDIS/Monitor"
@@ -852,10 +852,10 @@
       "registry_name": "mint_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_roundel.json",
           "src/main/resources/assets/tardif_mod/blockstates/mint_roundel.json",
           "src/main/resources/assets/tardif_mod/models/item/mint_roundel.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_roundel.json",
           "src/main/java/net/maketendo/tardifmod/block/MintRoundelBlock.java"
         ]
       },
@@ -981,17 +981,17 @@
       "metadata": {
         "files": [
           "src/main/java/net/maketendo/tardifmod/block/MintRoundelDoorBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_left_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_right_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_left_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_left.json",
           "src/main/resources/assets/tardif_mod/models/item/mint_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_left.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_right.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_right.json",
           "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_right_open.json",
-          "src/main/resources/assets/tardif_mod/blockstates/mint_roundel_door.json"
+          "src/main/resources/assets/tardif_mod/blockstates/mint_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_right_open.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_left.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_left_open.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_right.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_left.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_left_open.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_right.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors/Mint Roundel"
@@ -1020,8 +1020,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/maketendo/tardifmod/world/inventory/MonitorGUIMenu.java",
-          "src/main/java/net/maketendo/tardifmod/network/MonitorGUIButtonMessage.java",
-          "src/main/java/net/maketendo/tardifmod/client/gui/MonitorGUIScreen.java"
+          "src/main/java/net/maketendo/tardifmod/client/gui/MonitorGUIScreen.java",
+          "src/main/java/net/maketendo/tardifmod/network/MonitorGUIButtonMessage.java"
         ]
       },
       "path": "~/TARDIS/Monitor"
@@ -1250,11 +1250,11 @@
       "registry_name": "rotor",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/RotorBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/rotor.json",
-          "src/main/resources/assets/tardif_mod/models/block/rotor.json",
           "src/main/resources/assets/tardif_mod/models/item/rotor.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/rotor.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/rotor.json",
+          "src/main/resources/assets/tardif_mod/models/block/rotor.json",
+          "src/main/java/net/maketendo/tardifmod/block/RotorBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/rotor.json"
         ]
       },
       "path": "~/Decor Blocks/Rotor"
@@ -2034,11 +2034,11 @@
       "registry_name": "tenth_cyberman",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/tenth_cyberman_spawn_egg.json",
-          "src/main/java/net/maketendo/tardifmod/entity/TenthCybermanEntity.java",
           "src/main/java/net/maketendo/tardifmod/client/renderer/TenthCybermanRenderer.java",
           "src/main/resources/data/tardif_mod/forge/biome_modifier/tenth_cyberman_biome_modifier.json",
-          "src/main/java/net/maketendo/tardifmod/entity/TenthCybermanEntityProjectile.java"
+          "src/main/java/net/maketendo/tardifmod/entity/TenthCybermanEntity.java",
+          "src/main/java/net/maketendo/tardifmod/entity/TenthCybermanEntityProjectile.java",
+          "src/main/resources/assets/tardif_mod/models/item/tenth_cyberman_spawn_egg.json"
         ]
       },
       "path": "~/Entities - Mobs/Cyberman"
@@ -2052,8 +2052,8 @@
       "registry_name": "laser",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/entity/LaserEntity.java",
-          "src/main/java/net/maketendo/tardifmod/client/renderer/LaserRenderer.java"
+          "src/main/java/net/maketendo/tardifmod/client/renderer/LaserRenderer.java",
+          "src/main/java/net/maketendo/tardifmod/entity/LaserEntity.java"
         ]
       },
       "path": "~/Entities - Mobs/laser"
@@ -2067,8 +2067,8 @@
       "registry_name": "laser_item",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/LaserItemItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/laser_item.json"
+          "src/main/resources/assets/tardif_mod/models/item/laser_item.json",
+          "src/main/java/net/maketendo/tardifmod/item/LaserItemItem.java"
         ]
       },
       "path": "~/Entities - Mobs/laser"
@@ -2082,12 +2082,12 @@
       "registry_name": "tardis_exterior",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/tardis_exterior.json",
-          "src/main/java/net/maketendo/tardifmod/block/TARDISExteriorBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_exterior.json",
-          "src/main/resources/assets/tardif_mod/blockstates/tardis_exterior.json",
           "src/main/java/net/maketendo/tardifmod/block/entity/TARDISExteriorBlockEntity.java",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior.json"
+          "src/main/resources/assets/tardif_mod/models/item/tardis_exterior.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_exterior.json",
+          "src/main/java/net/maketendo/tardifmod/block/TARDISExteriorBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/tardis_exterior.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Exterior"
@@ -2325,8 +2325,8 @@
       "registry_name": "ars_upgrade_template",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/ARSUpgradeTemplateItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/ars_upgrade_template.json"
+          "src/main/resources/assets/tardif_mod/models/item/ars_upgrade_template.json",
+          "src/main/java/net/maketendo/tardifmod/item/ARSUpgradeTemplateItem.java"
         ]
       },
       "path": "~/TARDIS/Engine/Upgrades"
@@ -2340,8 +2340,8 @@
       "registry_name": "communication_upgrade_template",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/communication_upgrade_template.json",
-          "src/main/java/net/maketendo/tardifmod/item/CommunicationUpgradeTemplateItem.java"
+          "src/main/java/net/maketendo/tardifmod/item/CommunicationUpgradeTemplateItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/communication_upgrade_template.json"
         ]
       },
       "path": "~/TARDIS/Engine/Upgrades"
@@ -2355,10 +2355,10 @@
       "registry_name": "phonebox_decoration",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/item/phonebox_decoration.json",
+          "src/main/java/net/maketendo/tardifmod/block/PhoneboxDecorationBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/phonebox_decoration.json",
           "src/main/resources/assets/tardif_mod/blockstates/phonebox_decoration.json",
-          "src/main/java/net/maketendo/tardifmod/block/PhoneboxDecorationBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/phonebox_decoration.json",
           "src/main/resources/assets/tardif_mod/models/block/phonebox_decoration.json"
         ]
       },
@@ -2522,8 +2522,8 @@
       "registry_name": "refinary_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/client/gui/RefinaryGUIScreen.java",
-          "src/main/java/net/maketendo/tardifmod/world/inventory/RefinaryGUIMenu.java"
+          "src/main/java/net/maketendo/tardifmod/world/inventory/RefinaryGUIMenu.java",
+          "src/main/java/net/maketendo/tardifmod/client/gui/RefinaryGUIScreen.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Refinery"
@@ -2552,8 +2552,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/worldgen/template_pool/mondasians_cybership.json",
-          "src/main/resources/data/tardif_mod/worldgen/structure/mondasians_cybership.json",
-          "src/main/resources/data/tardif_mod/worldgen/structure_set/mondasians_cybership.json"
+          "src/main/resources/data/tardif_mod/worldgen/structure_set/mondasians_cybership.json",
+          "src/main/resources/data/tardif_mod/worldgen/structure/mondasians_cybership.json"
         ]
       },
       "path": "~/Gameplay/Overworld Structures/Mondasians Cyberman Ship"
@@ -2678,9 +2678,9 @@
       "registry_name": "skaro_plains",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/skaro_plains_tree.json",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_plains_tree.json",
           "src/main/resources/data/tardif_mod/worldgen/biome/skaro_plains.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_plains_tree.json"
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/skaro_plains_tree.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Biomes"
@@ -2708,9 +2708,9 @@
       "registry_name": "skaro_forest",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/biome/skaro_forest.json",
           "src/main/resources/data/tardif_mod/worldgen/configured_feature/skaro_forest_tree.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_forest_tree.json"
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_forest_tree.json",
+          "src/main/resources/data/tardif_mod/worldgen/biome/skaro_forest.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Biomes"
@@ -2724,9 +2724,9 @@
       "registry_name": "skaro",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/dimension/skaro.json",
+          "src/main/resources/data/tardif_mod/dimension_type/skaro.json",
           "src/main/java/net/maketendo/tardifmod/world/dimension/SkaroDimension.java",
-          "src/main/resources/data/tardif_mod/dimension_type/skaro.json"
+          "src/main/resources/data/tardif_mod/dimension/skaro.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro"
@@ -2877,9 +2877,9 @@
       "registry_name": "abandonedship",
       "metadata": {
         "files": [
+          "src/main/resources/data/tardif_mod/worldgen/structure_set/abandonedship.json",
           "src/main/resources/data/tardif_mod/worldgen/structure/abandonedship.json",
-          "src/main/resources/data/tardif_mod/worldgen/template_pool/abandonedship.json",
-          "src/main/resources/data/tardif_mod/worldgen/structure_set/abandonedship.json"
+          "src/main/resources/data/tardif_mod/worldgen/template_pool/abandonedship.json"
         ]
       },
       "path": "~/Gameplay/Overworld Structures/Abandons Structures/Abandoned Ship"
@@ -2893,9 +2893,9 @@
       "registry_name": "abandoned_house",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/structure/abandoned_house.json",
           "src/main/resources/data/tardif_mod/worldgen/structure_set/abandoned_house.json",
-          "src/main/resources/data/tardif_mod/worldgen/template_pool/abandoned_house.json"
+          "src/main/resources/data/tardif_mod/worldgen/template_pool/abandoned_house.json",
+          "src/main/resources/data/tardif_mod/worldgen/structure/abandoned_house.json"
         ]
       },
       "path": "~/Gameplay/Overworld Structures/Abandons Structures/Abandoned House"
@@ -2909,9 +2909,9 @@
       "registry_name": "space_biome",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/biome/space_biome.json",
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/space_biome_tree.json",
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/space_biome_tree.json"
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/space_biome_tree.json",
+          "src/main/resources/data/tardif_mod/worldgen/biome/space_biome.json"
         ]
       },
       "path": "~/Dimensions/Space"
@@ -2925,9 +2925,9 @@
       "registry_name": "space",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/world/dimension/SpaceDimension.java",
           "src/main/resources/data/tardif_mod/dimension_type/space.json",
-          "src/main/resources/data/tardif_mod/dimension/space.json"
+          "src/main/resources/data/tardif_mod/dimension/space.json",
+          "src/main/java/net/maketendo/tardifmod/world/dimension/SpaceDimension.java"
         ]
       },
       "path": "~/Dimensions/Space"
@@ -3276,10 +3276,10 @@
       "registry_name": "wallpaper_roundel",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/WallpaperRoundelBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/wallpaper_roundel.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel.json",
           "src/main/resources/assets/tardif_mod/models/item/wallpaper_roundel.json",
+          "src/main/resources/assets/tardif_mod/blockstates/wallpaper_roundel.json",
+          "src/main/java/net/maketendo/tardifmod/block/WallpaperRoundelBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/wallpaper_roundel.json"
         ]
       },
@@ -3308,18 +3308,18 @@
       "registry_name": "wallpaper_roundel_door",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/wallpaper_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_right.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_left.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_left_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_left.json",
           "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_left_open.json",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_left.json",
+          "src/main/resources/assets/tardif_mod/blockstates/wallpaper_roundel_door.json",
           "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_right.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_right_open.json",
           "src/main/resources/assets/tardif_mod/models/item/wallpaper_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_left.json",
           "src/main/java/net/maketendo/tardifmod/block/WallpaperRoundelDoorBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/wallpaper_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_left_open.json",
           "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_right_open.json",
-          "src/main/resources/assets/tardif_mod/blockstates/wallpaper_roundel_door.json"
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_right.json",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_right_open.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors/Wallpaper Roundel"
@@ -3347,11 +3347,11 @@
       "registry_name": "plain_wallpaper",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper.json",
           "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper.json",
           "src/main/java/net/maketendo/tardifmod/block/PlainWallpaperBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper.json",
-          "src/main/resources/assets/tardif_mod/blockstates/plain_wallpaper.json"
+          "src/main/resources/assets/tardif_mod/blockstates/plain_wallpaper.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper.json",
+          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper"
@@ -3379,11 +3379,11 @@
       "registry_name": "hexagon_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagon_roundel.json",
-          "src/main/resources/assets/tardif_mod/models/item/hexagon_roundel.json",
           "src/main/java/net/maketendo/tardifmod/block/HexagonRoundelBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/hexagon_roundel.json",
           "src/main/resources/assets/tardif_mod/blockstates/hexagon_roundel.json",
-          "src/main/resources/assets/tardif_mod/models/block/hexagon_roundel.json"
+          "src/main/resources/assets/tardif_mod/models/block/hexagon_roundel.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagon_roundel.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels"
@@ -3397,10 +3397,10 @@
       "registry_name": "mint_wallpaper",
       "metadata": {
         "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_wallpaper.json",
+          "src/main/resources/assets/tardif_mod/models/item/mint_wallpaper.json",
           "src/main/resources/assets/tardif_mod/blockstates/mint_wallpaper.json",
           "src/main/java/net/maketendo/tardifmod/block/MintWallpaperBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/mint_wallpaper.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_wallpaper.json",
           "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper.json"
         ]
       },
@@ -3429,11 +3429,11 @@
       "registry_name": "white_wallpaper",
       "metadata": {
         "files": [
+          "src/main/java/net/maketendo/tardifmod/block/WhiteWallpaperBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/white_wallpaper.json",
           "src/main/resources/assets/tardif_mod/models/block/white_wallpaper.json",
-          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper.json",
           "src/main/resources/assets/tardif_mod/models/item/white_wallpaper.json",
-          "src/main/java/net/maketendo/tardifmod/block/WhiteWallpaperBlock.java"
+          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/White"
@@ -3606,8 +3606,8 @@
       "registry_name": "engine_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/world/inventory/EngineGUIMenu.java",
-          "src/main/java/net/maketendo/tardifmod/client/gui/EngineGUIScreen.java"
+          "src/main/java/net/maketendo/tardifmod/client/gui/EngineGUIScreen.java",
+          "src/main/java/net/maketendo/tardifmod/world/inventory/EngineGUIMenu.java"
         ]
       },
       "path": "~/TARDIS/Engine"
@@ -3706,14 +3706,14 @@
       "registry_name": "tardis_exterior_shell",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_0.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_3.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_6.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_1.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_5.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_7.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_4.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_0.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_1.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_3.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_2.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_4.json"
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_6.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_7.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Exterior"
@@ -3727,13 +3727,13 @@
       "registry_name": "plain_wallpaper_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/blockstates/plain_wallpaper_slab.json",
+          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_slab.json",
           "src/main/java/net/maketendo/tardifmod/block/PlainWallpaperSlabBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_slab_full.json",
-          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_slab.json",
           "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_slab_top.json",
-          "src/main/resources/assets/tardif_mod/blockstates/plain_wallpaper_slab.json",
-          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper_slab.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper_slab.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper_slab.json",
+          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper_slab.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Slab"
@@ -3747,13 +3747,13 @@
       "registry_name": "plain_wallpaper_stair",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/PlainWallpaperStairBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper_stair.json",
           "src/main/resources/assets/tardif_mod/blockstates/plain_wallpaper_stair.json",
+          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper_stair.json",
           "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_stair.json",
-          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_stair_outer.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper_stair.json",
+          "src/main/java/net/maketendo/tardifmod/block/PlainWallpaperStairBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_stair_inner.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper_stair.json"
+          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_stair_outer.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Stair"
@@ -3795,13 +3795,13 @@
       "registry_name": "white_wallpaper_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab_full.json",
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab_top.json",
+          "src/main/java/net/maketendo/tardifmod/block/WhiteWallpaperSlabBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/white_wallpaper_slab.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/white_wallpaper_slab.json",
-          "src/main/java/net/maketendo/tardifmod/block/WhiteWallpaperSlabBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab.json",
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab_top.json",
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab_full.json",
-          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper_slab.json"
+          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper_slab.json",
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Slab/White"
@@ -3815,13 +3815,13 @@
       "registry_name": "white_wallpaper_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs_inner.json",
+          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper_stairs.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/white_wallpaper_stairs.json",
           "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs_outer.json",
           "src/main/java/net/maketendo/tardifmod/block/WhiteWallpaperStairsBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper_stairs.json",
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs.json",
-          "src/main/resources/assets/tardif_mod/models/item/white_wallpaper_stairs.json"
+          "src/main/resources/assets/tardif_mod/models/item/white_wallpaper_stairs.json",
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs_inner.json",
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Stair/White"
@@ -3863,13 +3863,13 @@
       "registry_name": "mint_wallpaper_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab_full.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_wallpaper_slab.json",
           "src/main/java/net/maketendo/tardifmod/block/MintWallpaperSlabBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/mint_wallpaper_slab.json",
           "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab_top.json",
           "src/main/resources/assets/tardif_mod/blockstates/mint_wallpaper_slab.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab.json"
+          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab_full.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_wallpaper_slab.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab.json",
+          "src/main/resources/assets/tardif_mod/models/item/mint_wallpaper_slab.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Slab/Mint"
@@ -3883,13 +3883,13 @@
       "registry_name": "mint_wallpaper_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs_outer.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_wallpaper_stairs.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs.json",
-          "src/main/java/net/maketendo/tardifmod/block/MintWallpaperStairsBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/mint_wallpaper_stairs.json",
           "src/main/resources/assets/tardif_mod/models/item/mint_wallpaper_stairs.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs_inner.json"
+          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs_inner.json",
+          "src/main/resources/assets/tardif_mod/blockstates/mint_wallpaper_stairs.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs_outer.json",
+          "src/main/java/net/maketendo/tardifmod/block/MintWallpaperStairsBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_wallpaper_stairs.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Stair/Mint"
@@ -3931,11 +3931,11 @@
       "registry_name": "tall_roundel_door",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/TallRoundelDoorBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/tall_roundel_door.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/tall_roundel_door.json",
           "src/main/resources/assets/tardif_mod/models/item/tall_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/tall_roundel_door.json"
+          "src/main/java/net/maketendo/tardifmod/block/TallRoundelDoorBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/tall_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/tall_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/blockstates/tall_roundel_door.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors/Tall Varient"
@@ -3949,11 +3949,11 @@
       "registry_name": "tall_wallpaper_roundel_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/tall_wallpaper_roundel_door.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/tall_wallpaper_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/item/tall_wallpaper_roundel_door.json",
           "src/main/resources/assets/tardif_mod/blockstates/tall_wallpaper_roundel_door.json",
-          "src/main/java/net/maketendo/tardifmod/block/TallWallpaperRoundelDoorBlock.java"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/tall_wallpaper_roundel_door.json",
+          "src/main/java/net/maketendo/tardifmod/block/TallWallpaperRoundelDoorBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/tall_wallpaper_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/tall_wallpaper_roundel_door.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors/Tall Varient/Wallpaper"
@@ -3967,11 +3967,11 @@
       "registry_name": "tall_mint_roundel_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/tall_mint_roundel_door.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/tall_mint_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/item/tall_mint_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/tall_mint_roundel_door.json",
           "src/main/java/net/maketendo/tardifmod/block/TallMintRoundelDoorBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/tall_mint_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/item/tall_mint_roundel_door.json"
+          "src/main/resources/assets/tardif_mod/blockstates/tall_mint_roundel_door.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors/Tall Varient/Mint"
@@ -3985,11 +3985,11 @@
       "registry_name": "hexagonal_frame_centered",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/HexagonalFrameCenteredBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagonal_frame_centered.json",
           "src/main/resources/assets/tardif_mod/models/item/hexagonal_frame_centered.json",
-          "src/main/resources/assets/tardif_mod/models/block/hexagonal_frame_centered.json",
-          "src/main/resources/assets/tardif_mod/blockstates/hexagonal_frame_centered.json"
+          "src/main/java/net/maketendo/tardifmod/block/HexagonalFrameCenteredBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/hexagonal_frame_centered.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagonal_frame_centered.json",
+          "src/main/resources/assets/tardif_mod/models/block/hexagonal_frame_centered.json"
         ]
       },
       "path": "~/Decor Blocks/Hexagonal Frame"
@@ -4004,9 +4004,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/maketendo/tardifmod/block/HexagonalFrameOffsetBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/hexagonal_frame_offset.json",
           "src/main/resources/assets/tardif_mod/blockstates/hexagonal_frame_offset.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagonal_frame_offset.json",
-          "src/main/resources/assets/tardif_mod/models/block/hexagonal_frame_offset.json",
           "src/main/resources/assets/tardif_mod/models/item/hexagonal_frame_offset.json"
         ]
       },
@@ -4021,11 +4021,11 @@
       "registry_name": "tardis_interior_door",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door.json",
+          "src/main/java/net/maketendo/tardifmod/block/TARDISInteriorDoorBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/tardis_interior_door.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_interior_door.json",
-          "src/main/resources/assets/tardif_mod/blockstates/tardis_interior_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door.json",
-          "src/main/java/net/maketendo/tardifmod/block/TARDISInteriorDoorBlock.java"
+          "src/main/resources/assets/tardif_mod/blockstates/tardis_interior_door.json"
         ]
       },
       "path": "~/TARDIS/Door"
@@ -4071,14 +4071,14 @@
       "registry_name": "tardis_interior_door_display",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_4.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_3.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_7.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_0.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_6.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_2.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_1.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_5.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_6.json"
+          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_7.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_4.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_0.json"
         ]
       },
       "path": "~/TARDIS/Door"
@@ -4216,11 +4216,11 @@
       "registry_name": "dematerialisation_carpet_control",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/dematerialisation_carpet_control.json",
-          "src/main/java/net/maketendo/tardifmod/block/DematerialisationCarpetControlBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/dematerialisation_carpet_control.json",
+          "src/main/java/net/maketendo/tardifmod/block/DematerialisationCarpetControlBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/dematerialisation_carpet_control.json",
-          "src/main/resources/assets/tardif_mod/blockstates/dematerialisation_carpet_control.json"
+          "src/main/resources/assets/tardif_mod/blockstates/dematerialisation_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/models/item/dematerialisation_carpet_control.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
@@ -4248,11 +4248,11 @@
       "registry_name": "skaro_swamp",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/skaro_swamp_tree.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_swamp_tree.json",
-          "src/main/java/net/maketendo/tardifmod/world/features/treedecorators/SkaroSwampTrunkDecorator.java",
           "src/main/java/net/maketendo/tardifmod/world/features/treedecorators/SkaroSwampLeaveDecorator.java",
-          "src/main/resources/data/tardif_mod/worldgen/biome/skaro_swamp.json"
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_swamp_tree.json",
+          "src/main/resources/data/tardif_mod/worldgen/biome/skaro_swamp.json",
+          "src/main/java/net/maketendo/tardifmod/world/features/treedecorators/SkaroSwampTrunkDecorator.java",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/skaro_swamp_tree.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Biomes"
@@ -4267,9 +4267,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/time_movement_carpet_control.json",
-          "src/main/resources/assets/tardif_mod/models/block/time_movement_carpet_control.json",
           "src/main/resources/assets/tardif_mod/models/item/time_movement_carpet_control.json",
           "src/main/java/net/maketendo/tardifmod/block/TimeMovementCarpetControlBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/time_movement_carpet_control.json",
           "src/main/resources/assets/tardif_mod/blockstates/time_movement_carpet_control.json"
         ]
       },
@@ -4284,11 +4284,11 @@
       "registry_name": "dimensional_selector_carpet_control",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/dimensional_selector_carpet_control.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/dimensional_selector_carpet_control.json",
           "src/main/resources/assets/tardif_mod/blockstates/dimensional_selector_carpet_control.json",
-          "src/main/java/net/maketendo/tardifmod/block/DimensionalSelectorCarpetControlBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/dimensional_selector_carpet_control.json"
+          "src/main/resources/assets/tardif_mod/models/item/dimensional_selector_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/models/block/dimensional_selector_carpet_control.json",
+          "src/main/java/net/maketendo/tardifmod/block/DimensionalSelectorCarpetControlBlock.java"
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
@@ -4302,11 +4302,11 @@
       "registry_name": "coordinate_travel_carpet_control",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/coordinate_travel_carpet_control.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/coordinate_travel_carpet_control.json",
-          "src/main/resources/assets/tardif_mod/models/block/coordinate_travel_carpet_control.json",
           "src/main/java/net/maketendo/tardifmod/block/CoordinateTravelCarpetControlBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/coordinate_travel_carpet_control.json"
+          "src/main/resources/assets/tardif_mod/models/item/coordinate_travel_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/models/block/coordinate_travel_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/blockstates/coordinate_travel_carpet_control.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/coordinate_travel_carpet_control.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
@@ -4320,11 +4320,11 @@
       "registry_name": "telapathic_carpet_control",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/telapathic_carpet_control.json",
           "src/main/java/net/maketendo/tardifmod/block/TelapathicCarpetControlBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/telapathic_carpet_control.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/telapathic_carpet_control.json",
-          "src/main/resources/assets/tardif_mod/blockstates/telapathic_carpet_control.json",
-          "src/main/resources/assets/tardif_mod/models/block/telapathic_carpet_control.json"
+          "src/main/resources/assets/tardif_mod/models/item/telapathic_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/blockstates/telapathic_carpet_control.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Telepathic Carpet Control"
@@ -4374,9 +4374,9 @@
       "registry_name": "crumpled_teleportation_device",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/CrumpledTeleportationDeviceItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/crumpled_teleportation_device_0.json",
           "src/main/resources/assets/tardif_mod/models/item/crumpled_teleportation_device.json",
-          "src/main/resources/assets/tardif_mod/models/item/crumpled_teleportation_device_0.json"
+          "src/main/java/net/maketendo/tardifmod/item/CrumpledTeleportationDeviceItem.java"
         ]
       },
       "path": "~/TARDIS/Items/Teleportation Device"
@@ -4533,10 +4533,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/fourteenth_rotor.json",
-          "src/main/resources/assets/tardif_mod/models/block/fourteenth_rotor.json",
-          "src/main/java/net/maketendo/tardifmod/block/FourteenthRotorBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/fourteenth_rotor.json",
           "src/main/resources/assets/tardif_mod/models/item/fourteenth_rotor.json",
-          "src/main/resources/assets/tardif_mod/blockstates/fourteenth_rotor.json"
+          "src/main/resources/assets/tardif_mod/models/block/fourteenth_rotor.json",
+          "src/main/java/net/maketendo/tardifmod/block/FourteenthRotorBlock.java"
         ]
       },
       "path": "~/Decor Blocks/Rotor/14th Rotor"
@@ -4550,9 +4550,9 @@
       "registry_name": "twelveth_rotor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/twelveth_rotor.json",
           "src/main/java/net/maketendo/tardifmod/block/TwelvethRotorBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/twelveth_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/item/twelveth_rotor.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/twelveth_rotor.json",
           "src/main/resources/assets/tardif_mod/models/block/twelveth_rotor.json"
         ]
@@ -4568,11 +4568,11 @@
       "registry_name": "eleventh_rotor",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/eleventh_rotor.json",
           "src/main/resources/assets/tardif_mod/models/block/eleventh_rotor.json",
+          "src/main/java/net/maketendo/tardifmod/block/EleventhRotorBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/eleventh_rotor.json",
-          "src/main/resources/assets/tardif_mod/blockstates/eleventh_rotor.json",
-          "src/main/java/net/maketendo/tardifmod/block/EleventhRotorBlock.java"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/eleventh_rotor.json",
+          "src/main/resources/assets/tardif_mod/blockstates/eleventh_rotor.json"
         ]
       },
       "path": "~/Decor Blocks/Rotor/11th Rotor"
@@ -4586,10 +4586,10 @@
       "registry_name": "eleventh_toyota_rotor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/eleventh_toyota_rotor.json",
-          "src/main/resources/assets/tardif_mod/blockstates/eleventh_toyota_rotor.json",
           "src/main/java/net/maketendo/tardifmod/block/EleventhToyotaRotorBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/eleventh_toyota_rotor.json",
+          "src/main/resources/assets/tardif_mod/blockstates/eleventh_toyota_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/item/eleventh_toyota_rotor.json",
           "src/main/resources/assets/tardif_mod/models/block/eleventh_toyota_rotor.json"
         ]
       },
@@ -4604,11 +4604,11 @@
       "registry_name": "tenth_rotor",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/tenth_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/item/tenth_rotor.json",
           "src/main/resources/assets/tardif_mod/blockstates/tenth_rotor.json",
           "src/main/resources/assets/tardif_mod/models/block/tenth_rotor.json",
           "src/main/java/net/maketendo/tardifmod/block/TenthRotorBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/tenth_rotor.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/tenth_rotor.json"
         ]
       },
       "path": "~/Decor Blocks/Rotor/10th Rotor"
@@ -4622,10 +4622,10 @@
       "registry_name": "eighth_rotor",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/EighthRotorBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/eighth_rotor.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/eighth_rotor.json",
           "src/main/resources/assets/tardif_mod/models/block/eighth_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/item/eighth_rotor.json",
+          "src/main/java/net/maketendo/tardifmod/block/EighthRotorBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/eighth_rotor.json",
           "src/main/resources/assets/tardif_mod/blockstates/eighth_rotor.json"
         ]
       },
@@ -4642,9 +4642,9 @@
         "files": [
           "src/main/resources/assets/tardif_mod/models/item/fifth_rotor.json",
           "src/main/java/net/maketendo/tardifmod/block/FifthRotorBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/fifth_rotor.json",
           "src/main/resources/assets/tardif_mod/blockstates/fifth_rotor.json",
-          "src/main/resources/assets/tardif_mod/models/block/fifth_rotor.json"
+          "src/main/resources/assets/tardif_mod/models/block/fifth_rotor.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/fifth_rotor.json"
         ]
       },
       "path": "~/Decor Blocks/Rotor/5th Rotor"
@@ -4658,11 +4658,11 @@
       "registry_name": "fourth_rotor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/fourth_rotor.json",
-          "src/main/java/net/maketendo/tardifmod/block/FourthRotorBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/fourth_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/item/fourth_rotor.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/fourth_rotor.json",
           "src/main/resources/assets/tardif_mod/blockstates/fourth_rotor.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/fourth_rotor.json"
+          "src/main/java/net/maketendo/tardifmod/block/FourthRotorBlock.java"
         ]
       },
       "path": "~/Decor Blocks/Rotor/4th Rotor"
@@ -4788,11 +4788,11 @@
       "registry_name": "cog_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/cog_roundel.json",
-          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel.json",
-          "src/main/resources/assets/tardif_mod/models/block/cog_roundel.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/cog_roundel.json",
-          "src/main/java/net/maketendo/tardifmod/block/CogRoundelBlock.java"
+          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel.json",
+          "src/main/java/net/maketendo/tardifmod/block/CogRoundelBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/cog_roundel.json",
+          "src/main/resources/assets/tardif_mod/models/block/cog_roundel.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels/Cog Roundel"
@@ -4870,10 +4870,10 @@
       "registry_name": "dalek",
       "metadata": {
         "files": [
+          "src/main/java/net/maketendo/tardifmod/client/renderer/DalekRenderer.java",
           "src/main/java/net/maketendo/tardifmod/entity/DalekEntity.java",
-          "src/main/resources/data/tardif_mod/forge/biome_modifier/dalek_biome_modifier.json",
           "src/main/resources/assets/tardif_mod/models/item/dalek_spawn_egg.json",
-          "src/main/java/net/maketendo/tardifmod/client/renderer/DalekRenderer.java"
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/dalek_biome_modifier.json"
         ]
       },
       "path": "~/Entities - Mobs/Dalek"
@@ -5199,11 +5199,11 @@
       "registry_name": "tardis_exit_void",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/tardis_exit_void.json",
           "src/main/resources/assets/tardif_mod/blockstates/tardis_exit_void.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_exit_void.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_exit_void.json",
-          "src/main/java/net/maketendo/tardifmod/block/TARDISExitVoidBlock.java"
+          "src/main/resources/assets/tardif_mod/models/item/tardis_exit_void.json",
+          "src/main/java/net/maketendo/tardifmod/block/TARDISExitVoidBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_exit_void.json"
         ]
       },
       "path": "~/TARDIS/Door"
@@ -5217,11 +5217,11 @@
       "registry_name": "corridors_void",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/corridors_void.json",
-          "src/main/resources/assets/tardif_mod/blockstates/corridors_void.json",
           "src/main/java/net/maketendo/tardifmod/block/CorridorsVoidBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/corridors_void.json",
           "src/main/resources/assets/tardif_mod/models/item/corridors_void.json",
-          "src/main/resources/assets/tardif_mod/models/block/corridors_void.json"
+          "src/main/resources/assets/tardif_mod/blockstates/corridors_void.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/corridors_void.json"
         ]
       },
       "path": "~/TARDIS/Corridors"
@@ -5543,6 +5543,67 @@
         ]
       },
       "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
+    },
+    {
+      "name": "SpaceSkybox",
+      "type": "procedure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_skybox",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/SpaceSkyboxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "partialTick",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Space"
+    },
+    {
+      "name": "SetUpDims",
+      "type": "procedure",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_up_dims",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/SetUpDimsProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Dimensions/Space"
+    },
+    {
+      "name": "GlowingPillat",
+      "type": "block",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/item/glowing_pillar.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/glowing_pillar.json",
+          "src/main/resources/assets/tardif_mod/blockstates/glowing_pillar.json",
+          "src/main/java/net/maketendo/tardifmod/block/GlowingPillatBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/glowing_pillar.json"
+        ]
+      },
+      "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
     }
   ],
   "variable_elements": [
@@ -5791,6 +5852,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "PlayerMerchantRep",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -6039,6 +6106,7 @@
       "~CUSTOM:PlainWallpaperSlab"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:GlowingPillat",
       "~CUSTOM:Pressuriser",
       "~CUSTOM:SpaceRock",
       "~CUSTOM:Nitro9",
@@ -6047,11 +6115,6 @@
       "~CUSTOM:ClassicNetherack",
       "~CUSTOM:ClassicLeaves",
       "~CUSTOM:ClassicStone"
-    ],
-    "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:MintWallpaperStairs",
-      "~CUSTOM:WhiteWallpaperStairs",
-      "~CUSTOM:PlainWallpaperStair"
     ],
     "ITEMS:mod:food_crate_basic": [
       "Items.APPLE",
@@ -6081,6 +6144,11 @@
       "Items.BEETROOT_SEEDS",
       "Items.BEETROOT_SOUP"
     ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MintWallpaperStairs",
+      "~CUSTOM:WhiteWallpaperStairs",
+      "~CUSTOM:PlainWallpaperStair"
+    ],
     "ITEMS:minecraft:planks": [
       "CUSTOM:SkaroPlanks"
     ],
@@ -6092,16 +6160,11 @@
       "~CUSTOM:SolderOre",
       "~CUSTOM:Plastic_ChunkOre"
     ],
-    "ITEMS:mod:medical_crate_basic": [],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:RaidiatedSand",
+      "~CUSTOM:PetrifiedDirt",
       "~CUSTOM:PetrifiedStone",
       "~CUSTOM:PetrifiedGrassBlock",
-      "~CUSTOM:PetrifiedDirt",
-      "~CUSTOM:SkaroGrass",
-      "~CUSTOM:SkaroDirt",
-      "~CUSTOM:SkaroStone",
-      "~CUSTOM:SkaroSand",
+      "~CUSTOM:RaidiatedSand",
       "~CUSTOM:ClassicNetherack",
       "~CUSTOM:Classicgrass",
       "~CUSTOM:ClassicStone",
@@ -6115,20 +6178,6 @@
       "CUSTOM:SkaroDirt",
       "CUSTOM:ClassicDirt",
       "CUSTOM:SkaroGrass"
-    ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:Pressuriser",
-      "~CUSTOM:SpaceRock",
-      "~CUSTOM:DalekiumRefinery",
-      "~CUSTOM:Nitro9",
-      "~CUSTOM:FoodCubeMachine",
-      "~CUSTOM:ZytonOre",
-      "~CUSTOM:DrainedZyton7Block",
-      "~CUSTOM:Zyton7Block",
-      "~CUSTOM:SolderOre",
-      "~CUSTOM:ClassicNetherack",
-      "~CUSTOM:Plastic_ChunkOre",
-      "~CUSTOM:ClassicStone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:CogRoundel",
@@ -6151,6 +6200,21 @@
       "~CUSTOM:MintRoundel",
       "~CUSTOM:Roundel",
       "~CUSTOM:RoundelDoor"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GlowingPillat",
+      "~CUSTOM:Pressuriser",
+      "~CUSTOM:SpaceRock",
+      "~CUSTOM:DalekiumRefinery",
+      "~CUSTOM:Nitro9",
+      "~CUSTOM:FoodCubeMachine",
+      "~CUSTOM:ZytonOre",
+      "~CUSTOM:DrainedZyton7Block",
+      "~CUSTOM:Zyton7Block",
+      "~CUSTOM:SolderOre",
+      "~CUSTOM:ClassicNetherack",
+      "~CUSTOM:Plastic_ChunkOre",
+      "~CUSTOM:ClassicStone"
     ],
     "BIOMES:minecraft:is_forest": [
       "CUSTOM:SkaroForest"
@@ -6268,6 +6332,7 @@
       "advancements.refine_it.title": "Refine It",
       "block.tardif_mod.classic_orange_wool": "Classic Orange Wool",
       "item.tardif_mod.plastic": "Plastic Mold",
+      "block.tardif_mod.glowing_pillar": "Glowing Pillar",
       "item.tardif_mod.space_suit_armor_chestplate": "Space Suit Chestplate",
       "death.attack.pirates_phaser_rifle_damage.item": "%1$s was atomically torn apart by %2$s using %3$s",
       "advancements.the_source.descr": "Obtain Zyton-7",

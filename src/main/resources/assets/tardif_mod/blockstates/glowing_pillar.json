@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tardif_mod:block/glowing_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tardif_mod:block/glowing_pillar"
+    },
+    "axis=z": {
+      "model": "tardif_mod:block/glowing_pillar",
+      "x": 90
+    }
+  }
+}

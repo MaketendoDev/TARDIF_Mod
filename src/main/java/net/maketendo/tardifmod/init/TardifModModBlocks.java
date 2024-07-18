@@ -59,6 +59,7 @@ import net.maketendo.tardifmod.block.MelartBlockBlock;
 import net.maketendo.tardifmod.block.HexagonalFrameOffsetBlock;
 import net.maketendo.tardifmod.block.HexagonalFrameCenteredBlock;
 import net.maketendo.tardifmod.block.HexagonRoundelBlock;
+import net.maketendo.tardifmod.block.GlowingPillatBlock;
 import net.maketendo.tardifmod.block.FourthRotorBlock;
 import net.maketendo.tardifmod.block.FourteenthRotorBlock;
 import net.maketendo.tardifmod.block.FoodCubeMachineBlock;
@@ -194,6 +195,7 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> CORRIDORS_VOID = REGISTRY.register("corridors_void", () -> new CorridorsVoidBlock());
 	public static final RegistryObject<Block> SPACE_ROCK = REGISTRY.register("space_rock", () -> new SpaceRockBlock());
 	public static final RegistryObject<Block> PRESSURISER = REGISTRY.register("pressuriser", () -> new PressuriserBlock());
+	public static final RegistryObject<Block> GLOWING_PILLAR = REGISTRY.register("glowing_pillar", () -> new GlowingPillatBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

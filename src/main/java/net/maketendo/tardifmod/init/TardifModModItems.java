@@ -185,6 +185,7 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> SPACE_SUIT_ARMOR_LEGGINGS = REGISTRY.register("space_suit_armor_leggings", () -> new Space_SuitArmorItem.Leggings());
 	public static final RegistryObject<Item> SPACE_SUIT_ARMOR_BOOTS = REGISTRY.register("space_suit_armor_boots", () -> new Space_SuitArmorItem.Boots());
 	public static final RegistryObject<Item> PRESSURISER = block(TardifModModBlocks.PRESSURISER);
+	public static final RegistryObject<Item> GLOWING_PILLAR = block(TardifModModBlocks.GLOWING_PILLAR);
 
 	// Start of user code block custom items
 	// End of user code block custom items

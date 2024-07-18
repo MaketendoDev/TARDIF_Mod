@@ -20,7 +20,7 @@ public class SpacePlayerEntersDimensionProcedure {
 					template.placeInWorld(_serverworld, new BlockPos(100, 100, 100), new BlockPos(100, 100, 100), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 				}
 			}
-			TardifModModVariables.MapVariables.get(world).Dematerialised = true;
+			TardifModModVariables.MapVariables.get(world).LoadedLoneIsland = true;
 			TardifModModVariables.MapVariables.get(world).syncData(world);
 		}
 	}

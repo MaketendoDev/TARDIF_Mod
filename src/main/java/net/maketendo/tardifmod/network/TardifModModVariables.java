@@ -75,6 +75,7 @@ public class TardifModModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.PlayerBeenInTARDISBefore = original.PlayerBeenInTARDISBefore;
+			clone.PlayerMerchantRep = original.PlayerMerchantRep;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -359,6 +360,7 @@ public class TardifModModVariables {
 
 	public static class PlayerVariables {
 		public boolean PlayerBeenInTARDISBefore = false;
+		public double PlayerMerchantRep = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -368,12 +370,14 @@ public class TardifModModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putBoolean("PlayerBeenInTARDISBefore", PlayerBeenInTARDISBefore);
+			nbt.putDouble("PlayerMerchantRep", PlayerMerchantRep);
 			return nbt;
 		}
 
 		public void readNBT(Tag tag) {
 			CompoundTag nbt = (CompoundTag) tag;
 			PlayerBeenInTARDISBefore = nbt.getBoolean("PlayerBeenInTARDISBefore");
+			PlayerMerchantRep = nbt.getDouble("PlayerMerchantRep");
 		}
 	}
 
@@ -399,6 +403,7 @@ public class TardifModModVariables {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.PlayerBeenInTARDISBefore = message.data.PlayerBeenInTARDISBefore;
+					variables.PlayerMerchantRep = message.data.PlayerMerchantRep;
 				}
 			});
 			context.setPacketHandled(true);

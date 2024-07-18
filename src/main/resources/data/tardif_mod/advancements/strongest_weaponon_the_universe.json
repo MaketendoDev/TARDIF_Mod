@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "tardif_mod:upgraded_melart_sword"
+      "item": "tardif_mod:deleted_mod_element"
     },
     "title": {
       "translate": "advancements.strongest_weaponon_the_universe.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "tardif_mod:upgraded_melart_sword"
+              "tardif_mod:deleted_mod_element"
             ],
             "count": {
               "min": 1,

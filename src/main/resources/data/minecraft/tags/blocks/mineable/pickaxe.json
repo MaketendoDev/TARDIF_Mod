@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "tardif_mod:glowing_pillar",
     "tardif_mod:pressuriser",
     "tardif_mod:space_rock",
     "tardif_mod:dalekium_refinery",
