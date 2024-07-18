@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/privacyglassopen",
+    "up": "tardif_mod:block/privacyglassopen",
+    "north": "tardif_mod:block/privacyglassopen",
+    "east": "tardif_mod:block/privacyglassopen",
+    "south": "tardif_mod:block/privacyglassopen",
+    "west": "tardif_mod:block/privacyglassopen",
+    "particle": "tardif_mod:block/privacyglassopen"
+  },
+  "render_type": "cutout"
+}

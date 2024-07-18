@@ -32,6 +32,7 @@ import net.maketendo.tardifmod.block.TARDISExteriorBlock;
 import net.maketendo.tardifmod.block.TARDISExitVoidBlock;
 import net.maketendo.tardifmod.block.SpaceRockBlock;
 import net.maketendo.tardifmod.block.SolderOreBlock;
+import net.maketendo.tardifmod.block.ShipWindowBlock;
 import net.maketendo.tardifmod.block.RoundelDoorBlock;
 import net.maketendo.tardifmod.block.RoundelBlock;
 import net.maketendo.tardifmod.block.RotorBlock;
@@ -196,6 +197,7 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> SPACE_ROCK = REGISTRY.register("space_rock", () -> new SpaceRockBlock());
 	public static final RegistryObject<Block> PRESSURISER = REGISTRY.register("pressuriser", () -> new PressuriserBlock());
 	public static final RegistryObject<Block> GLOWING_PILLAR = REGISTRY.register("glowing_pillar", () -> new GlowingPillatBlock());
+	public static final RegistryObject<Block> SHIP_WINDOW = REGISTRY.register("ship_window", () -> new ShipWindowBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

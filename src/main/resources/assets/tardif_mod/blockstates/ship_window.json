@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "tardif_mod:block/ship_window"
+    },
+    "blockstate=1": {
+      "model": "tardif_mod:block/closed_ship_window_blockstate_0"
+    }
+  }
+}

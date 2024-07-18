@@ -136,6 +136,7 @@ public class TardifModModTabs {
 			tabData.accept(TardifModModBlocks.PETRIFIED_COBBLESTONE.get().asItem());
 			tabData.accept(TardifModModBlocks.PRESSURISER.get().asItem());
 			tabData.accept(TardifModModBlocks.GLOWING_PILLAR.get().asItem());
+			tabData.accept(TardifModModBlocks.SHIP_WINDOW.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(TardifModModBlocks.DALEKIUM_REFINERY.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
