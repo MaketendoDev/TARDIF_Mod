@@ -191,6 +191,8 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> DEV_ITEM_LIGHT_LEVEL = REGISTRY.register("dev_item_light_level", () -> new DevItemLightLevelItem());
 	public static final RegistryObject<Item> REGULAR_ROUNDEL_VERTICAL_OFFSET = block(TardifModModBlocks.REGULAR_ROUNDEL_VERTICAL_OFFSET);
 	public static final RegistryObject<Item> REGULAR_ROUNDEL_HORIZONTAL_OFFSET = block(TardifModModBlocks.REGULAR_ROUNDEL_HORIZONTAL_OFFSET);
+	public static final RegistryObject<Item> COG_ROUNDEL_OFFSET = block(TardifModModBlocks.COG_ROUNDEL_OFFSET);
+	public static final RegistryObject<Item> COG_ROUNDEL_VERTICLE_OFFSET = block(TardifModModBlocks.COG_ROUNDEL_VERTICLE_OFFSET);
 
 	// Start of user code block custom items
 	// End of user code block custom items

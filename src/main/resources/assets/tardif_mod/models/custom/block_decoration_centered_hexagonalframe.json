@@ -9,12 +9,12 @@
       "from": [
         0,
         0,
-        16
+        15.99
       ],
       "to": [
         16,
         16,
-        16
+        15.99
       ],
       "faces": {
         "north": {
@@ -77,12 +77,12 @@
       "from": [
         5,
         5,
-        15
+        14.99
       ],
       "to": [
         11,
         11,
-        16
+        15.99
       ],
       "rotation": {
         "angle": -45,
@@ -149,158 +149,8 @@
           "texture": "#1"
         }
       }
-    },
-    {
-      "from": [
-        5,
-        5,
-        16
-      ],
-      "to": [
-        11,
-        11,
-        17
-      ],
-      "rotation": {
-        "angle": -45,
-        "axis": "z",
-        "origin": [
-          8,
-          8,
-          16.5
-        ]
-      },
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            9.5,
-            3,
-            12.5
-          ],
-          "texture": "#1"
-        },
-        "east": {
-          "uv": [
-            3,
-            9.5,
-            3.5,
-            12.5
-          ],
-          "texture": "#1"
-        },
-        "south": {
-          "uv": [
-            0,
-            9.5,
-            3,
-            12.5
-          ],
-          "texture": "#1"
-        },
-        "west": {
-          "uv": [
-            3,
-            9.5,
-            3.5,
-            12.5
-          ],
-          "texture": "#1"
-        },
-        "up": {
-          "uv": [
-            6.5,
-            12.5,
-            3.5,
-            12
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "down": {
-          "uv": [
-            6.5,
-            12,
-            3.5,
-            12.5
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        }
-      }
     }
   ],
-  "display": {
-    "thirdperson_righthand": {
-      "translation": [
-        0,
-        -1,
-        -5.75
-      ],
-      "scale": [
-        0.7,
-        0.7,
-        0.7
-      ]
-    },
-    "thirdperson_lefthand": {
-      "translation": [
-        0,
-        -1,
-        -5.75
-      ],
-      "scale": [
-        0.7,
-        0.7,
-        0.7
-      ]
-    },
-    "firstperson_righthand": {
-      "translation": [
-        -3,
-        3.75,
-        0
-      ],
-      "scale": [
-        0.7,
-        0.7,
-        0.7
-      ]
-    },
-    "firstperson_lefthand": {
-      "translation": [
-        -3,
-        3.75,
-        0
-      ],
-      "scale": [
-        0.7,
-        0.7,
-        0.7
-      ]
-    },
-    "ground": {
-      "translation": [
-        0,
-        2.5,
-        -8.75
-      ]
-    },
-    "head": {
-      "translation": [
-        0,
-        0,
-        -7.5
-      ]
-    },
-    "fixed": {
-      "translation": [
-        0,
-        0,
-        -7.25
-      ]
-    }
-  },
   "groups": [
     {
       "name": "Hexagon",
@@ -312,8 +162,7 @@
       "color": 0,
       "children": [
         0,
-        1,
-        2
+        1
       ]
     }
   ]

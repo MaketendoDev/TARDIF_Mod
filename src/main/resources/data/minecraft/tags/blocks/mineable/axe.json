@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "tardif_mod:cog_roundel_verticle_offset",
+    "tardif_mod:cog_roundel_offset",
     "tardif_mod:regular_roundel_horizontal_offset",
     "tardif_mod:regular_roundel_vertical_offset",
     "tardif_mod:cog_roundel",

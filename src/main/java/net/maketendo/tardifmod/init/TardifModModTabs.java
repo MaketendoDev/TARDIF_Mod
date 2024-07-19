@@ -95,6 +95,8 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModBlocks.FOURTH_ROTOR.get().asItem());
 				tabData.accept(TardifModModBlocks.REGULAR_ROUNDEL_VERTICAL_OFFSET.get().asItem());
 				tabData.accept(TardifModModBlocks.REGULAR_ROUNDEL_HORIZONTAL_OFFSET.get().asItem());
+				tabData.accept(TardifModModBlocks.COG_ROUNDEL_OFFSET.get().asItem());
+				tabData.accept(TardifModModBlocks.COG_ROUNDEL_VERTICLE_OFFSET.get().asItem());
 			})
 
 					.build());

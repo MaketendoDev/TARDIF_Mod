@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/cogroundelh",
+    "up": "tardif_mod:block/cogroundelh",
+    "north": "tardif_mod:block/cogroundelh",
+    "east": "tardif_mod:block/cogroundelh",
+    "south": "tardif_mod:block/cogroundelh",
+    "west": "tardif_mod:block/cogroundelh",
+    "particle": "tardif_mod:block/cogroundelh"
+  },
+  "render_type": "solid"
+}

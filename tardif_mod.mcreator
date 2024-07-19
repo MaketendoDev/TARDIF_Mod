@@ -151,17 +151,17 @@
       "registry_name": "roundel_door",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right_open.json",
+          "src/main/java/net/maketendo/tardifmod/block/RoundelDoorBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_left.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_left_open.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_left_open.json",
-          "src/main/resources/assets/tardif_mod/models/item/roundel_door.json",
-          "src/main/java/net/maketendo/tardifmod/block/RoundelDoorBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_left.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_left.json",
+          "src/main/resources/assets/tardif_mod/models/item/roundel_door.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_right.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/roundel_door.json",
-          "src/main/resources/assets/tardif_mod/blockstates/roundel_door.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_right_open.json"
         ]
       },
@@ -183,7 +183,7 @@
           "src/main/resources/assets/tardif_mod/models/block/roundel.json"
         ]
       },
-      "path": "~/Decor Blocks/Roundels"
+      "path": "~/Decor Blocks/Roundels/Default"
     },
     {
       "name": "ScrewdriverRightclickedOnBlock",
@@ -707,7 +707,7 @@
           "src/main/resources/data/tardif_mod/recipes/roundelrecipie.json"
         ]
       },
-      "path": "~/Decor Blocks/Roundels"
+      "path": "~/Decor Blocks/Roundels/Default"
     },
     {
       "name": "TARDISOnEntityTickUpdate",
@@ -3386,7 +3386,7 @@
           "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagon_roundel.json"
         ]
       },
-      "path": "~/Decor Blocks/Roundels"
+      "path": "~/Decor Blocks/Roundels/Hexagon Roundel"
     },
     {
       "name": "MintWallpaper",
@@ -3985,11 +3985,11 @@
       "registry_name": "hexagonal_frame_centered",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/hexagonal_frame_centered.json",
-          "src/main/java/net/maketendo/tardifmod/block/HexagonalFrameCenteredBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/hexagonal_frame_centered.json",
+          "src/main/resources/assets/tardif_mod/models/block/hexagonal_frame_centered.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagonal_frame_centered.json",
-          "src/main/resources/assets/tardif_mod/models/block/hexagonal_frame_centered.json"
+          "src/main/java/net/maketendo/tardifmod/block/HexagonalFrameCenteredBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/hexagonal_frame_centered.json"
         ]
       },
       "path": "~/Decor Blocks/Hexagonal Frame"
@@ -4789,10 +4789,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/cog_roundel.json",
-          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel.json",
-          "src/main/java/net/maketendo/tardifmod/block/CogRoundelBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/cog_roundel.json",
-          "src/main/resources/assets/tardif_mod/models/block/cog_roundel.json"
+          "src/main/resources/assets/tardif_mod/models/block/cog_roundel.json",
+          "src/main/java/net/maketendo/tardifmod/block/CogRoundelBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels/Cog Roundel"
@@ -5304,8 +5304,8 @@
       "registry_name": "tier_1_item_crate",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/Tier1ItemCrateItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/tier_1_item_crate.json"
+          "src/main/resources/assets/tardif_mod/models/item/tier_1_item_crate.json",
+          "src/main/java/net/maketendo/tardifmod/item/Tier1ItemCrateItem.java"
         ]
       },
       "path": "~/Dimensions/Space/Foxys Space Stuff/Merchant"
@@ -5831,7 +5831,7 @@
           "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_12.json"
         ]
       },
-      "path": "~/Decor Blocks/Roundels"
+      "path": "~/Decor Blocks/Roundels/Default"
     },
     {
       "name": "RegularRoundelVerticalOffset",
@@ -5849,7 +5849,7 @@
           "src/main/resources/data/tardif_mod/loot_tables/blocks/regular_roundel_vertical_offset.json"
         ]
       },
-      "path": "~/Decor Blocks/Roundels"
+      "path": "~/Decor Blocks/Roundels/Default"
     },
     {
       "name": "RegularRoundelHorizontalOffset",
@@ -5867,7 +5867,7 @@
           "src/main/resources/data/tardif_mod/loot_tables/blocks/regular_roundel_horizontal_offset.json"
         ]
       },
-      "path": "~/Decor Blocks/Roundels"
+      "path": "~/Decor Blocks/Roundels/Default"
     },
     {
       "name": "RoundelVLightStates",
@@ -5895,7 +5895,7 @@
           "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_8.json"
         ]
       },
-      "path": "~/Decor Blocks/Roundels"
+      "path": "~/Decor Blocks/Roundels/Default"
     },
     {
       "name": "RoundelHLightStates",
@@ -5923,7 +5923,7 @@
           "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_1.json"
         ]
       },
-      "path": "~/Decor Blocks/Roundels"
+      "path": "~/Decor Blocks/Roundels/Default"
     },
     {
       "name": "RoundelOnTickUpdate",
@@ -5955,7 +5955,58 @@
           }
         ]
       },
-      "path": "~/Decor Blocks/Roundels"
+      "path": "~/Decor Blocks/Roundels/Default"
+    },
+    {
+      "name": "CogRoundelLightStates",
+      "type": "blockstates",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cog_roundel_light_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/block/cog_roundel_light_states_blockstate_1.json",
+          "src/main/resources/assets/tardif_mod/models/block/cog_roundel_light_states_blockstate_0.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels/Cog Roundel"
+    },
+    {
+      "name": "CogRoundelOffset",
+      "type": "block",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cog_roundel_offset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/cog_roundel_offset.json",
+          "src/main/resources/assets/tardif_mod/models/block/cog_roundel_offset.json",
+          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel_offset.json",
+          "src/main/java/net/maketendo/tardifmod/block/CogRoundelOffsetBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/cog_roundel_offset.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels/Cog Roundel"
+    },
+    {
+      "name": "CogRoundelVerticleOffset",
+      "type": "block",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cog_roundel_verticle_offset",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/item/cog_roundel_verticle_offset.json",
+          "src/main/resources/assets/tardif_mod/models/block/cog_roundel_verticle_offset.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/cog_roundel_verticle_offset.json",
+          "src/main/java/net/maketendo/tardifmod/block/CogRoundelVerticleOffsetBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel_verticle_offset.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels/Cog Roundel"
     }
   ],
   "variable_elements": [
@@ -6455,13 +6506,13 @@
       "CUSTOM:Space_SuitArmor.legs",
       "CUSTOM:Space_SuitArmor.boots"
     ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:MintWallpaperSlab",
       "~CUSTOM:WhiteWallpaperSlab",
       "~CUSTOM:PlainWallpaperSlab"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:GlowingPillat",
@@ -6538,6 +6589,8 @@
       "CUSTOM:SkaroGrass"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:CogRoundelVerticleOffset",
+      "~CUSTOM:CogRoundelOffset",
       "~CUSTOM:RegularRoundelHorizontalOffset",
       "~CUSTOM:RegularRoundelVerticalOffset",
       "~CUSTOM:CogRoundel",
@@ -6634,8 +6687,8 @@
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
       "advancements.obtain_melart.title": "Strongest Material On Skaro",
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
-      "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
       "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
+      "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
       "gui.tardif_mod.coordinate_select_gui.label_rotatedisplay": "RotateDisplay",
@@ -6648,6 +6701,7 @@
       "gui.tardif_mod.exteriorselectgui.label_x": "X:",
       "gui.tardif_mod.exteriorselectgui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exteriorselectgui.label_z": "Z:",
+      "block.tardif_mod.cog_roundel_verticle_offset": "Cog Roundel",
       "block.tardif_mod.drained_zyton_7_block": "Block of Drained Zyton-7",
       "death.attack.moment_damage_type": "%1$s was killed by the moment",
       "block.tardif_mod.pressuriser": "Pressuriser",
@@ -6672,9 +6726,9 @@
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
@@ -6683,8 +6737,8 @@
       "item.tardif_mod.dalek_spawn_egg": "Dalek Spawn Egg",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
       "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
-      "advancements.the_hell_planet.descr": "Use the TARDIS to travel to Skaro for the first time!",
       "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
+      "advancements.the_hell_planet.descr": "Use the TARDIS to travel to Skaro for the first time!",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
       "advancements.obtain_tardis.title": "It\u0027s alive!",
       "item.tardif_mod.dalekium_armor_leggings": "Dalekium Leggings",
@@ -6743,7 +6797,7 @@
       "gui.tardif_mod.monitor_gui.label_z_input": "z_input",
       "death.attack.space_suffocation.player": "%1$s died whilst trying to escape %2$s",
       "block.tardif_mod.tardis_exterior": "TARDIS Exterior",
-      "item.tardif_mod.tier_1_item_crate": "Basic Supply Crate",
+      "item.tardif_mod.tier_1_item_crate": "Supply Crate",
       "gui.tardif_mod.monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "block.tardif_mod.dalekium_refinery": "Dalekium Refinery",
       "death.attack.eye_of_harmony_damage.player": "%1$s burnt up whilst trying to escape %2$s",
@@ -6851,6 +6905,7 @@
       "subtitles.skaro_ambience": "",
       "gui.tardif_mod.coordinate_select_gui.label_z": "Z:",
       "item.tardif_mod.melart_sword": "Melart Sword",
+      "block.tardif_mod.cog_roundel_offset": "Cog Roundel",
       "block.tardif_mod.mint_wallpaper_slab": "Plain Wallpaper",
       "item.tardif_mod.tenth_recorded_message.desc": "??? - Pre-Recorded Message",
       "item.tardif_mod.copper_screwdriver": "Copper Screwdriver",
@@ -7067,6 +7122,14 @@
               },
               {
                 "name": "Cog Roundel",
+                "children": []
+              },
+              {
+                "name": "Hexagon Roundel",
+                "children": []
+              },
+              {
+                "name": "Default",
                 "children": []
               }
             ]

@@ -2,12 +2,12 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "cog_roundel",
+    "texture": "cog_roundel_half",
     "textureTop": "cog_roundel",
     "textureLeft": "cog_roundel_half",
-    "textureFront": "cog_roundel",
+    "textureFront": "cog_roundel_half",
     "textureRight": "cog_roundel_half",
-    "textureBack": "cog_roundel",
+    "textureBack": "cog_roundel_half",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -36,7 +36,7 @@
     "name": "Cog Roundel",
     "specialInformation": {
       "fixedValue": [
-        "§8Default"
+        "§8Offset"
       ]
     },
     "hardness": 1.0,

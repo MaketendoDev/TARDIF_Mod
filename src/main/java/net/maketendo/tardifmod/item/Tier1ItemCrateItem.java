@@ -23,7 +23,7 @@ public class Tier1ItemCrateItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("A crate of goodies"));
+		list.add(Component.literal("\u00A78A common crate of goodies"));
 	}
 
 	@Override

@@ -81,6 +81,8 @@ import net.maketendo.tardifmod.block.DalekiumOreBlock;
 import net.maketendo.tardifmod.block.DalekiumBlockBlock;
 import net.maketendo.tardifmod.block.CorridorsVoidBlock;
 import net.maketendo.tardifmod.block.CoordinateTravelCarpetControlBlock;
+import net.maketendo.tardifmod.block.CogRoundelVerticleOffsetBlock;
+import net.maketendo.tardifmod.block.CogRoundelOffsetBlock;
 import net.maketendo.tardifmod.block.CogRoundelBlock;
 import net.maketendo.tardifmod.block.ClassicgrassBlock;
 import net.maketendo.tardifmod.block.ClassicYellowWoolBlock;
@@ -202,6 +204,8 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> SHIP_WINDOW = REGISTRY.register("ship_window", () -> new ShipWindowBlock());
 	public static final RegistryObject<Block> REGULAR_ROUNDEL_VERTICAL_OFFSET = REGISTRY.register("regular_roundel_vertical_offset", () -> new RegularRoundelVerticalOffsetBlock());
 	public static final RegistryObject<Block> REGULAR_ROUNDEL_HORIZONTAL_OFFSET = REGISTRY.register("regular_roundel_horizontal_offset", () -> new RegularRoundelHorizontalOffsetBlock());
+	public static final RegistryObject<Block> COG_ROUNDEL_OFFSET = REGISTRY.register("cog_roundel_offset", () -> new CogRoundelOffsetBlock());
+	public static final RegistryObject<Block> COG_ROUNDEL_VERTICLE_OFFSET = REGISTRY.register("cog_roundel_verticle_offset", () -> new CogRoundelVerticleOffsetBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

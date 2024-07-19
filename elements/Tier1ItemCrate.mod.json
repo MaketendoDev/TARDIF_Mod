@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Basic Supply Crate",
+    "name": "Supply Crate",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Crates"
@@ -28,7 +28,7 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "A crate of goodies"
+        "§8A common crate of goodies"
       ]
     },
     "glowCondition": {
