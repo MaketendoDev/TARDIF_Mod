@@ -4,9 +4,9 @@
     "down": "tardif_mod:block/white_wallpaper",
     "up": "tardif_mod:block/white_wallpaper",
     "north": "tardif_mod:block/roundel",
-    "east": "tardif_mod:block/roundel_half",
+    "east": "tardif_mod:block/roundel",
     "south": "tardif_mod:block/roundel",
-    "west": "tardif_mod:block/roundel_half",
+    "west": "tardif_mod:block/roundel",
     "particle": "tardif_mod:block/white_wallpaper"
   },
   "render_type": "solid"

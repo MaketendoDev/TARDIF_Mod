@@ -104,6 +104,7 @@ public class TardifModModVariables {
 
 	public static class WorldVariables extends SavedData {
 		public static final String DATA_NAME = "tardif_mod_worldvars";
+		public double TARDISLightLevel = 0;
 
 		public static WorldVariables load(CompoundTag tag) {
 			WorldVariables data = new WorldVariables();
@@ -112,10 +113,12 @@ public class TardifModModVariables {
 		}
 
 		public void read(CompoundTag nbt) {
+			TARDISLightLevel = nbt.getDouble("TARDISLightLevel");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
+			nbt.putDouble("TARDISLightLevel", TARDISLightLevel);
 			return nbt;
 		}
 

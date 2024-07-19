@@ -5709,6 +5709,253 @@
         ]
       },
       "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
+    },
+    {
+      "name": "ChangeLightLevel",
+      "type": "gui",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_light_level",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/world/inventory/ChangeLightLevelMenu.java",
+          "src/main/java/net/maketendo/tardifmod/network/ChangeLightLevelButtonMessage.java",
+          "src/main/java/net/maketendo/tardifmod/client/gui/ChangeLightLevelScreen.java"
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/TARDIS Dev Items"
+    },
+    {
+      "name": "SetLevel",
+      "type": "procedure",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_level",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/SetLevelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/TARDIS Dev Items"
+    },
+    {
+      "name": "DevItemLightLevelRightclicked",
+      "type": "procedure",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_item_light_level_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/DevItemLightLevelRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/TARDIS Dev Items"
+    },
+    {
+      "name": "DevItemLightLevel",
+      "type": "item",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_item_light_level",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/item/DevItemLightLevelItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/dev_item_light_level.json"
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/TARDIS Dev Items"
+    },
+    {
+      "name": "RoundelLightStates",
+      "type": "blockstates",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roundel_light_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_0.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_14.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_3.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_7.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_13.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_11.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_2.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_8.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_5.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_4.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_6.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_9.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_10.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_1.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_12.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels"
+    },
+    {
+      "name": "RegularRoundelVerticalOffset",
+      "type": "block",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regular_roundel_vertical_offset",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/item/regular_roundel_vertical_offset.json",
+          "src/main/resources/assets/tardif_mod/blockstates/regular_roundel_vertical_offset.json",
+          "src/main/java/net/maketendo/tardifmod/block/RegularRoundelVerticalOffsetBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/regular_roundel_vertical_offset.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/regular_roundel_vertical_offset.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels"
+    },
+    {
+      "name": "RegularRoundelHorizontalOffset",
+      "type": "block",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regular_roundel_horizontal_offset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/block/RegularRoundelHorizontalOffsetBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/regular_roundel_horizontal_offset.json",
+          "src/main/resources/assets/tardif_mod/blockstates/regular_roundel_horizontal_offset.json",
+          "src/main/resources/assets/tardif_mod/models/block/regular_roundel_horizontal_offset.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/regular_roundel_horizontal_offset.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels"
+    },
+    {
+      "name": "RoundelVLightStates",
+      "type": "blockstates",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roundel_v_light_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_12.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_7.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_1.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_9.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_6.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_4.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_13.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_5.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_2.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_11.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_10.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_3.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_14.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_0.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_8.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels"
+    },
+    {
+      "name": "RoundelHLightStates",
+      "type": "blockstates",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roundel_h_light_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_2.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_5.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_12.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_8.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_13.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_11.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_3.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_4.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_7.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_10.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_14.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_0.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_6.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_9.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_1.json"
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels"
+    },
+    {
+      "name": "RoundelOnTickUpdate",
+      "type": "procedure",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roundel_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/RoundelOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decor Blocks/Roundels"
     }
   ],
   "variable_elements": [
@@ -5963,6 +6210,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "TARDISLightLevel",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -6202,13 +6455,13 @@
       "CUSTOM:Space_SuitArmor.legs",
       "CUSTOM:Space_SuitArmor.boots"
     ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:MintWallpaperSlab",
       "~CUSTOM:WhiteWallpaperSlab",
       "~CUSTOM:PlainWallpaperSlab"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:GlowingPillat",
@@ -6285,6 +6538,8 @@
       "CUSTOM:SkaroGrass"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:RegularRoundelHorizontalOffset",
+      "~CUSTOM:RegularRoundelVerticalOffset",
       "~CUSTOM:CogRoundel",
       "~CUSTOM:TallMintRoundelDoor",
       "~CUSTOM:TallWallpaperRoundelDoor",
@@ -6379,8 +6634,8 @@
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
       "advancements.obtain_melart.title": "Strongest Material On Skaro",
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
-      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
+      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
       "gui.tardif_mod.coordinate_select_gui.label_rotatedisplay": "RotateDisplay",
@@ -6417,9 +6672,9 @@
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "advancements.obtain_dalekium.descr": "Obtain Dalekium",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
@@ -6428,14 +6683,15 @@
       "item.tardif_mod.dalek_spawn_egg": "Dalek Spawn Egg",
       "advancements.the_planet_ender.descr": "Obtain The Moment",
       "item.tardif_mod.crumpled_teleportation_device": "Crumpled Teleportation Device",
-      "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
       "advancements.the_hell_planet.descr": "Use the TARDIS to travel to Skaro for the first time!",
+      "block.tardif_mod.mint_roundel_door": "Mint Roundel Door",
       "gui.tardif_mod.exteriorselectgui.label_interior": "Interior:",
       "advancements.obtain_tardis.title": "It\u0027s alive!",
       "item.tardif_mod.dalekium_armor_leggings": "Dalekium Leggings",
       "gui.tardif_mod.monitor_gui.label_empty": "______________",
       "advancements.refine_it.title": "Refine It",
       "block.tardif_mod.classic_orange_wool": "Classic Orange Wool",
+      "block.tardif_mod.regular_roundel_horizontal_offset": "Roundel",
       "item.tardif_mod.plastic": "Plastic Mold",
       "block.tardif_mod.glowing_pillar": "Glowing Pillar",
       "item.tardif_mod.space_suit_armor_chestplate": "Space Suit Chestplate",
@@ -6468,6 +6724,7 @@
       "block.tardif_mod.dimensional_selector_carpet_control": "Dimensional Travel Control",
       "block.tardif_mod.plastic_ore": "Plastic Ore",
       "item.tardif_mod.laser_item": "Compressed Laser Charge",
+      "gui.tardif_mod.change_light_level.button_set_level": "Set Level",
       "item.tardif_mod.dalekium_armor_chestplate": "Dalekium Chestplate",
       "block.tardif_mod.tardis_exit_void": "TARDIS Exit Void",
       "advancements.obtain_melart.descr": "Obtain Melart",
@@ -6490,6 +6747,7 @@
       "gui.tardif_mod.monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "block.tardif_mod.dalekium_refinery": "Dalekium Refinery",
       "death.attack.eye_of_harmony_damage.player": "%1$s burnt up whilst trying to escape %2$s",
+      "item.tardif_mod.dev_item_light_level": "Dev Item Light Level",
       "block.tardif_mod.classic_light_gray_wool": "Classic Light Gray Wool",
       "item_group.tardif_mod.tardif_decoration": "TARDIF Decoration",
       "advancements.its_made_out_of_evreything.descr": "Obtain Plastic!",
@@ -6531,6 +6789,7 @@
       "gui.tardif_mod.monitor_gui.label_y_input": "y_input",
       "block.tardif_mod.mint_wallpaper_stairs": "Plain Wallpaper Stairs",
       "item.tardif_mod.phonebox_item": "Telephone Box Decoration",
+      "gui.tardif_mod.change_light_level.LightLevel": "0",
       "item_group.tardif_mod.tardis_items": "TARDIS",
       "gui.tardif_mod.exterior_monitor_gui.label_interior": "Interior:",
       "subtitles.take_off": "TARDIS Engines Starting...",
@@ -6598,6 +6857,7 @@
       "subtitles.interior_creak": "TARDIS Creaking",
       "gui.tardif_mod.coordinate_select_gui.label_x": "X:",
       "gui.tardif_mod.coordinate_select_gui.label_y": "Y:",
+      "block.tardif_mod.regular_roundel_vertical_offset": "Roundel",
       "item.tardif_mod.dalekium_ingot": "Dalekium Ingot",
       "block.tardif_mod.eleventh_toyota_rotor": "Tall Time Rotor",
       "item.tardif_mod.raw_dalekium": "Raw Dalekium",
@@ -6726,6 +6986,10 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "TARDIS Dev Items",
+                "children": []
               }
             ]
           },

@@ -4,9 +4,9 @@
   "definition": {
     "texture": "white_wallpaper",
     "textureTop": "white_wallpaper",
-    "textureLeft": "roundel_half",
+    "textureLeft": "roundel",
     "textureFront": "roundel",
-    "textureRight": "roundel_half",
+    "textureRight": "roundel",
     "textureBack": "roundel",
     "renderType": 10,
     "customModelName": "Normal",
@@ -58,7 +58,7 @@
     "material": {
       "value": "WOOD"
     },
-    "tickRate": 0,
+    "tickRate": 5,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -119,6 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "RoundelOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

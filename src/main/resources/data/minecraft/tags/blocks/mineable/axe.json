@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "tardif_mod:regular_roundel_horizontal_offset",
+    "tardif_mod:regular_roundel_vertical_offset",
     "tardif_mod:cog_roundel",
     "tardif_mod:tall_mint_roundel_door",
     "tardif_mod:tall_wallpaper_roundel_door",

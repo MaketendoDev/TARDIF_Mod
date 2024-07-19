@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/white_wallpaper",
+    "up": "tardif_mod:block/white_wallpaper",
+    "north": "tardif_mod:block/regularroundelh",
+    "east": "tardif_mod:block/regularroundelh",
+    "south": "tardif_mod:block/regularroundelh",
+    "west": "tardif_mod:block/regularroundelh",
+    "particle": "tardif_mod:block/white_wallpaper"
+  },
+  "render_type": "solid"
+}

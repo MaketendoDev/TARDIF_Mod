@@ -39,6 +39,7 @@ import net.maketendo.tardifmod.item.FoodCubeItem;
 import net.maketendo.tardifmod.item.FishFingerandCustardItem;
 import net.maketendo.tardifmod.item.EmptyBagItem;
 import net.maketendo.tardifmod.item.DrainedZyton7Item;
+import net.maketendo.tardifmod.item.DevItemLightLevelItem;
 import net.maketendo.tardifmod.item.DematerialisationCircuitItem;
 import net.maketendo.tardifmod.item.DalekiumIngotItem;
 import net.maketendo.tardifmod.item.DalekiumArmorItem;
@@ -187,6 +188,9 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> PRESSURISER = block(TardifModModBlocks.PRESSURISER);
 	public static final RegistryObject<Item> GLOWING_PILLAR = block(TardifModModBlocks.GLOWING_PILLAR);
 	public static final RegistryObject<Item> SHIP_WINDOW = block(TardifModModBlocks.SHIP_WINDOW);
+	public static final RegistryObject<Item> DEV_ITEM_LIGHT_LEVEL = REGISTRY.register("dev_item_light_level", () -> new DevItemLightLevelItem());
+	public static final RegistryObject<Item> REGULAR_ROUNDEL_VERTICAL_OFFSET = block(TardifModModBlocks.REGULAR_ROUNDEL_VERTICAL_OFFSET);
+	public static final RegistryObject<Item> REGULAR_ROUNDEL_HORIZONTAL_OFFSET = block(TardifModModBlocks.REGULAR_ROUNDEL_HORIZONTAL_OFFSET);
 
 	// Start of user code block custom items
 	// End of user code block custom items

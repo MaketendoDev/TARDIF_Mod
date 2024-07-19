@@ -16,6 +16,7 @@ import net.maketendo.tardifmod.world.inventory.MonitorGUIMenu;
 import net.maketendo.tardifmod.world.inventory.EngineGUIMenu;
 import net.maketendo.tardifmod.world.inventory.DimentionSelectionGuiMenu;
 import net.maketendo.tardifmod.world.inventory.CoordinateSelectGUIMenu;
+import net.maketendo.tardifmod.world.inventory.ChangeLightLevelMenu;
 import net.maketendo.tardifmod.TardifModMod;
 
 public class TardifModModMenus {
@@ -25,4 +26,5 @@ public class TardifModModMenus {
 	public static final RegistryObject<MenuType<MonitorGUIMenu>> MONITOR_GUI = REGISTRY.register("monitor_gui", () -> IForgeMenuType.create(MonitorGUIMenu::new));
 	public static final RegistryObject<MenuType<RefinaryGUIMenu>> REFINARY_GUI = REGISTRY.register("refinary_gui", () -> IForgeMenuType.create(RefinaryGUIMenu::new));
 	public static final RegistryObject<MenuType<EngineGUIMenu>> ENGINE_GUI = REGISTRY.register("engine_gui", () -> IForgeMenuType.create(EngineGUIMenu::new));
+	public static final RegistryObject<MenuType<ChangeLightLevelMenu>> CHANGE_LIGHT_LEVEL = REGISTRY.register("change_light_level", () -> IForgeMenuType.create(ChangeLightLevelMenu::new));
 }

@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "0",
+          "name": "LightLevel",
+          "width": 120,
+          "height": 20,
+          "x": 152,
+          "y": 68
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_set_level",
+          "text": "Set Level",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SetLevel"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 177,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -28,6 +28,7 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModItems.LASER_ITEM.get());
 				tabData.accept(TardifModModBlocks.THE_MOMENT.get().asItem());
 				tabData.accept(TardifModModItems.CRUMPLED_TELEPORTATION_DEVICE.get());
+				tabData.accept(TardifModModItems.DEV_ITEM_LIGHT_LEVEL.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> TARDIS_ITEMS = REGISTRY.register("tardis_items",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tardif_mod.tardis_items")).icon(() -> new ItemStack(TardifModModItems.TARDIS_ITEM.get())).displayItems((parameters, tabData) -> {
@@ -92,6 +93,8 @@ public class TardifModModTabs {
 				tabData.accept(TardifModModBlocks.EIGHTH_ROTOR.get().asItem());
 				tabData.accept(TardifModModBlocks.FIFTH_ROTOR.get().asItem());
 				tabData.accept(TardifModModBlocks.FOURTH_ROTOR.get().asItem());
+				tabData.accept(TardifModModBlocks.REGULAR_ROUNDEL_VERTICAL_OFFSET.get().asItem());
+				tabData.accept(TardifModModBlocks.REGULAR_ROUNDEL_HORIZONTAL_OFFSET.get().asItem());
 			})
 
 					.build());

@@ -36,6 +36,8 @@ import net.maketendo.tardifmod.block.ShipWindowBlock;
 import net.maketendo.tardifmod.block.RoundelDoorBlock;
 import net.maketendo.tardifmod.block.RoundelBlock;
 import net.maketendo.tardifmod.block.RotorBlock;
+import net.maketendo.tardifmod.block.RegularRoundelVerticalOffsetBlock;
+import net.maketendo.tardifmod.block.RegularRoundelHorizontalOffsetBlock;
 import net.maketendo.tardifmod.block.RawDalekiumBlockBlock;
 import net.maketendo.tardifmod.block.RaidiatedSandBlock;
 import net.maketendo.tardifmod.block.PressuriserBlock;
@@ -198,6 +200,8 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> PRESSURISER = REGISTRY.register("pressuriser", () -> new PressuriserBlock());
 	public static final RegistryObject<Block> GLOWING_PILLAR = REGISTRY.register("glowing_pillar", () -> new GlowingPillatBlock());
 	public static final RegistryObject<Block> SHIP_WINDOW = REGISTRY.register("ship_window", () -> new ShipWindowBlock());
+	public static final RegistryObject<Block> REGULAR_ROUNDEL_VERTICAL_OFFSET = REGISTRY.register("regular_roundel_vertical_offset", () -> new RegularRoundelVerticalOffsetBlock());
+	public static final RegistryObject<Block> REGULAR_ROUNDEL_HORIZONTAL_OFFSET = REGISTRY.register("regular_roundel_horizontal_offset", () -> new RegularRoundelHorizontalOffsetBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

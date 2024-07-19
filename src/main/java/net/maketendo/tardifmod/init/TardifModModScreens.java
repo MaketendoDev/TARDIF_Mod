@@ -16,6 +16,7 @@ import net.maketendo.tardifmod.client.gui.MonitorGUIScreen;
 import net.maketendo.tardifmod.client.gui.EngineGUIScreen;
 import net.maketendo.tardifmod.client.gui.DimentionSelectionGuiScreen;
 import net.maketendo.tardifmod.client.gui.CoordinateSelectGUIScreen;
+import net.maketendo.tardifmod.client.gui.ChangeLightLevelScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class TardifModModScreens {
@@ -27,6 +28,7 @@ public class TardifModModScreens {
 			MenuScreens.register(TardifModModMenus.MONITOR_GUI.get(), MonitorGUIScreen::new);
 			MenuScreens.register(TardifModModMenus.REFINARY_GUI.get(), RefinaryGUIScreen::new);
 			MenuScreens.register(TardifModModMenus.ENGINE_GUI.get(), EngineGUIScreen::new);
+			MenuScreens.register(TardifModModMenus.CHANGE_LIGHT_LEVEL.get(), ChangeLightLevelScreen::new);
 		});
 	}
 }
