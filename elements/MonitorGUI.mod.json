@@ -16,23 +16,8 @@
           "name": "imagebutton_status_button",
           "image": "settings_button.png",
           "hoveredImage": "settings_button_selected.png",
-          "x": 327,
-          "y": 43
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_status",
-          "text": {
-            "fixedValue": "- TARDIS Status -"
-          },
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "x": 161,
-          "y": 43
+          "x": 342,
+          "y": 37
         }
       },
       {
@@ -52,8 +37,8 @@
           "displayCondition": {
             "name": "PhoneboxDisplay"
           },
-          "x": 94,
-          "y": 108
+          "x": 97,
+          "y": 101
         }
       },
       {
@@ -65,8 +50,8 @@
           "onClick": {
             "name": "ChamelionDown"
           },
-          "x": 104,
-          "y": 185
+          "x": 106,
+          "y": 181
         }
       },
       {
@@ -80,8 +65,8 @@
             "value": -1,
             "falpha": 0.0
           },
-          "x": 81,
-          "y": 75
+          "x": 78,
+          "y": 89
         }
       },
       {
@@ -93,8 +78,8 @@
           "onClick": {
             "name": "ChamelionUp"
           },
-          "x": 104,
-          "y": 96
+          "x": 106,
+          "y": 74
         }
       },
       {
@@ -109,17 +94,8 @@
             "value": -1,
             "falpha": 0.0
           },
-          "x": 83,
-          "y": 72
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "galifraian_symbol_ui_big.png",
-          "use1Xscale": false,
-          "x": 150,
-          "y": 71
+          "x": 80,
+          "y": 87
         }
       },
       {
@@ -130,38 +106,8 @@
           "displayCondition": {
             "name": "TTCapsuleDisplay"
           },
-          "x": 92,
-          "y": 104
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_tardis_systems",
-          "text": {
-            "fixedValue": "TARDIS Systems"
-          },
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "x": 268,
-          "y": 176
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_tardis_data",
-          "text": {
-            "fixedValue": "TARDIS Data"
-          },
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "x": 287,
-          "y": 148
+          "x": 95,
+          "y": 98
         }
       },
       {
@@ -172,8 +118,8 @@
           "displayCondition": {
             "name": "BinDisplay"
           },
-          "x": 92,
-          "y": 104
+          "x": 95,
+          "y": 97
         }
       },
       {
@@ -184,37 +130,8 @@
           "displayCondition": {
             "name": "PoliceBoxDisplay"
           },
-          "x": 92,
-          "y": 104
-        }
-      },
-      {
-        "type": "imagebutton",
-        "data": {
-          "name": "imagebutton_galifrayan_symbol_ui",
-          "image": "galifrayan_symbol_ui.png",
-          "hoveredImage": "galifrayan_symbol_ui.png",
-          "x": 239,
-          "y": 167
-        }
-      },
-      {
-        "type": "imagebutton",
-        "data": {
-          "name": "imagebutton_galifrayan_symbol_ui1",
-          "image": "galifrayan_symbol_ui.png",
-          "hoveredImage": "galifrayan_symbol_ui.png",
-          "x": 258,
-          "y": 140
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "galifraian_symbol_ui_big_extra.png",
-          "use1Xscale": false,
-          "x": 136,
-          "y": 55
+          "x": 95,
+          "y": 99
         }
       }
     ],

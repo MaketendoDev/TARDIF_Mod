@@ -30,8 +30,6 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 	ImageButton imagebutton_status_button;
 	ImageButton imagebutton_down_scroll;
 	ImageButton imagebutton_up_scroll;
-	ImageButton imagebutton_galifrayan_symbol_ui;
-	ImageButton imagebutton_galifrayan_symbol_ui1;
 
 	public MonitorGUIScreen(MonitorGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -63,23 +61,17 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 		guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/screen_gui.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 295, 180, 295, 180);
 
 		if (PhoneboxDisplayProcedure.execute(world)) {
-			guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/policebox_display.png"), this.leftPos + 28, this.topPos + 78, 0, 0, 32, 74, 32, 74);
+			guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/policebox_display.png"), this.leftPos + 31, this.topPos + 71, 0, 0, 32, 74, 32, 74);
 		}
-
-		guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/galifraian_symbol_ui_big.png"), this.leftPos + 84, this.topPos + 41, 0, 0, 108, 107, 108, 107);
-
 		if (TTCapsuleDisplayProcedure.execute(world)) {
-			guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/ttcapsule_ui.png"), this.leftPos + 26, this.topPos + 74, 0, 0, 36, 78, 36, 78);
+			guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/ttcapsule_ui.png"), this.leftPos + 29, this.topPos + 68, 0, 0, 36, 78, 36, 78);
 		}
 		if (BinDisplayProcedure.execute(world)) {
-			guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/bin_ui.png"), this.leftPos + 26, this.topPos + 74, 0, 0, 36, 78, 36, 78);
+			guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/bin_ui.png"), this.leftPos + 29, this.topPos + 67, 0, 0, 36, 78, 36, 78);
 		}
 		if (PoliceBoxDisplayProcedure.execute(world)) {
-			guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/policebox_ui.png"), this.leftPos + 26, this.topPos + 74, 0, 0, 36, 78, 36, 78);
+			guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/policebox_ui.png"), this.leftPos + 29, this.topPos + 69, 0, 0, 36, 78, 36, 78);
 		}
-
-		guiGraphics.blit(new ResourceLocation("tardif_mod:textures/screens/galifraian_symbol_ui_big_extra.png"), this.leftPos + 70, this.topPos + 25, 0, 0, 138, 137, 138, 137);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -99,23 +91,20 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_status"), 95, 13, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_empty"), 15, 45, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_empty"), 12, 59, -1, false);
 		guiGraphics.drawString(this.font,
 
-				ExteriorinputProcedure.execute(world), 17, 42, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_tardis_systems"), 202, 146, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_tardis_data"), 221, 118, -1, false);
+				ExteriorinputProcedure.execute(world), 14, 57, -1, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_status_button = new ImageButton(this.leftPos + 261, this.topPos + 13, 20, 20, 0, 0, 20, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_status_button.png"), 20, 40, e -> {
+		imagebutton_status_button = new ImageButton(this.leftPos + 276, this.topPos + 7, 13, 13, 0, 0, 13, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_status_button.png"), 13, 26, e -> {
 		});
 		guistate.put("button:imagebutton_status_button", imagebutton_status_button);
 		this.addRenderableWidget(imagebutton_status_button);
-		imagebutton_down_scroll = new ImageButton(this.leftPos + 38, this.topPos + 155, 12, 7, 0, 0, 7, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_down_scroll.png"), 12, 14, e -> {
+		imagebutton_down_scroll = new ImageButton(this.leftPos + 40, this.topPos + 151, 15, 10, 0, 0, 10, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_down_scroll.png"), 15, 20, e -> {
 			if (true) {
 				TardifModMod.PACKET_HANDLER.sendToServer(new MonitorGUIButtonMessage(1, x, y, z));
 				MonitorGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
@@ -123,7 +112,7 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 		});
 		guistate.put("button:imagebutton_down_scroll", imagebutton_down_scroll);
 		this.addRenderableWidget(imagebutton_down_scroll);
-		imagebutton_up_scroll = new ImageButton(this.leftPos + 38, this.topPos + 66, 12, 7, 0, 0, 7, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_up_scroll.png"), 12, 14, e -> {
+		imagebutton_up_scroll = new ImageButton(this.leftPos + 40, this.topPos + 44, 15, 10, 0, 0, 10, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_up_scroll.png"), 15, 20, e -> {
 			if (true) {
 				TardifModMod.PACKET_HANDLER.sendToServer(new MonitorGUIButtonMessage(2, x, y, z));
 				MonitorGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
@@ -131,13 +120,5 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 		});
 		guistate.put("button:imagebutton_up_scroll", imagebutton_up_scroll);
 		this.addRenderableWidget(imagebutton_up_scroll);
-		imagebutton_galifrayan_symbol_ui = new ImageButton(this.leftPos + 173, this.topPos + 137, 26, 27, 0, 0, 27, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_galifrayan_symbol_ui.png"), 26, 54, e -> {
-		});
-		guistate.put("button:imagebutton_galifrayan_symbol_ui", imagebutton_galifrayan_symbol_ui);
-		this.addRenderableWidget(imagebutton_galifrayan_symbol_ui);
-		imagebutton_galifrayan_symbol_ui1 = new ImageButton(this.leftPos + 192, this.topPos + 110, 26, 27, 0, 0, 27, new ResourceLocation("tardif_mod:textures/screens/atlas/imagebutton_galifrayan_symbol_ui1.png"), 26, 54, e -> {
-		});
-		guistate.put("button:imagebutton_galifrayan_symbol_ui1", imagebutton_galifrayan_symbol_ui1);
-		this.addRenderableWidget(imagebutton_galifrayan_symbol_ui1);
 	}
 }
