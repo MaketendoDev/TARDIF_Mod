@@ -6451,10 +6451,6 @@
       "CUSTOM:HexagonRoundel",
       "CUSTOM:MintWallpaper"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:SkaroLogs",
-      "CUSTOM:ClassicLog"
-    ],
     "ITEMS:minecraft:classic_blocks": [
       "CUSTOM:ClassicGrayWool",
       "CUSTOM:ClassicYellowWool",
@@ -6483,13 +6479,13 @@
       "CUSTOM:Space_SuitArmor.legs",
       "CUSTOM:Space_SuitArmor.boots"
     ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:MintWallpaperSlab",
       "~CUSTOM:WhiteWallpaperSlab",
       "~CUSTOM:PlainWallpaperSlab"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:GlowingPillat",
@@ -6535,8 +6531,11 @@
       "~CUSTOM:WhiteWallpaperStairs",
       "~CUSTOM:PlainWallpaperStair"
     ],
-    "ITEMS:minecraft:planks": [
-      "CUSTOM:SkaroPlanks"
+    "ITEMS:minecraft:tardis_upgrades": [
+      "CUSTOM:TelepathicUpgradeTemplate",
+      "CUSTOM:TimeExtenderUpgradeTemplate",
+      "CUSTOM:ARSUpgradeTemplate",
+      "CUSTOM:CommunicationUpgradeTemplate"
     ],
     "BIOMES:minecraft:has_structure/nether_fortress": [
       "~CUSTOM:ClassicNetherBiome"
@@ -6561,9 +6560,8 @@
       "~CUSTOM:TenthRecordedMessage"
     ],
     "BLOCKS:minecraft:dirt": [
-      "CUSTOM:SkaroDirt",
       "CUSTOM:ClassicDirt",
-      "CUSTOM:SkaroGrass"
+      "CUSTOM:PetrifiedDirt"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:CogRoundelVerticleOffset",
@@ -6657,15 +6655,15 @@
   },
   "language_map": {
     "en_us": {
-      "subtitles.vm_teleport": "Teleporting...",
       "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
+      "subtitles.vm_teleport": "Teleporting...",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
       "advancements.obtain_melart.title": "Strongest Material On Skaro",
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
-      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
+      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
       "gui.tardif_mod.coordinate_select_gui.label_rotatedisplay": "RotateDisplay",
@@ -6703,9 +6701,9 @@
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "advancements.obtain_dalekium.descr": "Obtain Dalekium",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",

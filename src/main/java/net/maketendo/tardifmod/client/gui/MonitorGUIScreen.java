@@ -91,7 +91,7 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_empty"), 12, 59, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_empty"), 12, 60, -1, false);
 		guiGraphics.drawString(this.font,
 
 				ExteriorinputProcedure.execute(world), 14, 57, -1, false);

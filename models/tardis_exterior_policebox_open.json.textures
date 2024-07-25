@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "bin_interior_texture"
+        "0": "tardis_exterior_policebox_open_texture"
       },
       "name": "default"
     }

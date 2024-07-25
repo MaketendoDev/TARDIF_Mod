@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tardif_mod:telepathic_upgrade_template",
+    "tardif_mod:time_extender_upgrade_template",
+    "tardif_mod:ars_upgrade_template",
+    "tardif_mod:communication_upgrade_template"
+  ]
+}

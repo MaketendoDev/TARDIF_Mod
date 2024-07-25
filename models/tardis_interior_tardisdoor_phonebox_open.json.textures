@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "tardis_interior_tardisdoor_phonebox_open_texture",
+        "2": "tardis_interior_tardisdoor_phonebox_open_texture"
+      },
+      "name": "default"
+    }
+  }
+}

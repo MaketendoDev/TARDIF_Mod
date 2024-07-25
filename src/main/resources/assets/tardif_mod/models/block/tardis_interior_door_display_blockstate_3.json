@@ -1,10 +1,9 @@
 {
-  "parent": "tardif_mod:custom/police_box_interior_door_open",
+  "parent": "tardif_mod:custom/tardis_interior_tardisdoor_policebox_open",
   "textures": {
-    "all": "tardif_mod:block/police_box_interior_door_texture",
+    "all": "tardif_mod:block/tardis_interior_tardisdoor_policebox_open_texture",
     "particle": "tardif_mod:block/transparrent",
-    "0": "tardif_mod:block/police_box_interior_door_texture",
-    "missing": "tardif_mod:block/police_box_interior_door_texture"
+    "0": "tardif_mod:block/tardis_interior_tardisdoor_policebox_open_texture"
   },
   "render_type": "cutout"
 }

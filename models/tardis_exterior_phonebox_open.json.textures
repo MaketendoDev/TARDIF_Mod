@@ -2,8 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "bin_exterior_texture",
-        "missing": "bin_exterior_texture"
+        "1": "tardis_exterior_phonebox_open_texture"
       },
       "name": "default"
     }

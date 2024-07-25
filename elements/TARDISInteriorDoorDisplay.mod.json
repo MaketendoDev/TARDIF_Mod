@@ -100,7 +100,7 @@
         ]
       },
       {
-        "texture": "policebox_interior_door_open",
+        "texture": "tardis_interior_tardisdoor_phonebox_open_texture",
         "textureTop": "",
         "textureLeft": "",
         "textureFront": "",
@@ -108,61 +108,70 @@
         "textureBack": "",
         "particleTexture": "",
         "renderType": 2,
-        "customModelName": "phonebox_interior_door_open:default",
+        "customModelName": "tardis_interior_tardisdoor_phonebox_open:default",
         "luminance": 0,
         "boundingBoxes": [
           {
             "mx": 0.0,
-            "my": 19.0,
+            "my": -16.0,
             "mz": 0.0,
             "Mx": 16.0,
-            "My": 21.0,
+            "My": 16.0,
             "Mz": 1.0,
             "subtract": false
           },
           {
-            "mx": 0.0,
-            "my": -15.0,
-            "mz": 0.0,
-            "Mx": 16.0,
-            "My": 17.0,
-            "Mz": 1.0,
+            "mx": 14.5,
+            "my": -16.0,
+            "mz": -0.5,
+            "Mx": 16.5,
+            "My": 16.0,
+            "Mz": 1.5,
             "subtract": false
           },
           {
             "mx": -0.5,
             "my": -16.0,
             "mz": -0.5,
-            "Mx": 16.5,
-            "My": -15.0,
-            "Mz": 1.5,
-            "subtract": false
-          },
-          {
-            "mx": -0.5,
-            "my": 17.0,
-            "mz": -0.5,
-            "Mx": 16.5,
-            "My": 19.0,
-            "Mz": 1.5,
-            "subtract": false
-          },
-          {
-            "mx": 14.5,
-            "my": -15.0,
-            "mz": -0.5,
-            "Mx": 16.5,
-            "My": 17.0,
-            "Mz": 1.5,
-            "subtract": false
-          },
-          {
-            "mx": -0.5,
-            "my": -15.0,
-            "mz": -0.5,
             "Mx": 1.5,
-            "My": 17.0,
+            "My": 16.0,
             "Mz": 1.5,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 18.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 20.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": -0.5,
+            "my": 16.0,
+            "mz": -0.5,
+            "Mx": 16.5,
+            "My": 18.0,
+            "Mz": 1.5,
+            "subtract": false
+          },
+          {
+            "mx": -0.5,
+            "my": 20.0,
+            "mz": -0.5,
+            "Mx": 16.5,
+            "My": 26.0,
+            "Mz": 1.5,
+            "subtract": false
+          },
+          {
+            "mx": 6.5,
+            "my": 21.0,
+            "mz": -0.501,
+            "Mx": 9.5,
+            "My": 24.0,
+            "Mz": -0.501,
             "subtract": false
           }
         ]
@@ -299,7 +308,7 @@
         ]
       },
       {
-        "texture": "police_box_interior_door_texture",
+        "texture": "tardis_interior_tardisdoor_policebox_open_texture",
         "textureTop": "",
         "textureLeft": "",
         "textureFront": "",
@@ -307,376 +316,133 @@
         "textureBack": "",
         "particleTexture": "",
         "renderType": 2,
-        "customModelName": "police_box_interior_door_open:default",
+        "customModelName": "tardis_interior_tardisdoor_policebox_open:default",
         "luminance": 0,
         "boundingBoxes": [
           {
-            "mx": -2.0,
-            "my": -15.0,
-            "mz": 1.0,
-            "Mx": 0.0,
-            "My": -6.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": -2.0,
-            "my": 2.0,
-            "mz": 1.0,
-            "Mx": 0.0,
-            "My": 10.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": -2.0,
-            "my": -6.0,
-            "mz": 1.0,
-            "Mx": 0.0,
-            "My": 2.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": -2.0,
-            "my": 10.0,
-            "mz": 1.0,
-            "Mx": 0.0,
+            "mx": 0.0,
+            "my": -16.0,
+            "mz": 2.0,
+            "Mx": 1.0,
             "My": 17.0,
-            "Mz": 2.0,
+            "Mz": 10.0,
             "subtract": false
           },
           {
-            "mx": -2.0,
-            "my": -15.0,
-            "mz": 7.0,
-            "Mx": 0.0,
-            "My": -6.0,
-            "Mz": 8.0,
+            "mx": 1.0,
+            "my": 3.0,
+            "mz": 5.5,
+            "Mx": 1.0,
+            "My": 5.0,
+            "Mz": 7.5,
             "subtract": false
           },
           {
-            "mx": -2.0,
-            "my": -6.0,
-            "mz": 7.0,
-            "Mx": 0.0,
-            "My": 2.0,
-            "Mz": 8.0,
+            "mx": 15.0,
+            "my": 1.0,
+            "mz": 1.0,
+            "Mx": 17.0,
+            "My": 7.0,
+            "Mz": 6.0,
             "subtract": false
           },
           {
-            "mx": -2.0,
-            "my": 2.0,
-            "mz": 7.0,
-            "Mx": 0.0,
-            "My": 10.0,
-            "Mz": 8.0,
-            "subtract": false
-          },
-          {
-            "mx": -2.0,
-            "my": 10.0,
-            "mz": 7.0,
-            "Mx": 0.0,
+            "mx": 15.0,
+            "my": -16.0,
+            "mz": 0.0,
+            "Mx": 16.0,
             "My": 17.0,
             "Mz": 8.0,
             "subtract": false
           },
           {
-            "mx": -2.0,
-            "my": -15.0,
-            "mz": 2.0,
-            "Mx": 0.0,
-            "My": -14.0,
-            "Mz": 7.0,
+            "mx": 14.0,
+            "my": 3.0,
+            "mz": 5.0,
+            "Mx": 15.0,
+            "My": 5.0,
+            "Mz": 6.0,
             "subtract": false
           },
           {
             "mx": -2.0,
-            "my": -8.0,
-            "mz": 2.0,
-            "Mx": 0.0,
-            "My": -6.0,
-            "Mz": 7.0,
-            "subtract": false
-          },
-          {
-            "mx": -2.0,
-            "my": 0.0,
-            "mz": 2.0,
-            "Mx": 0.0,
-            "My": 2.0,
-            "Mz": 7.0,
-            "subtract": false
-          },
-          {
-            "mx": -2.0,
-            "my": 8.0,
-            "mz": 2.0,
-            "Mx": 0.0,
-            "My": 10.0,
-            "Mz": 7.0,
+            "my": 17.0,
+            "mz": 0.0,
+            "Mx": 18.0,
+            "My": 22.0,
+            "Mz": 2.0,
             "subtract": false
           },
           {
             "mx": -1.0,
-            "my": -15.0,
-            "mz": 1.0,
-            "Mx": -1.0,
+            "my": 17.0,
+            "mz": -1.0,
+            "Mx": 17.0,
+            "My": 22.0,
+            "Mz": 0.0,
+            "subtract": false
+          },
+          {
+            "mx": -1.0,
+            "my": -16.0,
+            "mz": -1.0,
+            "Mx": 17.0,
             "My": 17.0,
-            "Mz": 8.0,
+            "Mz": 0.0,
             "subtract": false
           },
           {
-            "mx": -2.0,
-            "my": 16.0,
-            "mz": 2.0,
-            "Mx": 0.0,
-            "My": 17.0,
-            "Mz": 7.0,
-            "subtract": false
-          },
-          {
-            "mx": 0.0,
-            "my": 4.0,
-            "mz": 7.0,
-            "Mx": 1.0,
-            "My": 7.0,
-            "Mz": 8.0,
-            "subtract": false
-          },
-          {
-            "mx": 8.0,
-            "my": -15.0,
+            "mx": 16.0,
+            "my": 22.0,
             "mz": 0.0,
-            "Mx": 9.0,
-            "My": -6.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 8.0,
-            "my": -6.0,
-            "mz": 0.0,
-            "Mx": 9.0,
-            "My": 2.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 8.0,
-            "my": 2.0,
-            "mz": 0.0,
-            "Mx": 9.0,
-            "My": 10.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 8.0,
-            "my": 10.0,
-            "mz": 0.0,
-            "Mx": 9.0,
-            "My": 17.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 14.0,
-            "my": -15.0,
-            "mz": 0.0,
-            "Mx": 15.0,
-            "My": -6.0,
-            "Mz": 1.0,
-            "subtract": false
-          },
-          {
-            "mx": 14.0,
-            "my": -6.0,
-            "mz": 0.0,
-            "Mx": 15.0,
-            "My": 2.0,
-            "Mz": 1.0,
-            "subtract": false
-          },
-          {
-            "mx": 14.0,
-            "my": 2.0,
-            "mz": 0.0,
-            "Mx": 15.0,
-            "My": 10.0,
-            "Mz": 1.0,
-            "subtract": false
-          },
-          {
-            "mx": 14.0,
-            "my": 10.0,
-            "mz": 0.0,
-            "Mx": 15.0,
-            "My": 17.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 9.0,
-            "my": -15.0,
-            "mz": 0.0,
-            "Mx": 14.0,
-            "My": -14.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 9.0,
-            "my": -8.0,
-            "mz": 0.0,
-            "Mx": 14.0,
-            "My": -6.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 9.0,
-            "my": 0.0,
-            "mz": 0.0,
-            "Mx": 14.0,
-            "My": 2.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 9.0,
-            "my": 8.0,
-            "mz": 0.0,
-            "Mx": 14.0,
-            "My": 10.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 9.0,
-            "my": 2.0,
-            "mz": 2.0,
-            "Mx": 14.0,
-            "My": 8.0,
-            "Mz": 5.0,
-            "subtract": false
-          },
-          {
-            "mx": 9.0,
-            "my": 8.0,
-            "mz": 0.0,
-            "Mx": 14.0,
-            "My": 10.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 8.0,
-            "my": -15.0,
-            "mz": 1.0,
-            "Mx": 15.0,
-            "My": 17.0,
-            "Mz": 1.0,
-            "subtract": false
-          },
-          {
-            "mx": 9.0,
-            "my": 16.0,
-            "mz": 0.0,
-            "Mx": 14.0,
-            "My": 17.0,
+            "Mx": 18.0,
+            "My": 24.0,
             "Mz": 2.0,
             "subtract": false
           },
           {
             "mx": 1.0,
-            "my": 17.0,
-            "mz": 2.0,
-            "Mx": 15.0,
-            "My": 19.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 9.0,
-            "my": 4.0,
-            "mz": 0.0,
-            "Mx": 10.0,
+            "my": 3.0,
+            "mz": 8.0,
+            "Mx": 2.0,
             "My": 6.0,
-            "Mz": 1.0,
-            "subtract": false
-          },
-          {
-            "mx": 14.0,
-            "my": -15.0,
-            "mz": 1.0,
-            "Mx": 15.0,
-            "My": -6.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 14.0,
-            "my": -6.0,
-            "mz": 1.0,
-            "Mx": 15.0,
-            "My": 2.0,
-            "Mz": 2.0,
-            "subtract": false
-          },
-          {
-            "mx": 14.0,
-            "my": 2.0,
-            "mz": 1.0,
-            "Mx": 15.0,
-            "My": 10.0,
-            "Mz": 2.0,
+            "Mz": 9.0,
             "subtract": false
           },
           {
             "mx": -1.0,
-            "my": -15.0,
-            "mz": -1.0,
-            "Mx": 1.0,
+            "my": 3.0,
+            "mz": 8.0,
+            "Mx": 0.0,
+            "My": 6.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": -2.0,
+            "my": 22.0,
+            "mz": 0.0,
+            "Mx": 0.0,
+            "My": 24.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 16.0,
+            "my": -16.0,
+            "mz": 0.0,
+            "Mx": 18.0,
             "My": 17.0,
-            "Mz": 1.0,
+            "Mz": 2.0,
             "subtract": false
           },
           {
-            "mx": 15.0,
-            "my": -15.0,
-            "mz": -1.0,
-            "Mx": 17.0,
+            "mx": -2.0,
+            "my": -16.0,
+            "mz": 0.0,
+            "Mx": 0.0,
             "My": 17.0,
-            "Mz": 1.0,
-            "subtract": false
-          },
-          {
-            "mx": -1.0,
-            "my": 17.0,
-            "mz": -1.0,
-            "Mx": 17.0,
-            "My": 20.0,
-            "Mz": 1.0,
-            "subtract": false
-          },
-          {
-            "mx": 15.0,
-            "my": 20.0,
-            "mz": -1.0,
-            "Mx": 17.0,
-            "My": 22.0,
-            "Mz": 1.0,
-            "subtract": false
-          },
-          {
-            "mx": -1.0,
-            "my": 20.0,
-            "mz": -1.0,
-            "Mx": 1.0,
-            "My": 22.0,
-            "Mz": 1.0,
+            "Mz": 2.0,
             "subtract": false
           }
         ]
@@ -714,7 +480,7 @@
         ]
       },
       {
-        "texture": "bin_interior_texture",
+        "texture": "tardis_interior_tardisdoor_bin_open_texture",
         "textureTop": "",
         "textureLeft": "",
         "textureFront": "",
@@ -722,24 +488,24 @@
         "textureBack": "",
         "particleTexture": "",
         "renderType": 2,
-        "customModelName": "bin_interior_door_open:default",
+        "customModelName": "tardis_interior_tardisdoor_bin_open:default",
         "luminance": 0,
         "boundingBoxes": [
-          {
-            "mx": 0.0,
-            "my": -16.0,
-            "mz": 0.0,
-            "Mx": 16.0,
-            "My": 1.0,
-            "Mz": 1.0,
-            "subtract": false
-          },
           {
             "mx": 0.0,
             "my": 1.0,
             "mz": 0.0,
             "Mx": 16.0,
             "My": 8.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": -16.0,
+            "mz": -15.0,
+            "Mx": 16.0,
+            "My": 1.0,
             "Mz": 1.0,
             "subtract": false
           }
@@ -759,17 +525,17 @@
         "boundingBoxes": [
           {
             "mx": 0.0,
-            "my": 0.0,
+            "my": 16.0,
             "mz": 0.0,
-            "Mx": 16.0,
+            "Mx": 2.0,
             "My": 32.0,
-            "Mz": 2.0,
+            "Mz": 16.0,
             "subtract": false
           }
         ]
       },
       {
-        "texture": "ttcapsule_interior_door",
+        "texture": "tardis_interior_tardisdoor_ttcapsule_open_texture",
         "textureTop": "",
         "textureLeft": "",
         "textureFront": "",
@@ -777,16 +543,16 @@
         "textureBack": "",
         "particleTexture": "",
         "renderType": 2,
-        "customModelName": "ttcapsule_interior_door_open:default",
+        "customModelName": "tardis_interior_tardisdoor_ttcapsule_open:default",
         "luminance": 0,
         "boundingBoxes": [
           {
             "mx": 0.0,
-            "my": 0.0,
+            "my": 16.0,
             "mz": 0.0,
-            "Mx": 15.0,
+            "Mx": 2.0,
             "My": 32.0,
-            "Mz": 15.0,
+            "Mz": 16.0,
             "subtract": false
           }
         ]

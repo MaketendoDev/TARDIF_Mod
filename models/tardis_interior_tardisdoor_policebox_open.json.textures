@@ -2,8 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "policebox_door_texture",
-        "missing": "policebox_door_texture"
+        "0": "tardis_interior_tardisdoor_policebox_open_texture"
       },
       "name": "default"
     }
