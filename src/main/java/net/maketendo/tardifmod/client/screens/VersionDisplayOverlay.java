@@ -48,7 +48,7 @@ public class VersionDisplayOverlay {
 			event.getGuiGraphics().blit(new ResourceLocation("tardif_mod:textures/screens/wrench_ui.png"), 3, 4, 0, 0, 16, 16, 16, 16);
 
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tardif_mod.version_display.label_tardif_mod_200_forge_20241"), 20, 4, -1, false);
-			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tardif_mod.version_display.label_alpha_test_ver_65935"), 21, 13, -1, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tardif_mod.version_display.label_alpha_test_ver_65935"), 20, 14, -1, false);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

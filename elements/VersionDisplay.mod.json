@@ -25,15 +25,15 @@
         "data": {
           "name": "label_alpha_test_ver_65935",
           "text": {
-            "fixedValue": "ALPHA TEST VER. 74.9.35"
+            "fixedValue": "FEATURES MAY BE SUBJECT TO CHANGE"
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
           "anchorPoint": "TOP_LEFT",
-          "x": 21,
-          "y": 13
+          "x": 20,
+          "y": 14
         }
       },
       {

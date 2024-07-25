@@ -237,7 +237,7 @@ public class TARDISExteriorBlock extends Block implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		TARDISExteriorUpdateTickProcedure.execute(world, x, y, z);
+		TARDISExteriorUpdateTickProcedure.execute(world);
 		world.scheduleTick(pos, this, 1);
 	}
 

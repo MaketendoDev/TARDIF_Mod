@@ -4156,18 +4156,6 @@
         ],
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -6422,8 +6410,16 @@
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
     ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
     "ITEMS:mod:crates": [
       "CUSTOM:Tier1ItemCrate"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:ZytonOre",
+      "~CUSTOM:SolderOre",
+      "~CUSTOM:Plastic_ChunkOre"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:ClassicLeaves"
@@ -6450,6 +6446,20 @@
       "CUSTOM:PlainWallpaper",
       "CUSTOM:HexagonRoundel",
       "CUSTOM:MintWallpaper"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:PetrifiedDirt",
+      "~CUSTOM:PetrifiedStone",
+      "~CUSTOM:PetrifiedGrassBlock",
+      "~CUSTOM:RaidiatedSand",
+      "~CUSTOM:ClassicNetherack",
+      "~CUSTOM:Classicgrass",
+      "~CUSTOM:ClassicStone",
+      "~CUSTOM:ClassicDirt",
+      "~Blocks.AIR"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:TenthRecordedMessage"
     ],
     "ITEMS:minecraft:classic_blocks": [
       "CUSTOM:ClassicGrayWool",
@@ -6479,6 +6489,10 @@
       "CUSTOM:Space_SuitArmor.legs",
       "CUSTOM:Space_SuitArmor.boots"
     ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:ClassicDirt",
+      "CUSTOM:PetrifiedDirt"
+    ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:MintWallpaperSlab",
       "~CUSTOM:WhiteWallpaperSlab",
@@ -6486,82 +6500,6 @@
     ],
     "BIOMES:minecraft:has_structure/nether_fossil": [
       "~CUSTOM:ClassicNetherBiome"
-    ],
-    "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:GlowingPillat",
-      "~CUSTOM:Pressuriser",
-      "~CUSTOM:SpaceRock",
-      "~CUSTOM:Nitro9",
-      "~CUSTOM:DrainedZyton7Block",
-      "~CUSTOM:Zyton7Block",
-      "~CUSTOM:ClassicNetherack",
-      "~CUSTOM:ClassicLeaves",
-      "~CUSTOM:ClassicStone"
-    ],
-    "ITEMS:mod:food_crate_basic": [
-      "Items.APPLE",
-      "Items.MUSHROOM_STEW",
-      "Items.WHEAT_SEEDS",
-      "Items.WHEAT",
-      "Items.CARROT",
-      "Items.POTATO",
-      "Items.BAKED_POTATO",
-      "Items.PUMPKIN_PIE",
-      "Items.GOLDEN_CARROT",
-      "Items.BREAD",
-      "Items.PUMPKIN_SEEDS",
-      "Items.MELON",
-      "Items.MELON_SEEDS",
-      "Items.SWEET_BERRIES",
-      "Items.GLOW_BERRIES",
-      "Items.COOKED_FISH#0",
-      "Items.COOKED_FISH#1",
-      "Items.COOKED_PORKCHOP",
-      "Items.COOKED_BEEF",
-      "Items.COOKED_CHICKEN",
-      "Items.COOKED_RABBIT",
-      "Items.RABBIT_STEW",
-      "Items.COOKED_MUTTON",
-      "Items.BEETROOT",
-      "Items.BEETROOT_SEEDS",
-      "Items.BEETROOT_SOUP"
-    ],
-    "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:MintWallpaperStairs",
-      "~CUSTOM:WhiteWallpaperStairs",
-      "~CUSTOM:PlainWallpaperStair"
-    ],
-    "ITEMS:minecraft:tardis_upgrades": [
-      "CUSTOM:TelepathicUpgradeTemplate",
-      "CUSTOM:TimeExtenderUpgradeTemplate",
-      "CUSTOM:ARSUpgradeTemplate",
-      "CUSTOM:CommunicationUpgradeTemplate"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:ZytonOre",
-      "~CUSTOM:SolderOre",
-      "~CUSTOM:Plastic_ChunkOre"
-    ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:PetrifiedDirt",
-      "~CUSTOM:PetrifiedStone",
-      "~CUSTOM:PetrifiedGrassBlock",
-      "~CUSTOM:RaidiatedSand",
-      "~CUSTOM:ClassicNetherack",
-      "~CUSTOM:Classicgrass",
-      "~CUSTOM:ClassicStone",
-      "~CUSTOM:ClassicDirt",
-      "~Blocks.AIR"
-    ],
-    "ITEMS:minecraft:music_discs": [
-      "~CUSTOM:TenthRecordedMessage"
-    ],
-    "BLOCKS:minecraft:dirt": [
-      "CUSTOM:ClassicDirt",
-      "CUSTOM:PetrifiedDirt"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:CogRoundelVerticleOffset",
@@ -6602,6 +6540,17 @@
       "~CUSTOM:SolderOre",
       "~CUSTOM:ClassicNetherack",
       "~CUSTOM:Plastic_ChunkOre",
+      "~CUSTOM:ClassicStone"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:GlowingPillat",
+      "~CUSTOM:Pressuriser",
+      "~CUSTOM:SpaceRock",
+      "~CUSTOM:Nitro9",
+      "~CUSTOM:DrainedZyton7Block",
+      "~CUSTOM:Zyton7Block",
+      "~CUSTOM:ClassicNetherack",
+      "~CUSTOM:ClassicLeaves",
       "~CUSTOM:ClassicStone"
     ],
     "BIOMES:minecraft:is_forest": [
@@ -6648,6 +6597,45 @@
       "Blocks.BOOKSHELF",
       "Blocks.SCULK"
     ],
+    "ITEMS:mod:food_crate_basic": [
+      "Items.APPLE",
+      "Items.MUSHROOM_STEW",
+      "Items.WHEAT_SEEDS",
+      "Items.WHEAT",
+      "Items.CARROT",
+      "Items.POTATO",
+      "Items.BAKED_POTATO",
+      "Items.PUMPKIN_PIE",
+      "Items.GOLDEN_CARROT",
+      "Items.BREAD",
+      "Items.PUMPKIN_SEEDS",
+      "Items.MELON",
+      "Items.MELON_SEEDS",
+      "Items.SWEET_BERRIES",
+      "Items.GLOW_BERRIES",
+      "Items.COOKED_FISH#0",
+      "Items.COOKED_FISH#1",
+      "Items.COOKED_PORKCHOP",
+      "Items.COOKED_BEEF",
+      "Items.COOKED_CHICKEN",
+      "Items.COOKED_RABBIT",
+      "Items.RABBIT_STEW",
+      "Items.COOKED_MUTTON",
+      "Items.BEETROOT",
+      "Items.BEETROOT_SEEDS",
+      "Items.BEETROOT_SOUP"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MintWallpaperStairs",
+      "~CUSTOM:WhiteWallpaperStairs",
+      "~CUSTOM:PlainWallpaperStair"
+    ],
+    "ITEMS:minecraft:tardis_upgrades": [
+      "CUSTOM:TelepathicUpgradeTemplate",
+      "CUSTOM:TimeExtenderUpgradeTemplate",
+      "CUSTOM:ARSUpgradeTemplate",
+      "CUSTOM:CommunicationUpgradeTemplate"
+    ],
     "BLOCKS:minecraft:beacon_base_blocks": [
       "CUSTOM:DalekiumBlock",
       "CUSTOM:MelartBlock"
@@ -6655,15 +6643,15 @@
   },
   "language_map": {
     "en_us": {
-      "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
       "subtitles.vm_teleport": "Teleporting...",
+      "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
       "advancements.obtain_melart.title": "Strongest Material On Skaro",
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
-      "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
       "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
+      "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
       "gui.tardif_mod.coordinate_select_gui.label_rotatedisplay": "RotateDisplay",
@@ -6684,7 +6672,7 @@
       "subtitles.tardis_copper_hum": "TARDIS Hum",
       "block.tardif_mod.the_moment": "The Moment",
       "block.tardif_mod.space_rock": "Space Rock",
-      "gui.tardif_mod.version_display.label_alpha_test_ver_65935": "ALPHA TEST VER. 74.9.35",
+      "gui.tardif_mod.version_display.label_alpha_test_ver_65935": "FEATURES MAY BE SUBJECT TO CHANGE",
       "gui.tardif_mod.monitor_gui.label_interior_input": "interior_input",
       "gui.tardif_mod.monitor_gui.label_stuff": "InFlight:",
       "block.tardif_mod.classic_sand": "Classic Sand",
@@ -6701,9 +6689,9 @@
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",

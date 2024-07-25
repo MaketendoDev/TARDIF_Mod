@@ -23,7 +23,7 @@
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
-    "hasSkyLight": true,
+    "hasSkyLight": false,
     "imitateOverworldBehaviour": true,
     "onPlayerEntersDimension": {
       "name": "TARDISDimPlayerEntersDimension"

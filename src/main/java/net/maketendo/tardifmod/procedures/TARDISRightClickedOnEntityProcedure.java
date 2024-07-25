@@ -39,10 +39,10 @@ public class TARDISRightClickedOnEntityProcedure {
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
 								_level.playSound(null, BlockPos.containing(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS),
-										ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tardif_mod:door_lock")), SoundSource.BLOCKS, (float) 0.3, 1);
+										ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.chest.locked")), SoundSource.BLOCKS, 1, 1);
 							} else {
 								_level.playLocalSound(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS,
-										ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("tardif_mod:door_lock")), SoundSource.BLOCKS, (float) 0.3, 1, false);
+										ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.chest.locked")), SoundSource.BLOCKS, 1, 1, false);
 							}
 						}
 						if (entityiterator instanceof Player _player && !_player.level().isClientSide())
@@ -78,9 +78,29 @@ public class TARDISRightClickedOnEntityProcedure {
 							if (TardifModModVariables.MapVariables.get(world).DoorOpen == false) {
 								TardifModModVariables.MapVariables.get(world).DoorOpen = true;
 								TardifModModVariables.MapVariables.get(world).syncData(world);
+								if (world instanceof Level _level) {
+									if (!_level.isClientSide()) {
+										_level.playSound(null,
+												BlockPos.containing(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS),
+												ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.iron_door.open")), SoundSource.BLOCKS, 1, 1);
+									} else {
+										_level.playLocalSound(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS,
+												ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.iron_door.open")), SoundSource.BLOCKS, 1, 1, false);
+									}
+								}
 							} else {
 								TardifModModVariables.MapVariables.get(world).DoorOpen = false;
 								TardifModModVariables.MapVariables.get(world).syncData(world);
+								if (world instanceof Level _level) {
+									if (!_level.isClientSide()) {
+										_level.playSound(null,
+												BlockPos.containing(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS),
+												ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.iron_door.close")), SoundSource.BLOCKS, 1, 1);
+									} else {
+										_level.playLocalSound(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS,
+												ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.iron_door.close")), SoundSource.BLOCKS, 1, 1, false);
+									}
+								}
 							}
 						}
 					}
