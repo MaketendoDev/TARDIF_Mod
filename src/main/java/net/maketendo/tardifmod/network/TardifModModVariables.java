@@ -180,6 +180,8 @@ public class TardifModModVariables {
 		public double TardisMood = 0;
 		public boolean LoadedLoneIsland = false;
 		public String TARDIS_Current_Dimension = "\"\"";
+		public boolean LoadedCorridors = false;
+		public double PlayerLoading = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -227,6 +229,8 @@ public class TardifModModVariables {
 			TardisMood = nbt.getDouble("TardisMood");
 			LoadedLoneIsland = nbt.getBoolean("LoadedLoneIsland");
 			TARDIS_Current_Dimension = nbt.getString("TARDIS_Current_Dimension");
+			LoadedCorridors = nbt.getBoolean("LoadedCorridors");
+			PlayerLoading = nbt.getDouble("PlayerLoading");
 		}
 
 		@Override
@@ -270,6 +274,8 @@ public class TardifModModVariables {
 			nbt.putDouble("TardisMood", TardisMood);
 			nbt.putBoolean("LoadedLoneIsland", LoadedLoneIsland);
 			nbt.putString("TARDIS_Current_Dimension", TARDIS_Current_Dimension);
+			nbt.putBoolean("LoadedCorridors", LoadedCorridors);
+			nbt.putDouble("PlayerLoading", PlayerLoading);
 			return nbt;
 		}
 

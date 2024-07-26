@@ -20,11 +20,11 @@
     },
     "canRespawnHere": true,
     "hasFog": false,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": true,
+    "imitateOverworldBehaviour": false,
     "onPlayerEntersDimension": {
       "name": "TARDISDimPlayerEntersDimension"
     },

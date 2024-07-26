@@ -5972,6 +5972,82 @@
         ]
       },
       "path": "~/Decor Blocks/Roundels/Cog Roundel"
+    },
+    {
+      "name": "TARDISCoridoorDim",
+      "type": "dimension",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tardis_coridoor_dim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/dimension/tardis_coridoor_dim.json",
+          "src/main/resources/data/tardif_mod/dimension_type/tardis_coridoor_dim.json",
+          "src/main/java/net/maketendo/tardifmod/world/dimension/TARDISCoridoorDimDimension.java"
+        ]
+      },
+      "path": "~/TARDIS/Corridors"
+    },
+    {
+      "name": "TARDISCoridoorDimPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tardis_coridoor_dim_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/TARDISCoridoorDimPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TARDIS/Corridors"
+    },
+    {
+      "name": "CorridorsVoidOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corridors_void_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/CorridorsVoidOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TARDIS/Corridors"
     }
   ],
   "variable_elements": [
@@ -6232,6 +6308,18 @@
       "type": "number",
       "scope": "world",
       "value": "0"
+    },
+    {
+      "name": "LoadedCorridors",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "PlayerLoading",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -6405,13 +6493,13 @@
     }
   ],
   "tag_elements": {
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
     "ITEMS:minecraft:roundel_doors": [
       "CUSTOM:RoundelDoor",
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
     ],
     "ITEMS:mod:crates": [
       "CUSTOM:Tier1ItemCrate"
@@ -6643,15 +6731,15 @@
   },
   "language_map": {
     "en_us": {
-      "subtitles.vm_teleport": "Teleporting...",
       "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
+      "subtitles.vm_teleport": "Teleporting...",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
       "advancements.obtain_melart.title": "Strongest Material On Skaro",
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
-      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
+      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
       "gui.tardif_mod.coordinate_select_gui.label_rotatedisplay": "RotateDisplay",
@@ -6689,9 +6777,9 @@
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "advancements.obtain_dalekium.descr": "Obtain Dalekium",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
