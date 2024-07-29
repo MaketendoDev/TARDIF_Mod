@@ -120,10 +120,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "TARDISInteriorDoorUpdateTick"
+      "name": "TARDISInteriorDoorVoidBlock"
     },
     "onEntityCollides": {
-      "name": "TARDISInteriorDoorUpdateTick"
+      "name": "TARDISInteriorDoorVoidBlock"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

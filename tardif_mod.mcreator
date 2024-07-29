@@ -5153,20 +5153,6 @@
       "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
     },
     {
-      "name": "P",
-      "type": "procedure",
-      "sortid": 287,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "p",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/procedures/PProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
       "name": "TARDISExitVoid",
       "type": "block",
       "sortid": 6,
@@ -6036,6 +6022,30 @@
         ]
       },
       "path": "~/TARDIS/Corridors"
+    },
+    {
+      "name": "TARDISInteriorDoorVoidBlock",
+      "type": "procedure",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tardis_interior_door_void_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/TARDISInteriorDoorVoidBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TARDIS/Door/Door Code"
     }
   ],
   "variable_elements": [

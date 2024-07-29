@@ -16,7 +16,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.maketendo.tardifmod.procedures.TARDISInteriorDoorUpdateTickProcedure;
+import net.maketendo.tardifmod.procedures.TARDISInteriorDoorVoidBlockProcedure;
 
 public class TARDISExitVoidBlock extends Block {
 	public TARDISExitVoidBlock() {
@@ -31,7 +31,7 @@ public class TARDISExitVoidBlock extends Block {
 	@Override
 	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
 		super.entityInside(blockstate, world, pos, entity);
-		TARDISInteriorDoorUpdateTickProcedure.execute(world, entity);
+		TARDISInteriorDoorVoidBlockProcedure.execute(world, entity);
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class TARDISExitVoidBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		TARDISInteriorDoorUpdateTickProcedure.execute(world, entity);
+		TARDISInteriorDoorVoidBlockProcedure.execute(world, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

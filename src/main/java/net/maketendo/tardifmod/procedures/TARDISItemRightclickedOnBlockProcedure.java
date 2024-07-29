@@ -47,6 +47,12 @@ public class TARDISItemRightclickedOnBlockProcedure {
 					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
 						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 				}
+				TardifModModVariables.MapVariables.get(world).X_TARDIS = x;
+				TardifModModVariables.MapVariables.get(world).syncData(world);
+				TardifModModVariables.MapVariables.get(world).Y_TARDIS = y;
+				TardifModModVariables.MapVariables.get(world).syncData(world);
+				TardifModModVariables.MapVariables.get(world).Z_TARDIS = z;
+				TardifModModVariables.MapVariables.get(world).syncData(world);
 			} else {
 				world.setBlock(BlockPos.containing(x, y + 2, z), (new Object() {
 					public BlockState with(BlockState _bs, String _property, int _newValue) {
@@ -61,6 +67,12 @@ public class TARDISItemRightclickedOnBlockProcedure {
 					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
 						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 				}
+				TardifModModVariables.MapVariables.get(world).X_TARDIS = x;
+				TardifModModVariables.MapVariables.get(world).syncData(world);
+				TardifModModVariables.MapVariables.get(world).Y_TARDIS = y + 1;
+				TardifModModVariables.MapVariables.get(world).syncData(world);
+				TardifModModVariables.MapVariables.get(world).Z_TARDIS = z;
+				TardifModModVariables.MapVariables.get(world).syncData(world);
 			}
 			TardifModMod.LOGGER.info("TARDIS built");
 			{
@@ -90,12 +102,6 @@ public class TARDISItemRightclickedOnBlockProcedure {
 			TardifModModVariables.MapVariables.get(world).Z = new java.text.DecimalFormat("##.##").format(entity.getZ());
 			TardifModModVariables.MapVariables.get(world).syncData(world);
 			TardifModModVariables.MapVariables.get(world).Facing = "North";
-			TardifModModVariables.MapVariables.get(world).syncData(world);
-			TardifModModVariables.MapVariables.get(world).X_TARDIS = x;
-			TardifModModVariables.MapVariables.get(world).syncData(world);
-			TardifModModVariables.MapVariables.get(world).Y_TARDIS = y + 1;
-			TardifModModVariables.MapVariables.get(world).syncData(world);
-			TardifModModVariables.MapVariables.get(world).Z_TARDIS = z;
 			TardifModModVariables.MapVariables.get(world).syncData(world);
 			if (TardifModModVariables.MapVariables.get(world).InteriorLoad == false) {
 				TardifModModVariables.MapVariables.get(world).DoorPosX = 10;
