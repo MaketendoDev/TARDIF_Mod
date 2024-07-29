@@ -388,8 +388,8 @@
         "textureRight": "",
         "textureBack": "",
         "particleTexture": "",
-        "renderType": 2,
-        "customModelName": "bin_exterior_open:default",
+        "renderType": 0,
+        "customModelName": "Normal",
         "luminance": 1,
         "boundingBoxes": [
           {

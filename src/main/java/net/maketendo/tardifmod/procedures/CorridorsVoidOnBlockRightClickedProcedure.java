@@ -39,9 +39,9 @@ public class CorridorsVoidOnBlockRightClickedProcedure {
 			if (TardifModModVariables.MapVariables.get(world).LoadedCorridors == false) {
 				{
 					Entity _ent = entity;
-					_ent.teleportTo(0, 5, 0);
+					_ent.teleportTo(0, 4, 0);
 					if (_ent instanceof ServerPlayer _serverPlayer)
-						_serverPlayer.connection.teleport(0, 5, 0, _ent.getYRot(), _ent.getXRot());
+						_serverPlayer.connection.teleport(0, 4, 0, _ent.getYRot(), _ent.getXRot());
 				}
 			} else {
 				{

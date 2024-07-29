@@ -122,7 +122,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "DematerialisationCarpetControlBlockHitSensor"
+      "name": "DematerialisationLeverOffOnBlockRightClicked"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

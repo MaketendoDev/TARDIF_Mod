@@ -25,7 +25,7 @@ public class TARDISCoridoorDimPlayerEntersDimensionProcedure {
 		if (TardifModModVariables.MapVariables.get(world).LoadedCorridors == false) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"effect give @a minecraft:blindness 10 1 true");
+						"effect give @a minecraft:blindness 5 1 true");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"title @a times 20 200 20");

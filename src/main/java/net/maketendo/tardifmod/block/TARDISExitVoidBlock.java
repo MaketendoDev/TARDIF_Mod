@@ -31,13 +31,7 @@ public class TARDISExitVoidBlock extends Block {
 	@Override
 	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
 		super.entityInside(blockstate, world, pos, entity);
-		TARDISInteriorDoorUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
-	}
-
-	@Override
-	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
-		super.stepOn(world, pos, blockstate, entity);
-		TARDISInteriorDoorUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+		TARDISInteriorDoorUpdateTickProcedure.execute(world, entity);
 	}
 
 	@Override
@@ -50,7 +44,7 @@ public class TARDISExitVoidBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		TARDISInteriorDoorUpdateTickProcedure.execute(world, x, y, z, entity);
+		TARDISInteriorDoorUpdateTickProcedure.execute(world, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

@@ -36,4 +36,5 @@ public class TardifModModSounds {
 	public static final RegistryObject<SoundEvent> TARDIS_SFX_GROAN = REGISTRY.register("tardis_sfx_groan", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("tardif_mod", "tardis_sfx_groan")));
 	public static final RegistryObject<SoundEvent> TARDIS_GROAN_SFX = REGISTRY.register("tardis_groan_sfx", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("tardif_mod", "tardis_groan_sfx")));
 	public static final RegistryObject<SoundEvent> TARDIS_MSUIC_FOREVER = REGISTRY.register("tardis_msuic_forever", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("tardif_mod", "tardis_msuic_forever")));
+	public static final RegistryObject<SoundEvent> DENIED_TARDIS_TAKEOFF = REGISTRY.register("denied_tardis_takeoff", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("tardif_mod", "denied_tardis_takeoff")));
 }

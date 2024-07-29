@@ -29,7 +29,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.maketendo.tardifmod.procedures.DematerialisationCarpetControlBlockHitSensorProcedure;
+import net.maketendo.tardifmod.procedures.DematerialisationLeverOffOnBlockRightClickedProcedure;
 
 import java.util.List;
 
@@ -115,7 +115,7 @@ public class DematerialisationCarpetControlBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		DematerialisationCarpetControlBlockHitSensorProcedure.execute(world, x, y, direction, hitX, hitY);
+		DematerialisationLeverOffOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

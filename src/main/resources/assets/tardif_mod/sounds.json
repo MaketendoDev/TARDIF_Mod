@@ -185,5 +185,14 @@
         "stream": true
       }
     ]
+  },
+  "denied_tardis_takeoff": {
+    "subtitle": "subtitles.denied_tardis_takeoff",
+    "sounds": [
+      {
+        "name": "tardif_mod:denied_take_off",
+        "stream": false
+      }
+    ]
   }
 }

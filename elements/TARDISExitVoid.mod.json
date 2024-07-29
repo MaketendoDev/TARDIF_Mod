@@ -125,9 +125,6 @@
     "onEntityCollides": {
       "name": "TARDISInteriorDoorUpdateTick"
     },
-    "onEntityWalksOn": {
-      "name": "TARDISInteriorDoorUpdateTick"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

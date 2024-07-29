@@ -1,10 +1,13 @@
 {
-  "parent": "tardif_mod:custom/bin_exterior_open",
+  "parent": "block/cube",
   "textures": {
-    "all": "tardif_mod:block/bin_exterior_open_texture",
-    "particle": "tardif_mod:block/transparrent",
-    "0": "tardif_mod:block/bin_exterior_open_texture",
-    "missing": "tardif_mod:block/bin_exterior_open_texture"
+    "down": "tardif_mod:block/bin_exterior_open_texture",
+    "up": "tardif_mod:block/bin_exterior_open_texture",
+    "north": "tardif_mod:block/bin_exterior_open_texture",
+    "east": "tardif_mod:block/bin_exterior_open_texture",
+    "south": "tardif_mod:block/bin_exterior_open_texture",
+    "west": "tardif_mod:block/bin_exterior_open_texture",
+    "particle": "tardif_mod:block/transparrent"
   },
   "render_type": "cutout_mipped"
 }

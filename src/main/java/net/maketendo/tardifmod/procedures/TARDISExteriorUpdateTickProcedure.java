@@ -32,7 +32,7 @@ public class TARDISExteriorUpdateTickProcedure {
 		if (TardifModModVariables.MapVariables.get(world).DoorOpen == true) {
 			{
 				final Vec3 _center = new Vec3(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS);
-				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1.1 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
+				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1.001 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 				for (Entity entityiterator : _entfound) {
 					if (entityiterator instanceof Player) {
 						if (entityiterator instanceof ServerPlayer _player && !_player.level().isClientSide()) {
@@ -58,7 +58,7 @@ public class TARDISExteriorUpdateTickProcedure {
 						}
 						{
 							Entity _ent = entityiterator;
-							_ent.setYRot(180);
+							_ent.setYRot(-90);
 							_ent.setXRot(0);
 							_ent.setYBodyRot(_ent.getYRot());
 							_ent.setYHeadRot(_ent.getYRot());
