@@ -27,8 +27,14 @@ import java.util.List;
 import java.util.Comparator;
 
 public class TARDISExteriorUpdateTickProcedure {
-	public static void execute(LevelAccessor world) {
+	public static void execute(LevelAccessor world, double x, double y, double z) {
 		TARDISExteriorSkinUpdateProcedure.execute(world);
+		TardifModModVariables.MapVariables.get(world).X_TARDIS = x;
+		TardifModModVariables.MapVariables.get(world).syncData(world);
+		TardifModModVariables.MapVariables.get(world).Y_TARDIS = y - 1;
+		TardifModModVariables.MapVariables.get(world).syncData(world);
+		TardifModModVariables.MapVariables.get(world).Z_TARDIS = z;
+		TardifModModVariables.MapVariables.get(world).syncData(world);
 		if (TardifModModVariables.MapVariables.get(world).DoorOpen == true) {
 			{
 				final Vec3 _center = new Vec3(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS);

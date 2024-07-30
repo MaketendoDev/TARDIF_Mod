@@ -4,6 +4,8 @@ import org.checkerframework.checker.units.qual.s;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
@@ -104,26 +106,20 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 							_player.displayClientMessage(Component.literal("\u00A7aTARDIS is rematerialising..."), true);
 						TardifModModVariables.MapVariables.get(world).Dematerialised = false;
 						TardifModModVariables.MapVariables.get(world).syncData(world);
-						{
-							Entity _ent = entity;
-							if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-								_ent.getServer().getCommands().performPrefixedCommand(
-										new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(),
-												_ent.getDisplayName(), _ent.level().getServer(), _ent),
-										("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
-												+ ((TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1) + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " tardif_mod:tardis_exterior")));
-							}
-						}
-						{
-							Entity _ent = entity;
-							if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-								_ent.getServer().getCommands().performPrefixedCommand(
-										new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(),
-												_ent.getDisplayName(), _ent.level().getServer(), _ent),
-										("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
-												+ (TardifModModVariables.MapVariables.get(world).Y_TARDIS + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " air")));
-							}
-						}
+						if (world instanceof ServerLevel _level)
+							_level.getServer().getCommands().performPrefixedCommand(
+									new CommandSourceStack(CommandSource.NULL,
+											new Vec3(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS), Vec2.ZERO, _level, 4, "",
+											Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+									("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
+											+ ((TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1) + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " tardif_mod:tardis_exterior")));
+						if (world instanceof ServerLevel _level)
+							_level.getServer().getCommands().performPrefixedCommand(
+									new CommandSourceStack(CommandSource.NULL,
+											new Vec3(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS), Vec2.ZERO, _level, 4, "",
+											Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+									("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
+											+ (TardifModModVariables.MapVariables.get(world).Y_TARDIS + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " air")));
 					}
 				} else {
 					if (world instanceof Level _level) {
@@ -153,26 +149,20 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 						_player.displayClientMessage(Component.literal("\u00A7aTARDIS is dematerialising..."), true);
 					TardifModModVariables.MapVariables.get(world).TardisInVortex = true;
 					TardifModModVariables.MapVariables.get(world).syncData(world);
-					{
-						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(
-									new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
-											_ent.level().getServer(), _ent),
-									("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
-											+ ((TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1) + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " air")));
-						}
-					}
-					{
-						Entity _ent = entity;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(
-									new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
-											_ent.level().getServer(), _ent),
-									("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
-											+ (TardifModModVariables.MapVariables.get(world).Y_TARDIS + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " air")));
-						}
-					}
+					if (world instanceof ServerLevel _level)
+						_level.getServer().getCommands().performPrefixedCommand(
+								new CommandSourceStack(CommandSource.NULL,
+										new Vec3(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS), Vec2.ZERO, _level, 4, "",
+										Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+								("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
+										+ ((TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1) + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " air")));
+					if (world instanceof ServerLevel _level)
+						_level.getServer().getCommands().performPrefixedCommand(
+								new CommandSourceStack(CommandSource.NULL,
+										new Vec3(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS, TardifModModVariables.MapVariables.get(world).Z_TARDIS), Vec2.ZERO, _level, 4, "",
+										Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+								("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
+										+ (TardifModModVariables.MapVariables.get(world).Y_TARDIS + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " air")));
 				}
 			}
 		}

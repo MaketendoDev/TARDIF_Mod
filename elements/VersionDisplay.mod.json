@@ -7,22 +7,6 @@
       {
         "type": "label",
         "data": {
-          "name": "label_tardif_mod_200_forge_20241",
-          "text": {
-            "fixedValue": "TARDIF Mod 2.0.0 Forge (1.20.1)"
-          },
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "anchorPoint": "TOP_LEFT",
-          "x": 20,
-          "y": 4
-        }
-      },
-      {
-        "type": "label",
-        "data": {
           "name": "label_alpha_test_ver_65935",
           "text": {
             "fixedValue": "FEATURES MAY BE SUBJECT TO CHANGE"
@@ -32,8 +16,8 @@
             "falpha": 0.0
           },
           "anchorPoint": "TOP_LEFT",
-          "x": 19,
-          "y": 14
+          "x": 21,
+          "y": 7
         }
       },
       {
