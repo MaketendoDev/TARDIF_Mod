@@ -10,10 +10,14 @@ import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.maketendo.tardifmod.world.inventory.MonitorGUIMenu;
+import net.maketendo.tardifmod.procedures.ZinputProcedure;
+import net.maketendo.tardifmod.procedures.YinputProcedure;
+import net.maketendo.tardifmod.procedures.XinputProcedure;
 import net.maketendo.tardifmod.procedures.TTCapsuleDisplayProcedure;
 import net.maketendo.tardifmod.procedures.PoliceBoxDisplayProcedure;
 import net.maketendo.tardifmod.procedures.PhoneboxDisplayProcedure;
 import net.maketendo.tardifmod.procedures.ExteriorinputProcedure;
+import net.maketendo.tardifmod.procedures.DiminputProcedure;
 import net.maketendo.tardifmod.procedures.BinDisplayProcedure;
 import net.maketendo.tardifmod.network.MonitorGUIButtonMessage;
 import net.maketendo.tardifmod.TardifModMod;
@@ -95,6 +99,18 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 		guiGraphics.drawString(this.font,
 
 				ExteriorinputProcedure.execute(world), 14, 57, -1, false);
+		guiGraphics.drawString(this.font,
+
+				DiminputProcedure.execute(world), 227, 32, -1, false);
+		guiGraphics.drawString(this.font,
+
+				XinputProcedure.execute(world), 233, 44, -1, false);
+		guiGraphics.drawString(this.font,
+
+				YinputProcedure.execute(world), 235, 57, -1, false);
+		guiGraphics.drawString(this.font,
+
+				ZinputProcedure.execute(world), 233, 71, -1, false);
 	}
 
 	@Override

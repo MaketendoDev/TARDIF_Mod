@@ -186,8 +186,8 @@
       }
     ]
   },
-  "denied_tardis_takeoff": {
-    "subtitle": "subtitles.denied_tardis_takeoff",
+  "denied_tardis_take_off": {
+    "subtitle": "subtitles.denied_tardis_take_off",
     "sounds": [
       {
         "name": "tardif_mod:denied_take_off",

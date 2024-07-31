@@ -133,6 +133,70 @@
           "x": 95,
           "y": 99
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_diminput",
+          "text": {
+            "fixedValue": "",
+            "name": "Diminput"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 293,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_xinput",
+          "text": {
+            "fixedValue": "",
+            "name": "Xinput"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 299,
+          "y": 74
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_yinput",
+          "text": {
+            "fixedValue": "",
+            "name": "Yinput"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 301,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_zinput",
+          "text": {
+            "fixedValue": "",
+            "name": "Zinput"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 299,
+          "y": 101
+        }
       }
     ],
     "gridSettings": {

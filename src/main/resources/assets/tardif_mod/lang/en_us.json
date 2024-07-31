@@ -83,6 +83,7 @@
   "block.tardif_mod.zyton_ore": "Zyton Ore",
   "item.tardif_mod.tenth_recorded_message": "Music Disc",
   "gui.tardif_mod.monitor_gui.label_x_input": "x_input",
+  "subtitles.denied_tardis_take_off": "TARDIS Failed Flight",
   "death.attack.eye_of_harmony_damage.item": "%1$s was burnt up by %2$s using %3$s",
   "gui.tardif_mod.exteriorselectgui.label_dimension": "Dimension:",
   "item_group.tardif_mod.crates": "Crates",

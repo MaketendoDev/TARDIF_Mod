@@ -617,6 +617,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -1624,7 +1636,7 @@
       "sortid": 173,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dematerialisation_lever_off_on_block_right_clicked",
+      "registry_name": "tardis_dematerialisation_functionality",
       "metadata": {
         "files": [
           "src/main/java/net/maketendo/tardifmod/procedures/DematerialisationLeverOffOnBlockRightClickedProcedure.java"
@@ -5141,6 +5153,10 @@
             "type": "direction"
           },
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "hitX",
             "type": "number"
           },
@@ -6058,6 +6074,40 @@
         ]
       },
       "path": "~/TARDIS/Door/Door Code"
+    },
+    {
+      "name": "E",
+      "type": "procedure",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/EProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
+    },
+    {
+      "name": "Tardiscoords",
+      "type": "command",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tardiscoords",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/command/TardiscoordsCommand.java"
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
     }
   ],
   "variable_elements": [
@@ -6502,22 +6552,22 @@
       "subtitle": ""
     },
     {
-      "name": "denied_tardis_takeoff",
+      "name": "denied_tardis_take_off",
       "files": [
         "denied_take_off"
       ],
       "category": "neutral",
-      "subtitle": "TARDIS Take-Off Failed"
+      "subtitle": "TARDIS Failed Flight"
     }
   ],
   "tag_elements": {
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
     "ITEMS:minecraft:roundel_doors": [
       "CUSTOM:RoundelDoor",
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
     ],
     "ITEMS:mod:crates": [
       "CUSTOM:Tier1ItemCrate"
@@ -6599,14 +6649,6 @@
       "CUSTOM:ClassicDirt",
       "CUSTOM:PetrifiedDirt"
     ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:MintWallpaperSlab",
-      "~CUSTOM:WhiteWallpaperSlab",
-      "~CUSTOM:PlainWallpaperSlab"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:CogRoundelVerticleOffset",
       "~CUSTOM:CogRoundelOffset",
@@ -6647,6 +6689,14 @@
       "~CUSTOM:ClassicNetherack",
       "~CUSTOM:Plastic_ChunkOre",
       "~CUSTOM:ClassicStone"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MintWallpaperSlab",
+      "~CUSTOM:WhiteWallpaperSlab",
+      "~CUSTOM:PlainWallpaperSlab"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:GlowingPillat",
@@ -6833,6 +6883,7 @@
       "block.tardif_mod.zyton_ore": "Zyton Ore",
       "item.tardif_mod.tenth_recorded_message": "Music Disc",
       "gui.tardif_mod.monitor_gui.label_x_input": "x_input",
+      "subtitles.denied_tardis_take_off": "TARDIS Failed Flight",
       "death.attack.eye_of_harmony_damage.item": "%1$s was burnt up by %2$s using %3$s",
       "gui.tardif_mod.exteriorselectgui.label_dimension": "Dimension:",
       "item_group.tardif_mod.crates": "Crates",
