@@ -6108,6 +6108,25 @@
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
+    },
+    {
+      "name": "TARDISBottomExteriorPiece",
+      "type": "block",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tardis_bottom_exterior_piece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/block/entity/TARDISBottomExteriorPieceBlockEntity.java",
+          "src/main/java/net/maketendo/tardifmod/block/TARDISBottomExteriorPieceBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_bottom_exterior_piece.json",
+          "src/main/resources/assets/tardif_mod/models/item/tardis_bottom_exterior_piece.json",
+          "src/main/resources/assets/tardif_mod/blockstates/tardis_bottom_exterior_piece.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_bottom_exterior_piece.json"
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Exterior"
     }
   ],
   "variable_elements": [
@@ -6933,6 +6952,7 @@
       "block.tardif_mod.roundel": "Roundel",
       "item.tardif_mod.jellybabies": "Jelly babies",
       "block.tardif_mod.eighth_rotor": "Tall Time Rotor",
+      "block.tardif_mod.tardis_bottom_exterior_piece": "TARDIS Exterior",
       "subtitles.tenth_message": "??? Talking...",
       "subtitles.sonic_screwdriver": "Sonic Screwdriver",
       "death.attack.crumbled_transport_damage": "%1$s died from the fluxuations of its particles being scattered",

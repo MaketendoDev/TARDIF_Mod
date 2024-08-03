@@ -20,6 +20,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
@@ -45,7 +46,7 @@ import net.maketendo.tardifmod.procedures.TARDISExteriorOnBlockHitByProjectilePr
 import net.maketendo.tardifmod.init.TardifModModItems;
 import net.maketendo.tardifmod.block.entity.TARDISExteriorBlockEntity;
 
-public class TARDISExteriorBlock extends Block implements EntityBlock {
+public class TARDISExteriorBlock extends FallingBlock implements EntityBlock {
 	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 8);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 

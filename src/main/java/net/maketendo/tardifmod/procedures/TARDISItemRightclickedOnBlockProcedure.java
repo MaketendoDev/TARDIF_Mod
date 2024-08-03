@@ -33,7 +33,7 @@ public class TARDISItemRightclickedOnBlockProcedure {
 					|| (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.SNOW || (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == TardifModModBlocks.PETRIFIED_GRASS.get()
 					|| (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.SEAGRASS || (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.SEAGRASS
 					|| (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.TALL_GRASS) {
-				world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
+				world.setBlock(BlockPos.containing(x, y, z), TardifModModBlocks.TARDIS_BOTTOM_EXTERIOR_PIECE.get().defaultBlockState(), 3);
 				world.setBlock(BlockPos.containing(x, y + 1, z), (new Object() {
 					public BlockState with(BlockState _bs, String _property, int _newValue) {
 						Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty(_property);
@@ -54,6 +54,7 @@ public class TARDISItemRightclickedOnBlockProcedure {
 				TardifModModVariables.MapVariables.get(world).Z_TARDIS = z;
 				TardifModModVariables.MapVariables.get(world).syncData(world);
 			} else {
+				world.setBlock(BlockPos.containing(x, y + 1, z), TardifModModBlocks.TARDIS_BOTTOM_EXTERIOR_PIECE.get().defaultBlockState(), 3);
 				world.setBlock(BlockPos.containing(x, y + 2, z), (new Object() {
 					public BlockState with(BlockState _bs, String _property, int _newValue) {
 						Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty(_property);

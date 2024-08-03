@@ -193,6 +193,7 @@ public class TardifModModItems {
 	public static final RegistryObject<Item> REGULAR_ROUNDEL_HORIZONTAL_OFFSET = block(TardifModModBlocks.REGULAR_ROUNDEL_HORIZONTAL_OFFSET);
 	public static final RegistryObject<Item> COG_ROUNDEL_OFFSET = block(TardifModModBlocks.COG_ROUNDEL_OFFSET);
 	public static final RegistryObject<Item> COG_ROUNDEL_VERTICLE_OFFSET = block(TardifModModBlocks.COG_ROUNDEL_VERTICLE_OFFSET);
+	public static final RegistryObject<Item> TARDIS_BOTTOM_EXTERIOR_PIECE = block(TardifModModBlocks.TARDIS_BOTTOM_EXTERIOR_PIECE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

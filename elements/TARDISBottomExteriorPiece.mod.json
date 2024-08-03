@@ -18,17 +18,17 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": true,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
-        "my": -16.0,
+        "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 32.0,
+        "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -121,9 +121,6 @@
     "fluidRestrictions": [],
     "onRightClicked": {
       "name": "TARDISRightClickedOnEntity"
-    },
-    "onTickUpdate": {
-      "name": "TARDISExteriorUpdateTick"
     },
     "onHitByProjectile": {
       "name": "TARDISExteriorOnBlockHitByProjectile"

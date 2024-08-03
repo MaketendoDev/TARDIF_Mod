@@ -30,6 +30,7 @@ import net.maketendo.tardifmod.block.TARDISMaintenanceEngineBlock;
 import net.maketendo.tardifmod.block.TARDISInteriorDoorBlock;
 import net.maketendo.tardifmod.block.TARDISExteriorBlock;
 import net.maketendo.tardifmod.block.TARDISExitVoidBlock;
+import net.maketendo.tardifmod.block.TARDISBottomExteriorPieceBlock;
 import net.maketendo.tardifmod.block.SpaceRockBlock;
 import net.maketendo.tardifmod.block.SolderOreBlock;
 import net.maketendo.tardifmod.block.ShipWindowBlock;
@@ -206,6 +207,7 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> REGULAR_ROUNDEL_HORIZONTAL_OFFSET = REGISTRY.register("regular_roundel_horizontal_offset", () -> new RegularRoundelHorizontalOffsetBlock());
 	public static final RegistryObject<Block> COG_ROUNDEL_OFFSET = REGISTRY.register("cog_roundel_offset", () -> new CogRoundelOffsetBlock());
 	public static final RegistryObject<Block> COG_ROUNDEL_VERTICLE_OFFSET = REGISTRY.register("cog_roundel_verticle_offset", () -> new CogRoundelVerticleOffsetBlock());
+	public static final RegistryObject<Block> TARDIS_BOTTOM_EXTERIOR_PIECE = REGISTRY.register("tardis_bottom_exterior_piece", () -> new TARDISBottomExteriorPieceBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
