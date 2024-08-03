@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": true,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {

@@ -110,8 +110,10 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 								_ent.getServer().getCommands().performPrefixedCommand(
 										new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(),
 												_ent.getDisplayName(), _ent.level().getServer(), _ent),
-										("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
-												+ ((TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1) + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " tardif_mod:tardis_exterior replace")));
+										("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock "
+												+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).X_TARDIS) + " ")
+												+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1) + " ")
+												+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).Z_TARDIS) + " tardif_mod:tardis_exterior")));
 							}
 						}
 						{
@@ -120,8 +122,10 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 								_ent.getServer().getCommands().performPrefixedCommand(
 										new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(),
 												_ent.getDisplayName(), _ent.level().getServer(), _ent),
-										("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
-												+ (TardifModModVariables.MapVariables.get(world).Y_TARDIS + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " air replace")));
+										("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run setblock "
+												+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).X_TARDIS) + " ")
+												+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).Y_TARDIS) + " ")
+												+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).Z_TARDIS) + " tardif_mod:tardis_bottom_exterior_piece replace")));
 							}
 						}
 					}
@@ -159,9 +163,12 @@ public class DematerialisationLeverOffOnBlockRightClickedProcedure {
 							_ent.getServer().getCommands().performPrefixedCommand(
 									new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
 											_ent.level().getServer(), _ent),
-									("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run fill " + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
-											+ ((TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1) + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " ") + (TardifModModVariables.MapVariables.get(world).X_TARDIS + " ")
-											+ (TardifModModVariables.MapVariables.get(world).Y_TARDIS + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " air replace")));
+									("execute in " + TardifModModVariables.MapVariables.get(world).TARDIS_Current_Dimension + " run fill " + (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).X_TARDIS) + " ")
+											+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1) + " ")
+											+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).Z_TARDIS) + " ")
+											+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).X_TARDIS) + " ")
+											+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).Y_TARDIS) + " ")
+											+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).Z_TARDIS) + " air replace")));
 						}
 					}
 				}

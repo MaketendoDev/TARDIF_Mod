@@ -8,7 +8,9 @@ import net.maketendo.tardifmod.network.TardifModModVariables;
 public class EProcedure {
 	public static void execute(LevelAccessor world) {
 		if (!world.isClientSide() && world.getServer() != null)
-			world.getServer().getPlayerList().broadcastSystemMessage(
-					Component.literal(((TardifModModVariables.MapVariables.get(world).X_TARDIS + " ") + "" + (TardifModModVariables.MapVariables.get(world).Y_TARDIS + " ") + (TardifModModVariables.MapVariables.get(world).Z_TARDIS + " "))), false);
+			world.getServer().getPlayerList()
+					.broadcastSystemMessage(Component.literal(((new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).X_TARDIS) + " ") + ""
+							+ (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).Y_TARDIS) + " ") + (new java.text.DecimalFormat("##").format(TardifModModVariables.MapVariables.get(world).Z_TARDIS) + " "))),
+							false);
 	}
 }
