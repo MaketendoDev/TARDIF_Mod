@@ -39,7 +39,7 @@ public class TARDISExteriorSkinUpdateProcedure {
 					} else {
 						if ((TardifModModVariables.MapVariables.get(world).Exterior).equals("Police Box")) {
 							{
-								int _value = 3;
+								int _value = 7;
 								BlockPos _pos = BlockPos.containing(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1, TardifModModVariables.MapVariables.get(world).Z_TARDIS);
 								BlockState _bs = world.getBlockState(_pos);
 								if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
@@ -79,7 +79,7 @@ public class TARDISExteriorSkinUpdateProcedure {
 					} else {
 						if ((TardifModModVariables.MapVariables.get(world).Exterior).equals("Police Box")) {
 							{
-								int _value = 4;
+								int _value = 8;
 								BlockPos _pos = BlockPos.containing(TardifModModVariables.MapVariables.get(world).X_TARDIS, TardifModModVariables.MapVariables.get(world).Y_TARDIS + 1, TardifModModVariables.MapVariables.get(world).Z_TARDIS);
 								BlockState _bs = world.getBlockState(_pos);
 								if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))

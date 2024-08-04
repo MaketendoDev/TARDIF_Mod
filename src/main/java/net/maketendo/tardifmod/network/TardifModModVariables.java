@@ -36,7 +36,7 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TardifModModVariables {
-	public static boolean BetaTesting = true;
+	public static boolean BetaTesting = false;
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
@@ -183,6 +183,7 @@ public class TardifModModVariables {
 		public boolean LoadedCorridors = false;
 		public double PlayerLoading = 0;
 		public double GlobalTimer = 0;
+		public double TARDISDematPhase = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -233,6 +234,7 @@ public class TardifModModVariables {
 			LoadedCorridors = nbt.getBoolean("LoadedCorridors");
 			PlayerLoading = nbt.getDouble("PlayerLoading");
 			GlobalTimer = nbt.getDouble("GlobalTimer");
+			TARDISDematPhase = nbt.getDouble("TARDISDematPhase");
 		}
 
 		@Override
@@ -279,6 +281,7 @@ public class TardifModModVariables {
 			nbt.putBoolean("LoadedCorridors", LoadedCorridors);
 			nbt.putDouble("PlayerLoading", PlayerLoading);
 			nbt.putDouble("GlobalTimer", GlobalTimer);
+			nbt.putDouble("TARDISDematPhase", TARDISDematPhase);
 			return nbt;
 		}
 

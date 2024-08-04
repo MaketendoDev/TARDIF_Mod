@@ -26,7 +26,7 @@ public class GlobalTimerProcedure {
 
 	private static void execute(@Nullable Event event, LevelAccessor world) {
 		if (TardifModModVariables.MapVariables.get(world).GlobalTimer == 0) {
-			TardifModModVariables.MapVariables.get(world).GlobalTimer = 300;
+			TardifModModVariables.MapVariables.get(world).GlobalTimer = 200;
 			TardifModModVariables.MapVariables.get(world).syncData(world);
 		} else {
 			TardifModModVariables.MapVariables.get(world).GlobalTimer = TardifModModVariables.MapVariables.get(world).GlobalTimer - 1;

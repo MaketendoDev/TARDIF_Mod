@@ -1,12 +1,13 @@
 package net.maketendo.tardifmod.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.item.ItemStack;
 
 import net.maketendo.tardifmod.network.TardifModModVariables;
 import net.maketendo.tardifmod.TardifModMod;
 
 public class ChamelionUpProcedure {
-	public static void execute(LevelAccessor world) {
+	public static void execute(LevelAccessor world, ItemStack itemstack) {
 		TardifModModVariables.MapVariables.get(world).ChamelionRotation = TardifModModVariables.MapVariables.get(world).ChamelionRotation + 1;
 		TardifModModVariables.MapVariables.get(world).syncData(world);
 		if (TardifModModVariables.MapVariables.get(world).ChamelionRotation == 1) {
@@ -33,9 +34,9 @@ public class ChamelionUpProcedure {
 				}
 			}
 		}
-		DematSequanceProcedure.execute();
+		DematSequanceProcedure.execute(world, itemstack);
 		TardifModMod.queueServerWork(20, () -> {
-			RematSequanceProcedure.execute(world);
+			RematSequanceProcedure.execute();
 		});
 	}
 }
