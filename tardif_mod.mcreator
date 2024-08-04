@@ -6127,6 +6127,26 @@
         ]
       },
       "path": "~/TARDIS/TARDIS Exterior"
+    },
+    {
+      "name": "GlobalTimer",
+      "type": "procedure",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "global_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/GlobalTimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Systems"
     }
   ],
   "variable_elements": [
@@ -6396,6 +6416,12 @@
     },
     {
       "name": "PlayerLoading",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "GlobalTimer",
       "type": "number",
       "scope": "map",
       "value": "0"
@@ -7609,6 +7635,10 @@
       },
       {
         "name": "Beta Testing",
+        "children": []
+      },
+      {
+        "name": "Systems",
         "children": []
       }
     ]
