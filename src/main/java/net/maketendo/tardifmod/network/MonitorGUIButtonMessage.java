@@ -69,7 +69,7 @@ public class MonitorGUIButtonMessage {
 		}
 		if (buttonID == 2) {
 
-			ChamelionUpProcedure.execute(world, itemstack);
+			ChamelionUpProcedure.execute(world);
 		}
 	}
 

@@ -24,10 +24,17 @@ public class ChamelionDownProcedure {
 						TardifModModVariables.MapVariables.get(world).Exterior = "Police Box";
 						TardifModModVariables.MapVariables.get(world).syncData(world);
 					} else {
-						TardifModModVariables.MapVariables.get(world).ChamelionRotation = 4;
-						TardifModModVariables.MapVariables.get(world).syncData(world);
-						TardifModModVariables.MapVariables.get(world).Exterior = "Police Box";
-						TardifModModVariables.MapVariables.get(world).syncData(world);
+						if (TardifModModVariables.MapVariables.get(world).ChamelionRotation == 0) {
+							TardifModModVariables.MapVariables.get(world).ChamelionRotation = 4;
+							TardifModModVariables.MapVariables.get(world).syncData(world);
+							TardifModModVariables.MapVariables.get(world).Exterior = "Police Box";
+							TardifModModVariables.MapVariables.get(world).syncData(world);
+						} else {
+							TardifModModVariables.MapVariables.get(world).ChamelionRotation = 1;
+							TardifModModVariables.MapVariables.get(world).syncData(world);
+							TardifModModVariables.MapVariables.get(world).Exterior = "Phonebox";
+							TardifModModVariables.MapVariables.get(world).syncData(world);
+						}
 					}
 				}
 			}
