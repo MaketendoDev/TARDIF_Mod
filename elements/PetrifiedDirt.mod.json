@@ -37,14 +37,14 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.95,
-    "resistance": 9.5,
+    "hardness": 0.5,
+    "resistance": 0.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "DECORATIONS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "shovel",
     "customDrop": {
       "value": ""
     },
@@ -59,18 +59,18 @@
       "value": "EARTH"
     },
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "DIRT",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "BLOCKED",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -119,6 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "PetrifiedGrassBlockOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -1,9 +1,9 @@
 {
-  "feature": "tardif_mod:skaro_forest_tree",
+  "feature": "tardif_mod:petrifiedfields_tree",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 6
+      "count": 1
     },
     {
       "type": "minecraft:in_square"

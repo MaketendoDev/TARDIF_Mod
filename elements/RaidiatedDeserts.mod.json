@@ -2,35 +2,15 @@
   "_fv": 60,
   "_type": "biome",
   "definition": {
-    "name": "Skaro Swamp",
+    "name": "Raidiated Deserts",
     "groundBlock": {
-      "value": "CUSTOM:PetrifiedDirt"
+      "value": "CUSTOM:RaidiatedSand"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:PetrifiedDirt"
+      "value": "CUSTOM:RaidiatedSand"
     },
     "underwaterBlock": {
-      "value": "Blocks.FLOWING_WATER"
-    },
-    "airColor": {
-      "value": -1526680,
-      "falpha": 0.0
-    },
-    "grassColor": {
-      "value": -6711040,
-      "falpha": 0.0
-    },
-    "foliageColor": {
-      "value": -13408768,
-      "falpha": 0.0
-    },
-    "waterColor": {
-      "value": -13421824,
-      "falpha": 0.0
-    },
-    "waterFogColor": {
-      "value": -10079488,
-      "falpha": 0.0
+      "value": "CUSTOM:RaidiatedSand"
     },
     "ambientSound": {
       "value": ""
@@ -47,20 +27,20 @@
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "ASH"
+      "value": "WHITE_ASH"
     },
-    "particlesProbability": 0.1,
+    "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
-    "spawnBiome": false,
+    "spawnBiome": true,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -1.0,
-      "max": 1.0001
+      "min": -0.5,
+      "max": 0.5
     },
     "genHumidity": {
-      "min": -1.0,
+      "min": -0.5,
       "max": 0.5
     },
     "genContinentalness": {
@@ -75,18 +55,18 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 3,
+    "treesPerChunk": 1,
     "vanillaTreeType": "Default",
-    "treeType": 1,
+    "treeType": 0,
     "minHeight": 7,
     "treeStem": {
-      "value": "CUSTOM:Drystonelog"
+      "value": ""
     },
     "treeBranch": {
-      "value": "Blocks.LEAVES#0"
+      "value": ""
     },
     "treeVines": {
-      "value": "Blocks.VINE"
+      "value": ""
     },
     "treeFruits": {
       "value": ""

@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "tardif_mod:custom/11th_doctors_sonic",
   "textures": {
-    "layer0": "tardif_mod:item/sonic_screwdriver_off"
+    "0": "tardif_mod:block/11th_doctors_sonic",
+    "particle": "tardif_mod:item/sonic_screwdriver_off"
   }
 }

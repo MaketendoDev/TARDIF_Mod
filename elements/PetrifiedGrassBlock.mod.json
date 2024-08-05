@@ -37,19 +37,19 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.6,
-    "resistance": 10.5,
+    "hardness": 0.6,
+    "resistance": 0.6,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "DECORATIONS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "shovel",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:PetrifiedDirt"
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -59,18 +59,18 @@
       "value": "GRASS"
     },
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "GRASS",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "BLOCKED",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -100,7 +100,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -119,6 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "PetrifiedGrassBlockOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

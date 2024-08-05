@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "tardif_mod:petrifiedfields",
     "tardif_mod:classic_nether_biome"
   ]
 }

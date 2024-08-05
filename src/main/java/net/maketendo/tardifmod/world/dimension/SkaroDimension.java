@@ -26,7 +26,7 @@ public class SkaroDimension {
 
 				@Override
 				public boolean isFoggyAt(int x, int y) {
-					return true;
+					return false;
 				}
 			};
 			event.register(new ResourceLocation("tardif_mod:skaro"), customEffect);

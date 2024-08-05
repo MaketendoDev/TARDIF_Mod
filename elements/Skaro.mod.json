@@ -4,16 +4,13 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:SkaroDesert"
+        "value": "CUSTOM:Drystoneforests"
       },
       {
-        "value": "CUSTOM:SkaroForest"
+        "value": "CUSTOM:Petrifiedfields"
       },
       {
-        "value": "CUSTOM:SkaroPlains"
-      },
-      {
-        "value": "CUSTOM:SkaroSwamp"
+        "value": "CUSTOM:RaidiatedDeserts"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -28,8 +25,8 @@
       "falpha": 0.0
     },
     "canRespawnHere": true,
-    "hasFog": true,
-    "isDark": false,
+    "hasFog": false,
+    "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
     "hasSkyLight": true,

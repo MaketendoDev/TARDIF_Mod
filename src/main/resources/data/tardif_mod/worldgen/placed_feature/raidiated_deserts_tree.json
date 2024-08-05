@@ -1,9 +1,9 @@
 {
-  "feature": "tardif_mod:skaro_plains_tree",
+  "feature": "tardif_mod:raidiated_deserts_tree",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 5
+      "count": 1
     },
     {
       "type": "minecraft:in_square"

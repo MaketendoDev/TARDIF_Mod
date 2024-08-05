@@ -3,19 +3,18 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "ambient_sound": "tardif_mod:skaro_ambience",
     "particle": {
       "options": {
-        "type": "ash"
+        "type": "white_ash"
       },
-      "probability": 0.004
+      "probability": 0.005
     },
-    "foliage_color": -39322,
-    "grass_color": -39322,
-    "sky_color": -1532056,
-    "fog_color": -1532056,
-    "water_color": -39322,
-    "water_fog_color": -39322
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "spawners": {
     "monster": [],
@@ -65,7 +64,7 @@
     [],
     [],
     [
-      "tardif_mod:skaro_forest_tree"
+      "tardif_mod:raidiated_deserts_tree"
     ],
     [
       "minecraft:freeze_top_layer"

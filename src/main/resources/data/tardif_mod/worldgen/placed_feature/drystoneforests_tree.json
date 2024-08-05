@@ -1,9 +1,9 @@
 {
-  "feature": "tardif_mod:skaro_swamp_tree",
+  "feature": "tardif_mod:drystoneforests_tree",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 3
+      "count": 1
     },
     {
       "type": "minecraft:in_square"

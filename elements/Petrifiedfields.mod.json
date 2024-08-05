@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "biome",
   "definition": {
-    "name": "Skaro Forest",
+    "name": "Petrified Fields",
     "groundBlock": {
       "value": "CUSTOM:PetrifiedGrassBlock"
     },
@@ -10,30 +10,30 @@
       "value": "CUSTOM:PetrifiedDirt"
     },
     "underwaterBlock": {
-      "value": "Blocks.FLOWING_WATER"
+      "value": ""
     },
     "airColor": {
-      "value": -1532056,
+      "value": -10066330,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -39322,
+      "value": -6710887,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -39322,
+      "value": -6710887,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -39322,
+      "value": -6710887,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -39322,
+      "value": -13421773,
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "CUSTOM:skaro_ambience"
+      "value": ""
     },
     "additionsSound": {
       "value": ""
@@ -49,41 +49,41 @@
     "particleToSpawn": {
       "value": "ASH"
     },
-    "particlesProbability": 0.4,
+    "particlesProbability": 0.6,
     "rainingPossibility": 0.5,
-    "temperature": 0.5,
-    "spawnBiome": false,
+    "temperature": 0.17,
+    "spawnBiome": true,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -1.0,
-      "max": 0.5001
+      "min": -0.5,
+      "max": 0.5
     },
     "genHumidity": {
-      "min": -1.0,
-      "max": 0.5001
+      "min": -0.5,
+      "max": 0.5
     },
     "genContinentalness": {
-      "min": -1.0,
+      "min": 0.3,
       "max": 1.0
     },
     "genErosion": {
-      "min": -1.0,
-      "max": 0.4999
+      "min": -0.5,
+      "max": 0.5
     },
     "genWeirdness": {
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 6,
-    "vanillaTreeType": "Mega spruce trees",
-    "treeType": 1,
-    "minHeight": 9,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
     "treeStem": {
-      "value": "CUSTOM:Drystonelog"
+      "value": ""
     },
     "treeBranch": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeVines": {
       "value": ""
@@ -97,7 +97,7 @@
       "FrozenTopLayer"
     ],
     "spawnStronghold": false,
-    "spawnMineshaft": false,
+    "spawnMineshaft": true,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",
@@ -109,10 +109,10 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
-    "spawnBuriedTreasure": false,
+    "spawnBuriedTreasure": true,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
-    "spawnNetherFossil": false,
+    "spawnNetherFossil": true,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",

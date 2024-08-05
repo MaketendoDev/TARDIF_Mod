@@ -2691,52 +2691,6 @@
       "path": "~/Gameplay/Weapons/Nitro-9"
     },
     {
-      "name": "SkaroPlains",
-      "type": "biome",
-      "sortid": 200,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skaro_plains",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_plains_tree.json",
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/skaro_plains_tree.json",
-          "src/main/resources/data/tardif_mod/worldgen/biome/skaro_plains.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro/Skaro/Biomes"
-    },
-    {
-      "name": "SkaroDesert",
-      "type": "biome",
-      "sortid": 201,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skaro_desert",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/worldgen/biome/skaro_desert.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro/Skaro/Biomes"
-    },
-    {
-      "name": "SkaroForest",
-      "type": "biome",
-      "sortid": 202,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skaro_forest",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tardif_mod/worldgen/biome/skaro_forest.json",
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/skaro_forest_tree.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_forest_tree.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro/Skaro/Biomes"
-    },
-    {
       "name": "Skaro",
       "type": "dimension",
       "sortid": 203,
@@ -4224,24 +4178,6 @@
       "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
     },
     {
-      "name": "SkaroSwamp",
-      "type": "biome",
-      "sortid": 263,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skaro_swamp",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/world/features/treedecorators/SkaroSwampTrunkDecorator.java",
-          "src/main/java/net/maketendo/tardifmod/world/features/treedecorators/SkaroSwampLeaveDecorator.java",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/skaro_swamp_tree.json",
-          "src/main/resources/data/tardif_mod/worldgen/biome/skaro_swamp.json",
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/skaro_swamp_tree.json"
-        ]
-      },
-      "path": "~/Dimensions/Skaro/Skaro/Biomes"
-    },
-    {
       "name": "TimeMovementCarpetControl",
       "type": "block",
       "sortid": 17,
@@ -4943,8 +4879,7 @@
           "src/main/resources/assets/tardif_mod/blockstates/petrified_grass_block.json",
           "src/main/resources/assets/tardif_mod/models/block/petrified_grass_block.json",
           "src/main/resources/assets/tardif_mod/models/item/petrified_grass_block.json",
-          "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlockBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_grass_block.json"
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlockBlock.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -6155,6 +6090,100 @@
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
+    },
+    {
+      "name": "Drystoneforests",
+      "type": "biome",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drystoneforests",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/drystoneforests_tree.json",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/drystoneforests_tree.json",
+          "src/main/resources/data/tardif_mod/worldgen/biome/drystoneforests.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Biomes"
+    },
+    {
+      "name": "Petrifiedfields",
+      "type": "biome",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrifiedfields",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/petrifiedfields_tree.json",
+          "src/main/resources/data/tardif_mod/worldgen/biome/petrifiedfields.json",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/petrifiedfields_tree.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Biomes"
+    },
+    {
+      "name": "RaidiatedDeserts",
+      "type": "biome",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raidiated_deserts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/raidiated_deserts_tree.json",
+          "src/main/resources/data/tardif_mod/worldgen/biome/raidiated_deserts.json",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/raidiated_deserts_tree.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Biomes"
+    },
+    {
+      "name": "PetrifiedGrassBlockLootable",
+      "type": "loottable",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_grass_block_lootable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_grass_block.json"
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Natural/Loot Tables"
+    },
+    {
+      "name": "PetrifiedGrassBlockOnTickUpdate",
+      "type": "procedure",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_grass_block_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/PetrifiedGrassBlockOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Skaro/Skaro/Natural/Procedures"
     }
   ],
   "variable_elements": [
@@ -6625,19 +6654,14 @@
       "CUSTOM:MintRoundelDoor",
       "CUSTOM:WallpaperRoundelDoor"
     ],
-    "BIOMES:minecraft:has_structure/nether_fortress": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
     "ITEMS:mod:crates": [
       "CUSTOM:Tier1ItemCrate"
     ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:ZytonOre",
-      "~CUSTOM:SolderOre",
-      "~CUSTOM:Plastic_ChunkOre"
-    ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:ClassicLeaves"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Petrifiedfields"
     ],
     "ITEMS:mod:music_discs_drops": [
       "Items.RECORD_13",
@@ -6661,20 +6685,6 @@
       "CUSTOM:PlainWallpaper",
       "CUSTOM:HexagonRoundel",
       "CUSTOM:MintWallpaper"
-    ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:PetrifiedDirt",
-      "~CUSTOM:PetrifiedStone",
-      "~CUSTOM:PetrifiedGrassBlock",
-      "~CUSTOM:RaidiatedSand",
-      "~CUSTOM:ClassicNetherack",
-      "~CUSTOM:Classicgrass",
-      "~CUSTOM:ClassicStone",
-      "~CUSTOM:ClassicDirt",
-      "~Blocks.AIR"
-    ],
-    "ITEMS:minecraft:music_discs": [
-      "~CUSTOM:TenthRecordedMessage"
     ],
     "ITEMS:minecraft:classic_blocks": [
       "CUSTOM:ClassicGrayWool",
@@ -6704,9 +6714,109 @@
       "CUSTOM:Space_SuitArmor.legs",
       "CUSTOM:Space_SuitArmor.boots"
     ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MintWallpaperSlab",
+      "~CUSTOM:WhiteWallpaperSlab",
+      "~CUSTOM:PlainWallpaperSlab"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:Petrifiedfields",
+      "~CUSTOM:ClassicNetherBiome"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:GlowingPillat",
+      "~CUSTOM:Pressuriser",
+      "~CUSTOM:SpaceRock",
+      "~CUSTOM:Nitro9",
+      "~CUSTOM:DrainedZyton7Block",
+      "~CUSTOM:Zyton7Block",
+      "~CUSTOM:ClassicNetherack",
+      "~CUSTOM:ClassicLeaves",
+      "~CUSTOM:ClassicStone"
+    ],
+    "ITEMS:mod:food_crate_basic": [
+      "Items.APPLE",
+      "Items.MUSHROOM_STEW",
+      "Items.WHEAT_SEEDS",
+      "Items.WHEAT",
+      "Items.CARROT",
+      "Items.POTATO",
+      "Items.BAKED_POTATO",
+      "Items.PUMPKIN_PIE",
+      "Items.GOLDEN_CARROT",
+      "Items.BREAD",
+      "Items.PUMPKIN_SEEDS",
+      "Items.MELON",
+      "Items.MELON_SEEDS",
+      "Items.SWEET_BERRIES",
+      "Items.GLOW_BERRIES",
+      "Items.COOKED_FISH#0",
+      "Items.COOKED_FISH#1",
+      "Items.COOKED_PORKCHOP",
+      "Items.COOKED_BEEF",
+      "Items.COOKED_CHICKEN",
+      "Items.COOKED_RABBIT",
+      "Items.RABBIT_STEW",
+      "Items.COOKED_MUTTON",
+      "Items.BEETROOT",
+      "Items.BEETROOT_SEEDS",
+      "Items.BEETROOT_SOUP"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MintWallpaperStairs",
+      "~CUSTOM:WhiteWallpaperStairs",
+      "~CUSTOM:PlainWallpaperStair"
+    ],
+    "ITEMS:minecraft:tardis_upgrades": [
+      "CUSTOM:TelepathicUpgradeTemplate",
+      "CUSTOM:TimeExtenderUpgradeTemplate",
+      "CUSTOM:ARSUpgradeTemplate",
+      "CUSTOM:CommunicationUpgradeTemplate"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ClassicNetherBiome"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:ZytonOre",
+      "~CUSTOM:SolderOre",
+      "~CUSTOM:Plastic_ChunkOre"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Drystoneforests",
+      "~CUSTOM:Petrifiedfields"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:PetrifiedDirt",
+      "~CUSTOM:PetrifiedStone",
+      "~CUSTOM:PetrifiedGrassBlock",
+      "~CUSTOM:RaidiatedSand",
+      "~CUSTOM:ClassicNetherack",
+      "~CUSTOM:Classicgrass",
+      "~CUSTOM:ClassicStone",
+      "~CUSTOM:ClassicDirt",
+      "~Blocks.AIR"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:TenthRecordedMessage"
+    ],
     "BLOCKS:minecraft:dirt": [
-      "CUSTOM:ClassicDirt",
+      "CUSTOM:PetrifiedGrassBlock",
       "CUSTOM:PetrifiedDirt"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GlowingPillat",
+      "~CUSTOM:Pressuriser",
+      "~CUSTOM:SpaceRock",
+      "~CUSTOM:DalekiumRefinery",
+      "~CUSTOM:Nitro9",
+      "~CUSTOM:FoodCubeMachine",
+      "~CUSTOM:ZytonOre",
+      "~CUSTOM:DrainedZyton7Block",
+      "~CUSTOM:Zyton7Block",
+      "~CUSTOM:SolderOre",
+      "~CUSTOM:ClassicNetherack",
+      "~CUSTOM:Plastic_ChunkOre",
+      "~CUSTOM:ClassicStone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:CogRoundelVerticleOffset",
@@ -6734,42 +6844,9 @@
       "~CUSTOM:Roundel",
       "~CUSTOM:RoundelDoor"
     ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:GlowingPillat",
-      "~CUSTOM:Pressuriser",
-      "~CUSTOM:SpaceRock",
-      "~CUSTOM:DalekiumRefinery",
-      "~CUSTOM:Nitro9",
-      "~CUSTOM:FoodCubeMachine",
-      "~CUSTOM:ZytonOre",
-      "~CUSTOM:DrainedZyton7Block",
-      "~CUSTOM:Zyton7Block",
-      "~CUSTOM:SolderOre",
-      "~CUSTOM:ClassicNetherack",
-      "~CUSTOM:Plastic_ChunkOre",
-      "~CUSTOM:ClassicStone"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:ClassicNetherBiome"
-    ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:MintWallpaperSlab",
-      "~CUSTOM:WhiteWallpaperSlab",
-      "~CUSTOM:PlainWallpaperSlab"
-    ],
-    "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:GlowingPillat",
-      "~CUSTOM:Pressuriser",
-      "~CUSTOM:SpaceRock",
-      "~CUSTOM:Nitro9",
-      "~CUSTOM:DrainedZyton7Block",
-      "~CUSTOM:Zyton7Block",
-      "~CUSTOM:ClassicNetherack",
-      "~CUSTOM:ClassicLeaves",
-      "~CUSTOM:ClassicStone"
-    ],
-    "BIOMES:minecraft:is_forest": [
-      "CUSTOM:SkaroForest"
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:PetrifiedDirt",
+      "~CUSTOM:PetrifiedGrassBlock"
     ],
     "ITEMS:forge:general_crate_basic": [
       "Items.RAW_IRON",
@@ -6812,44 +6889,8 @@
       "Blocks.BOOKSHELF",
       "Blocks.SCULK"
     ],
-    "ITEMS:mod:food_crate_basic": [
-      "Items.APPLE",
-      "Items.MUSHROOM_STEW",
-      "Items.WHEAT_SEEDS",
-      "Items.WHEAT",
-      "Items.CARROT",
-      "Items.POTATO",
-      "Items.BAKED_POTATO",
-      "Items.PUMPKIN_PIE",
-      "Items.GOLDEN_CARROT",
-      "Items.BREAD",
-      "Items.PUMPKIN_SEEDS",
-      "Items.MELON",
-      "Items.MELON_SEEDS",
-      "Items.SWEET_BERRIES",
-      "Items.GLOW_BERRIES",
-      "Items.COOKED_FISH#0",
-      "Items.COOKED_FISH#1",
-      "Items.COOKED_PORKCHOP",
-      "Items.COOKED_BEEF",
-      "Items.COOKED_CHICKEN",
-      "Items.COOKED_RABBIT",
-      "Items.RABBIT_STEW",
-      "Items.COOKED_MUTTON",
-      "Items.BEETROOT",
-      "Items.BEETROOT_SEEDS",
-      "Items.BEETROOT_SOUP"
-    ],
-    "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:MintWallpaperStairs",
-      "~CUSTOM:WhiteWallpaperStairs",
-      "~CUSTOM:PlainWallpaperStair"
-    ],
-    "ITEMS:minecraft:tardis_upgrades": [
-      "CUSTOM:TelepathicUpgradeTemplate",
-      "CUSTOM:TimeExtenderUpgradeTemplate",
-      "CUSTOM:ARSUpgradeTemplate",
-      "CUSTOM:CommunicationUpgradeTemplate"
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:Drystoneforests"
     ],
     "BLOCKS:minecraft:beacon_base_blocks": [
       "CUSTOM:DalekiumBlock",
@@ -6858,15 +6899,15 @@
   },
   "language_map": {
     "en_us": {
-      "subtitles.vm_teleport": "Teleporting...",
       "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
+      "subtitles.vm_teleport": "Teleporting...",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
       "advancements.obtain_melart.title": "Strongest Material On Skaro",
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
-      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
+      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
       "gui.tardif_mod.coordinate_select_gui.label_rotatedisplay": "RotateDisplay",
@@ -6894,8 +6935,8 @@
       "gui.tardif_mod.exteriorselectgui.label_stuff": "InFlight:",
       "advancements.classic_enter.title": "What is this? BETA?",
       "advancements.the_source.title": "The whole power to the plan!",
-      "subtitles.denied_tardis_takeoff": "TARDIS Take-Off Failed",
       "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
+      "subtitles.denied_tardis_takeoff": "TARDIS Take-Off Failed",
       "gui.tardif_mod.coordinate_select_gui.X_Coord": "X",
       "subtitles.tardis_shutdown": "TARDIS Deactivating",
       "advancements.refine_it.descr": "Obtain Dalekium Refinery",
@@ -6905,9 +6946,9 @@
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "advancements.obtain_dalekium.descr": "Obtain Dalekium",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
@@ -6971,6 +7012,7 @@
       "item.tardif_mod.melart_armor_boots": "Melart Boots",
       "gui.tardif_mod.exteriorselectgui.label_exterior": "Exterior:",
       "subtitles.landing": "TARDIS Landing",
+      "biome.tardif_mod.petrifiedfields": "Petrified Fields",
       "gui.tardif_mod.exterior_monitor_gui.label_dimension": "Dimension:",
       "biome.tardif_mod.classic_plains": "Classic Plains",
       "gui.tardif_mod.monitor_gui.label_exterior": "Exterior:",
@@ -6985,9 +7027,7 @@
       "block.tardif_mod.classic_light_gray_wool": "Classic Light Gray Wool",
       "item_group.tardif_mod.tardif_decoration": "TARDIF Decoration",
       "advancements.its_made_out_of_evreything.descr": "Obtain Plastic!",
-      "biome.tardif_mod.skaro_desert": "Skaro Desert",
       "death.attack.space_suffocation": "%1$s thought they could breathe in space",
-      "biome.tardif_mod.skaro_forest": "Skaro Forest",
       "gui.tardif_mod.monitor_gui.label_dim_input": "dim_input",
       "block.tardif_mod.roundel": "Roundel",
       "item.tardif_mod.jellybabies": "Jelly babies",
@@ -7033,7 +7073,6 @@
       "item.tardif_mod.space_suit_armor_boots": "Space Suit Boots",
       "block.tardif_mod.classic_yellow_wool": "Classic Yellow Wool",
       "block.tardif_mod.wallpaper_roundel_door": "Roundel Door",
-      "biome.tardif_mod.skaro_swamp": "Skaro Swamp",
       "gui.tardif_mod.engine_gui.label_tardis_engine": "TARDIS Engine",
       "block.tardif_mod.fourth_rotor": "Time Rotor",
       "advancements.crates_galore.descr": "Obtain a Supply Crate",
@@ -7044,6 +7083,8 @@
       "block.tardif_mod.hexagonal_frame_offset": "Hexagonal Frame",
       "block.tardif_mod.petrified_grass": "Petrified Grass",
       "block.tardif_mod.classic_dirt": "Classic Dirt",
+      "biome.tardif_mod.drystoneforests": "Drystone Forests",
+      "biome.tardif_mod.raidiated_deserts": "Raidiated Deserts",
       "block.tardif_mod.petrified_cobblestone": "Petrified Cobblestone",
       "item.tardif_mod.space_suit_armor_helmet": "Space Suit Helmet",
       "gui.tardif_mod.coordinate_select_gui.button_rotate": "Rotate",
@@ -7119,7 +7160,6 @@
       "block.tardif_mod.drystonelog": "Dry Stone Log",
       "block.tardif_mod.classic_purple_wool": "Classic Purple Wool",
       "entity.tardif_mod.tenth_cyberman": "Mondasians Cyberman",
-      "biome.tardif_mod.skaro_plains": "Skaro Plains",
       "advancements.classic_enter.descr": "Travel into the classic version of Minecraft",
       "item.tardif_mod.tardis_key": "TARDIS Key",
       "advancements.obtain_dalekium.title": "Daleks Are Made Out Of This!",
@@ -7546,7 +7586,16 @@
                 "children": [
                   {
                     "name": "Natural",
-                    "children": []
+                    "children": [
+                      {
+                        "name": "Loot Tables",
+                        "children": []
+                      },
+                      {
+                        "name": "Procedures",
+                        "children": []
+                      }
+                    ]
                   },
                   {
                     "name": "Recipies",
@@ -7574,6 +7623,10 @@
                   },
                   {
                     "name": "Refinery",
+                    "children": []
+                  },
+                  {
+                    "name": "Global",
                     "children": []
                   }
                 ]

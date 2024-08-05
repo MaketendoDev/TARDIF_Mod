@@ -12,13 +12,13 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "tardif_mod:petrified_dirt"
+        "Name": "tardif_mod:raidiated_sand"
       }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "tardif_mod:drystonelog",
+        "Name": "minecraft:oak_log",
         "Properties": {
           "axis": "y"
         }
@@ -37,7 +37,7 @@
     },
     "trunk_placer": {
       "type": "minecraft:straight_trunk_placer",
-      "base_height": 7,
+      "base_height": 4,
       "height_rand_a": 2,
       "height_rand_b": 0
     },
@@ -47,13 +47,6 @@
       "offset": 0,
       "height": 3
     },
-    "decorators": [
-      {
-        "type": "tardif_mod:skaro_swamp_tree_trunk_decorator"
-      },
-      {
-        "type": "tardif_mod:skaro_swamp_tree_leave_decorator"
-      }
-    ]
+    "decorators": []
   }
 }

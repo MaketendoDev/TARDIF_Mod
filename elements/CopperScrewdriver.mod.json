@@ -2,9 +2,9 @@
   "_fv": 60,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "sonic_screwdriver_off",
-    "customModelName": "Normal",
+    "customModelName": "11th_doctors_sonic:default",
     "customProperties": {},
     "states": [],
     "name": "Copper Screwdriver",
