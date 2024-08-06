@@ -52,7 +52,7 @@
     "particlesProbability": 0.6,
     "rainingPossibility": 0.5,
     "temperature": 0.17,
-    "spawnBiome": true,
+    "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
