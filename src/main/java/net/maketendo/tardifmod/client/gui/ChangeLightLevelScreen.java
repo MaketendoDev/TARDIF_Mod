@@ -9,6 +9,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.Minecraft;
 
 import net.maketendo.tardifmod.world.inventory.ChangeLightLevelMenu;
 import net.maketendo.tardifmod.network.ChangeLightLevelButtonMessage;
@@ -71,6 +72,13 @@ public class ChangeLightLevelScreen extends AbstractContainerScreen<ChangeLightL
 	public void containerTick() {
 		super.containerTick();
 		LightLevel.tick();
+	}
+
+	@Override
+	public void resize(Minecraft minecraft, int width, int height) {
+		String LightLevelValue = LightLevel.getValue();
+		super.resize(minecraft, width, height);
+		LightLevel.setValue(LightLevelValue);
 	}
 
 	@Override

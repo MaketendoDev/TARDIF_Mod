@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tardif_mod:drystoneforests",
-    "tardif_mod:petrifiedfields"
+    "tardif_mod:petrifiedfields",
+    "tardif_mod:drystoneforests"
   ]
 }

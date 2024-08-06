@@ -53,6 +53,7 @@ import net.maketendo.tardifmod.block.PetrifiedGrassBlock;
 import net.maketendo.tardifmod.block.PetrifiedDirtBlock;
 import net.maketendo.tardifmod.block.PetrifiedCobblestoneBlock;
 import net.maketendo.tardifmod.block.Nitro9Block;
+import net.maketendo.tardifmod.block.MoonRockBlock;
 import net.maketendo.tardifmod.block.MonitorBlock;
 import net.maketendo.tardifmod.block.MintWallpaperStairsBlock;
 import net.maketendo.tardifmod.block.MintWallpaperSlabBlock;
@@ -208,6 +209,7 @@ public class TardifModModBlocks {
 	public static final RegistryObject<Block> COG_ROUNDEL_OFFSET = REGISTRY.register("cog_roundel_offset", () -> new CogRoundelOffsetBlock());
 	public static final RegistryObject<Block> COG_ROUNDEL_VERTICLE_OFFSET = REGISTRY.register("cog_roundel_verticle_offset", () -> new CogRoundelVerticleOffsetBlock());
 	public static final RegistryObject<Block> TARDIS_BOTTOM_EXTERIOR_PIECE = REGISTRY.register("tardis_bottom_exterior_piece", () -> new TARDISBottomExteriorPieceBlock());
+	public static final RegistryObject<Block> MOON_ROCK = REGISTRY.register("moon_rock", () -> new MoonRockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

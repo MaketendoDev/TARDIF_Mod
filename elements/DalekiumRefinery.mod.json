@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "block",
   "definition": {
     "texture": "block_functional_dalekrefinary_texture",
@@ -41,9 +41,11 @@
     "resistance": 20.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "TRANSPORTATION"
-    },
+    "creativeTabs": [
+      {
+        "value": "TRANSPORTATION"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -100,7 +102,7 @@
     },
     "luminance": 1,
     "unbreakable": false,
-    "breakHarvestLevel": 6,
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "RefinaryGUI",

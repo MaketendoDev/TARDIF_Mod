@@ -72,11 +72,6 @@ public class RefinaryGUIScreen extends AbstractContainerScreen<RefinaryGUIMenu> 
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.refinary_gui.label_refinary_placholder"), -36, -2, -13477555, false);
 	}

@@ -1,6 +1,7 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
+    "particle": "tardif_mod:block/white_wallpaper",
     "bottom": "tardif_mod:block/white_wallpaper",
     "top": "tardif_mod:block/white_wallpaper",
     "side": "tardif_mod:block/white_wallpaper"

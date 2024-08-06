@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "item",
   "definition": {
     "renderType": 1,
@@ -9,9 +9,11 @@
     "states": [],
     "name": "Psychic Paper",
     "rarity": "UNCOMMON",
-    "creativeTab": {
-      "value": "CUSTOM:TARDIFItems"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TARDIFItems"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
@@ -42,6 +44,7 @@
     },
     "enableRanged": false,
     "shootConstantly": false,
+    "rangedItemChargesPower": false,
     "projectile": {
       "value": "Arrow"
     },

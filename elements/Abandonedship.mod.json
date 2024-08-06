@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "structure",
   "definition": {
     "structure": "abandoned_ship_1",
@@ -25,9 +25,13 @@
         "value": "beaches"
       }
     ],
-    "surfaceDetectionType": "WORLD_SURFACE",
     "terrainAdaptation": "none",
     "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
     "size": 1,
     "maxDistanceFromCenter": 64,
     "jigsawPools": []

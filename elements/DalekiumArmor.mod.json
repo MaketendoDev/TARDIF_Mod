@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,9 +10,11 @@
     "textureLeggings": "dalekium_leggings",
     "enableBoots": true,
     "textureBoots": "dalekium_boots",
-    "creativeTab": {
-      "value": "COMBAT"
-    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
     "armorTextureFile": "dalekium",
     "helmetName": "Dalekium Helmet",
     "bodyName": "Dalekium Chestplate",

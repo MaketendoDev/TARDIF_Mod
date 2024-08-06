@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tardif_mod:block/moon_rock",
+    "up": "tardif_mod:block/moon_rock",
+    "north": "tardif_mod:block/moon_rock",
+    "east": "tardif_mod:block/moon_rock",
+    "south": "tardif_mod:block/moon_rock",
+    "west": "tardif_mod:block/moon_rock",
+    "particle": "tardif_mod:block/moon_rock"
+  },
+  "render_type": "solid"
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "block",
   "definition": {
     "texture": "skarostone",
@@ -41,9 +41,11 @@
     "resistance": 10.5,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "DECORATIONS"
-    },
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": "CUSTOM:PetrifiedCobblestone"
@@ -100,7 +102,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

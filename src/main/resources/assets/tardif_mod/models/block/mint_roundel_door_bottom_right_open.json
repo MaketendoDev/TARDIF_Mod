@@ -1,6 +1,7 @@
 {
   "parent": "block/door_bottom_right_open",
   "textures": {
+    "particle": "tardif_mod:block/mint_roundel",
     "bottom": "tardif_mod:block/mint_roundel",
     "top": "tardif_mod:block/mint_roundel"
   },

@@ -1,7 +1,7 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "procedure",
   "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Boolean\" id=\"take_off\">take_off</variable></variables><block type=\"event_trigger\" deletable=\"false\" x=\"-32\" y=\"13\"><field name=\"trigger\">no_ext_trigger</field></block></xml>"
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable id=\"take_off\" type=\"Boolean\">take_off</variable></variables><block deletable=\"false\" type=\"event_trigger\" x=\"-32\" y=\"13\"><field name=\"trigger\">no_ext_trigger</field></block></xml>"
   }
 }

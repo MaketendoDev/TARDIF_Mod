@@ -89,11 +89,6 @@ public class MonitorGUIScreen extends AbstractContainerScreen<MonitorGUIMenu> {
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.monitor_gui.label_empty"), 12, 60, -1, false);
 		guiGraphics.drawString(this.font,

@@ -3,15 +3,14 @@
     {
       "name": "TARDISDim",
       "type": "dimension",
-      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_dim",
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/dimension/tardis_dim.json",
-          "src/main/resources/data/tardif_mod/dimension_type/tardis_dim.json",
-          "src/main/java/net/maketendo/tardifmod/world/dimension/TARDISDimDimension.java"
+          "src/main/java/net/maketendo/tardifmod/world/dimension/TARDISDimDimension.java",
+          "src/main/resources/data/tardif_mod/dimension_type/tardis_dim.json"
         ]
       },
       "path": "~/TARDIS/Important Stuff"
@@ -19,7 +18,6 @@
     {
       "name": "TARDISItems",
       "type": "tab",
-      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_items",
@@ -31,7 +29,6 @@
     {
       "name": "TARDISItemRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_item_rightclicked_on_block",
@@ -67,7 +64,6 @@
     {
       "name": "TARDISItem",
       "type": "item",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_item",
@@ -82,7 +78,6 @@
     {
       "name": "TARDISKey",
       "type": "item",
-      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_key",
@@ -97,7 +92,6 @@
     {
       "name": "TARDISRightClickedOnEntity",
       "type": "procedure",
-      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_right_clicked_on_entity",
@@ -133,7 +127,6 @@
     {
       "name": "TARDIFDecoration",
       "type": "tab",
-      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardif_decoration",
@@ -145,24 +138,23 @@
     {
       "name": "RoundelDoor",
       "type": "block",
-      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundel_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right_open.json",
-          "src/main/java/net/maketendo/tardifmod/block/RoundelDoorBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/roundel_door.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_left.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_left_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_left_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_left.json",
-          "src/main/resources/assets/tardif_mod/models/item/roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_right.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_right_open.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_right_open.json"
+          "src/main/resources/assets/tardif_mod/blockstates/roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_left_open.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_left_open.json",
+          "src/main/java/net/maketendo/tardifmod/block/RoundelDoorBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_right.json",
+          "src/main/resources/assets/tardif_mod/models/item/roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_top_left.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_door_bottom_right_open.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors"
@@ -170,17 +162,16 @@
     {
       "name": "Roundel",
       "type": "block",
-      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundel",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/RoundelBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/roundel.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/roundel.json",
           "src/main/resources/assets/tardif_mod/models/item/roundel.json",
-          "src/main/resources/assets/tardif_mod/blockstates/roundel.json"
+          "src/main/java/net/maketendo/tardifmod/block/RoundelBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/roundel.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels/Default"
@@ -188,7 +179,6 @@
     {
       "name": "ScrewdriverRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "screwdriver_rightclicked_on_block",
@@ -220,14 +210,13 @@
     {
       "name": "CopperScrewdriver",
       "type": "item",
-      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_screwdriver",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/CopperScrewdriverItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/copper_screwdriver.json"
+          "src/main/resources/assets/tardif_mod/models/item/copper_screwdriver.json",
+          "src/main/java/net/maketendo/tardifmod/item/CopperScrewdriverItem.java"
         ]
       },
       "path": "~/Items/Sonic"
@@ -235,7 +224,6 @@
     {
       "name": "TARDIFItems",
       "type": "tab",
-      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardif_items",
@@ -247,7 +235,6 @@
     {
       "name": "PsychicPaperItemInHandTick",
       "type": "procedure",
-      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "psychic_paper_item_in_hand_tick",
@@ -267,7 +254,6 @@
     {
       "name": "PsychicPaper",
       "type": "item",
-      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "psychic_paper",
@@ -282,7 +268,6 @@
     {
       "name": "PsychicPaperRecipie",
       "type": "recipe",
-      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "psychic_paper_recipie",
@@ -296,14 +281,13 @@
     {
       "name": "Plastic",
       "type": "item",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/PlasticItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/plastic.json"
+          "src/main/resources/assets/tardif_mod/models/item/plastic.json",
+          "src/main/java/net/maketendo/tardifmod/item/PlasticItem.java"
         ]
       },
       "path": "~/Gameplay/Plastic"
@@ -311,15 +295,14 @@
     {
       "name": "CoordinateSelectGUI",
       "type": "gui",
-      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coordinate_select_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/network/CoordinateSelectGUIButtonMessage.java",
           "src/main/java/net/maketendo/tardifmod/client/gui/CoordinateSelectGUIScreen.java",
-          "src/main/java/net/maketendo/tardifmod/world/inventory/CoordinateSelectGUIMenu.java"
+          "src/main/java/net/maketendo/tardifmod/world/inventory/CoordinateSelectGUIMenu.java",
+          "src/main/java/net/maketendo/tardifmod/network/CoordinateSelectGUIButtonMessage.java"
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Coordinate Control Carpet Control"
@@ -327,7 +310,6 @@
     {
       "name": "CoordinatesOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coordinates_on_block_right_clicked",
@@ -359,7 +341,6 @@
     {
       "name": "SaveCoords",
       "type": "procedure",
-      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "save_coords",
@@ -399,7 +380,6 @@
     {
       "name": "CalculateY",
       "type": "procedure",
-      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "calculate_y",
@@ -419,7 +399,6 @@
     {
       "name": "Randomiser",
       "type": "procedure",
-      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "randomiser",
@@ -439,7 +418,6 @@
     {
       "name": "TimeBlocks",
       "type": "tab",
-      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "time_blocks",
@@ -451,17 +429,16 @@
     {
       "name": "Classicgrass",
       "type": "block",
-      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classicgrass",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classicgrass.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicgrassBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/classicgrass.json",
-          "src/main/resources/assets/tardif_mod/models/block/classicgrass.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classicgrass.json"
+          "src/main/resources/assets/tardif_mod/blockstates/classicgrass.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicgrassBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classicgrass.json",
+          "src/main/resources/assets/tardif_mod/models/block/classicgrass.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block"
@@ -469,16 +446,15 @@
     {
       "name": "ClassicStone",
       "type": "block",
-      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_stone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/classic_stone.json",
-          "src/main/resources/assets/tardif_mod/models/item/classic_stone.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_stone.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicStoneBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/classic_stone.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_stone.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_stone.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_stone.json"
         ]
       },
@@ -487,17 +463,16 @@
     {
       "name": "ClassicSand",
       "type": "block",
-      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_sand",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/ClassicSandBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/classic_sand.json",
           "src/main/resources/assets/tardif_mod/blockstates/classic_sand.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_sand.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_sand.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_sand.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicSandBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/classic_sand.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block"
@@ -505,17 +480,16 @@
     {
       "name": "ClassicLeaves",
       "type": "block",
-      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_leaves",
       "metadata": {
         "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_leaves.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_leaves.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicLeavesBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/classic_leaves.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_leaves.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_leaves.json"
+          "src/main/java/net/maketendo/tardifmod/block/ClassicLeavesBlock.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block"
@@ -523,15 +497,14 @@
     {
       "name": "ClassicLog",
       "type": "block",
-      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_log",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_log.json",
           "src/main/resources/assets/tardif_mod/blockstates/classic_log.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_log.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_log.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_log.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicLogBlock.java"
         ]
@@ -541,7 +514,6 @@
     {
       "name": "ClassicPlains",
       "type": "biome",
-      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_plains",
@@ -557,7 +529,6 @@
     {
       "name": "ClassicOverworld",
       "type": "dimension",
-      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_overworld",
@@ -573,15 +544,14 @@
     {
       "name": "ClassicFeature",
       "type": "feature",
-      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/forge/biome_modifier/classic_feature_biome_modifier.json",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/classic_feature.json",
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/classic_feature.json",
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/classic_feature.json"
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/classic_feature_biome_modifier.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic"
@@ -589,16 +559,15 @@
     {
       "name": "ClassicDirt",
       "type": "block",
-      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dirt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/classic_dirt.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_dirt.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_dirt.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicDirtBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_dirt.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_dirt.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_dirt.json"
         ]
       },
@@ -607,7 +576,6 @@
     {
       "name": "TARDISDimPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_dim_player_enters_dimension",
@@ -639,7 +607,6 @@
     {
       "name": "FlightOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flight_on_block_right_clicked",
@@ -675,20 +642,19 @@
     {
       "name": "Plastic_ChunkOre",
       "type": "block",
-      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/plastic_ore.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/plastic_ore.json",
-          "src/main/resources/assets/tardif_mod/models/item/plastic_ore.json",
           "src/main/resources/assets/tardif_mod/models/block/plastic_ore.json",
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/plastic_ore.json",
           "src/main/java/net/maketendo/tardifmod/block/Plastic_ChunkOreBlock.java",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/plastic_ore.json",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/plastic_ore.json",
+          "src/main/resources/assets/tardif_mod/models/item/plastic_ore.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/plastic_ore.json",
           "src/main/resources/data/tardif_mod/forge/biome_modifier/plastic_ore_biome_modifier.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/plastic_ore.json"
+          "src/main/resources/assets/tardif_mod/blockstates/plastic_ore.json"
         ]
       },
       "path": "~/Gameplay/Plastic"
@@ -696,7 +662,6 @@
     {
       "name": "RoundelDoorRecipie",
       "type": "recipe",
-      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundel_door_recipie",
@@ -710,7 +675,6 @@
     {
       "name": "Roundelrecipie",
       "type": "recipe",
-      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundelrecipie",
@@ -724,7 +688,6 @@
     {
       "name": "TARDISOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_on_entity_tick_update",
@@ -756,7 +719,6 @@
     {
       "name": "DimentionSelectionGui",
       "type": "gui",
-      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimention_selection_gui",
@@ -772,7 +734,6 @@
     {
       "name": "Overworldselected",
       "type": "procedure",
-      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "overworldselected",
@@ -792,17 +753,16 @@
     {
       "name": "ClassicNetherack",
       "type": "block",
-      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_netherack",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/classic_netherack.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicNetherackBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_netherack.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_netherack.json",
-          "src/main/resources/assets/tardif_mod/models/item/classic_netherack.json"
+          "src/main/resources/assets/tardif_mod/models/item/classic_netherack.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_netherack.json"
         ]
       },
       "path": "~/Dimensions/Time/Nether"
@@ -810,7 +770,6 @@
     {
       "name": "ClassicNetherBiome",
       "type": "biome",
-      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether_biome",
@@ -824,15 +783,14 @@
     {
       "name": "ClassicNether",
       "type": "dimension",
-      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_nether",
       "metadata": {
         "files": [
+          "src/main/resources/data/tardif_mod/dimension/classic_nether.json",
           "src/main/java/net/maketendo/tardifmod/world/dimension/ClassicNetherDimension.java",
-          "src/main/resources/data/tardif_mod/dimension_type/classic_nether.json",
-          "src/main/resources/data/tardif_mod/dimension/classic_nether.json"
+          "src/main/resources/data/tardif_mod/dimension_type/classic_nether.json"
         ]
       },
       "path": "~/Dimensions/Time/Nether"
@@ -840,16 +798,15 @@
     {
       "name": "Monitor",
       "type": "block",
-      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "monitor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/monitor.json",
-          "src/main/resources/assets/tardif_mod/blockstates/monitor.json",
-          "src/main/resources/assets/tardif_mod/models/item/monitor.json",
           "src/main/java/net/maketendo/tardifmod/block/MonitorBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/monitor.json",
+          "src/main/resources/assets/tardif_mod/models/item/monitor.json",
+          "src/main/resources/assets/tardif_mod/blockstates/monitor.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/monitor.json"
         ]
       },
@@ -858,16 +815,15 @@
     {
       "name": "MintRoundel",
       "type": "block",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/mint_roundel.json",
           "src/main/java/net/maketendo/tardifmod/block/MintRoundelBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/mint_roundel.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_roundel.json",
+          "src/main/resources/assets/tardif_mod/blockstates/mint_roundel.json",
+          "src/main/resources/assets/tardif_mod/models/item/mint_roundel.json",
           "src/main/resources/assets/tardif_mod/models/block/mint_roundel.json"
         ]
       },
@@ -876,7 +832,6 @@
     {
       "name": "MintRoundelRecipie",
       "type": "recipe",
-      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_roundel_recipie",
@@ -890,7 +845,6 @@
     {
       "name": "SetOverworld",
       "type": "procedure",
-      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_overworld",
@@ -914,7 +868,6 @@
     {
       "name": "SetNether",
       "type": "procedure",
-      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_nether",
@@ -938,7 +891,6 @@
     {
       "name": "SetEnd",
       "type": "procedure",
-      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_end",
@@ -962,7 +914,6 @@
     {
       "name": "SetClassicNether",
       "type": "procedure",
-      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_classic_nether",
@@ -986,24 +937,23 @@
     {
       "name": "MintRoundelDoor",
       "type": "block",
-      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_roundel_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/mint_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_left.json",
-          "src/main/java/net/maketendo/tardifmod/block/MintRoundelDoorBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_right_open.json",
           "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_left_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_right_open.json",
-          "src/main/resources/assets/tardif_mod/blockstates/mint_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_left_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_right.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_right_open.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_left.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_roundel_door.json",
           "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_right.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_left_open.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_right_open.json",
           "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_bottom_left.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_roundel_door.json"
+          "src/main/resources/assets/tardif_mod/blockstates/mint_roundel_door.json",
+          "src/main/java/net/maketendo/tardifmod/block/MintRoundelDoorBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/mint_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_roundel_door_top_right.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors/Mint Roundel"
@@ -1011,7 +961,6 @@
     {
       "name": "MintRoundelDoorRecipie",
       "type": "recipe",
-      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_roundel_door_recipie",
@@ -1025,7 +974,6 @@
     {
       "name": "MonitorGUI",
       "type": "gui",
-      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "monitor_gui",
@@ -1041,7 +989,6 @@
     {
       "name": "MonitorOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "monitor_on_block_right_clicked",
@@ -1073,7 +1020,6 @@
     {
       "name": "Flightdisplay",
       "type": "procedure",
-      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flightdisplay",
@@ -1094,7 +1040,6 @@
     {
       "name": "Exteriorinput",
       "type": "procedure",
-      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exteriorinput",
@@ -1115,7 +1060,6 @@
     {
       "name": "Interiorinput",
       "type": "procedure",
-      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "interiorinput",
@@ -1136,7 +1080,6 @@
     {
       "name": "Xinput",
       "type": "procedure",
-      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "xinput",
@@ -1157,7 +1100,6 @@
     {
       "name": "Yinput",
       "type": "procedure",
-      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yinput",
@@ -1178,7 +1120,6 @@
     {
       "name": "Zinput",
       "type": "procedure",
-      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zinput",
@@ -1199,7 +1140,6 @@
     {
       "name": "Diminput",
       "type": "procedure",
-      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diminput",
@@ -1220,7 +1160,6 @@
     {
       "name": "DimensionalPannelOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimensional_pannel_on_block_right_clicked",
@@ -1256,17 +1195,16 @@
     {
       "name": "Rotor",
       "type": "block",
-      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotor",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/rotor.json",
           "src/main/java/net/maketendo/tardifmod/block/RotorBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/rotor.json",
+          "src/main/resources/assets/tardif_mod/models/block/rotor.json",
           "src/main/resources/assets/tardif_mod/models/item/rotor.json",
-          "src/main/resources/assets/tardif_mod/models/block/rotor.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/rotor.json",
+          "src/main/resources/assets/tardif_mod/blockstates/rotor.json"
         ]
       },
       "path": "~/Decor Blocks/Rotor"
@@ -1274,7 +1212,6 @@
     {
       "name": "RotorRecipie",
       "type": "recipe",
-      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotor_recipie",
@@ -1288,14 +1225,13 @@
     {
       "name": "CircuitBoard",
       "type": "item",
-      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "circuit_board",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/CircuitBoardItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/circuit_board.json"
+          "src/main/resources/assets/tardif_mod/models/item/circuit_board.json",
+          "src/main/java/net/maketendo/tardifmod/item/CircuitBoardItem.java"
         ]
       },
       "path": "~/Gameplay/Circuit"
@@ -1303,7 +1239,6 @@
     {
       "name": "CircuitBoardRecipie",
       "type": "recipe",
-      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "circuit_board_recipie",
@@ -1317,14 +1252,13 @@
     {
       "name": "Solder",
       "type": "item",
-      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "solder",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/SolderItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/solder.json"
+          "src/main/resources/assets/tardif_mod/models/item/solder.json",
+          "src/main/java/net/maketendo/tardifmod/item/SolderItem.java"
         ]
       },
       "path": "~/Gameplay/Solder"
@@ -1332,20 +1266,19 @@
     {
       "name": "SolderOre",
       "type": "block",
-      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "solder_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/solder_ore.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/solder_ore.json",
-          "src/main/java/net/maketendo/tardifmod/block/SolderOreBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/solder_ore.json",
-          "src/main/resources/assets/tardif_mod/models/block/solder_ore.json",
+          "src/main/java/net/maketendo/tardifmod/block/SolderOreBlock.java",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/solder_ore.json",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/solder_ore.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/solder_ore.json",
-          "src/main/resources/data/tardif_mod/forge/biome_modifier/solder_ore_biome_modifier.json",
-          "src/main/resources/assets/tardif_mod/blockstates/solder_ore.json"
+          "src/main/resources/assets/tardif_mod/blockstates/solder_ore.json",
+          "src/main/resources/assets/tardif_mod/models/block/solder_ore.json",
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/solder_ore_biome_modifier.json"
         ]
       },
       "path": "~/Gameplay/Solder"
@@ -1353,7 +1286,6 @@
     {
       "name": "Zyton7",
       "type": "item",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zyton_7",
@@ -1368,14 +1300,13 @@
     {
       "name": "DrainedZyton7",
       "type": "item",
-      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drained_zyton_7",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/drained_zyton_7.json",
-          "src/main/java/net/maketendo/tardifmod/item/DrainedZyton7Item.java"
+          "src/main/java/net/maketendo/tardifmod/item/DrainedZyton7Item.java",
+          "src/main/resources/assets/tardif_mod/models/item/drained_zyton_7.json"
         ]
       },
       "path": "~/Gameplay/Zyton - 7"
@@ -1383,17 +1314,16 @@
     {
       "name": "Zyton7Block",
       "type": "block",
-      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zyton_7_block",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/Zyton7BlockBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/zyton_7_block.json",
-          "src/main/resources/assets/tardif_mod/models/item/zyton_7_block.json",
           "src/main/resources/assets/tardif_mod/blockstates/zyton_7_block.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/zyton_7_block.json"
+          "src/main/java/net/maketendo/tardifmod/block/Zyton7BlockBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/zyton_7_block.json",
+          "src/main/resources/assets/tardif_mod/models/item/zyton_7_block.json",
+          "src/main/resources/assets/tardif_mod/models/block/zyton_7_block.json"
         ]
       },
       "path": "~/Gameplay/Zyton - 7"
@@ -1401,16 +1331,15 @@
     {
       "name": "DrainedZyton7Block",
       "type": "block",
-      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drained_zyton_7_block",
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/drained_zyton_7_block.json",
-          "src/main/java/net/maketendo/tardifmod/block/DrainedZyton7BlockBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/drained_zyton_7_block.json",
           "src/main/resources/assets/tardif_mod/models/item/drained_zyton_7_block.json",
+          "src/main/resources/assets/tardif_mod/models/block/drained_zyton_7_block.json",
+          "src/main/java/net/maketendo/tardifmod/block/DrainedZyton7BlockBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/drained_zyton_7_block.json"
         ]
       },
@@ -1419,7 +1348,6 @@
     {
       "name": "ZytonBlockRecipe",
       "type": "recipe",
-      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zyton_block_recipe",
@@ -1433,7 +1361,6 @@
     {
       "name": "DrainedZyton7BlockRecipie",
       "type": "recipe",
-      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drained_zyton_7_block_recipie",
@@ -1447,7 +1374,6 @@
     {
       "name": "Zyton7Recipie",
       "type": "recipe",
-      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zyton_7_recipie",
@@ -1461,7 +1387,6 @@
     {
       "name": "DrainedZyton7Recipie",
       "type": "recipe",
-      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drained_zyton_7_recipie",
@@ -1475,7 +1400,6 @@
     {
       "name": "TimepannelOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "timepannel_on_block_right_clicked",
@@ -1511,7 +1435,6 @@
     {
       "name": "TARDISKeyRecipie",
       "type": "recipe",
-      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_key_recipie",
@@ -1525,20 +1448,19 @@
     {
       "name": "ZytonOre",
       "type": "block",
-      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zyton_ore",
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/forge/biome_modifier/zyton_ore_biome_modifier.json",
-          "src/main/resources/assets/tardif_mod/models/block/zyton_ore.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/zyton_ore.json",
-          "src/main/resources/assets/tardif_mod/models/item/zyton_ore.json",
           "src/main/resources/data/tardif_mod/worldgen/configured_feature/zyton_ore.json",
-          "src/main/java/net/maketendo/tardifmod/block/ZytonOreBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/zyton_ore.json",
-          "src/main/resources/assets/tardif_mod/blockstates/zyton_ore.json"
+          "src/main/resources/assets/tardif_mod/blockstates/zyton_ore.json",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/zyton_ore.json",
+          "src/main/resources/assets/tardif_mod/models/block/zyton_ore.json",
+          "src/main/resources/assets/tardif_mod/models/item/zyton_ore.json",
+          "src/main/java/net/maketendo/tardifmod/block/ZytonOreBlock.java"
         ]
       },
       "path": "~/Gameplay/Zyton - 7"
@@ -1546,14 +1468,13 @@
     {
       "name": "Jellybabies",
       "type": "item",
-      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jellybabies",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/jellybabies.json",
-          "src/main/java/net/maketendo/tardifmod/item/JellybabiesItem.java"
+          "src/main/java/net/maketendo/tardifmod/item/JellybabiesItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/jellybabies.json"
         ]
       },
       "path": "~/Gameplay/Foods/Jelly Babies"
@@ -1561,14 +1482,13 @@
     {
       "name": "EmptyBag",
       "type": "item",
-      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_bag",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/empty_bag.json",
-          "src/main/java/net/maketendo/tardifmod/item/EmptyBagItem.java"
+          "src/main/java/net/maketendo/tardifmod/item/EmptyBagItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/empty_bag.json"
         ]
       },
       "path": "~/Gameplay/Foods/Jelly Babies"
@@ -1576,7 +1496,6 @@
     {
       "name": "BagRecipie",
       "type": "recipe",
-      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bag_recipie",
@@ -1590,7 +1509,6 @@
     {
       "name": "JellyBabiesRecipies",
       "type": "recipe",
-      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jelly_babies_recipies",
@@ -1604,7 +1522,6 @@
     {
       "name": "FishFingerandCustard",
       "type": "item",
-      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_fingerand_custard",
@@ -1619,7 +1536,6 @@
     {
       "name": "FishCustardRecipie",
       "type": "recipe",
-      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_custard_recipie",
@@ -1633,7 +1549,6 @@
     {
       "name": "DematerialisationLeverOffOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_dematerialisation_functionality",
@@ -1669,7 +1584,6 @@
     {
       "name": "CopperScrewdriverRecipe",
       "type": "recipe",
-      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_screwdriver_recipe",
@@ -1683,17 +1597,16 @@
     {
       "name": "ClassicWhiteWool",
       "type": "block",
-      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_white_wool",
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_white_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_white_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicWhiteWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/classic_white_wool.json",
-          "src/main/resources/assets/tardif_mod/models/item/classic_white_wool.json"
+          "src/main/resources/assets/tardif_mod/blockstates/classic_white_wool.json",
+          "src/main/resources/assets/tardif_mod/models/item/classic_white_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_white_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1701,17 +1614,16 @@
     {
       "name": "ClassicLightGrayWool",
       "type": "block",
-      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_light_gray_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/classic_light_gray_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_light_gray_wool.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_light_gray_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicLightGrayWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/classic_light_gray_wool.json"
+          "src/main/resources/assets/tardif_mod/models/item/classic_light_gray_wool.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_light_gray_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_light_gray_wool.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicLightGrayWoolBlock.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1719,17 +1631,16 @@
     {
       "name": "FoodCubeMachine",
       "type": "block",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_cube_machine",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/FoodCubeMachineBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/food_cube_machine.json",
           "src/main/resources/assets/tardif_mod/models/item/food_cube_machine.json",
           "src/main/resources/assets/tardif_mod/blockstates/food_cube_machine.json",
-          "src/main/resources/assets/tardif_mod/models/block/food_cube_machine.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/food_cube_machine.json",
+          "src/main/resources/assets/tardif_mod/models/block/food_cube_machine.json",
+          "src/main/java/net/maketendo/tardifmod/block/FoodCubeMachineBlock.java"
         ]
       },
       "path": "~/Gameplay/TARDIS Blocks/Food Cube Machines"
@@ -1737,7 +1648,6 @@
     {
       "name": "FoodCubePlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_cube_player_finishes_using_item",
@@ -1757,7 +1667,6 @@
     {
       "name": "FoodCube",
       "type": "item",
-      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_cube",
@@ -1772,7 +1681,6 @@
     {
       "name": "FoodCubeMachineOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_cube_machine_on_block_right_clicked",
@@ -1792,7 +1700,6 @@
     {
       "name": "FoodCubeMachineRecipe",
       "type": "recipe",
-      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_cube_machine_recipe",
@@ -1806,17 +1713,16 @@
     {
       "name": "ClassicGrayWool",
       "type": "block",
-      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_gray_wool",
       "metadata": {
         "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_gray_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_gray_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_gray_wool.json",
           "src/main/resources/assets/tardif_mod/blockstates/classic_gray_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicGrayWoolBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_gray_wool.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_gray_wool.json"
+          "src/main/java/net/maketendo/tardifmod/block/ClassicGrayWoolBlock.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1824,17 +1730,16 @@
     {
       "name": "ClassicYellowWool",
       "type": "block",
-      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_yellow_wool",
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_yellow_wool.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_yellow_wool.json",
           "src/main/resources/assets/tardif_mod/blockstates/classic_yellow_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicYellowWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/classic_yellow_wool.json"
+          "src/main/resources/assets/tardif_mod/models/item/classic_yellow_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_yellow_wool.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicYellowWoolBlock.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1842,17 +1747,16 @@
     {
       "name": "ClassicBlueWool",
       "type": "block",
-      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_blue_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/classic_blue_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_blue_wool.json",
           "src/main/resources/assets/tardif_mod/blockstates/classic_blue_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicBlueWoolBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_blue_wool.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_blue_wool.json"
+          "src/main/resources/assets/tardif_mod/models/item/classic_blue_wool.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_blue_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1860,17 +1764,16 @@
     {
       "name": "ClassicAquaWool",
       "type": "block",
-      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_aqua_wool",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/classic_aqua_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_aqua_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicAquaWoolBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/classic_aqua_wool.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_aqua_wool.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_aqua_wool.json"
+          "src/main/java/net/maketendo/tardifmod/block/ClassicAquaWoolBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_aqua_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1878,17 +1781,16 @@
     {
       "name": "ClassicCyanWool",
       "type": "block",
-      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_cyan_wool",
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_cyan_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_cyan_wool.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_cyan_wool.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicCyanWoolBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/classic_cyan_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicCyanWoolBlock.java"
+          "src/main/resources/assets/tardif_mod/blockstates/classic_cyan_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1896,7 +1798,6 @@
     {
       "name": "ClassicGreenWool",
       "type": "block",
-      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_green_wool",
@@ -1904,9 +1805,9 @@
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_green_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_green_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicGreenWoolBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/classic_green_wool.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_green_wool.json"
+          "src/main/resources/assets/tardif_mod/models/block/classic_green_wool.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicGreenWoolBlock.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1914,7 +1815,6 @@
     {
       "name": "ClassicLimeWool",
       "type": "block",
-      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_lime_wool",
@@ -1922,9 +1822,9 @@
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_lime_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_lime_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_lime_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_lime_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicLimeWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/classic_lime_wool.json"
+          "src/main/resources/assets/tardif_mod/blockstates/classic_lime_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1932,17 +1832,16 @@
     {
       "name": "ClassicTealWool",
       "type": "block",
-      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_teal_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/classic_teal_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicTealWoolBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_teal_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_teal_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_teal_wool.json"
+          "src/main/java/net/maketendo/tardifmod/block/ClassicTealWoolBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_teal_wool.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_teal_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_teal_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1950,17 +1849,16 @@
     {
       "name": "ClassicPurpleWool",
       "type": "block",
-      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_purple_wool",
       "metadata": {
         "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_purple_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicPurpleWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/classic_purple_wool.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_purple_wool.json",
           "src/main/resources/assets/tardif_mod/blockstates/classic_purple_wool.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_purple_wool.json"
+          "src/main/resources/assets/tardif_mod/models/item/classic_purple_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1968,17 +1866,16 @@
     {
       "name": "ClassicIndigoWool",
       "type": "block",
-      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_indigo_wool",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/item/classic_indigo_wool.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_indigo_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicIndigoWoolBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/classic_indigo_wool.json",
           "src/main/resources/assets/tardif_mod/models/block/classic_indigo_wool.json",
-          "src/main/resources/assets/tardif_mod/models/item/classic_indigo_wool.json"
+          "src/main/java/net/maketendo/tardifmod/block/ClassicIndigoWoolBlock.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -1986,17 +1883,16 @@
     {
       "name": "ClassicMagentaWool",
       "type": "block",
-      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_magenta_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/classic_magenta_wool.json",
-          "src/main/java/net/maketendo/tardifmod/block/ClassicMagentaWoolBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/classic_magenta_wool.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_magenta_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_magenta_wool.json"
+          "src/main/resources/assets/tardif_mod/models/block/classic_magenta_wool.json",
+          "src/main/resources/assets/tardif_mod/models/item/classic_magenta_wool.json",
+          "src/main/resources/assets/tardif_mod/blockstates/classic_magenta_wool.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicMagentaWoolBlock.java"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -2004,16 +1900,15 @@
     {
       "name": "ClassicRedWool",
       "type": "block",
-      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_red_wool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/classic_red_wool.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_red_wool.json",
           "src/main/java/net/maketendo/tardifmod/block/ClassicRedWoolBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/classic_red_wool.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_red_wool.json",
+          "src/main/resources/assets/tardif_mod/models/block/classic_red_wool.json",
           "src/main/resources/assets/tardif_mod/models/item/classic_red_wool.json"
         ]
       },
@@ -2022,17 +1917,16 @@
     {
       "name": "ClassicOrangeWool",
       "type": "block",
-      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_orange_wool",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/ClassicOrangeWoolBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/classic_orange_wool.json",
+          "src/main/java/net/maketendo/tardifmod/block/ClassicOrangeWoolBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/classic_orange_wool.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/classic_orange_wool.json",
-          "src/main/resources/assets/tardif_mod/blockstates/classic_orange_wool.json",
-          "src/main/resources/assets/tardif_mod/models/block/classic_orange_wool.json"
+          "src/main/resources/assets/tardif_mod/blockstates/classic_orange_wool.json"
         ]
       },
       "path": "~/Dimensions/Time/Classic/Block/Wool"
@@ -2040,16 +1934,15 @@
     {
       "name": "TenthCyberman",
       "type": "livingentity",
-      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tenth_cyberman",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/entity/TenthCybermanEntityProjectile.java",
           "src/main/resources/assets/tardif_mod/models/item/tenth_cyberman_spawn_egg.json",
-          "src/main/java/net/maketendo/tardifmod/client/renderer/TenthCybermanRenderer.java",
           "src/main/java/net/maketendo/tardifmod/entity/TenthCybermanEntity.java",
+          "src/main/java/net/maketendo/tardifmod/entity/TenthCybermanEntityProjectile.java",
+          "src/main/java/net/maketendo/tardifmod/client/renderer/TenthCybermanRenderer.java",
           "src/main/resources/data/tardif_mod/forge/biome_modifier/tenth_cyberman_biome_modifier.json"
         ]
       },
@@ -2058,7 +1951,6 @@
     {
       "name": "Laser",
       "type": "projectile",
-      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laser",
@@ -2073,14 +1965,13 @@
     {
       "name": "LaserItem",
       "type": "item",
-      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laser_item",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/LaserItemItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/laser_item.json"
+          "src/main/resources/assets/tardif_mod/models/item/laser_item.json",
+          "src/main/java/net/maketendo/tardifmod/item/LaserItemItem.java"
         ]
       },
       "path": "~/Entities - Mobs/laser"
@@ -2088,18 +1979,17 @@
     {
       "name": "TARDISExterior",
       "type": "block",
-      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_exterior",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior.json",
-          "src/main/resources/assets/tardif_mod/models/item/tardis_exterior.json",
-          "src/main/java/net/maketendo/tardifmod/block/entity/TARDISExteriorBlockEntity.java",
-          "src/main/resources/assets/tardif_mod/blockstates/tardis_exterior.json",
+          "src/main/java/net/maketendo/tardifmod/block/TARDISExteriorBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_exterior.json",
-          "src/main/java/net/maketendo/tardifmod/block/TARDISExteriorBlock.java"
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior.json",
+          "src/main/resources/assets/tardif_mod/blockstates/tardis_exterior.json",
+          "src/main/java/net/maketendo/tardifmod/block/entity/TARDISExteriorBlockEntity.java",
+          "src/main/resources/assets/tardif_mod/models/item/tardis_exterior.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Exterior"
@@ -2107,7 +1997,6 @@
     {
       "name": "MomentDamageType",
       "type": "damagetype",
-      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moment_damage_type",
@@ -2121,7 +2010,6 @@
     {
       "name": "TheMomentOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_moment_on_block_right_clicked",
@@ -2153,17 +2041,16 @@
     {
       "name": "TheMoment",
       "type": "block",
-      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_moment",
       "metadata": {
         "files": [
           "src/main/resources/assets/tardif_mod/models/item/the_moment.json",
-          "src/main/resources/assets/tardif_mod/models/block/the_moment.json",
+          "src/main/resources/assets/tardif_mod/blockstates/the_moment.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/the_moment.json",
           "src/main/java/net/maketendo/tardifmod/block/TheMomentBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/the_moment.json"
+          "src/main/resources/assets/tardif_mod/models/block/the_moment.json"
         ]
       },
       "path": "~/Gameplay/Weapons/The Moment"
@@ -2171,7 +2058,6 @@
     {
       "name": "ObtainTardis",
       "type": "achievement",
-      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_tardis",
@@ -2185,7 +2071,6 @@
     {
       "name": "ClassicEnter",
       "type": "achievement",
-      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_enter",
@@ -2199,7 +2084,6 @@
     {
       "name": "Advanced",
       "type": "achievement",
-      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "advanced",
@@ -2213,7 +2097,6 @@
     {
       "name": "TheSource",
       "type": "achievement",
-      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_source",
@@ -2227,7 +2110,6 @@
     {
       "name": "ThePlanetEnder",
       "type": "achievement",
-      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_planet_ender",
@@ -2241,7 +2123,6 @@
     {
       "name": "HellOldestArrival",
       "type": "achievement",
-      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hell_oldest_arrival",
@@ -2255,7 +2136,6 @@
     {
       "name": "WhatIsThisPlace",
       "type": "achievement",
-      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "what_is_this_place",
@@ -2269,7 +2149,6 @@
     {
       "name": "ItsMadeOutOfEvreything",
       "type": "achievement",
-      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "its_made_out_of_evreything",
@@ -2283,17 +2162,16 @@
     {
       "name": "TARDISMaintenanceEngine",
       "type": "block",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_maintenance_engine",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/TARDISMaintenanceEngineBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_maintenance_engine.json",
           "src/main/resources/assets/tardif_mod/models/item/tardis_maintenance_engine.json",
+          "src/main/resources/assets/tardif_mod/blockstates/tardis_maintenance_engine.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_maintenance_engine.json",
-          "src/main/resources/assets/tardif_mod/blockstates/tardis_maintenance_engine.json"
+          "src/main/java/net/maketendo/tardifmod/block/TARDISMaintenanceEngineBlock.java"
         ]
       },
       "path": "~/TARDIS/Engine"
@@ -2301,7 +2179,6 @@
     {
       "name": "TelepathicUpgradeTemplate",
       "type": "item",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "telepathic_upgrade_template",
@@ -2316,14 +2193,13 @@
     {
       "name": "TimeExtenderUpgradeTemplate",
       "type": "item",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "time_extender_upgrade_template",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/time_extender_upgrade_template.json",
-          "src/main/java/net/maketendo/tardifmod/item/TimeExtenderUpgradeTemplateItem.java"
+          "src/main/java/net/maketendo/tardifmod/item/TimeExtenderUpgradeTemplateItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/time_extender_upgrade_template.json"
         ]
       },
       "path": "~/TARDIS/Engine/Upgrades"
@@ -2331,7 +2207,6 @@
     {
       "name": "ARSUpgradeTemplate",
       "type": "item",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ars_upgrade_template",
@@ -2346,7 +2221,6 @@
     {
       "name": "CommunicationUpgradeTemplate",
       "type": "item",
-      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "communication_upgrade_template",
@@ -2361,17 +2235,16 @@
     {
       "name": "PhoneboxDecoration",
       "type": "block",
-      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phonebox_decoration",
       "metadata": {
         "files": [
           "src/main/resources/assets/tardif_mod/models/item/phonebox_decoration.json",
-          "src/main/java/net/maketendo/tardifmod/block/PhoneboxDecorationBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/phonebox_decoration.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/phonebox_decoration.json",
-          "src/main/resources/assets/tardif_mod/blockstates/phonebox_decoration.json",
-          "src/main/resources/assets/tardif_mod/models/block/phonebox_decoration.json"
+          "src/main/java/net/maketendo/tardifmod/block/PhoneboxDecorationBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/phonebox_decoration.json"
         ]
       },
       "path": "~/Decor Blocks/Phonebox"
@@ -2379,7 +2252,6 @@
     {
       "name": "PhoneboxItemRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phonebox_item_rightclicked_on_block",
@@ -2415,7 +2287,6 @@
     {
       "name": "PhoneboxItem",
       "type": "item",
-      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phonebox_item",
@@ -2430,7 +2301,6 @@
     {
       "name": "PhoneboxDecorRecipe",
       "type": "recipe",
-      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phonebox_decor_recipe",
@@ -2444,7 +2314,6 @@
     {
       "name": "DalekiumIngot",
       "type": "item",
-      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_ingot",
@@ -2459,17 +2328,16 @@
     {
       "name": "DalekiumOre",
       "type": "block",
-      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/item/dalekium_ore.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_ore.json",
           "src/main/resources/assets/tardif_mod/models/block/dalekium_ore.json",
           "src/main/java/net/maketendo/tardifmod/block/DalekiumOreBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_ore.json",
-          "src/main/resources/assets/tardif_mod/blockstates/dalekium_ore.json",
-          "src/main/resources/assets/tardif_mod/models/item/dalekium_ore.json"
+          "src/main/resources/assets/tardif_mod/blockstates/dalekium_ore.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -2477,7 +2345,6 @@
     {
       "name": "RawDalekium",
       "type": "item",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_dalekium",
@@ -2492,17 +2359,16 @@
     {
       "name": "RawDalekiumBlock",
       "type": "block",
-      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_dalekium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/raw_dalekium_block.json",
+          "src/main/resources/assets/tardif_mod/models/block/raw_dalekium_block.json",
+          "src/main/resources/assets/tardif_mod/blockstates/raw_dalekium_block.json",
           "src/main/java/net/maketendo/tardifmod/block/RawDalekiumBlockBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/raw_dalekium_block.json",
-          "src/main/resources/assets/tardif_mod/models/block/raw_dalekium_block.json",
-          "src/main/resources/assets/tardif_mod/blockstates/raw_dalekium_block.json"
+          "src/main/resources/assets/tardif_mod/models/item/raw_dalekium_block.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -2510,17 +2376,16 @@
     {
       "name": "MelartBlock",
       "type": "block",
-      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_block",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/MelartBlockBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/melart_block.json",
+          "src/main/resources/assets/tardif_mod/models/block/melart_block.json",
           "src/main/resources/assets/tardif_mod/models/item/melart_block.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/melart_block.json",
-          "src/main/resources/assets/tardif_mod/models/block/melart_block.json"
+          "src/main/java/net/maketendo/tardifmod/block/MelartBlockBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/melart_block.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -2528,14 +2393,13 @@
     {
       "name": "RefinaryGUI",
       "type": "gui",
-      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refinary_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/world/inventory/RefinaryGUIMenu.java",
-          "src/main/java/net/maketendo/tardifmod/client/gui/RefinaryGUIScreen.java"
+          "src/main/java/net/maketendo/tardifmod/client/gui/RefinaryGUIScreen.java",
+          "src/main/java/net/maketendo/tardifmod/world/inventory/RefinaryGUIMenu.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Refinery"
@@ -2543,7 +2407,6 @@
     {
       "name": "MondasiansCybermanLoottable",
       "type": "loottable",
-      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mondasians_cyberman_loottable",
@@ -2557,15 +2420,14 @@
     {
       "name": "MondasiansCybership",
       "type": "structure",
-      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mondasians_cybership",
       "metadata": {
         "files": [
+          "src/main/resources/data/tardif_mod/worldgen/structure_set/mondasians_cybership.json",
           "src/main/resources/data/tardif_mod/worldgen/structure/mondasians_cybership.json",
-          "src/main/resources/data/tardif_mod/worldgen/template_pool/mondasians_cybership.json",
-          "src/main/resources/data/tardif_mod/worldgen/structure_set/mondasians_cybership.json"
+          "src/main/resources/data/tardif_mod/worldgen/template_pool/mondasians_cybership.json"
         ]
       },
       "path": "~/Gameplay/Overworld Structures/Mondasians Cyberman Ship"
@@ -2573,7 +2435,6 @@
     {
       "name": "DematSequance",
       "type": "procedure",
-      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demat_sequance",
@@ -2597,7 +2458,6 @@
     {
       "name": "Nitro9OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitro_9_on_block_right_clicked",
@@ -2629,17 +2489,16 @@
     {
       "name": "Nitro9",
       "type": "block",
-      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitro_9",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/Nitro9Block.java",
           "src/main/resources/assets/tardif_mod/models/item/nitro_9.json",
-          "src/main/resources/assets/tardif_mod/blockstates/nitro_9.json",
+          "src/main/java/net/maketendo/tardifmod/block/Nitro9Block.java",
+          "src/main/resources/assets/tardif_mod/models/block/nitro_9.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/nitro_9.json",
-          "src/main/resources/assets/tardif_mod/models/block/nitro_9.json"
+          "src/main/resources/assets/tardif_mod/blockstates/nitro_9.json"
         ]
       },
       "path": "~/Gameplay/Weapons/Nitro-9"
@@ -2647,7 +2506,6 @@
     {
       "name": "Nitro9Recipe",
       "type": "recipe",
-      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitro_9_recipe",
@@ -2661,7 +2519,6 @@
     {
       "name": "Nitro9UpdateTick",
       "type": "procedure",
-      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitro_9_update_tick",
@@ -2693,7 +2550,6 @@
     {
       "name": "Skaro",
       "type": "dimension",
-      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skaro",
@@ -2709,7 +2565,6 @@
     {
       "name": "RawToIngot",
       "type": "recipe",
-      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_to_ingot",
@@ -2723,7 +2578,6 @@
     {
       "name": "Logstoplanks",
       "type": "recipe",
-      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "logstoplanks",
@@ -2737,7 +2591,6 @@
     {
       "name": "Rawblock",
       "type": "recipe",
-      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawblock",
@@ -2751,7 +2604,6 @@
     {
       "name": "Rawblock2",
       "type": "recipe",
-      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawblock_2",
@@ -2765,7 +2617,6 @@
     {
       "name": "RematSequance",
       "type": "procedure",
-      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remat_sequance",
@@ -2780,7 +2631,6 @@
     {
       "name": "RotateDisplay",
       "type": "procedure",
-      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotate_display",
@@ -2801,7 +2651,6 @@
     {
       "name": "RotateButton",
       "type": "procedure",
-      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotate_button",
@@ -2821,15 +2670,14 @@
     {
       "name": "Abandonedship",
       "type": "structure",
-      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abandonedship",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/template_pool/abandonedship.json",
           "src/main/resources/data/tardif_mod/worldgen/structure_set/abandonedship.json",
-          "src/main/resources/data/tardif_mod/worldgen/structure/abandonedship.json"
+          "src/main/resources/data/tardif_mod/worldgen/structure/abandonedship.json",
+          "src/main/resources/data/tardif_mod/worldgen/template_pool/abandonedship.json"
         ]
       },
       "path": "~/Gameplay/Overworld Structures/Abandons Structures/Abandoned Ship"
@@ -2837,7 +2685,6 @@
     {
       "name": "AbandonedHouse",
       "type": "structure",
-      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abandoned_house",
@@ -2853,7 +2700,6 @@
     {
       "name": "SpaceBiome",
       "type": "biome",
-      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_biome",
@@ -2869,15 +2715,14 @@
     {
       "name": "Space",
       "type": "dimension",
-      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space",
       "metadata": {
         "files": [
+          "src/main/resources/data/tardif_mod/dimension_type/space.json",
           "src/main/resources/data/tardif_mod/dimension/space.json",
-          "src/main/java/net/maketendo/tardifmod/world/dimension/SpaceDimension.java",
-          "src/main/resources/data/tardif_mod/dimension_type/space.json"
+          "src/main/java/net/maketendo/tardifmod/world/dimension/SpaceDimension.java"
         ]
       },
       "path": "~/Dimensions/Space"
@@ -2885,17 +2730,16 @@
     {
       "name": "DalekiumRefinery",
       "type": "block",
-      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_refinery",
       "metadata": {
         "files": [
           "src/main/resources/assets/tardif_mod/blockstates/dalekium_refinery.json",
-          "src/main/java/net/maketendo/tardifmod/block/DalekiumRefineryBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/dalekium_refinery.json",
           "src/main/resources/assets/tardif_mod/models/block/dalekium_refinery.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_refinery.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_refinery.json",
+          "src/main/java/net/maketendo/tardifmod/block/DalekiumRefineryBlock.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Refinery"
@@ -2903,14 +2747,13 @@
     {
       "name": "MelartIngot",
       "type": "item",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/MelartIngotItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/melart_ingot.json"
+          "src/main/resources/assets/tardif_mod/models/item/melart_ingot.json",
+          "src/main/java/net/maketendo/tardifmod/item/MelartIngotItem.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Ores"
@@ -2918,17 +2761,16 @@
     {
       "name": "MelartArmor",
       "type": "armor",
-      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_armor",
       "metadata": {
         "files": [
           "src/main/java/net/maketendo/tardifmod/item/MelartArmorItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/melart_armor_boots.json",
           "src/main/resources/assets/tardif_mod/models/item/melart_armor_helmet.json",
-          "src/main/resources/assets/tardif_mod/models/item/melart_armor_chestplate.json",
-          "src/main/resources/assets/tardif_mod/models/item/melart_armor_leggings.json"
+          "src/main/resources/assets/tardif_mod/models/item/melart_armor_boots.json",
+          "src/main/resources/assets/tardif_mod/models/item/melart_armor_leggings.json",
+          "src/main/resources/assets/tardif_mod/models/item/melart_armor_chestplate.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Armor"
@@ -2936,7 +2778,6 @@
     {
       "name": "MelartArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_armor_helmet_recipe",
@@ -2950,7 +2791,6 @@
     {
       "name": "MelartArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_armor_chestplate_recipe",
@@ -2964,7 +2804,6 @@
     {
       "name": "MelartArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_armor_leggings_recipe",
@@ -2978,7 +2817,6 @@
     {
       "name": "MelartArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_armor_boots_recipe",
@@ -2992,7 +2830,6 @@
     {
       "name": "MelartPickaxe",
       "type": "tool",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_pickaxe",
@@ -3007,7 +2844,6 @@
     {
       "name": "MelartAxe",
       "type": "tool",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_axe",
@@ -3022,14 +2858,13 @@
     {
       "name": "MelartSword",
       "type": "tool",
-      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/melart_sword.json",
-          "src/main/java/net/maketendo/tardifmod/item/MelartSwordItem.java"
+          "src/main/java/net/maketendo/tardifmod/item/MelartSwordItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/melart_sword.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Tools"
@@ -3037,7 +2872,6 @@
     {
       "name": "MelartPickaxeRecipe",
       "type": "recipe",
-      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_pickaxe_recipe",
@@ -3051,7 +2885,6 @@
     {
       "name": "MelartAxeRecipe",
       "type": "recipe",
-      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_axe_recipe",
@@ -3065,7 +2898,6 @@
     {
       "name": "MelartSwordRecipe",
       "type": "recipe",
-      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_sword_recipe",
@@ -3079,16 +2911,15 @@
     {
       "name": "DalekiumArmor",
       "type": "armor",
-      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/DalekiumArmorItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_chestplate.json",
           "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_boots.json",
+          "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_chestplate.json",
           "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_helmet.json",
+          "src/main/java/net/maketendo/tardifmod/item/DalekiumArmorItem.java",
           "src/main/resources/assets/tardif_mod/models/item/dalekium_armor_leggings.json"
         ]
       },
@@ -3097,7 +2928,6 @@
     {
       "name": "DalekiumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_armor_helmet_recipe",
@@ -3111,7 +2941,6 @@
     {
       "name": "DalekiumArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_armor_chestplate_recipe",
@@ -3125,7 +2954,6 @@
     {
       "name": "DalekiumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_armor_leggings_recipe",
@@ -3139,7 +2967,6 @@
     {
       "name": "DalekiumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_armor_boots_recipe",
@@ -3153,14 +2980,13 @@
     {
       "name": "MelartShard",
       "type": "item",
-      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melart_shard",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/item/MelartShardItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/melart_shard.json"
+          "src/main/resources/assets/tardif_mod/models/item/melart_shard.json",
+          "src/main/java/net/maketendo/tardifmod/item/MelartShardItem.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Ores"
@@ -3168,17 +2994,16 @@
     {
       "name": "DalekiumBlock",
       "type": "block",
-      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekium_block",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/DalekiumBlockBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_block.json",
           "src/main/resources/assets/tardif_mod/models/item/dalekium_block.json",
-          "src/main/resources/assets/tardif_mod/blockstates/dalekium_block.json",
-          "src/main/resources/assets/tardif_mod/models/block/dalekium_block.json"
+          "src/main/resources/assets/tardif_mod/models/block/dalekium_block.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/dalekium_block.json",
+          "src/main/java/net/maketendo/tardifmod/block/DalekiumBlockBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/dalekium_block.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -3186,7 +3011,6 @@
     {
       "name": "Melartshardrecipie",
       "type": "recipe",
-      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "melartshardrecipie",
@@ -3200,7 +3024,6 @@
     {
       "name": "Refine",
       "type": "procedure",
-      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refine",
@@ -3220,17 +3043,16 @@
     {
       "name": "WallpaperRoundel",
       "type": "block",
-      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallpaper_roundel",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/WallpaperRoundelBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/wallpaper_roundel.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/wallpaper_roundel.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel.json",
-          "src/main/resources/assets/tardif_mod/blockstates/wallpaper_roundel.json"
+          "src/main/resources/assets/tardif_mod/models/item/wallpaper_roundel.json",
+          "src/main/resources/assets/tardif_mod/blockstates/wallpaper_roundel.json",
+          "src/main/java/net/maketendo/tardifmod/block/WallpaperRoundelBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels/Wallpaper Roundel"
@@ -3238,7 +3060,6 @@
     {
       "name": "WallpaperRoundelRecipie",
       "type": "recipe",
-      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallpaper_roundel_recipie",
@@ -3252,23 +3073,22 @@
     {
       "name": "WallpaperRoundelDoor",
       "type": "block",
-      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallpaper_roundel_door",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/wallpaper_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_left_open.json",
-          "src/main/resources/assets/tardif_mod/models/item/wallpaper_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_right_open.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_right.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_left.json",
-          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_right_open.json",
-          "src/main/resources/assets/tardif_mod/blockstates/wallpaper_roundel_door.json",
           "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_left.json",
+          "src/main/resources/assets/tardif_mod/models/item/wallpaper_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_right_open.json",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_left.json",
+          "src/main/resources/assets/tardif_mod/blockstates/wallpaper_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_right_open.json",
           "src/main/java/net/maketendo/tardifmod/block/WallpaperRoundelDoorBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/wallpaper_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_right.json",
           "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_right.json",
+          "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_bottom_left_open.json",
           "src/main/resources/assets/tardif_mod/models/block/wallpaper_roundel_door_top_left_open.json"
         ]
       },
@@ -3277,7 +3097,6 @@
     {
       "name": "WallpaperRoundelDoorRecipie",
       "type": "recipe",
-      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wallpaper_roundel_door_recipie",
@@ -3291,17 +3110,16 @@
     {
       "name": "PlainWallpaper",
       "type": "block",
-      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper.json",
-          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper.json",
-          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper.json",
           "src/main/resources/assets/tardif_mod/blockstates/plain_wallpaper.json",
-          "src/main/java/net/maketendo/tardifmod/block/PlainWallpaperBlock.java"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper.json",
+          "src/main/java/net/maketendo/tardifmod/block/PlainWallpaperBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper.json",
+          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper"
@@ -3309,7 +3127,6 @@
     {
       "name": "PlainWallpaperRecipie",
       "type": "recipe",
-      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper_recipie",
@@ -3323,16 +3140,15 @@
     {
       "name": "HexagonRoundel",
       "type": "block",
-      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hexagon_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/hexagon_roundel.json",
           "src/main/resources/assets/tardif_mod/models/item/hexagon_roundel.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagon_roundel.json",
           "src/main/java/net/maketendo/tardifmod/block/HexagonRoundelBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagon_roundel.json",
+          "src/main/resources/assets/tardif_mod/models/block/hexagon_roundel.json",
           "src/main/resources/assets/tardif_mod/blockstates/hexagon_roundel.json"
         ]
       },
@@ -3341,17 +3157,16 @@
     {
       "name": "MintWallpaper",
       "type": "block",
-      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/MintWallpaperBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/mint_wallpaper.json",
           "src/main/resources/assets/tardif_mod/blockstates/mint_wallpaper.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_wallpaper.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper.json"
+          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper.json",
+          "src/main/java/net/maketendo/tardifmod/block/MintWallpaperBlock.java"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Mint"
@@ -3359,7 +3174,6 @@
     {
       "name": "MintWallpaperRecipie",
       "type": "recipe",
-      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper_recipie",
@@ -3373,17 +3187,16 @@
     {
       "name": "WhiteWallpaper",
       "type": "block",
-      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper.json",
-          "src/main/resources/assets/tardif_mod/models/item/white_wallpaper.json",
-          "src/main/java/net/maketendo/tardifmod/block/WhiteWallpaperBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/white_wallpaper.json",
-          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper.json"
+          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper.json",
+          "src/main/java/net/maketendo/tardifmod/block/WhiteWallpaperBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper.json",
+          "src/main/resources/assets/tardif_mod/models/item/white_wallpaper.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/White"
@@ -3391,7 +3204,6 @@
     {
       "name": "WhiteWallpaperRecipie",
       "type": "recipe",
-      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper_recipie",
@@ -3405,7 +3217,6 @@
     {
       "name": "PhoneboxDisplay",
       "type": "procedure",
-      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "phonebox_display",
@@ -3426,7 +3237,6 @@
     {
       "name": "TTCapsuleDisplay",
       "type": "procedure",
-      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tt_capsule_display",
@@ -3447,7 +3257,6 @@
     {
       "name": "ChamelionDown",
       "type": "procedure",
-      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chamelion_down",
@@ -3467,7 +3276,6 @@
     {
       "name": "ChamelionUp",
       "type": "procedure",
-      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chamelion_up",
@@ -3487,7 +3295,6 @@
     {
       "name": "BinDisplay",
       "type": "procedure",
-      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bin_display",
@@ -3508,7 +3315,6 @@
     {
       "name": "PoliceBoxDisplay",
       "type": "procedure",
-      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "police_box_display",
@@ -3529,7 +3335,6 @@
     {
       "name": "DirtHouseDisplay",
       "type": "procedure",
-      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_house_display",
@@ -3550,7 +3355,6 @@
     {
       "name": "EngineGUI",
       "type": "gui",
-      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engine_gui",
@@ -3565,7 +3369,6 @@
     {
       "name": "StrongestWeapononTheUniverse",
       "type": "achievement",
-      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strongest_weaponon_the_universe",
@@ -3579,7 +3382,6 @@
     {
       "name": "ObtainDalekium",
       "type": "achievement",
-      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_dalekium",
@@ -3593,7 +3395,6 @@
     {
       "name": "ObtainMelart",
       "type": "achievement",
-      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_melart",
@@ -3607,7 +3408,6 @@
     {
       "name": "RefineIt",
       "type": "achievement",
-      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refine_it",
@@ -3621,7 +3421,6 @@
     {
       "name": "TheHellPlanet",
       "type": "achievement",
-      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_hell_planet",
@@ -3635,7 +3434,6 @@
     {
       "name": "DematerialisationLeverOnUpdateTick",
       "type": "procedure",
-      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dematerialisation_lever_on_update_tick",
@@ -3650,20 +3448,19 @@
     {
       "name": "TARDISExteriorShell",
       "type": "blockstates",
-      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_exterior_shell",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_3.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_0.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_1.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_2.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_5.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_6.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_4.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_7.json"
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_7.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_2.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_6.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_0.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_3.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_1.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exterior_shell_blockstate_5.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Exterior"
@@ -3671,19 +3468,18 @@
     {
       "name": "PlainWallpaperSlab",
       "type": "block",
-      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper_slab.json",
+          "src/main/resources/assets/tardif_mod/blockstates/plain_wallpaper_slab.json",
+          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_slab_full.json",
+          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_slab.json",
           "src/main/java/net/maketendo/tardifmod/block/PlainWallpaperSlabBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_slab_top.json",
-          "src/main/resources/assets/tardif_mod/blockstates/plain_wallpaper_slab.json",
-          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_slab.json",
-          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_slab_full.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper_slab.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper_slab.json",
+          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper_slab.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Slab"
@@ -3691,19 +3487,18 @@
     {
       "name": "PlainWallpaperStair",
       "type": "block",
-      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper_stair",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper_stair.json",
-          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper_stair.json",
+          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_stair_outer.json",
           "src/main/resources/assets/tardif_mod/blockstates/plain_wallpaper_stair.json",
-          "src/main/java/net/maketendo/tardifmod/block/PlainWallpaperStairBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_stair_inner.json",
           "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_stair.json",
-          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_stair_outer.json"
+          "src/main/resources/assets/tardif_mod/models/item/plain_wallpaper_stair.json",
+          "src/main/resources/assets/tardif_mod/models/block/plain_wallpaper_stair_inner.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/plain_wallpaper_stair.json",
+          "src/main/java/net/maketendo/tardifmod/block/PlainWallpaperStairBlock.java"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Stair"
@@ -3711,7 +3506,6 @@
     {
       "name": "PlainWallpaperStairRecipe",
       "type": "recipe",
-      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper_stair_recipe",
@@ -3725,7 +3519,6 @@
     {
       "name": "PlainWallpaperSlabRecipie",
       "type": "recipe",
-      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plain_wallpaper_slab_recipie",
@@ -3739,19 +3532,18 @@
     {
       "name": "WhiteWallpaperSlab",
       "type": "block",
-      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/white_wallpaper_slab.json",
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab_full.json",
           "src/main/java/net/maketendo/tardifmod/block/WhiteWallpaperSlabBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab_top.json",
+          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper_slab.json",
           "src/main/resources/assets/tardif_mod/models/item/white_wallpaper_slab.json",
           "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab.json",
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab_top.json",
-          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper_slab.json"
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_slab_full.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/white_wallpaper_slab.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Slab/White"
@@ -3759,19 +3551,18 @@
     {
       "name": "WhiteWallpaperStairs",
       "type": "block",
-      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/white_wallpaper_stairs.json",
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs_inner.json",
           "src/main/resources/assets/tardif_mod/models/item/white_wallpaper_stairs.json",
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs_outer.json",
-          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper_stairs.json",
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs.json",
           "src/main/java/net/maketendo/tardifmod/block/WhiteWallpaperStairsBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs.json"
+          "src/main/resources/assets/tardif_mod/blockstates/white_wallpaper_stairs.json",
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs_inner.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/white_wallpaper_stairs.json",
+          "src/main/resources/assets/tardif_mod/models/block/white_wallpaper_stairs_outer.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Stair/White"
@@ -3779,7 +3570,6 @@
     {
       "name": "WhiteWallpaperStairsRecipie",
       "type": "recipe",
-      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper_stairs_recipie",
@@ -3793,7 +3583,6 @@
     {
       "name": "WhiteWallpaperSlabRecipie",
       "type": "recipe",
-      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_wallpaper_slab_recipie",
@@ -3807,19 +3596,18 @@
     {
       "name": "MintWallpaperSlab",
       "type": "block",
-      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper_slab",
       "metadata": {
         "files": [
           "src/main/resources/assets/tardif_mod/models/item/mint_wallpaper_slab.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab.json",
           "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab_full.json",
           "src/main/resources/assets/tardif_mod/blockstates/mint_wallpaper_slab.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_wallpaper_slab.json",
-          "src/main/java/net/maketendo/tardifmod/block/MintWallpaperSlabBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab_top.json"
+          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab_top.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_slab.json",
+          "src/main/java/net/maketendo/tardifmod/block/MintWallpaperSlabBlock.java"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Slab/Mint"
@@ -3827,19 +3615,18 @@
     {
       "name": "MintWallpaperStairs",
       "type": "block",
-      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs_inner.json",
+          "src/main/java/net/maketendo/tardifmod/block/MintWallpaperStairsBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/mint_wallpaper_stairs.json",
           "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs_outer.json",
-          "src/main/resources/assets/tardif_mod/models/item/mint_wallpaper_stairs.json",
-          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs.json",
           "src/main/resources/assets/tardif_mod/blockstates/mint_wallpaper_stairs.json",
-          "src/main/java/net/maketendo/tardifmod/block/MintWallpaperStairsBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs_inner.json"
+          "src/main/resources/assets/tardif_mod/models/item/mint_wallpaper_stairs.json",
+          "src/main/resources/assets/tardif_mod/models/block/mint_wallpaper_stairs.json"
         ]
       },
       "path": "~/Decor Blocks/TARDIS Wallpaper/Stair/Mint"
@@ -3847,7 +3634,6 @@
     {
       "name": "MintWallpaperStairsRecipie",
       "type": "recipe",
-      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper_stairs_recipie",
@@ -3861,7 +3647,6 @@
     {
       "name": "MintWallpaperSlabRecipe",
       "type": "recipe",
-      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mint_wallpaper_slab_recipe",
@@ -3875,17 +3660,16 @@
     {
       "name": "TallRoundelDoor",
       "type": "block",
-      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_roundel_door",
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/tall_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/item/tall_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/blockstates/tall_roundel_door.json",
           "src/main/java/net/maketendo/tardifmod/block/TallRoundelDoorBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/tall_roundel_door.json"
+          "src/main/resources/assets/tardif_mod/models/item/tall_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/tall_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/blockstates/tall_roundel_door.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors/Tall Varient"
@@ -3893,17 +3677,16 @@
     {
       "name": "TallWallpaperRoundelDoor",
       "type": "block",
-      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_wallpaper_roundel_door",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/TallWallpaperRoundelDoorBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/tall_wallpaper_roundel_door.json",
           "src/main/resources/assets/tardif_mod/models/item/tall_wallpaper_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/tall_wallpaper_roundel_door.json",
+          "src/main/java/net/maketendo/tardifmod/block/TallWallpaperRoundelDoorBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/tall_wallpaper_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/tall_wallpaper_roundel_door.json"
+          "src/main/resources/assets/tardif_mod/blockstates/tall_wallpaper_roundel_door.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors/Tall Varient/Wallpaper"
@@ -3911,17 +3694,16 @@
     {
       "name": "TallMintRoundelDoor",
       "type": "block",
-      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_mint_roundel_door",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/tall_mint_roundel_door.json",
           "src/main/resources/assets/tardif_mod/blockstates/tall_mint_roundel_door.json",
           "src/main/resources/assets/tardif_mod/models/item/tall_mint_roundel_door.json",
-          "src/main/resources/assets/tardif_mod/models/block/tall_mint_roundel_door.json",
-          "src/main/java/net/maketendo/tardifmod/block/TallMintRoundelDoorBlock.java"
+          "src/main/java/net/maketendo/tardifmod/block/TallMintRoundelDoorBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/tall_mint_roundel_door.json",
+          "src/main/resources/assets/tardif_mod/models/block/tall_mint_roundel_door.json"
         ]
       },
       "path": "~/Decor Blocks/Roundel Doors/Tall Varient/Mint"
@@ -3929,16 +3711,15 @@
     {
       "name": "HexagonalFrameCentered",
       "type": "block",
-      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hexagonal_frame_centered",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/hexagonal_frame_centered.json",
+          "src/main/java/net/maketendo/tardifmod/block/HexagonalFrameCenteredBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/hexagonal_frame_centered.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagonal_frame_centered.json",
-          "src/main/java/net/maketendo/tardifmod/block/HexagonalFrameCenteredBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/hexagonal_frame_centered.json",
           "src/main/resources/assets/tardif_mod/models/item/hexagonal_frame_centered.json"
         ]
       },
@@ -3947,17 +3728,16 @@
     {
       "name": "HexagonalFrameOffset",
       "type": "block",
-      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hexagonal_frame_offset",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/hexagonal_frame_offset.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagonal_frame_offset.json",
-          "src/main/resources/assets/tardif_mod/blockstates/hexagonal_frame_offset.json",
+          "src/main/resources/assets/tardif_mod/models/item/hexagonal_frame_offset.json",
           "src/main/java/net/maketendo/tardifmod/block/HexagonalFrameOffsetBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/hexagonal_frame_offset.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/hexagonal_frame_offset.json",
+          "src/main/resources/assets/tardif_mod/models/block/hexagonal_frame_offset.json",
+          "src/main/resources/assets/tardif_mod/blockstates/hexagonal_frame_offset.json"
         ]
       },
       "path": "~/Decor Blocks/Hexagonal Frame"
@@ -3965,7 +3745,6 @@
     {
       "name": "TARDISInteriorDoor",
       "type": "block",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door",
@@ -3973,9 +3752,9 @@
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_interior_door.json",
           "src/main/resources/assets/tardif_mod/blockstates/tardis_interior_door.json",
-          "src/main/resources/assets/tardif_mod/models/item/tardis_interior_door.json",
+          "src/main/java/net/maketendo/tardifmod/block/TARDISInteriorDoorBlock.java",
           "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door.json",
-          "src/main/java/net/maketendo/tardifmod/block/TARDISInteriorDoorBlock.java"
+          "src/main/resources/assets/tardif_mod/models/item/tardis_interior_door.json"
         ]
       },
       "path": "~/TARDIS/Door"
@@ -3983,7 +3762,6 @@
     {
       "name": "TARDISInteriorDoorBlockAdded",
       "type": "procedure",
-      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door_block_added",
@@ -4015,20 +3793,19 @@
     {
       "name": "TARDISInteriorDoorDisplay",
       "type": "blockstates",
-      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door_display",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_5.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_0.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_4.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_1.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_2.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_5.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_1.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_4.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_6.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_7.json",
-          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_3.json"
+          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_3.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_interior_door_display_blockstate_7.json"
         ]
       },
       "path": "~/TARDIS/Door"
@@ -4036,7 +3813,6 @@
     {
       "name": "TARDISInteriorDoorOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door_on_block_right_clicked",
@@ -4060,7 +3836,6 @@
     {
       "name": "TARDISInteriorDoorUpdateTick",
       "type": "procedure",
-      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door_update_tick",
@@ -4084,7 +3859,6 @@
     {
       "name": "TARDISExteriorUpdateTick",
       "type": "procedure",
-      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_exterior_update_tick",
@@ -4116,7 +3890,6 @@
     {
       "name": "TARDISExteriorOnBlockHitByProjectile",
       "type": "procedure",
-      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_exterior_on_block_hit_by_projectile",
@@ -4148,17 +3921,16 @@
     {
       "name": "DematerialisationCarpetControl",
       "type": "block",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dematerialisation_carpet_control",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/dematerialisation_carpet_control.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/dematerialisation_carpet_control.json",
           "src/main/java/net/maketendo/tardifmod/block/DematerialisationCarpetControlBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/dematerialisation_carpet_control.json",
           "src/main/resources/assets/tardif_mod/models/block/dematerialisation_carpet_control.json",
-          "src/main/resources/assets/tardif_mod/models/item/dematerialisation_carpet_control.json"
+          "src/main/resources/assets/tardif_mod/blockstates/dematerialisation_carpet_control.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Dematerialisation Pannel"
@@ -4166,7 +3938,6 @@
     {
       "name": "DematerialisationCarpetControlBlockstate",
       "type": "blockstates",
-      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dematerialisation_carpet_control_blockstate",
@@ -4180,17 +3951,16 @@
     {
       "name": "TimeMovementCarpetControl",
       "type": "block",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "time_movement_carpet_control",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/time_movement_carpet_control.json",
-          "src/main/resources/assets/tardif_mod/models/item/time_movement_carpet_control.json",
           "src/main/java/net/maketendo/tardifmod/block/TimeMovementCarpetControlBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/time_movement_carpet_control.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/time_movement_carpet_control.json"
+          "src/main/resources/assets/tardif_mod/models/item/time_movement_carpet_control.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/time_movement_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/models/block/time_movement_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/blockstates/time_movement_carpet_control.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Time Movement Carpet Control"
@@ -4198,16 +3968,15 @@
     {
       "name": "DimensionalSelectorCarpetControl",
       "type": "block",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimensional_selector_carpet_control",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/DimensionalSelectorCarpetControlBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/dimensional_selector_carpet_control.json",
-          "src/main/resources/assets/tardif_mod/models/item/dimensional_selector_carpet_control.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/dimensional_selector_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/models/item/dimensional_selector_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/models/block/dimensional_selector_carpet_control.json",
+          "src/main/java/net/maketendo/tardifmod/block/DimensionalSelectorCarpetControlBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/dimensional_selector_carpet_control.json"
         ]
       },
@@ -4216,16 +3985,15 @@
     {
       "name": "CoordinateTravelCarpetControl",
       "type": "block",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coordinate_travel_carpet_control",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/coordinate_travel_carpet_control.json",
-          "src/main/java/net/maketendo/tardifmod/block/CoordinateTravelCarpetControlBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/coordinate_travel_carpet_control.json",
           "src/main/resources/assets/tardif_mod/models/item/coordinate_travel_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/models/block/coordinate_travel_carpet_control.json",
+          "src/main/java/net/maketendo/tardifmod/block/CoordinateTravelCarpetControlBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/coordinate_travel_carpet_control.json"
         ]
       },
@@ -4234,17 +4002,16 @@
     {
       "name": "TelapathicCarpetControl",
       "type": "block",
-      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "telapathic_carpet_control",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/telapathic_carpet_control.json",
-          "src/main/resources/assets/tardif_mod/models/item/telapathic_carpet_control.json",
           "src/main/resources/assets/tardif_mod/models/block/telapathic_carpet_control.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/telapathic_carpet_control.json",
-          "src/main/java/net/maketendo/tardifmod/block/TelapathicCarpetControlBlock.java"
+          "src/main/resources/assets/tardif_mod/models/item/telapathic_carpet_control.json",
+          "src/main/resources/assets/tardif_mod/blockstates/telapathic_carpet_control.json",
+          "src/main/java/net/maketendo/tardifmod/block/TelapathicCarpetControlBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/telapathic_carpet_control.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/Console/Telepathic Carpet Control"
@@ -4252,7 +4019,6 @@
     {
       "name": "CrumpledTeleportationDeviceRightclicked",
       "type": "procedure",
-      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crumpled_teleportation_device_rightclicked",
@@ -4288,15 +4054,14 @@
     {
       "name": "CrumpledTeleportationDevice",
       "type": "item",
-      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crumpled_teleportation_device",
       "metadata": {
         "files": [
           "src/main/resources/assets/tardif_mod/models/item/crumpled_teleportation_device_0.json",
-          "src/main/java/net/maketendo/tardifmod/item/CrumpledTeleportationDeviceItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/crumpled_teleportation_device.json"
+          "src/main/resources/assets/tardif_mod/models/item/crumpled_teleportation_device.json",
+          "src/main/java/net/maketendo/tardifmod/item/CrumpledTeleportationDeviceItem.java"
         ]
       },
       "path": "~/TARDIS/Items/Teleportation Device"
@@ -4304,7 +4069,6 @@
     {
       "name": "SpacePlayerEntersDimension",
       "type": "procedure",
-      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_player_enters_dimension",
@@ -4324,7 +4088,6 @@
     {
       "name": "TenthRecordedMessage",
       "type": "musicdisc",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tenth_recorded_message",
@@ -4339,7 +4102,6 @@
     {
       "name": "CrumbledTransportDamage",
       "type": "damagetype",
-      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crumbled_transport_damage",
@@ -4353,7 +4115,6 @@
     {
       "name": "CrumbledTeleportRecipe",
       "type": "recipe",
-      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crumbled_teleport_recipe",
@@ -4367,7 +4128,6 @@
     {
       "name": "DoorDisplayUpdate",
       "type": "procedure",
-      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "door_display_update",
@@ -4399,7 +4159,6 @@
     {
       "name": "TARDISInteriorDoorOnTickUpdate",
       "type": "procedure",
-      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door_on_tick_update",
@@ -4431,7 +4190,6 @@
     {
       "name": "DematerialisationCircuit",
       "type": "item",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dematerialisation_circuit",
@@ -4446,17 +4204,16 @@
     {
       "name": "FourteenthRotor",
       "type": "block",
-      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fourteenth_rotor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/fourteenth_rotor.json",
           "src/main/resources/assets/tardif_mod/models/item/fourteenth_rotor.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/fourteenth_rotor.json",
-          "src/main/java/net/maketendo/tardifmod/block/FourteenthRotorBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/fourteenth_rotor.json",
-          "src/main/resources/assets/tardif_mod/models/block/fourteenth_rotor.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/fourteenth_rotor.json",
+          "src/main/java/net/maketendo/tardifmod/block/FourteenthRotorBlock.java"
         ]
       },
       "path": "~/Decor Blocks/Rotor/14th Rotor"
@@ -4464,17 +4221,16 @@
     {
       "name": "TwelvethRotor",
       "type": "block",
-      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twelveth_rotor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/twelveth_rotor.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/twelveth_rotor.json",
           "src/main/resources/assets/tardif_mod/models/item/twelveth_rotor.json",
           "src/main/java/net/maketendo/tardifmod/block/TwelvethRotorBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/twelveth_rotor.json",
-          "src/main/resources/assets/tardif_mod/blockstates/twelveth_rotor.json",
-          "src/main/resources/assets/tardif_mod/models/block/twelveth_rotor.json"
+          "src/main/resources/assets/tardif_mod/blockstates/twelveth_rotor.json"
         ]
       },
       "path": "~/Decor Blocks/Rotor/12th Rotor"
@@ -4482,16 +4238,15 @@
     {
       "name": "EleventhRotor",
       "type": "block",
-      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eleventh_rotor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/eleventh_rotor.json",
-          "src/main/resources/assets/tardif_mod/models/block/eleventh_rotor.json",
-          "src/main/java/net/maketendo/tardifmod/block/EleventhRotorBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/eleventh_rotor.json",
+          "src/main/java/net/maketendo/tardifmod/block/EleventhRotorBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/eleventh_rotor.json",
+          "src/main/resources/assets/tardif_mod/blockstates/eleventh_rotor.json",
           "src/main/resources/assets/tardif_mod/models/item/eleventh_rotor.json"
         ]
       },
@@ -4500,15 +4255,14 @@
     {
       "name": "EleventhToyotaRotor",
       "type": "block",
-      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eleventh_toyota_rotor",
       "metadata": {
         "files": [
           "src/main/resources/assets/tardif_mod/blockstates/eleventh_toyota_rotor.json",
-          "src/main/resources/assets/tardif_mod/models/block/eleventh_toyota_rotor.json",
           "src/main/resources/assets/tardif_mod/models/item/eleventh_toyota_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/block/eleventh_toyota_rotor.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/eleventh_toyota_rotor.json",
           "src/main/java/net/maketendo/tardifmod/block/EleventhToyotaRotorBlock.java"
         ]
@@ -4518,16 +4272,15 @@
     {
       "name": "TenthRotor",
       "type": "block",
-      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tenth_rotor",
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/tenth_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/item/tenth_rotor.json",
           "src/main/resources/assets/tardif_mod/blockstates/tenth_rotor.json",
           "src/main/resources/assets/tardif_mod/models/block/tenth_rotor.json",
-          "src/main/resources/assets/tardif_mod/models/item/tenth_rotor.json",
           "src/main/java/net/maketendo/tardifmod/block/TenthRotorBlock.java"
         ]
       },
@@ -4536,17 +4289,16 @@
     {
       "name": "EighthRotor",
       "type": "block",
-      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eighth_rotor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/eighth_rotor.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/eighth_rotor.json",
           "src/main/resources/assets/tardif_mod/models/block/eighth_rotor.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/eighth_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/item/eighth_rotor.json",
           "src/main/java/net/maketendo/tardifmod/block/EighthRotorBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/eighth_rotor.json"
+          "src/main/resources/assets/tardif_mod/blockstates/eighth_rotor.json"
         ]
       },
       "path": "~/Decor Blocks/Rotor/8th Rotor"
@@ -4554,17 +4306,16 @@
     {
       "name": "FifthRotor",
       "type": "block",
-      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fifth_rotor",
       "metadata": {
         "files": [
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/fifth_rotor.json",
           "src/main/java/net/maketendo/tardifmod/block/FifthRotorBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/fifth_rotor.json",
-          "src/main/resources/assets/tardif_mod/models/item/fifth_rotor.json",
           "src/main/resources/assets/tardif_mod/models/block/fifth_rotor.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/fifth_rotor.json"
+          "src/main/resources/assets/tardif_mod/blockstates/fifth_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/item/fifth_rotor.json"
         ]
       },
       "path": "~/Decor Blocks/Rotor/5th Rotor"
@@ -4572,17 +4323,16 @@
     {
       "name": "FourthRotor",
       "type": "block",
-      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fourth_rotor",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/FourthRotorBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/fourth_rotor.json",
+          "src/main/resources/assets/tardif_mod/models/block/fourth_rotor.json",
           "src/main/resources/assets/tardif_mod/models/item/fourth_rotor.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/fourth_rotor.json",
-          "src/main/resources/assets/tardif_mod/models/block/fourth_rotor.json"
+          "src/main/java/net/maketendo/tardifmod/block/FourthRotorBlock.java"
         ]
       },
       "path": "~/Decor Blocks/Rotor/4th Rotor"
@@ -4590,7 +4340,6 @@
     {
       "name": "FourthRotorRecipe",
       "type": "recipe",
-      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fourth_rotor_recipe",
@@ -4604,7 +4353,6 @@
     {
       "name": "FifthRotorRecipe",
       "type": "recipe",
-      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fifth_rotor_recipe",
@@ -4618,7 +4366,6 @@
     {
       "name": "EighthRotorRecipe",
       "type": "recipe",
-      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eighth_rotor_recipe",
@@ -4632,7 +4379,6 @@
     {
       "name": "TenthRotorRecipe",
       "type": "recipe",
-      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tenth_rotor_recipe",
@@ -4646,7 +4392,6 @@
     {
       "name": "EleventhRotorRecipe",
       "type": "recipe",
-      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eleventh_rotor_recipe",
@@ -4660,7 +4405,6 @@
     {
       "name": "TweltvethRotorRecipe",
       "type": "recipe",
-      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tweltveth_rotor_recipe",
@@ -4674,7 +4418,6 @@
     {
       "name": "EleventhToyotaRotorRecipe",
       "type": "recipe",
-      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eleventh_toyota_rotor_recipe",
@@ -4688,7 +4431,6 @@
     {
       "name": "FourteenthRotorRecipe",
       "type": "recipe",
-      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fourteenth_rotor_recipe",
@@ -4702,17 +4444,16 @@
     {
       "name": "CogRoundel",
       "type": "block",
-      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cog_roundel",
       "metadata": {
         "files": [
           "src/main/resources/data/tardif_mod/loot_tables/blocks/cog_roundel.json",
-          "src/main/resources/assets/tardif_mod/models/item/cog_roundel.json",
-          "src/main/resources/assets/tardif_mod/models/block/cog_roundel.json",
+          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel.json",
           "src/main/java/net/maketendo/tardifmod/block/CogRoundelBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel.json"
+          "src/main/resources/assets/tardif_mod/models/block/cog_roundel.json",
+          "src/main/resources/assets/tardif_mod/models/item/cog_roundel.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels/Cog Roundel"
@@ -4720,7 +4461,6 @@
     {
       "name": "TARDISExteriorSkinUpdate",
       "type": "procedure",
-      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_exterior_skin_update",
@@ -4740,7 +4480,6 @@
     {
       "name": "VersionDisplay",
       "type": "overlay",
-      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "version_display",
@@ -4754,7 +4493,6 @@
     {
       "name": "VersionDisplayDisplayOverlayIngame",
       "type": "procedure",
-      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "version_display_display_overlay_ingame",
@@ -4770,7 +4508,6 @@
     {
       "name": "CogRoundelRecipie",
       "type": "recipe",
-      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cog_roundel_recipie",
@@ -4784,16 +4521,15 @@
     {
       "name": "Dalek",
       "type": "livingentity",
-      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalek",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/entity/DalekEntity.java",
-          "src/main/resources/assets/tardif_mod/models/item/dalek_spawn_egg.json",
           "src/main/java/net/maketendo/tardifmod/client/renderer/DalekRenderer.java",
-          "src/main/resources/data/tardif_mod/forge/biome_modifier/dalek_biome_modifier.json"
+          "src/main/resources/assets/tardif_mod/models/item/dalek_spawn_egg.json",
+          "src/main/resources/data/tardif_mod/forge/biome_modifier/dalek_biome_modifier.json",
+          "src/main/java/net/maketendo/tardifmod/entity/DalekEntity.java"
         ]
       },
       "path": "~/Entities - Mobs/Dalek"
@@ -4801,7 +4537,6 @@
     {
       "name": "MemoryChecker",
       "type": "procedure",
-      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "memory_checker",
@@ -4816,17 +4551,16 @@
     {
       "name": "Drystonelog",
       "type": "block",
-      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drystonelog",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/drystonelog.json",
           "src/main/resources/assets/tardif_mod/models/block/drystonelog.json",
-          "src/main/java/net/maketendo/tardifmod/block/DrystonelogBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/drystonelog.json",
-          "src/main/resources/assets/tardif_mod/models/item/drystonelog.json"
+          "src/main/resources/assets/tardif_mod/models/item/drystonelog.json",
+          "src/main/resources/assets/tardif_mod/blockstates/drystonelog.json",
+          "src/main/java/net/maketendo/tardifmod/block/DrystonelogBlock.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -4834,17 +4568,16 @@
     {
       "name": "Drystonewood",
       "type": "block",
-      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drystonewood",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/DrystonewoodBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/drystonewood.json",
-          "src/main/resources/assets/tardif_mod/models/item/drystonewood.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/drystonewood.json",
           "src/main/resources/assets/tardif_mod/models/block/drystonewood.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/drystonewood.json"
+          "src/main/resources/assets/tardif_mod/blockstates/drystonewood.json",
+          "src/main/java/net/maketendo/tardifmod/block/DrystonewoodBlock.java",
+          "src/main/resources/assets/tardif_mod/models/item/drystonewood.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -4852,16 +4585,15 @@
     {
       "name": "PetrifiedDirt",
       "type": "block",
-      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_dirt",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/petrified_dirt.json",
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedDirtBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_dirt.json",
           "src/main/resources/assets/tardif_mod/models/item/petrified_dirt.json",
-          "src/main/java/net/maketendo/tardifmod/block/PetrifiedDirtBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/petrified_dirt.json",
           "src/main/resources/assets/tardif_mod/blockstates/petrified_dirt.json"
         ]
       },
@@ -4870,16 +4602,15 @@
     {
       "name": "PetrifiedGrassBlock",
       "type": "block",
-      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_grass_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/petrified_grass_block.json",
           "src/main/resources/assets/tardif_mod/models/block/petrified_grass_block.json",
           "src/main/resources/assets/tardif_mod/models/item/petrified_grass_block.json",
-          "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlockBlock.java"
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlockBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_grass_block.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -4887,20 +4618,19 @@
     {
       "name": "PetrifiedGrass",
       "type": "plant",
-      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_grass",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/petrified_grass.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_grass.json",
-          "src/main/resources/assets/tardif_mod/models/item/petrified_grass.json",
-          "src/main/resources/assets/tardif_mod/blockstates/petrified_grass.json",
           "src/main/resources/data/tardif_mod/forge/biome_modifier/petrified_grass_biome_modifier.json",
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/petrified_grass.json",
-          "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/petrified_grass.json"
+          "src/main/resources/assets/tardif_mod/models/item/petrified_grass.json",
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_grass.json",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/petrified_grass.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_grass.json",
+          "src/main/resources/assets/tardif_mod/models/block/petrified_grass.json",
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedGrassBlock.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -4908,7 +4638,6 @@
     {
       "name": "WeakPetrifiedPlanksEntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_petrified_planks_entity_walks_on_the_block",
@@ -4940,7 +4669,6 @@
     {
       "name": "PetrifiedPlanksRecipie",
       "type": "recipe",
-      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_planks_recipie",
@@ -4954,17 +4682,16 @@
     {
       "name": "RaidiatedSand",
       "type": "block",
-      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raidiated_sand",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/raidiated_sand.json",
           "src/main/java/net/maketendo/tardifmod/block/RaidiatedSandBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/raidiated_sand.json",
-          "src/main/resources/assets/tardif_mod/blockstates/raidiated_sand.json",
-          "src/main/resources/assets/tardif_mod/models/block/raidiated_sand.json"
+          "src/main/resources/assets/tardif_mod/models/block/raidiated_sand.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/raidiated_sand.json",
+          "src/main/resources/assets/tardif_mod/blockstates/raidiated_sand.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -4972,17 +4699,16 @@
     {
       "name": "DryStonePlanks",
       "type": "block",
-      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dry_stone_planks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/dry_stone_planks.json",
           "src/main/resources/assets/tardif_mod/models/item/dry_stone_planks.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/dry_stone_planks.json",
-          "src/main/java/net/maketendo/tardifmod/block/DryStonePlanksBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/dry_stone_planks.json",
-          "src/main/resources/assets/tardif_mod/models/block/dry_stone_planks.json"
+          "src/main/java/net/maketendo/tardifmod/block/DryStonePlanksBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/dry_stone_planks.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -4990,14 +4716,13 @@
     {
       "name": "WeakDrystonePlanks",
       "type": "block",
-      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_drystone_planks",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/WeakDrystonePlanksBlock.java",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/weak_drystone_planks.json",
+          "src/main/java/net/maketendo/tardifmod/block/WeakDrystonePlanksBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/weak_drystone_planks.json",
           "src/main/resources/assets/tardif_mod/models/block/weak_drystone_planks.json",
           "src/main/resources/assets/tardif_mod/models/item/weak_drystone_planks.json"
@@ -5008,17 +4733,16 @@
     {
       "name": "PetrifiedStone",
       "type": "block",
-      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/PetrifiedStoneBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/petrified_stone.json",
           "src/main/resources/assets/tardif_mod/models/block/petrified_stone.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_stone.json",
           "src/main/resources/assets/tardif_mod/models/item/petrified_stone.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_stone.json"
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_stone.json",
+          "src/main/java/net/maketendo/tardifmod/block/PetrifiedStoneBlock.java"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural"
@@ -5026,17 +4750,16 @@
     {
       "name": "PetrifiedCobblestone",
       "type": "block",
-      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_cobblestone",
       "metadata": {
         "files": [
           "src/main/resources/assets/tardif_mod/models/item/petrified_cobblestone.json",
-          "src/main/resources/assets/tardif_mod/blockstates/petrified_cobblestone.json",
           "src/main/resources/assets/tardif_mod/models/block/petrified_cobblestone.json",
           "src/main/java/net/maketendo/tardifmod/block/PetrifiedCobblestoneBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_cobblestone.json"
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/petrified_cobblestone.json",
+          "src/main/resources/assets/tardif_mod/blockstates/petrified_cobblestone.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Building"
@@ -5044,7 +4767,6 @@
     {
       "name": "DryStoneLogtoDryStoneWood",
       "type": "recipe",
-      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dry_stone_logto_dry_stone_wood",
@@ -5058,7 +4780,6 @@
     {
       "name": "DematerialisationCarpetControlBlockHitSensor",
       "type": "procedure",
-      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dematerialisation_carpet_control_block_hit_sensor",
@@ -5102,16 +4823,15 @@
     {
       "name": "TARDISExitVoid",
       "type": "block",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_exit_void",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/tardis_exit_void.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_exit_void.json",
-          "src/main/resources/assets/tardif_mod/blockstates/tardis_exit_void.json",
           "src/main/java/net/maketendo/tardifmod/block/TARDISExitVoidBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/tardis_exit_void.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_exit_void.json",
+          "src/main/resources/assets/tardif_mod/models/block/tardis_exit_void.json",
           "src/main/resources/assets/tardif_mod/models/item/tardis_exit_void.json"
         ]
       },
@@ -5120,16 +4840,15 @@
     {
       "name": "CorridorsVoid",
       "type": "block",
-      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "corridors_void",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/CorridorsVoidBlock.java",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/corridors_void.json",
           "src/main/resources/assets/tardif_mod/models/item/corridors_void.json",
           "src/main/resources/assets/tardif_mod/models/block/corridors_void.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/corridors_void.json",
+          "src/main/java/net/maketendo/tardifmod/block/CorridorsVoidBlock.java",
           "src/main/resources/assets/tardif_mod/blockstates/corridors_void.json"
         ]
       },
@@ -5138,7 +4857,6 @@
     {
       "name": "CreateTARDISDimensions",
       "type": "procedure",
-      "sortid": 289,
       "compiles": true,
       "locked_code": true,
       "registry_name": "create_tardis_dimensions",
@@ -5150,7 +4868,6 @@
     {
       "name": "EyeOfHarmonyDamage",
       "type": "damagetype",
-      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eye_of_harmony_damage",
@@ -5164,7 +4881,6 @@
     {
       "name": "TeleportIntoTARDIS",
       "type": "procedure",
-      "sortid": 291,
       "compiles": true,
       "locked_code": true,
       "registry_name": "teleport_into_tardis",
@@ -5179,7 +4895,6 @@
     {
       "name": "SpaceSuffocation",
       "type": "damagetype",
-      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_suffocation",
@@ -5193,7 +4908,6 @@
     {
       "name": "PiratesPhaserRifleDamage",
       "type": "damagetype",
-      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pirates_phaser_rifle_damage",
@@ -5207,14 +4921,13 @@
     {
       "name": "Tier1ItemCrate",
       "type": "item",
-      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tier_1_item_crate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/tier_1_item_crate.json",
-          "src/main/java/net/maketendo/tardifmod/item/Tier1ItemCrateItem.java"
+          "src/main/java/net/maketendo/tardifmod/item/Tier1ItemCrateItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/tier_1_item_crate.json"
         ]
       },
       "path": "~/Dimensions/Space/Foxys Space Stuff/Merchant"
@@ -5222,7 +4935,6 @@
     {
       "name": "Tier1ItemCrateRightclicked",
       "type": "procedure",
-      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tier_1_item_crate_rightclicked",
@@ -5246,7 +4958,6 @@
     {
       "name": "Crates",
       "type": "tab",
-      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crates",
@@ -5258,7 +4969,6 @@
     {
       "name": "CratesGalore",
       "type": "achievement",
-      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crates_galore",
@@ -5272,7 +4982,6 @@
     {
       "name": "PlayerPicksUpACrate",
       "type": "procedure",
-      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_picks_up_a_crate",
@@ -5296,17 +5005,16 @@
     {
       "name": "SpaceRock",
       "type": "block",
-      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_rock",
       "metadata": {
         "files": [
-          "src/main/java/net/maketendo/tardifmod/block/SpaceRockBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/space_rock.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/space_rock.json",
           "src/main/resources/assets/tardif_mod/blockstates/space_rock.json",
           "src/main/resources/assets/tardif_mod/models/block/space_rock.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/space_rock.json"
+          "src/main/java/net/maketendo/tardifmod/block/SpaceRockBlock.java"
         ]
       },
       "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
@@ -5314,7 +5022,6 @@
     {
       "name": "PlayerInSpaceWithSuitOrNot",
       "type": "procedure",
-      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_in_space_with_suit_or_not",
@@ -5350,17 +5057,16 @@
     {
       "name": "Space_SuitArmor",
       "type": "armor",
-      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_suit_armor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/item/space_suit_armor_chestplate.json",
           "src/main/resources/assets/tardif_mod/models/item/space_suit_armor_boots.json",
           "src/main/resources/assets/tardif_mod/models/item/space_suit_armor_helmet.json",
-          "src/main/resources/assets/tardif_mod/models/item/space_suit_armor_chestplate.json",
-          "src/main/java/net/maketendo/tardifmod/item/Space_SuitArmorItem.java",
-          "src/main/resources/assets/tardif_mod/models/item/space_suit_armor_leggings.json"
+          "src/main/resources/assets/tardif_mod/models/item/space_suit_armor_leggings.json",
+          "src/main/java/net/maketendo/tardifmod/item/Space_SuitArmorItem.java"
         ]
       },
       "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
@@ -5368,7 +5074,6 @@
     {
       "name": "Space_SuitArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_suit_armor_helmet_recipe",
@@ -5382,7 +5087,6 @@
     {
       "name": "Space_SuitArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_suit_armor_chestplate_recipe",
@@ -5396,7 +5100,6 @@
     {
       "name": "Space_SuitArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_suit_armor_leggings_recipe",
@@ -5410,7 +5113,6 @@
     {
       "name": "Space_SuitArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_suit_armor_boots_recipe",
@@ -5424,17 +5126,16 @@
     {
       "name": "Pressuriser",
       "type": "block",
-      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pressuriser",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/blockstates/pressuriser.json",
-          "src/main/resources/assets/tardif_mod/models/item/pressuriser.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/pressuriser.json",
           "src/main/java/net/maketendo/tardifmod/block/PressuriserBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/pressuriser.json"
+          "src/main/resources/assets/tardif_mod/blockstates/pressuriser.json",
+          "src/main/resources/assets/tardif_mod/models/block/pressuriser.json",
+          "src/main/resources/assets/tardif_mod/models/item/pressuriser.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/pressuriser.json"
         ]
       },
       "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
@@ -5442,7 +5143,6 @@
     {
       "name": "PressuriserRecipe",
       "type": "recipe",
-      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pressuriser_recipe",
@@ -5456,7 +5156,6 @@
     {
       "name": "SpaceSkybox",
       "type": "procedure",
-      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "space_skybox",
@@ -5476,7 +5175,6 @@
     {
       "name": "SetUpDims",
       "type": "procedure",
-      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_up_dims",
@@ -5491,17 +5189,16 @@
     {
       "name": "GlowingPillat",
       "type": "block",
-      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/glowing_pillar.json",
-          "src/main/java/net/maketendo/tardifmod/block/GlowingPillatBlock.java",
           "src/main/resources/assets/tardif_mod/models/item/glowing_pillar.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/glowing_pillar.json",
           "src/main/resources/assets/tardif_mod/blockstates/glowing_pillar.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/glowing_pillar.json"
+          "src/main/java/net/maketendo/tardifmod/block/GlowingPillatBlock.java",
+          "src/main/resources/assets/tardif_mod/models/block/glowing_pillar.json"
         ]
       },
       "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
@@ -5509,18 +5206,17 @@
     {
       "name": "ShipWindow",
       "type": "block",
-      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ship_window",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/ship_window.json",
-          "src/main/java/net/maketendo/tardifmod/block/ShipWindowBlock.java",
-          "src/main/resources/assets/tardif_mod/models/block/ship_window.json",
           "src/main/java/net/maketendo/tardifmod/block/entity/ShipWindowBlockEntity.java",
+          "src/main/resources/assets/tardif_mod/blockstates/ship_window.json",
+          "src/main/resources/assets/tardif_mod/models/block/ship_window.json",
+          "src/main/resources/assets/tardif_mod/models/item/ship_window.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/ship_window.json",
-          "src/main/resources/assets/tardif_mod/blockstates/ship_window.json"
+          "src/main/java/net/maketendo/tardifmod/block/ShipWindowBlock.java"
         ]
       },
       "path": "~/Dimensions/Space/Foxys Space Stuff/Generic"
@@ -5528,7 +5224,6 @@
     {
       "name": "ClosedShipWindow",
       "type": "blockstates",
-      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "closed_ship_window",
@@ -5542,7 +5237,6 @@
     {
       "name": "ShipWindowOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ship_window_on_block_right_clicked",
@@ -5582,7 +5276,6 @@
     {
       "name": "ShipWindowOnTickUpdate",
       "type": "procedure",
-      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ship_window_on_tick_update",
@@ -5614,7 +5307,6 @@
     {
       "name": "ChangeLightLevel",
       "type": "gui",
-      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "change_light_level",
@@ -5630,7 +5322,6 @@
     {
       "name": "SetLevel",
       "type": "procedure",
-      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_level",
@@ -5658,7 +5349,6 @@
     {
       "name": "DevItemLightLevelRightclicked",
       "type": "procedure",
-      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dev_item_light_level_rightclicked",
@@ -5694,14 +5384,13 @@
     {
       "name": "DevItemLightLevel",
       "type": "item",
-      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dev_item_light_level",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/item/dev_item_light_level.json",
-          "src/main/java/net/maketendo/tardifmod/item/DevItemLightLevelItem.java"
+          "src/main/java/net/maketendo/tardifmod/item/DevItemLightLevelItem.java",
+          "src/main/resources/assets/tardif_mod/models/item/dev_item_light_level.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Controls/TARDIS Dev Items"
@@ -5709,27 +5398,26 @@
     {
       "name": "RoundelLightStates",
       "type": "blockstates",
-      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundel_light_states",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_10.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_4.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_8.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_5.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_7.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_14.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_11.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_2.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_9.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_12.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_3.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_13.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_8.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_0.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_3.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_5.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_14.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_4.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_11.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_7.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_6.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_1.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_13.json"
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_9.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_10.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_light_states_blockstate_1.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels/Default"
@@ -5737,16 +5425,15 @@
     {
       "name": "RegularRoundelVerticalOffset",
       "type": "block",
-      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "regular_roundel_vertical_offset",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/regular_roundel_vertical_offset.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/regular_roundel_vertical_offset.json",
           "src/main/resources/assets/tardif_mod/models/item/regular_roundel_vertical_offset.json",
           "src/main/resources/assets/tardif_mod/blockstates/regular_roundel_vertical_offset.json",
-          "src/main/resources/assets/tardif_mod/models/block/regular_roundel_vertical_offset.json",
           "src/main/java/net/maketendo/tardifmod/block/RegularRoundelVerticalOffsetBlock.java"
         ]
       },
@@ -5755,16 +5442,15 @@
     {
       "name": "RegularRoundelHorizontalOffset",
       "type": "block",
-      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "regular_roundel_horizontal_offset",
       "metadata": {
         "files": [
           "src/main/java/net/maketendo/tardifmod/block/RegularRoundelHorizontalOffsetBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/regular_roundel_horizontal_offset.json",
           "src/main/resources/assets/tardif_mod/models/item/regular_roundel_horizontal_offset.json",
           "src/main/resources/assets/tardif_mod/blockstates/regular_roundel_horizontal_offset.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/regular_roundel_horizontal_offset.json",
           "src/main/resources/assets/tardif_mod/models/block/regular_roundel_horizontal_offset.json"
         ]
       },
@@ -5773,27 +5459,26 @@
     {
       "name": "RoundelVLightStates",
       "type": "blockstates",
-      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundel_v_light_states",
       "metadata": {
         "files": [
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_7.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_1.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_4.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_11.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_12.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_5.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_3.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_14.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_0.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_8.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_3.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_6.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_14.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_9.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_11.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_5.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_7.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_13.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_2.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_10.json"
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_10.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_6.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_v_light_states_blockstate_2.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels/Default"
@@ -5801,27 +5486,26 @@
     {
       "name": "RoundelHLightStates",
       "type": "blockstates",
-      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundel_h_light_states",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_9.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_6.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_2.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_4.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_12.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_7.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_1.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_14.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_10.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_6.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_3.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_5.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_0.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_1.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_12.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_9.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_13.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_4.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_7.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_10.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_14.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_0.json",
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_11.json",
           "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_8.json",
-          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_11.json"
+          "src/main/resources/assets/tardif_mod/models/block/roundel_h_light_states_blockstate_5.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels/Default"
@@ -5829,7 +5513,6 @@
     {
       "name": "RoundelOnTickUpdate",
       "type": "procedure",
-      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roundel_on_tick_update",
@@ -5861,17 +5544,16 @@
     {
       "name": "CogRoundelOffset",
       "type": "block",
-      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cog_roundel_offset",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/cog_roundel_offset.json",
-          "src/main/resources/assets/tardif_mod/models/block/cog_roundel_offset.json",
           "src/main/resources/assets/tardif_mod/blockstates/cog_roundel_offset.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/cog_roundel_offset.json",
+          "src/main/resources/assets/tardif_mod/models/item/cog_roundel_offset.json",
           "src/main/java/net/maketendo/tardifmod/block/CogRoundelOffsetBlock.java",
-          "src/main/resources/assets/tardif_mod/models/item/cog_roundel_offset.json"
+          "src/main/resources/assets/tardif_mod/models/block/cog_roundel_offset.json"
         ]
       },
       "path": "~/Decor Blocks/Roundels/Cog Roundel"
@@ -5879,7 +5561,6 @@
     {
       "name": "CogRoundelVerticleOffset",
       "type": "block",
-      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cog_roundel_verticle_offset",
@@ -5888,8 +5569,8 @@
           "src/main/resources/assets/tardif_mod/models/item/cog_roundel_verticle_offset.json",
           "src/main/resources/assets/tardif_mod/models/block/cog_roundel_verticle_offset.json",
           "src/main/resources/data/tardif_mod/loot_tables/blocks/cog_roundel_verticle_offset.json",
-          "src/main/java/net/maketendo/tardifmod/block/CogRoundelVerticleOffsetBlock.java",
-          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel_verticle_offset.json"
+          "src/main/resources/assets/tardif_mod/blockstates/cog_roundel_verticle_offset.json",
+          "src/main/java/net/maketendo/tardifmod/block/CogRoundelVerticleOffsetBlock.java"
         ]
       },
       "path": "~/Decor Blocks/Roundels/Cog Roundel"
@@ -5897,7 +5578,6 @@
     {
       "name": "TARDISCoridoorDim",
       "type": "dimension",
-      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_coridoor_dim",
@@ -5913,7 +5593,6 @@
     {
       "name": "TARDISCoridoorDimPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_coridoor_dim_player_enters_dimension",
@@ -5949,7 +5628,6 @@
     {
       "name": "CorridorsVoidOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "corridors_void_on_block_right_clicked",
@@ -5973,7 +5651,6 @@
     {
       "name": "TARDISInteriorDoorVoidBlock",
       "type": "procedure",
-      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_interior_door_void_block",
@@ -5997,7 +5674,6 @@
     {
       "name": "E",
       "type": "procedure",
-      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "e",
@@ -6017,7 +5693,6 @@
     {
       "name": "Tardiscoords",
       "type": "command",
-      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardiscoords",
@@ -6031,18 +5706,17 @@
     {
       "name": "TARDISBottomExteriorPiece",
       "type": "block",
-      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_bottom_exterior_piece",
       "metadata": {
         "files": [
           "src/main/java/net/maketendo/tardifmod/block/entity/TARDISBottomExteriorPieceBlockEntity.java",
-          "src/main/java/net/maketendo/tardifmod/block/TARDISBottomExteriorPieceBlock.java",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_bottom_exterior_piece.json",
           "src/main/resources/assets/tardif_mod/models/block/tardis_bottom_exterior_piece.json",
           "src/main/resources/assets/tardif_mod/models/item/tardis_bottom_exterior_piece.json",
-          "src/main/resources/assets/tardif_mod/blockstates/tardis_bottom_exterior_piece.json",
-          "src/main/resources/data/tardif_mod/loot_tables/blocks/tardis_bottom_exterior_piece.json"
+          "src/main/java/net/maketendo/tardifmod/block/TARDISBottomExteriorPieceBlock.java",
+          "src/main/resources/assets/tardif_mod/blockstates/tardis_bottom_exterior_piece.json"
         ]
       },
       "path": "~/TARDIS/TARDIS Exterior"
@@ -6050,7 +5724,6 @@
     {
       "name": "GlobalTimer",
       "type": "procedure",
-      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "global_timer",
@@ -6070,7 +5743,6 @@
     {
       "name": "YCalculation",
       "type": "procedure",
-      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "y_calculation",
@@ -6094,15 +5766,14 @@
     {
       "name": "Drystoneforests",
       "type": "biome",
-      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drystoneforests",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/drystoneforests_tree.json",
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/drystoneforests_tree.json",
-          "src/main/resources/data/tardif_mod/worldgen/biome/drystoneforests.json"
+          "src/main/resources/data/tardif_mod/worldgen/biome/drystoneforests.json",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/drystoneforests_tree.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Biomes"
@@ -6110,14 +5781,13 @@
     {
       "name": "Petrifiedfields",
       "type": "biome",
-      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrifiedfields",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/petrifiedfields_tree.json",
           "src/main/resources/data/tardif_mod/worldgen/biome/petrifiedfields.json",
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/petrifiedfields_tree.json",
           "src/main/resources/data/tardif_mod/worldgen/placed_feature/petrifiedfields_tree.json"
         ]
       },
@@ -6126,15 +5796,14 @@
     {
       "name": "RaidiatedDeserts",
       "type": "biome",
-      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raidiated_deserts",
       "metadata": {
         "files": [
-          "src/main/resources/data/tardif_mod/worldgen/configured_feature/raidiated_deserts_tree.json",
+          "src/main/resources/data/tardif_mod/worldgen/placed_feature/raidiated_deserts_tree.json",
           "src/main/resources/data/tardif_mod/worldgen/biome/raidiated_deserts.json",
-          "src/main/resources/data/tardif_mod/worldgen/placed_feature/raidiated_deserts_tree.json"
+          "src/main/resources/data/tardif_mod/worldgen/configured_feature/raidiated_deserts_tree.json"
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Biomes"
@@ -6142,7 +5811,6 @@
     {
       "name": "PetrifiedGrassBlockLootable",
       "type": "loottable",
-      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_grass_block_lootable",
@@ -6156,7 +5824,6 @@
     {
       "name": "PetrifiedGrassBlockOnTickUpdate",
       "type": "procedure",
-      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_grass_block_on_tick_update",
@@ -6184,6 +5851,51 @@
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural/Procedures"
+    },
+    {
+      "name": "MoonRock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tardif_mod/models/block/moon_rock.json",
+          "src/main/resources/assets/tardif_mod/models/item/moon_rock.json",
+          "src/main/resources/data/tardif_mod/loot_tables/blocks/moon_rock.json",
+          "src/main/resources/assets/tardif_mod/blockstates/moon_rock.json",
+          "src/main/java/net/maketendo/tardifmod/block/MoonRockBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Moon"
+    },
+    {
+      "name": "MoonPlains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/worldgen/biome/moon_plains.json"
+        ]
+      },
+      "path": "~/Dimensions/Moon"
+    },
+    {
+      "name": "TheMoon",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tardif_mod/dimension/the_moon.json",
+          "src/main/java/net/maketendo/tardifmod/world/dimension/TheMoonDimension.java",
+          "src/main/resources/data/tardif_mod/dimension_type/the_moon.json"
+        ]
+      },
+      "path": "~/Dimensions/Moon"
     }
   ],
   "variable_elements": [
@@ -6714,14 +6426,14 @@
       "CUSTOM:Space_SuitArmor.legs",
       "CUSTOM:Space_SuitArmor.boots"
     ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:Petrifiedfields",
+      "~CUSTOM:ClassicNetherBiome"
+    ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:MintWallpaperSlab",
       "~CUSTOM:WhiteWallpaperSlab",
       "~CUSTOM:PlainWallpaperSlab"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:Petrifiedfields",
-      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:GlowingPillat",
@@ -6733,6 +6445,9 @@
       "~CUSTOM:ClassicNetherack",
       "~CUSTOM:ClassicLeaves",
       "~CUSTOM:ClassicStone"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:MelartAxe"
     ],
     "ITEMS:mod:food_crate_basic": [
       "Items.APPLE",
@@ -6773,6 +6488,9 @@
       "CUSTOM:ARSUpgradeTemplate",
       "CUSTOM:CommunicationUpgradeTemplate"
     ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:MelartSword"
+    ],
     "BIOMES:minecraft:has_structure/nether_fortress": [
       "~CUSTOM:ClassicNetherBiome"
     ],
@@ -6781,15 +6499,22 @@
       "~CUSTOM:SolderOre",
       "~CUSTOM:Plastic_ChunkOre"
     ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:DalekiumRefinery"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:MelartPickaxe"
+    ],
     "BIOMES:minecraft:has_structure/mineshaft": [
-      "~CUSTOM:Drystoneforests",
-      "~CUSTOM:Petrifiedfields"
+      "~CUSTOM:Petrifiedfields",
+      "~CUSTOM:Drystoneforests"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:MoonRock",
       "~CUSTOM:PetrifiedDirt",
       "~CUSTOM:PetrifiedStone",
-      "~CUSTOM:PetrifiedGrassBlock",
       "~CUSTOM:RaidiatedSand",
+      "~CUSTOM:PetrifiedGrassBlock",
       "~CUSTOM:ClassicNetherack",
       "~CUSTOM:Classicgrass",
       "~CUSTOM:ClassicStone",
@@ -6802,21 +6527,6 @@
     "BLOCKS:minecraft:dirt": [
       "CUSTOM:PetrifiedGrassBlock",
       "CUSTOM:PetrifiedDirt"
-    ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:GlowingPillat",
-      "~CUSTOM:Pressuriser",
-      "~CUSTOM:SpaceRock",
-      "~CUSTOM:DalekiumRefinery",
-      "~CUSTOM:Nitro9",
-      "~CUSTOM:FoodCubeMachine",
-      "~CUSTOM:ZytonOre",
-      "~CUSTOM:DrainedZyton7Block",
-      "~CUSTOM:Zyton7Block",
-      "~CUSTOM:SolderOre",
-      "~CUSTOM:ClassicNetherack",
-      "~CUSTOM:Plastic_ChunkOre",
-      "~CUSTOM:ClassicStone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:CogRoundelVerticleOffset",
@@ -6844,9 +6554,24 @@
       "~CUSTOM:Roundel",
       "~CUSTOM:RoundelDoor"
     ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GlowingPillat",
+      "~CUSTOM:Pressuriser",
+      "~CUSTOM:SpaceRock",
+      "~CUSTOM:DalekiumRefinery",
+      "~CUSTOM:Nitro9",
+      "~CUSTOM:FoodCubeMachine",
+      "~CUSTOM:ZytonOre",
+      "~CUSTOM:DrainedZyton7Block",
+      "~CUSTOM:Zyton7Block",
+      "~CUSTOM:SolderOre",
+      "~CUSTOM:ClassicNetherack",
+      "~CUSTOM:Plastic_ChunkOre",
+      "~CUSTOM:ClassicStone"
+    ],
     "BLOCKS:minecraft:mineable/shovel": [
-      "~CUSTOM:PetrifiedDirt",
-      "~CUSTOM:PetrifiedGrassBlock"
+      "~CUSTOM:PetrifiedGrassBlock",
+      "~CUSTOM:PetrifiedDirt"
     ],
     "ITEMS:forge:general_crate_basic": [
       "Items.RAW_IRON",
@@ -6897,17 +6622,18 @@
       "CUSTOM:MelartBlock"
     ]
   },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
       "subtitles.vm_teleport": "Teleporting...",
+      "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
       "advancements.obtain_melart.title": "Strongest Material On Skaro",
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
-      "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
       "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
+      "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
       "gui.tardif_mod.coordinate_select_gui.label_rotatedisplay": "RotateDisplay",
@@ -6935,8 +6661,8 @@
       "gui.tardif_mod.exteriorselectgui.label_stuff": "InFlight:",
       "advancements.classic_enter.title": "What is this? BETA?",
       "advancements.the_source.title": "The whole power to the plan!",
-      "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
       "subtitles.denied_tardis_takeoff": "TARDIS Take-Off Failed",
+      "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
       "gui.tardif_mod.coordinate_select_gui.X_Coord": "X",
       "subtitles.tardis_shutdown": "TARDIS Deactivating",
       "advancements.refine_it.descr": "Obtain Dalekium Refinery",
@@ -6946,9 +6672,9 @@
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
+      "advancements.obtain_dalekium.descr": "Obtain Dalekium",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",
@@ -7169,10 +6895,12 @@
       "advancements.its_made_out_of_evreything.title": "Looks... tasty...",
       "item.tardif_mod.melart_pickaxe": "Melart Pickaxe",
       "block.tardif_mod.classic_log": "Classic Log",
+      "block.tardif_mod.moon_rock": "Moon Rock",
       "advancements.the_planet_ender.title": "Final Option...",
       "item.tardif_mod.empty_bag": "Empty bag",
       "item.tardif_mod.dematerialisation_circuit": "Dematerialisation Circuit",
       "item.tardif_mod.psychic_paper": "Psychic Paper",
+      "biome.tardif_mod.moon_plains": "Moon Plains",
       "block.tardif_mod.classic_leaves": "Classic Leaves",
       "block.tardif_mod.classic_magenta_wool": "Classic Magenta Wool",
       "block.tardif_mod.rotor": "Time Rotor",
@@ -7728,5 +7456,5 @@
     "credits": "Teab02, We_Stan_Krang, Crimbo and Many of the Fam",
     "modElementsPackage": "net.maketendo.tardifmod"
   },
-  "mcreatorVersion": 202400118518
+  "mcreatorVersion": 202400229712
 }

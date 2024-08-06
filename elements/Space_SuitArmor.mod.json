@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,9 +10,11 @@
     "textureLeggings": "space_suit_leggings",
     "enableBoots": true,
     "textureBoots": "space_suit_boots",
-    "creativeTab": {
-      "value": "COMBAT"
-    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
     "armorTextureFile": "space_suit",
     "helmetName": "Space Suit Helmet",
     "bodyName": "Space Suit Chestplate",

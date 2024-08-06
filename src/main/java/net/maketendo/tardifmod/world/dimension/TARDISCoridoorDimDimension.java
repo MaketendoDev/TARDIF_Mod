@@ -21,7 +21,7 @@ import net.maketendo.tardifmod.procedures.TARDISCoridoorDimPlayerEntersDimension
 @Mod.EventBusSubscriber
 public class TARDISCoridoorDimDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	public static class DimensionSpecialEffectsHandler {
+	public static class TARDISCoridoorDimSpecialEffectsHandler {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {

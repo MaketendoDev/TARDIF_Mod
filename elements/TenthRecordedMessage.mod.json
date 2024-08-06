@@ -1,14 +1,16 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "musicdisc",
   "definition": {
     "name": "Music Disc",
     "rarity": "RARE",
     "texture": "blink_music_disk",
     "description": "??? - Pre-Recorded Message",
-    "creativeTab": {
-      "value": "TOOLS"
-    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
     "specialInformation": {
       "fixedValue": []
     },

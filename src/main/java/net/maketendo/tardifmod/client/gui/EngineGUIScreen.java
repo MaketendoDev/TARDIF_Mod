@@ -62,11 +62,6 @@ public class EngineGUIScreen extends AbstractContainerScreen<EngineGUIMenu> {
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.engine_gui.label_tardis_engine"), 9, 2, -13421773, false);
 	}

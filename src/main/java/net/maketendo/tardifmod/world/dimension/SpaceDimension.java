@@ -21,7 +21,7 @@ import net.maketendo.tardifmod.procedures.SpacePlayerEntersDimensionProcedure;
 @Mod.EventBusSubscriber
 public class SpaceDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	public static class DimensionSpecialEffectsHandler {
+	public static class SpaceSpecialEffectsHandler {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {

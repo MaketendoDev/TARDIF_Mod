@@ -68,11 +68,6 @@ public class DimentionSelectionGuiScreen extends AbstractContainerScreen<Dimenti
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.tardif_mod.dimention_selection_gui.label_select_dimention"), 8, 7, -2960686, false);
 	}

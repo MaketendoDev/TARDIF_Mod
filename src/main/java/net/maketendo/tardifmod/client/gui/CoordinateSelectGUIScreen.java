@@ -10,6 +10,7 @@ import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Checkbox;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.Minecraft;
 
 import net.maketendo.tardifmod.world.inventory.CoordinateSelectGUIMenu;
 import net.maketendo.tardifmod.procedures.RotateDisplayProcedure;
@@ -89,6 +90,17 @@ public class CoordinateSelectGUIScreen extends AbstractContainerScreen<Coordinat
 		X_Coord.tick();
 		Y_Coord.tick();
 		Z_Coord.tick();
+	}
+
+	@Override
+	public void resize(Minecraft minecraft, int width, int height) {
+		String X_CoordValue = X_Coord.getValue();
+		String Y_CoordValue = Y_Coord.getValue();
+		String Z_CoordValue = Z_Coord.getValue();
+		super.resize(minecraft, width, height);
+		X_Coord.setValue(X_CoordValue);
+		Y_Coord.setValue(Y_CoordValue);
+		Z_Coord.setValue(Z_CoordValue);
 	}
 
 	@Override
