@@ -59,7 +59,7 @@
       "value": "EARTH"
     },
     "tickRate": 0,
-    "tickRandomly": true,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -119,20 +119,27 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "PetrifiedGrassBlockOnTickUpdate"
-    },
-    "generateFeature": false,
-    "restrictionBiomes": [],
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Drystoneforests"
+      },
+      {
+        "value": "CUSTOM:Petrifiedfields"
+      },
+      {
+        "value": "CUSTOM:RaidiatedDeserts"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "CUSTOM:PetrifiedStone"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 16,
+    "frequencyOnChunk": 32,
+    "minGenerateHeight": 64,
+    "maxGenerateHeight": 320
   }
 }

@@ -1,6 +1,8 @@
 
 package net.maketendo.tardifmod.block;
 
+import net.minecraftforge.common.IPlantable;
+
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
@@ -11,6 +13,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.maketendo.tardifmod.procedures.PetrifiedGrassBlockOnTickUpdateProcedure;
@@ -28,6 +31,11 @@ public class PetrifiedGrassBlockBlock extends Block {
 	@Override
 	public BlockPathTypes getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
 		return BlockPathTypes.BLOCKED;
+	}
+
+	@Override
+	public boolean canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, IPlantable plantable) {
+		return true;
 	}
 
 	@Override

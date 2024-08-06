@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "tardif_mod:drystoneforests",
+    "tardif_mod:petrifiedfields",
+    "tardif_mod:raidiated_deserts"
+  ],
+  "features": "tardif_mod:petrified_dirt",
+  "step": "underground_ores"
+}
