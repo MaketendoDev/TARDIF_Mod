@@ -184,6 +184,7 @@ public class TardifModModVariables {
 		public double PlayerLoading = 0;
 		public double GlobalTimer = 0;
 		public double TARDISDematPhase = 0;
+		public double DimensionIndex = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -235,6 +236,7 @@ public class TardifModModVariables {
 			PlayerLoading = nbt.getDouble("PlayerLoading");
 			GlobalTimer = nbt.getDouble("GlobalTimer");
 			TARDISDematPhase = nbt.getDouble("TARDISDematPhase");
+			DimensionIndex = nbt.getDouble("DimensionIndex");
 		}
 
 		@Override
@@ -282,6 +284,7 @@ public class TardifModModVariables {
 			nbt.putDouble("PlayerLoading", PlayerLoading);
 			nbt.putDouble("GlobalTimer", GlobalTimer);
 			nbt.putDouble("TARDISDematPhase", TARDISDematPhase);
+			nbt.putDouble("DimensionIndex", DimensionIndex);
 			return nbt;
 		}
 

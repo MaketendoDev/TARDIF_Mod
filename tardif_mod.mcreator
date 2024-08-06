@@ -637,42 +637,6 @@
       "path": "~/TARDIS/TARDIS Creation"
     },
     {
-      "name": "FlightOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 138,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flight_on_block_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/procedures/FlightOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
-    },
-    {
       "name": "Plastic_ChunkOre",
       "type": "block",
       "sortid": 93,
@@ -752,42 +716,6 @@
         ]
       },
       "path": "~/TARDIS/TARDIS Creation"
-    },
-    {
-      "name": "DimentionSelectionGui",
-      "type": "gui",
-      "sortid": 142,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dimention_selection_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/world/inventory/DimentionSelectionGuiMenu.java",
-          "src/main/java/net/maketendo/tardifmod/network/DimentionSelectionGuiButtonMessage.java",
-          "src/main/java/net/maketendo/tardifmod/client/gui/DimentionSelectionGuiScreen.java"
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
-    },
-    {
-      "name": "Overworldselected",
-      "type": "procedure",
-      "sortid": 143,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "overworldselected",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/procedures/OverworldselectedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     },
     {
       "name": "ClassicNetherack",
@@ -886,102 +814,6 @@
         ]
       },
       "path": "~/Decor Blocks/Roundels/Mint Roundel"
-    },
-    {
-      "name": "SetOverworld",
-      "type": "procedure",
-      "sortid": 147,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "set_overworld",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/procedures/SetOverworldProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
-    },
-    {
-      "name": "SetNether",
-      "type": "procedure",
-      "sortid": 148,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "set_nether",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/procedures/SetNetherProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
-    },
-    {
-      "name": "SetEnd",
-      "type": "procedure",
-      "sortid": 149,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "set_end",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/procedures/SetEndProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
-    },
-    {
-      "name": "SetClassicNether",
-      "type": "procedure",
-      "sortid": 150,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "set_classic_nether",
-      "metadata": {
-        "files": [
-          "src/main/java/net/maketendo/tardifmod/procedures/SetClassicNetherProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     },
     {
       "name": "MintRoundelDoor",
@@ -1232,18 +1064,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -6190,6 +6010,30 @@
         ]
       },
       "path": "~/Dimensions/Skaro/Skaro/Natural/Procedures"
+    },
+    {
+      "name": "DimensionList",
+      "type": "procedure",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_list",
+      "metadata": {
+        "files": [
+          "src/main/java/net/maketendo/tardifmod/procedures/DimensionListProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TARDIS/TARDIS Controls/Console/Dimensional Selector Carpet Control"
     }
   ],
   "variable_elements": [
@@ -6474,6 +6318,12 @@
       "type": "number",
       "scope": "map",
       "value": "0"
+    },
+    {
+      "name": "DimensionIndex",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -6720,14 +6570,14 @@
       "CUSTOM:Space_SuitArmor.legs",
       "CUSTOM:Space_SuitArmor.boots"
     ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:Petrifiedfields",
-      "~CUSTOM:ClassicNetherBiome"
-    ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:MintWallpaperSlab",
       "~CUSTOM:WhiteWallpaperSlab",
       "~CUSTOM:PlainWallpaperSlab"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:Petrifiedfields",
+      "~CUSTOM:ClassicNetherBiome"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:PetrifiedStone",
@@ -6913,15 +6763,15 @@
   },
   "language_map": {
     "en_us": {
-      "subtitles.vm_teleport": "Teleporting...",
       "block.tardif_mod.mint_wallpaper": "Plain Wallpaper",
+      "subtitles.vm_teleport": "Teleporting...",
       "item.tardif_mod.zyton_7": "Zyton-7",
       "gui.tardif_mod.exterior_monitor_gui.label_tardis_coordinates": "- TARDIS Coordinates -",
       "gui.tardif_mod.exterior_monitor_gui.label_z": "Z:",
       "advancements.obtain_melart.title": "Strongest Material On Skaro",
       "gui.tardif_mod.exterior_monitor_gui.label_y": "Y:",
-      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "death.attack.moment_damage_type.player": "%1$s died by the moment whilst trying to escape %2$s",
+      "gui.tardif_mod.exterior_monitor_gui.label_x": "X:",
       "subtitles.door_lock": "Door Locked",
       "item.tardif_mod.ars_upgrade_template": "ARS Upgrade Template",
       "gui.tardif_mod.coordinate_select_gui.label_rotatedisplay": "RotateDisplay",
@@ -6949,8 +6799,8 @@
       "gui.tardif_mod.exteriorselectgui.label_stuff": "InFlight:",
       "advancements.classic_enter.title": "What is this? BETA?",
       "advancements.the_source.title": "The whole power to the plan!",
-      "subtitles.denied_tardis_takeoff": "TARDIS Take-Off Failed",
       "block.tardif_mod.plain_wallpaper": "Plain Wallpaper",
+      "subtitles.denied_tardis_takeoff": "TARDIS Take-Off Failed",
       "gui.tardif_mod.coordinate_select_gui.X_Coord": "X",
       "subtitles.tardis_shutdown": "TARDIS Deactivating",
       "advancements.refine_it.descr": "Obtain Dalekium Refinery",
@@ -6960,9 +6810,8 @@
       "block.tardif_mod.classic_lime_wool": "Classic Lime Wool",
       "subtitles.time_throttle": "Throttle",
       "item_group.tardif_mod.time_blocks": "Classic Blocks",
-      "gui.tardif_mod.dimention_selection_gui.label_select_dimention": "Planet Selector",
-      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "advancements.obtain_dalekium.descr": "Obtain Dalekium",
+      "gui.tardif_mod.coordinate_select_gui.label_coordinate_selector": "Coordinate Selector",
       "item.tardif_mod.tardis_item": "TARDIS",
       "block.tardif_mod.tall_roundel_door": "Roundel Door",
       "gui.tardif_mod.monitor_gui.label_flight_display": "flight_display",

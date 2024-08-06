@@ -97,7 +97,7 @@ public class DimensionalSelectorCarpetControlBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		DimensionalPannelOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
+		DimensionalPannelOnBlockRightClickedProcedure.execute(world, entity);
 		return InteractionResult.SUCCESS;
 	}
 }
